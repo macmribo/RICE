@@ -1,6 +1,0 @@
-plant type,location name,year,latitude (deg),longitude (deg),capacity (tonne),amount processed (tonne),amount received (tonne),amount in storage (tonne),utilization factor (%),energy (GJ),opening cost ($),expansion cost ($),fixed operating cost ($),variable operating cost ($),storage cost ($),total cost ($)
-Ultra Plant,"Clayton, Georgia",1,33.585419,-84.377769,1181.08,1181.08,1239.34,58.26,100.0,9639.3,1.13636048e7,1.74708931e6,782490.71,1.74929566e6,17477.94,1.565995842e7
-Ultra Plant,"Clayton, Georgia",2,33.585419,-84.377769,1181.08,1181.08,1233.15,110.33,100.0,9591.16,0.0,-0.0,782490.71,1.74929566e6,33099.03,2.5648854e6
-Ultra Plant,"Clayton, Georgia",3,33.585419,-84.377769,1181.08,1181.08,1200.65,129.9,100.0,9338.36,0.0,0.0,782490.71,1.74929566e6,38969.07,2.57075544e6
-Ultra Plant,"Clayton, Georgia",4,33.585419,-84.377769,1181.08,1181.08,1147.84,96.66,100.0,8927.63,0.0,0.0,782490.71,1.74929566e6,28997.01,2.56078338e6
-Ultra Plant,"Clayton, Georgia",5,33.585419,-84.377769,1181.08,1181.08,1084.42,0.0,100.0,8434.39,0.0,0.0,782490.71,1.74929566e6,0.0,2.53178637e6
