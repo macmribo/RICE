@@ -1,5 +1,7 @@
 # RICE
-This is a repo that runs the RELOG sorftware with PV_ICE outputs.
+
+How to run the RELOG software with PV_ICE.
+
 ---
 ## RELOG and HPC User Guide
 
