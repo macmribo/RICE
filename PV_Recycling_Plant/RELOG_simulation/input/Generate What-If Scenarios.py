@@ -17,7 +17,7 @@ problem = "conservative"
 with open(f"{problem}/InputPipelineData.json") as infile:
     case = json.load(infile)
     t = case["parameters"]["time horizon (years)"]
-    for cap in [0, 0.25, 0.5, 1, 2, 4]:
+    for cap in [0.25, 0.5, 1, 2, 4]: # Do not ad cap '0' or the HPC will not find a solution for the '0' cap scenarios.
         for cost in [0.0, 50, 100, 150, 300, 600]:
             for plant in case["plants"].values():
                 for loc in plant["locations"].values():
