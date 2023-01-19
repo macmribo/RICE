@@ -98,3 +98,10 @@ This is a personal choice. For me, this is easier than doing data wrangling insi
 * [GitHub NREL HPC wiki](https://github.com/NREL/HPC/wiki/)
 * [sbatch commands](https://slurm.schedmd.com/sbatch.html)
 * [Commands to Monitor and Control Jobs on Eagle](https://www.nrel.gov/hpc/eagle-monitor-control-commands.html)
+  
+ ---
+ ## Visualize data
+ 
+  Navigate to the PV_Recycling_Plant folder and use the jupyter journals 3 and 4 (add links here) to generate figures from the output files.
+  
+ ---
