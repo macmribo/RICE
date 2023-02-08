@@ -3,7 +3,7 @@
 
 # ## Visualize What-If Scenarios
 
-# In[10]:
+# In[1]:
 
 
 from glob import glob
@@ -20,7 +20,8 @@ sns.set()
 # In[11]:
 
 
-problem = 'whatif-smallproblem'
+problem = 'what-if_cui'
+#problem = 'what-if_initial'
 
 
 # ### Systematically collate plant data across scenarios
@@ -51,7 +52,7 @@ display(pdata.describe().T)
 
 # ### Systematically collate plant output data across scenarios
 
-# In[13]:
+# In[14]:
 
 
 ddata = []
@@ -74,7 +75,7 @@ display(ddata.describe().T)
 
 # ### Systematically collate transport data across scenarios
 
-# In[14]:
+# In[15]:
 
 
 tdata = []
@@ -94,7 +95,7 @@ display(tdata.describe().T)
 
 # ### Prepare data for visualization
 
-# In[15]:
+# In[16]:
 
 
 
@@ -150,7 +151,7 @@ bat_amt = pdata.groupby([
 
 # ### Specific Recycling cost
 
-# In[16]:
+# In[17]:
 
 
 sum_per_battery = ((pin+tin+din)/bat_amt) + acquisition 
@@ -173,7 +174,7 @@ fig.savefig(f"figures/{problem}/HeatMapCostPerBat.pdf", dpi=300)
 
 # ### Plant Utilization
 
-# In[17]:
+# In[8]:
 
 
 summary = pdata.groupby([

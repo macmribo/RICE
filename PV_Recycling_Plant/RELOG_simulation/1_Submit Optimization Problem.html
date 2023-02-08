@@ -14588,7 +14588,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-julia"><pre><span></span><span class="c"># Improve output style on Jupyter Notebook</span>
@@ -14635,10 +14635,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-julia"><pre><span></span><span class="n">problem</span> <span class="o">=</span> <span class="s">&quot;smallproblem&quot;</span>
+<div class=" highlight hl-julia"><pre><span></span><span class="c">#problem = &quot;initial&quot;</span>
+<span class="c">#problem = &quot;cui&quot;</span>
+<span class="n">problem</span> <span class="o">=</span> <span class="s">&quot;test_1&quot;</span>
 </pre></div>
 
      </div>
@@ -14656,13 +14658,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[4]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#34;smallproblem&#34;</pre>
+<pre>&#34;test_1&#34;</pre>
 </div>
 
 </div>
@@ -14699,7 +14701,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-julia"><pre><span></span><span class="n">tick</span><span class="p">()</span>
@@ -14739,22 +14741,49 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span> started timer at: 2023-01-18T09:20:56.686
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Reading input/smallproblem/InputPipelineData.json...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>        1130 collection centers
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>          10 candidate plant locations
+<pre><span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span> started timer at: 2023-01-30T17:12:08.545
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Reading input/test_1/InputPipelineData.json...
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>           6 collection centers
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>           4 candidate plant locations
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Building graph...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>               5 time periods
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              10 process nodes
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>             100 shipping nodes (plant)
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>            1130 shipping nodes (collection)
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>           11400 arcs
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              10 time periods
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>               4 process nodes
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              12 shipping nodes (plant)
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>               6 shipping nodes (collection)
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              36 arcs
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Building optimization model...
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Optimizing MILP...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Re-optimizing with integer variables fixed...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Extracting solution...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>        19.647523084s: 19 seconds, 647 milliseconds
 </pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+No solution available
+
+Stacktrace:
+ [1] error(s::String)
+   @ Base ./error.jl:35
+ [2] solve(instance::RELOG.Instance; optimizer::Nothing, output::Nothing, marginal_costs::Bool, return_model::Bool)
+   @ RELOG ~/.julia/packages/RELOG/vFFgb/src/model/solve.jl:53
+ [3] solve
+   @ ~/.julia/packages/RELOG/vFFgb/src/model/solve.jl:28 [inlined]
+ [4] solve(filename::String; heuristic::Bool, kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+   @ RELOG ~/.julia/packages/RELOG/vFFgb/src/model/solve.jl:107
+ [5] solve(filename::String)
+   @ RELOG ~/.julia/packages/RELOG/vFFgb/src/model/solve.jl:84
+ [6] top-level scope
+   @ In[17]:3
+ [7] eval
+   @ ./boot.jl:368 [inlined]
+ [8] include_string(mapexpr::typeof(REPL.softscope), mod::Module, code::String, filename::String)
+   @ Base ./loading.jl:1428</pre>
 </div>
 </div>
 

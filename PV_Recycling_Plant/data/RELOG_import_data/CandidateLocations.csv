@@ -1,0 +1,97 @@
+name,latitude (deg),longitude (deg),area cost factor
+"Clayton, Georgia",33.5854,-84.3778,0.67
+"Union, New Mexico",36.3928,-103.049,0.66
+"Catron, New Mexico",34.3336,-108.4771,0.66
+"Cibola, New Mexico",35.2784,-107.985,0.66
+"Baltimore, Maryland",39.3646,-76.6158,0.81
+"Sussex, Delaware",38.6821,-75.3958,0.81
+"Smith, Texas",32.2798,-95.306,0.57
+"Tarrant, Texas",32.7496,-97.2894,0.57
+"King, Washington",47.4754,-122.2699,1.0
+"Los Angeles, California",34.0617,-118.308,1.0
+"Morgan, Indiana",39.6104,-86.3723,0.71
+"El Paso, Colorado",38.8469,-104.7574,0.66
+"Clark, Nevada",36.2891,-115.0799,0.62
+"Orangeburg, South Carolina",33.4001,-80.3299,0.67
+"Franklin, Ohio",39.9493,-83.0365,0.71
+"Clinton, Ohio",39.5175,-83.8501,0.71
+"Portage, Ohio",41.1602,-81.243,0.71
+"Spartanburg, South Carolina",35.1897,-82.0484,0.67
+"Rapides, Louisiana",31.3804,-92.6731,0.57
+"Norfolk, Virginia",36.9118,-76.3058,0.81
+"Providence, Rhode Island",41.8169,-71.4966,0.88
+"San Mateo, California",37.6317,-122.4026,1.0
+"Flathead, Montana",48.2666,-114.3303,0.66
+"Albany, New York",42.5194,-73.7888,0.81
+"Tehama, California",40.2483,-122.4623,1.0
+"Midland, Michigan",43.6113,-84.1677,0.71
+"Oakland, Michigan",42.4373,-83.4923,0.71
+"Bernalillo, New Mexico",35.0772,-106.6007,0.66
+"Hillsborough, Florida",28.0018,-82.3024,0.57
+"Franklin, Washington",46.2283,-119.1014,1.0
+"Waupaca, Wisconsin",44.2724,-88.7394,0.71
+"Sonoma, California",38.5226,-123.2633,1.0
+"Hardin, Iowa",42.3607,-93.2319,0.71
+"Nevada, California",39.2093,-121.2494,1.0
+"Porter, Indiana",41.4695,-87.0198,0.71
+"Westchester, New York",41.0688,-73.7693,0.81
+"Smith, Mississippi",31.7999,-89.3559,0.57
+"Imperial, California",32.7324,-114.6268,1.0
+"Chaves, New Mexico",32.8426,-104.8471,0.66
+"Sebastian, Arkansas",35.3274,-94.3876,0.57
+"Pottawattamie, Iowa",41.4108,-95.3372,0.71
+"Christian, Kentucky",36.8785,-87.5084,0.57
+"Saline, Arkansas",34.5451,-92.6309,0.57
+"Spokane, Washington",47.4763,-117.5967,1.0
+"Otsego, Michigan",45.0632,-84.855,0.71
+"Beaver, Pennsylvania",40.5923,-80.5191,0.81
+"Montgomery, Pennsylvania",40.1647,-75.3358,0.81
+"San Miguel, New Mexico",35.2415,-105.1055,0.66
+"Luna, New Mexico",31.8959,-107.6597,0.66
+"Mason, Washington",47.2271,-123.2261,1.0
+"Leavenworth, Kansas",39.3806,-95.0554,0.71
+"Cleveland, Oklahoma",35.3343,-97.5121,0.62
+"Adams, Colorado",39.8274,-104.983,0.66
+"Franklin, Missouri",38.5522,-91.002,0.71
+"Hamilton, Ohio",39.102,-84.5064,0.71
+"Hidalgo, New Mexico",32.5454,-108.9157,0.66
+"Onslow, North Carolina",34.7676,-77.4061,0.67
+"Blair, Pennsylvania",40.6708,-78.2349,0.81
+"Siskiyou, California",41.4315,-122.4286,1.0
+"Lawrence, Arkansas",35.9767,-90.8601,0.57
+"Belknap, New Hampshire",43.5131,-71.4544,0.88
+"Anoka, Minnesota",45.1975,-93.3324,0.71
+"Lincoln, Wyoming",41.7752,-110.2924,0.66
+"Wake, North Carolina",35.8178,-78.2566,0.67
+"York, South Carolina",34.9866,-81.2501,0.67
+"Winnebago, Illinois",42.3337,-88.9992,0.71
+"Nemaha, Nebraska",40.4084,-95.8386,0.71
+"Madison, Montana",45.3485,-111.7396,0.66
+"Harris, Texas",29.6776,-95.4934,0.57
+"Sullivan, Tennessee",36.5545,-82.0964,0.57
+"Torrance, New Mexico",34.3152,-105.6417,0.66
+"Sarasota, Florida",27.0209,-82.3906,0.57
+"Multnomah, Oregon",45.4661,-122.3885,1.0
+"Morgan, Illinois",39.6864,-90.2214,0.71
+"Medina, Texas",29.3488,-99.1169,0.57
+"Grant, Indiana",40.5588,-85.661,0.71
+"San Juan, New Mexico",36.8198,-107.9304,0.66
+"Lincoln, New Mexico",33.331,-105.5981,0.66
+"Clark, Arkansas",34.0848,-93.3217,0.57
+"DeKalb, Alabama",34.4443,-85.7196,0.57
+"Liberty, Montana",48.5093,-110.9593,0.66
+"Wyandot, Ohio",40.7761,-83.242,0.71
+"Anderson, South Carolina",34.4769,-82.5872,0.67
+"Marshall, Oklahoma",33.9988,-96.722,0.62
+"Middlesex, Massachusetts",42.4256,-71.0739,0.88
+"Maricopa, Arizona",33.4593,-111.9871,0.66
+"Mason, Michigan",44.1085,-86.2801,0.71
+"Guadalupe, New Mexico",34.7295,-104.4482,0.66
+"Monroe, New York",42.9403,-77.7003,0.81
+"Clay, Minnesota",46.9051,-96.7462,0.71
+"Rock, Nebraska",42.2024,-99.5263,0.71
+"Cook, Illinois",42.0537,-87.91,0.71
+"Crook, Wyoming",44.6412,-104.0558,0.66
+"Big Horn, Montana",45.4279,-108.5339,0.66
+"Eastland, Texas",32.2724,-99.011,0.57
+"Champaign, Illinois",40.1272,-88.2436,0.71

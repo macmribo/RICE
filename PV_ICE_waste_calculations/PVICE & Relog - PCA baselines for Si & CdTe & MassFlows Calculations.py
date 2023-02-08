@@ -77,7 +77,7 @@ rawdf.set_index(['Scenario','Year','PCA'], inplace=True)
 rawdf.head(21)
 
 
-# #### Loading Module Baseline. Will be used later to populate all the columsn otehr than 'new_Installed_Capacity_[MW]' which will be supplied by the REEDS model
+# #### Loading Module Baseline. Will be used later to populate all the columns other than 'new_Installed_Capacity_[MW]' which will be supplied by the REEDS model
 
 # In[7]:
 
@@ -88,7 +88,7 @@ r1.createScenario(name='cSi', massmodulefile=r'../baselines/RELOG/baseline_modul
 # it's easy to calculate the 'BEST case for Recycling scenario'. Otherwise comment out...
 r1.scenMod_noCircularity() 
 
-# This is really the cSi baseline, but got lazy to rename it so the new one will be baselineCdTe
+
 baseline = r1.scenario['cSi'].dataIn_m
 baseline = baseline.drop(columns=['new_Installed_Capacity_[MW]'])
 baseline.set_index('year', inplace=True)
@@ -290,90 +290,6 @@ def city_state_country(row):
 # In[ ]:
 
 
-GIS = GIS.apply(city_state_country, axis=1)
-GIS_us = GIS[GIS.country == 'United States']
-
-
-# Geographic area dictionaries:
-
-# In[ ]:
-
-
-GIS
-
-
-# In[ ]:
-
-
-GIS_us
-
-
-# In[ ]:
-
-
-from itertools import chain
-
-
-# In[ ]:
-
-
-us_regions = {'New England' : set(['Connecticut', 'Maine', 'Massachusetts', 'New Hampshire', 'Rhode Island', 'Vermont']),
-            'Middle Atlantic': set(['Delaware', 'the District of Columbia', 'Maryland', 'New Jersey', 'New York', 'Pennsylvania', 'Virginia', 'West Virginia']),
-            'South Atlantic': set(['Georgia', 'North Carolina', 'South Carolina']),
-            'Midwest': set(['Illinois', 'Indiana', 'Iowa', 'Kansas', 'Michigan', 'Minnesota', 'Missouri', 'Nebraska', 'North Dakota', 'Ohio', 'South Dakota', 'Wisconsin']),
-            'Gulf': set(['Texas', 'Louisiana', 'Mississippi', 'Alabama', 'Florida']),
-            'Southwest': set(['Nevada', 'Oklahoma', 'Utah']),
-            'Mountain': set(['Arizona', 'Colorado', 'Idaho', 'Montana', 'New Mexico', 'Wyoming']),
-            'Pacific Coast': set(['California', 'Oregon', 'Washington', 'Alaska', 'Hawaii'])}
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-d = {'a': set(['uno','dos','tres']), 'b': set(['tres', 'cuatro'])}
-
-
-# In[ ]:
-
-
-keys, values = map(chain.from_iterable, zip(*((k*len(v), v) for k, v in d.items())))
-
-df = pd.DataFrame({'letter': list(keys), 'value': list(values)})
-
-
-# In[ ]:
-
-
-keys, values = map(chain.from_iterable, zip(*((k*len(v), v) for k, v in us_regions.items())))
-
-
-# In[ ]:
-
-
-#us_regions_df = pd.DataFrame({'region': list(keys), 'state': list(values)})
-
-
-# In[ ]:
-
-
-GIS_us.state.unique()
-
-
-# In[ ]:
-
-
-len(GIS_us)
-
-
-# In[ ]:
-
-
 
 
 
@@ -447,7 +363,7 @@ r2.trim_Years(startYear=2010, endYear=2050)
 
 
 PERFECTMFG = True
-
+# Set to false if I want to see how much goes to mnf waste
 if PERFECTMFG:
     r1.scenMod_PerfectManufacturing()
     r2.scenMod_PerfectManufacturing()

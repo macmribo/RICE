@@ -3,15 +3,15 @@
 
 # ## Generate What-if Scenarios
 
-# In[7]:
+# In[8]:
 
 
 import json
 max_capacity = 5628
-problem = "conservative"
+problem = "solver"
 
 
-# In[8]:
+# In[9]:
 
 
 with open(f"{problem}/InputPipelineData.json") as infile:
@@ -24,7 +24,7 @@ with open(f"{problem}/InputPipelineData.json") as infile:
                     loc["storage"]["cost ($/tonne)"] = [cost for _ in range(t)]
                     loc["storage"]["limit (tonne)"] = cap * max_capacity
             with open(
-                f"whatif-{problem}/storage_ultra_cap_{cap}_cost_{cost}.json",
+                f"what-if/storage_ultra_cap_{cap}_cost_{cost}.json",
                 "w",
             ) as outfile:
                 json.dump(case, outfile, indent=2)

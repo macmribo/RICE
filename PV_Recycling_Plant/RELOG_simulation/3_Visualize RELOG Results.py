@@ -6,7 +6,7 @@
 
 # Python Dependencies: Pandas, Seaborn
 
-# In[9]:
+# In[1]:
 
 
 import matplotlib.pyplot as plt
@@ -16,17 +16,18 @@ import os
 sns.set_style("white")
 
 
-# In[10]:
+# In[2]:
 
 
-problem = "smallproblem"
+#problem = "initial"
+problem = "cui"
 
 
 # ### Plant Costs
 
 # #### Total Costs
 
-# In[11]:
+# In[3]:
 
 
 data = pd.read_csv(f"output/{problem}/plants.csv")
@@ -41,7 +42,7 @@ plt.savefig(f"figures/{problem}/plant_costs.pdf", dpi=300);
 
 # #### Cost Breakdown
 
-# In[12]:
+# In[4]:
 
 
 columns = [
@@ -71,7 +72,7 @@ plt.savefig(f"figures/{problem}/plant_costs_breakdown.pdf", dpi=300);
 # 
 # *Note: This is most likely an error for M1 apple users.*
 
-# In[13]:
+# In[5]:
 
 
 import fiona
@@ -82,7 +83,7 @@ from matplotlib import collections
 from shapely.geometry import LineString, Point
 
 
-# In[14]:
+# In[7]:
 
 
 # Plot base map
@@ -130,6 +131,7 @@ points = gp.points_from_xy(
 )
 gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
 plt.savefig(f"figures/{problem}/recycling_logistics.pdf", dpi=300);
+plt.savefig(f"figures/{problem}/recycling_logistics.png", dpi=300);
 
 
 # In[ ]:

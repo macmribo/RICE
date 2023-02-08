@@ -8,7 +8,10 @@ using RELOG
 # Package to time cells
 using TickTock
 
-problem = "smallproblem"
+
+#problem = "initial"
+#problem = "cui"
+problem = "test_1"
 
 tick()
 # Solve optimization problem
