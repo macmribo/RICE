@@ -11,7 +11,7 @@
 # o	95-by-35+Elec.Adv+DR ,  a.k.a. "Solar Futures Decarbonization + Electrification scenario"
 # 
 
-# In[1]:
+# In[10]:
 
 
 import PV_ICE
@@ -25,7 +25,7 @@ plt.rcParams.update({'font.size': 22})
 plt.rcParams['figure.figsize'] = (12, 8)
 
 
-# In[2]:
+# In[11]:
 
 
 import os
@@ -36,7 +36,7 @@ testfolder = str(Path().resolve().parent.parent.parent / 'PV_ICE' / 'TEMP')
 print ("Your simulation will be stored in %s" % testfolder)
 
 
-# In[3]:
+# In[12]:
 
 
 PV_ICE.__version__
@@ -46,10 +46,10 @@ PV_ICE.__version__
 
 # ### A. Reading a standard ReEDS output file
 
-# In[4]:
+# In[14]:
 
 
-reedsFile = str(Path().resolve().parent.parent.parent.parent / 'December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
+reedsFile = str(Path().resolve().parent.parent / 'December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
 print ("Input file is stored in %s" % reedsFile)
 
 
