@@ -41,12 +41,11 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 # In[2]:
 
 
-GISfile = str(Path().resolve().parent.parent.parent / 'gis_centroid_n.xlsx')
-GIS = pd.read_excel(GISfile)
+GIS = pd.read_excel('Geo_data/gis_centroid_n.xlsx')
 GIS_us = GIS[GIS.country == 'USA']
 GIS_us.reset_index(inplace=True)
 GIS_us = GIS_us.iloc[0:134]
-GIS_us.to_csv('GIS_us_collection_centers_only.csv')
+GIS_us.to_csv('Geo_data/GIS_us_collection_centers_only.csv')
 
 
 # In[3]:
@@ -79,29 +78,35 @@ def city_state_country(row):
 GIS = GIS.apply(city_state_country, axis=1)
 
 
-# In[7]:
+# In[5]:
 
 
-GIS.to_csv('gis_region_names.csv')
+GIS.to_csv('Geo_data/gis_region_names.csv')
 
 
-# In[6]:
+# In[63]:
 
 
 GIS_us_long_lat = GIS_us[['long', 'lat']]
 GIS_us_id = GIS_us[['id']]
 
 
-# ### 1.2. Correlate GIS longitude and latitude with FIPS codes for the map diagram
+# ### 1.2. Correlate GIS longitude and latitude with FIPS codes for the map diagram and EJ API queries
 
-# In[18]:
+# In[64]:
+
+
+GIS_us_long_lat
+
+
+# In[65]:
 
 
 fips_county_codes = []
 fips_state_codes = []
 
 
-# In[19]:
+# In[66]:
 
 
 # Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes
@@ -124,42 +129,54 @@ for lon, lat in GIS_us_long_lat.itertuples(index=False):
     #Print FIPS code
 
 
-# In[20]:
+# In[67]:
+
+
+GIS_us_long_lat
+
+
+# In[ ]:
+
+
+
+
+
+# In[9]:
 
 
 data
 
 
-# In[21]:
+# In[10]:
 
 
 GIS_us_long_lat['fips_county'] = fips_county_codes
 GIS_us_long_lat['fips_state'] = fips_state_codes
 
 
-# In[22]:
+# In[11]:
 
 
-GIS_us_long_lat.to_csv('GIS_us_long_lat.csv')
+GIS_us_long_lat.to_csv('Geo_data/GIS_us_long_lat.csv')
 
 
 # ### 1.3. Separate the PV ICE output and create individual material file
 
-# In[23]:
+# In[12]:
 
 
 cwd = os.getcwd()
-pvice_folder = os.path.join(cwd, 'PV_ICE_outputs')
+pvice_folder = os.path.join(cwd, 'PV_ICE_raw_outputs')
 
 
-# In[24]:
+# In[13]:
 
 
 csi_eol = pd.read_csv(os.path.join(pvice_folder, 'PVICE_RELOG_PCA_cSi_WasteEOL.csv'), index_col='year')
 cdte_eol = pd.read_csv(os.path.join(pvice_folder, 'PVICE_RELOG_PCA_CdTe_WasteEOL.csv'), index_col='year')
 
 
-# In[25]:
+# In[14]:
 
 
 print('We have %s collection centers.' % len(GIS_us))
@@ -167,14 +184,14 @@ print('We have %s collection centers.' % len(GIS_us))
 
 # Now I need to select the columns and separate them by material, then add a column identifying the locations. Ideally, I need to populate the table for the material
 
-# In[26]:
+# In[15]:
 
 
 material_list_csi = ['glass', 'silicon', 'silver', 'copper', 'aluminium_frames', 'encapsulant', 'backsheet', 'Module']
 material_list_cdte = ['cadmium', 'tellurium', 'glass_cdte', 'aluminium_frames_cdte', 'Module', 'copper_cdte', 'encapsulant_cdte']
 
 
-# In[27]:
+# In[16]:
 
 
 nums = np.arange(1,42)
@@ -182,19 +199,13 @@ years = np.arange(2010,2051)
 years_dict = {nums[i]: years[i] for i in range(len(nums))}
 
 
-# In[28]:
+# In[17]:
 
 
 mats = ['csi', 'cdte']
 
 
-# In[29]:
-
-
-GIS_us_long_lat
-
-
-# In[30]:
+# In[19]:
 
 
 for y in mats:
@@ -209,7 +220,7 @@ for y in mats:
            # globals()['%s_%s' % (y, x)].rename(columns = {42:'PCA area'}, inplace=True)
             globals()['%s_%s' % (y, x)].rename(columns = {42:'longitude', 43:'latitude', 44:'FIPS'}, inplace=True)
             globals()['%s_%s' % (y, x)]['total waste'] = globals()['%s_%s' % (y, x)].loc[:, 2010:2050].sum(axis=1)
-            globals()['%s_%s' % (y, x)].to_csv('{}_wasteEOL_{}.csv'.format(y, x), index=False)
+            globals()['%s_%s' % (y, x)].to_csv('PV_ICE_separate_outputs/{}_wasteEOL_{}.csv'.format(y, x), index=False)
     elif y == 'cdte':
         for x in material_list_cdte:
             globals()['%s_%s_sel' % (y, x)] = [col for col in globals()['%s_eol' % y].columns if x in col]
@@ -221,13 +232,13 @@ for y in mats:
            # globals()['%s_%s' % (y, x)].rename(columns = {42:'PCA area'}, inplace=True)
             globals()['%s_%s' % (y, x)].rename(columns = {42:'longitude', 43:'latitude', 44:'FIPS'}, inplace=True)
             globals()['%s_%s' % (y, x)]['total waste'] = globals()['%s_%s' % (y, x)].loc[:, 2010:2050].sum(axis=1)
-            globals()['%s_%s' % (y, x)].to_csv('{}_wasteEOL_{}.csv'.format(y, x), index=False)
+            globals()['%s_%s' % (y, x)].to_csv('PV_ICE_separate_outputs/{}_wasteEOL_{}.csv'.format(y, x), index=False)
 
 
 # ## 2. Make the initial amounts file
 
 # Here I will be generating the file that has the waste initial amounts according to RELOG's template (Initial amounts - Template.csv).
-# ![image.png](Initial_amounts_temp.png)
+# ![image.png](images/Initial_amounts_temp.png)
 # 
 # I have two options:
 # 1) Add at the wastes and then do the processing to create ONE template of initial amounts.
@@ -239,7 +250,7 @@ for y in mats:
 
 # **LOAD OPTION 1:** If you have run Section 1 cells, fetch the data as csi_Module and cdte_Module. I make a copy of these files since I will be changing them considerably.
 
-# In[45]:
+# In[20]:
 
 
 csi_Module_ia = csi_Module.copy()
@@ -265,7 +276,7 @@ cdte_encapsulant_cdte_ia = cdte_encapsulant_cdte.copy()
 
 # **LOAD OPTION 2:** If you haven't run Section 1 cells, use function load_csv with the corresponding file name.
 
-# In[46]:
+# In[ ]:
 
 
 # Uncomment if you need this option
@@ -275,9 +286,9 @@ cdte_encapsulant_cdte_ia = cdte_encapsulant_cdte.copy()
 
 # ### 2.2. Drop unnecessary columns
 
-# Drop the 0, 2010 (there is no waste here), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows
+# Drop columns: 0, 2010 (there is no waste here), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows
 
-# In[47]:
+# In[21]:
 
 
 csi_Module_ia.drop([0, 2010, 'FIPS', 45, 'total waste', 'latitude', 'longitude'], axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -290,7 +301,7 @@ csi_encapsulant_ia.drop([0, 2010, 'FIPS', 45, 'total waste', 'latitude', 'longit
 csi_backsheet_ia.drop([0, 2010, 'FIPS', 45, 'total waste', 'latitude', 'longitude'], axis=1, inplace= True) # Run this one only once or it will throw an error.
 
 
-# In[48]:
+# In[22]:
 
 
 cdte_Module_ia.drop([0, 2010, 'FIPS', 45, 'total waste', 'latitude', 'longitude'], axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -306,7 +317,7 @@ cdte_encapsulant_cdte_ia.drop([0, 2010, 'FIPS', 45, 'total waste', 'latitude', '
 
 # I take the location file from GIS.
 
-# In[49]:
+# In[23]:
 
 
 GIS_usa = GIS[GIS.country == 'United States']
@@ -314,7 +325,7 @@ GIS_usa.reset_index(inplace=True)
 GIS_usa = GIS_usa.iloc[0:134] # I slice it until 142 because the next locations are not in ReEDS.
 
 
-# In[50]:
+# In[24]:
 
 
 csi_Module_ia.insert(0, 'name', GIS_usa[['location']]) # Run this one only once or it will throw an error.
@@ -350,7 +361,7 @@ csi_backsheet_ia.insert(1, 'latitude (deg)', GIS_usa[['lat']])
 csi_backsheet_ia.insert(2, 'longitude (deg)', GIS_usa[['long']]) 
 
 
-# In[51]:
+# In[25]:
 
 
 cdte_Module_ia.insert(0, 'name', GIS_usa[['location']]) # Run this one only once or it will throw an error.
@@ -384,7 +395,9 @@ cdte_encapsulant_cdte_ia.insert(2, 'longitude (deg)', GIS_usa[['long']])
 
 # #### 2.3.1 (Optional/to be decided) Add accumulated waste until year 2023
 
-# In[52]:
+# Since I am studying from 2023 onward with RELOG, I add the waste gereated grom 2011 until 2023. I am considering doing this from 2050.
+
+# In[26]:
 
 
 csi_Module_ia_sumyears = csi_Module_ia.loc[:, 2011:2023].sum(axis=1)
@@ -406,7 +419,7 @@ cdte_copper_cdte_ia_sumyears = cdte_copper_cdte_ia.loc[:, 2011:2023].sum(axis=1)
 cdte_encapsulant_cdte_ia_sumyears = cdte_encapsulant_cdte_ia.loc[:, 2011:2023].sum(axis=1)
 
 
-# In[53]:
+# In[27]:
 
 
 csi_Module_ia
@@ -427,21 +440,9 @@ cdte_copper_cdte_ia
 cdte_encapsulant_cdte_ia
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
 # Drop columns 2011 to 2022
 
-# In[54]:
+# In[28]:
 
 
 csi_Module_ia.drop(csi_Module_ia.loc[:, 2011:2023], inplace=True, axis=1)
@@ -464,7 +465,7 @@ cdte_encapsulant_cdte_ia.drop(cdte_encapsulant_cdte_ia.loc[:, 2011:2023], inplac
 
 # Insert the 2023 column that summed the waste between 2011 to 2023.
 
-# In[55]:
+# In[ ]:
 
 
 csi_Module_ia.insert(3, 2023, csi_Module_ia_sumyears)
@@ -500,46 +501,46 @@ cdte_encapsulant_cdte_ia.insert(3, 2023, cdte_encapsulant_cdte_ia_sumyears)
 # #### 2.3.1. Change years for amounts
 
 # Change the column names as 'amount 1', 'amount 2', etc. I am not sure if it matters, but I am going to do it just in case!
-# From 2023 to 2050, we have a total of 28 amounts.
+# From 2023 to 2050, we have a total of 27 amounts.
 
-# In[56]:
+# In[30]:
 
 
-csi_Module_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-csi_glass_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-csi_silicon_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-csi_silver_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-csi_copper_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-csi_aluminium_frames_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-csi_encapsulant_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-csi_backsheet_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
+csi_Module_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+csi_glass_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+csi_silicon_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+csi_silver_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+csi_copper_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+csi_aluminium_frames_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+csi_encapsulant_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+csi_backsheet_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
 
-cdte_Module_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-cdte_cadmium_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-cdte_tellurium_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-cdte_glass_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-cdte_aluminium_frames_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-cdte_copper_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
-cdte_encapsulant_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'], axis=1, inplace=True)
+cdte_Module_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+cdte_cadmium_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+cdte_tellurium_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+cdte_glass_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+cdte_aluminium_frames_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+cdte_copper_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
+cdte_encapsulant_cdte_ia.set_axis(['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'], axis=1, inplace=True)
 
 
 # ### 2.4. Create new PV datasets that add cSi and CdTe 
 
 # Here I add cSi and CdTe modules as one, and common materials as one.
 
-# In[57]:
+# In[31]:
 
 
-pv_Modules_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'])
-pv_glass_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'])
-pv_copper_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'])
-pv_aluminium_frames_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'])
-pv_encapsulant_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27','amount 28'])
+pv_Modules_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'])
+pv_glass_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'])
+pv_copper_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'])
+pv_aluminium_frames_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'])
+pv_encapsulant_ia = pd.DataFrame(columns = ['name', 'latitude (deg)', 'longitude (deg)','amount 1','amount 2','amount 3','amount 4','amount 5','amount 6','amount 7','amount 8','amount 9','amount 10','amount 11','amount 12','amount 13','amount 14','amount 15','amount 16','amount 17','amount 18','amount 19','amount 20','amount 21','amount 22','amount 23','amount 24','amount 25','amount 26','amount 27'])
 
 
 # Fill the data of name, latitude and longitude.
 
-# In[58]:
+# In[32]:
 
 
 pv_Modules_ia['name'], pv_Modules_ia['latitude (deg)'],pv_Modules_ia['longitude (deg)'] = csi_Module_ia[['name']], csi_Module_ia[['latitude (deg)']],csi_Module_ia[['longitude (deg)']] 
@@ -551,7 +552,7 @@ pv_encapsulant_ia['name'], pv_encapsulant_ia['latitude (deg)'],pv_encapsulant_ia
 
 # Add amounts.
 
-# In[59]:
+# In[33]:
 
 
 pv_Modules_ia.iloc[:,3:31] = cdte_Module_ia.iloc[:,3:31] + csi_Module_ia.iloc[:,3:31] 
@@ -563,22 +564,9 @@ pv_encapsulant_ia.iloc[:,3:31] = csi_encapsulant_ia.iloc[:,3:31] + cdte_encapsul
 
 
 
-
-# In[60]:
-
-
-pv_Modules_ia
-
-
-# In[ ]:
-
-
-
-
-
 # ### 2.5. Export the 'Ininital amounts' files
 
-# In[61]:
+# In[34]:
 
 
 pv_Modules_ia.to_csv('RELOG_import_data/pv_Modules_ia.csv')
@@ -615,13 +603,13 @@ cdte_encapsulant_cdte_ia.to_csv('RELOG_import_data/cdte_encapsulant_cdte_ia.csv'
 
 # ### 3.1. States into region bins.
 
-# In[ ]:
+# In[35]:
 
 
 from itertools import chain
 
 
-# In[ ]:
+# In[36]:
 
 
 us_regions = {'New England' : set(['Connecticut', 'Maine', 'Massachusetts', 'New Hampshire', 'Rhode Island', 'Vermont']),
@@ -639,14 +627,14 @@ us_regions = {'New England' : set(['Connecticut', 'Maine', 'Massachusetts', 'New
 # Relative labor rate and productivity indexes in the
 # chemical and allied products industries for the United States (1989). Source: PLANT DESIGN AND ECONOMICS FOR CHEMICAL ENGINEERS, Peter M. S.
 
-# In[ ]:
+# In[37]:
 
 
 cost_index = {'Geographical area': ['New England', 'Middle Atlantic', 'South Atlantic', 'Midwest', 'Gulf', 'Southwest', 'Mountain', 'Pacific Coast'], 'Relative labor rate': [1.14, 1.06, 0.84, 1.03, 0.95, 0.88, 0.88, 1.22], 'Relative productivity factor': [0.95, 0.96, 0.91, 1.06, 1.22, 1.04, 0.97, 0.89]}
 index_df = pd.DataFrame(data=cost_index)                                 
 
 
-# In[ ]:
+# In[38]:
 
 
 index_df
@@ -656,20 +644,20 @@ index_df
 # 
 # NOTE: I have to calculate the price for CdTe in California as well,  this might be a problem if we estimate the price based on FS's which are based in Ohio.
 
-# In[ ]:
+# In[39]:
 
 
 pc_labor_rate = index_df.loc[index_df['Geographical area'] == 'Pacific Coast']['Relative labor rate'].values 
 pc_prod_factor = index_df.loc[index_df['Geographical area'] == 'Pacific Coast']['Relative productivity factor'].values 
 
 
-# In[ ]:
+# In[40]:
 
 
 pc_prod_factor
 
 
-# In[ ]:
+# In[41]:
 
 
 index_df['Relative labor rate CA'], index_df['Relative productivity factor CA'] = index_df['Relative labor rate']/pc_labor_rate, index_df['Relative productivity factor']/pc_prod_factor
@@ -677,29 +665,29 @@ index_df['Relative labor rate CA'], index_df['Relative productivity factor CA'] 
 
 # Now let's calculate the "Construction cost" or area factor:
 
-# In[ ]:
+# In[42]:
 
 
 index_df['Area factor'] = index_df['Relative labor rate CA']/ index_df['Relative productivity factor CA']
 
 
-# In[ ]:
+# In[43]:
 
 
 index_df
 
 
-# ### 3.3. Generate the candidate location file
+# ### 3.3. Load the candidate location file
 
-# Load the Recycling plant's candidate locations. 
+# Load the Recycling plant's candidate locations. The candidate locations are based on the Recycling plants from [Iloeje et al.](https://www.sciencedirect.com/science/article/pii/S2589004222011026), the file can be downloaded [here](https://zenodo.org/record/7093835#.Y-PlXsHMKek).
 
-# In[ ]:
-
-
-cadidate_loc = pd.read_csv('CandidateLocations.csv')
+# In[44]:
 
 
-# In[ ]:
+cadidate_loc = pd.read_csv('RELOG_templates/CandidateLocations.csv')
+
+
+# In[45]:
 
 
 cadidate_loc
@@ -707,13 +695,50 @@ cadidate_loc
 
 # Let's create a new column with states so we can map the area cost factor with the right area.
 
-# In[ ]:
+# In[46]:
 
 
 cadidate_loc['State'] = cadidate_loc['name'].str.rsplit(', ').str[-1] 
 
 
-# In[ ]:
+# In[48]:
+
+
+cadidate_loc
+
+
+# ### 3.4. Adjust area factors
+
+# Since the loaded candidate locations are related to a plant build in Georgia (that's why its area factor is 1), we need to adjust the area cost factors to the plant we modeled, which is based in California.
+
+# Make a dictionary of Geographical area (or regions) and area factors.
+
+# In[49]:
+
+
+index_dict = dict(zip(index_df['Geographical area'], index_df['Area factor']))
+
+
+# In[50]:
+
+
+index_dict
+
+
+# In[51]:
+
+
+us_regions.keys()
+
+
+# In[52]:
+
+
+for key in us_regions:
+    cadidate_loc.loc[cadidate_loc['State'].isin(us_regions[key]), 'Region'] = key
+
+
+# In[53]:
 
 
 cadidate_loc
@@ -723,6 +748,56 @@ cadidate_loc
 
 
 
+
+
+# In[54]:
+
+
+cadidate_loc["area cost factor"] = cadidate_loc["Region"].apply(lambda x: index_dict.get(x))
+
+
+# Now we drop the state and Region columns:
+
+# In[55]:
+
+
+candidate_loc_clean = cadidate_loc.drop(['State', 'Region'], axis=1)
+
+
+# In[56]:
+
+
+candidate_loc_clean
+
+
+# In[57]:
+
+
+candidate_loc_clean['latitude (deg)'] = candidate_loc_clean['latitude (deg)'].round(decimals=4)
+candidate_loc_clean['longitude (deg)'] = candidate_loc_clean['longitude (deg)'].round(decimals=4)
+candidate_loc_clean['area cost factor'] = candidate_loc_clean['area cost factor'].round(decimals=2)
+
+
+# In[58]:
+
+
+candidate_loc_clean
+
+
+# In[60]:
+
+
+candidate_loc_clean.to_csv('RELOG_import_data/CandidateLocations_CA.csv', index=False)
+
+
+# In[ ]:
+
+
+# with pd.option_context('display.max_rows', None,
+#                        'display.max_columns', None,
+#                        'display.precision', 3,
+#                        ):
+#     print(candidate_locations)
 
 
 # ---
@@ -745,96 +820,6 @@ candidate_locations['name'], candidate_locations['state'], candidate_locations['
 
 
 # ---
-# Make a dictionary of Geographical area (or regions) and area factors.
-
-# In[ ]:
-
-
-index_dict = dict(zip(index_df['Geographical area'], index_df['Area factor']))
-
-
-# In[ ]:
-
-
-index_dict
-
-
-# In[ ]:
-
-
-us_regions.keys()
-
-
-# In[ ]:
-
-
-for key in us_regions:
-    cadidate_loc.loc[cadidate_loc['State'].isin(us_regions[key]), 'Region'] = key
-
-
-# In[ ]:
-
-
-cadidate_loc
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-cadidate_loc["area cost factor"] = cadidate_loc["Region"].apply(lambda x: index_dict.get(x))
-
-
-# Now we drop the state and Region columns:
-
-# In[ ]:
-
-
-candidate_loc_clean = cadidate_loc.drop(['State', 'Region'], axis=1)
-
-
-# In[ ]:
-
-
-candidate_loc_clean
-
-
-# In[ ]:
-
-
-candidate_loc_clean['latitude (deg)'] = candidate_loc_clean['latitude (deg)'].round(decimals=4)
-candidate_loc_clean['longitude (deg)'] = candidate_loc_clean['longitude (deg)'].round(decimals=4)
-candidate_loc_clean['area cost factor'] = candidate_loc_clean['area cost factor'].round(decimals=2)
-
-
-# In[ ]:
-
-
-candidate_loc_clean
-
-
-# In[ ]:
-
-
-candidate_loc_clean.to_csv('RELOG_import_data/CandidateLocations.csv', index=False)
-
-
-# In[ ]:
-
-
-# with pd.option_context('display.max_rows', None,
-#                        'display.max_columns', None,
-#                        'display.precision', 3,
-#                        ):
-#     print(candidate_locations)
-
-
-# ---
 # ## 4. Sankey Diagram
 
 # For the Sankey Diagram, I need:
@@ -849,7 +834,7 @@ candidate_loc_clean.to_csv('RELOG_import_data/CandidateLocations.csv', index=Fal
 
 # ### 4.0. Load the waste files if you haven't run the previous cells
 
-# In[2]:
+# In[ ]:
 
 
 # Uncomment if you need this option
@@ -876,7 +861,7 @@ cdte_tellurium = pd.read_csv('cdte_wasteEOL_tellurium.csv')
 
 # ### 4.1. Get all waste
 
-# In[3]:
+# In[ ]:
 
 
 csi_waste = csi_Module['total waste'].sum()
@@ -889,7 +874,7 @@ perc_cdte = cdte_waste/all_waste
 print(f'Of all the waste, {perc_csi*100:.2f}% is cSi, and {perc_cdte*100:.2f}% is CdTe.')
 
 
-# In[4]:
+# In[ ]:
 
 
 # Option for one year, just change the year to the one you need
@@ -908,7 +893,7 @@ print(f'Of all the waste, {perc_csi_2050*100:.2f}% is cSi, and {perc_cdte_2050*1
 
 # #### 4.2.1. cSi
 
-# In[5]:
+# In[ ]:
 
 
 csi_waste = {'Modules' : csi_Module['total waste'].sum(),
@@ -921,7 +906,8 @@ csi_waste = {'Modules' : csi_Module['total waste'].sum(),
             'Backsheet': csi_backsheet['total waste'].sum(),}
 
 
-# In[6]:
+# In[ ]:
+
 
 
 csi_waste_2050 = {'Modules' : csi_Module['2050'].sum(),
@@ -936,7 +922,7 @@ csi_waste_2050 = {'Modules' : csi_Module['2050'].sum(),
 
 # #### 4.2.2. CdTe
 
-# In[7]:
+# In[ ]:
 
 
 cdte_waste = {'Modules' : cdte_Module['total waste'].sum(),
@@ -948,7 +934,7 @@ cdte_waste = {'Modules' : cdte_Module['total waste'].sum(),
             'Encapsulant': cdte_encapsulant_cdte['total waste'].sum(),} # Here there is no info so I assume the same as the glass
 
 
-# In[8]:
+# In[ ]:
 
 
 # Option for one year, just change the year to the one you need
@@ -966,7 +952,7 @@ cdte_waste_2050 = {'Modules' : cdte_Module['2050'].sum(),
 
 # #### 4.3.1. cSi
 
-# In[9]:
+# In[ ]:
 
 
 #FRELP efficiencies unless indicated
@@ -986,7 +972,7 @@ csi_recycled = {'Modules' : csi_Module['total waste'].sum(),
             'Energy': csi_encapsulant['total waste'].sum()+csi_backsheet['total waste'].sum()} # Amount of waste that is burned and returned as energy 
 
 
-# In[10]:
+# In[ ]:
 
 
 # Option for one year, just change the year to the one you need
@@ -1008,7 +994,7 @@ csi_recycled_2050 = {'Modules' : csi_Module['2050'].sum(),
 
 # #### 4.3.2. CdTe
 
-# In[11]:
+# In[ ]:
 
 
 # First Solar efficiencies unless indicated
@@ -1028,7 +1014,7 @@ cdte_recycled = {'Modules' : cdte_Module['total waste'].sum(),
             } 
 
 
-# In[12]:
+# In[ ]:
 
 
 # Option for one year, just change the year to the one you need
@@ -1062,20 +1048,20 @@ cdte_recycled_2050 = {'Modules' : cdte_Module['2050'].sum(),
 
 # ### 4.4. Generate figures
 
-# In[13]:
+# In[ ]:
 
 
 import plotly.graph_objects as go
 
 
-# In[14]:
+# In[ ]:
 
 
 if not os.path.exists("images"):
     os.mkdir("images")
 
 
-# In[15]:
+# In[ ]:
 
 
 my_colors = {'pvwaste':'rgba(255, 243, 217, 1)',
@@ -1087,7 +1073,7 @@ my_colors = {'pvwaste':'rgba(255, 243, 217, 1)',
              'worth_green': 'rgba(192, 232, 131,1)'}
 
 
-# In[16]:
+# In[ ]:
 
 
 material_list_csi = ['glass', 'silicon', 'silver', 'copper', 'aluminium_frames', 'encapsulant', 'backsheet', 'Module']
@@ -1096,7 +1082,7 @@ material_list_cdte = ['cadmium', 'telluride', 'glass_cdte', 'aluminium_frames_cd
 
 # #### 4.4.1. Sankey Option 1 - Labeled
 
-# In[17]:
+# In[ ]:
 
 
 fig = go.Figure(data=[go.Sankey(
@@ -1142,12 +1128,12 @@ fig = go.Figure(data=[go.Sankey(
   ))])
 
 fig.update_layout(font_family="Times New Roman", font_size=10)
-fig.write_image("images/sankey_labeled.svg")
+fig.write_image("images/sankey/sankey_labeled.svg")
 
 
 # #### 4.4.2. Sankey Option 2 - Labeled simplified
 
-# In[18]:
+# In[ ]:
 
 
 fig = go.Figure(data=[go.Sankey(
@@ -1175,12 +1161,12 @@ fig = go.Figure(data=[go.Sankey(
   ))])
 
 fig.update_layout(font_family="Times New Roman", font_size=10)
-fig.write_image("images/sankey_labeled_simplified.svg")
+fig.write_image("images/sankey/sankey_labeled_simplified.svg")
 
 
 # #### 4.4.3. Sankey Option 3 - Muted
 
-# In[26]:
+# In[ ]:
 
 
 fig = go.Figure(data=[go.Sankey(
@@ -1226,13 +1212,13 @@ fig = go.Figure(data=[go.Sankey(
   ))])
 
 fig.update_layout(font_family="Times New Roman", font_size=10)
-fig.write_image("images/sankey_muted.svg")
+fig.write_image("images/sankey/sankey_muted.svg")
 #fig.write_image("images/sankey_mute.svg")
 
 
 # #### 4.4.4. Sankey Option 4 - Muted simplified
 
-# In[20]:
+# In[ ]:
 
 
 fig = go.Figure(data=[go.Sankey(
@@ -1260,10 +1246,10 @@ fig = go.Figure(data=[go.Sankey(
   ))])
 
 fig.update_layout(font_family="Times New Roman", font_size=10)
-fig.write_image("images/sankey_muted_simplified.svg")
+fig.write_image("images/sankey/sankey_muted_simplified.svg")
 
 
-# In[27]:
+# In[ ]:
 
 
 # Figure for one year 
@@ -1295,66 +1281,8 @@ fig = go.Figure(data=[go.Sankey(
   ))])
 
 fig.update_layout(font_family="Times New Roman", font_size=10)
-fig.write_image("images/sankey_muted_simplified_2050.png")
+fig.write_image("images/sankey/sankey_muted_simplified_2050.png")
 fig.show()
-
-
-# In[27]:
-
-
-# Here I am checking the quantities of each to see how much of each material we have
-
-
-# In[28]:
-
-
-# Every year cSi
-
-('Glass', csi_recycled['Glass']), ('Silicon', csi_recycled['Silicon']), ('Copper', csi_recycled['Copper']), ('Silver', csi_recycled['Silver']), ('Aluminium frames', csi_recycled['Aluminium frames']), ('Landfill', csi_recycled['Landfill']),('Energy', csi_recycled['Energy'])
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[33]:
-
-
-# Every year CdTe
-('Glass', cdte_recycled['Glass']), ('Copper', cdte_recycled['Copper']), ('Cadmium', cdte_recycled['Cadmium']), ('Tellurium', cdte_recycled['Tellurium']), ('Aluminium frames', cdte_recycled['Aluminium frames']), ('Landfill', cdte_recycled['Landfill']), ('Encapsulant', cdte_recycled['Encapsulant'])
-
-
-# In[ ]:
-
-
-
-
-
-# In[30]:
-
-
-# 2050
-
-
-# In[31]:
-
-
-('Glass', csi_recycled_2050['Glass']), ('Silicon', csi_recycled_2050['Silicon']), ('Copper', csi_recycled_2050['Copper']), ('Silver', csi_recycled_2050['Silver']), ('Aluminium frames', csi_recycled_2050['Aluminium frames']), ('Landfill', csi_recycled_2050['Landfill']),('Energy', csi_recycled_2050['Energy'])
-
-
-# In[34]:
-
-
-('Glass', cdte_recycled_2050['Glass']), ('Copper', cdte_recycled_2050['Copper']), ('Cadmium', cdte_recycled_2050['Cadmium']), ('Tellurium', cdte_recycled_2050['Tellurium']), ('Aluminium frames', cdte_recycled_2050['Aluminium frames']), ('Landfill', cdte_recycled_2050['Landfill']), ('Encapsulant', cdte_recycled_2050['Encapsulant'])
-
 
 
 # In[ ]:
@@ -1371,13 +1299,13 @@ fig.show()
 
 pv_waste_map = csi_Module[['FIPS']].copy()
 pv_waste_map['total waste'] = csi_Module['total waste'] + cdte_Module['total waste']
-pv_waste_map.to_csv('pv_waste_map.csv')
+pv_waste_map.to_csv('images/cloropeth/pv_waste_map.csv')
 
 csi_waste_map = csi_Module[['FIPS', 'total waste']]
-csi_waste_map.to_csv('csi_waste_map.csv')
+csi_waste_map.to_csv('images/cloropeth/csi_waste_map.csv')
 
 cdte_waste_map = cdte_Module[['FIPS', 'total waste']]
-cdte_waste_map.to_csv('cdte_waste_map.csv')
+cdte_waste_map.to_csv('images/cloropeth/cdte_waste_map.csv')
 
 
 # In[ ]:
@@ -1389,7 +1317,7 @@ with urlopen('https://raw.githubusercontent.com/plotly/datasets/master/geojson-c
     counties = json.load(response)
 
 import pandas as pd
-df = pd.read_csv("pv_waste_map.csv",
+df = pd.read_csv("images/cloropeth/pv_waste_map.csv",
                    dtype={"FIPS": str})
 
 import plotly.express as px
@@ -1403,7 +1331,7 @@ fig = px.choropleth_mapbox(df, geojson=counties, locations='FIPS', color='total 
                            labels={'total waste':'Accumulated waste'}
                           )
 fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-fig.write_image("images/map_allPV_op1.svg")
+fig.write_image("images/cloropeth/map_allPV_op1.svg")
 
 
 # Cloropeth map option 2
@@ -1429,7 +1357,7 @@ fig = px.choropleth(df, geojson=counties, locations='FIPS', color='total waste',
                            labels={'total waste':'Total PV waste by 2050'}
                           )
 fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-fig.write_image("images/map_allPV_op2.svg")
+fig.write_image("images/cloropeth/map_allPV_op2.svg")
 
 
 # In[ ]:
@@ -1465,7 +1393,7 @@ fig = px.choropleth(df, geojson=counties, locations='fips', color='unemp',
                            labels={'unemp':'unemployment rate'}
                           )
 fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
-fig.write_image("images/map_allPV_op2.svg")
+fig.write_image("images/cloropeth/map_allPV_op2.svg")
 
 
 # In[ ]:

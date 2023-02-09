@@ -6,7 +6,7 @@
 
 # Python Dependencies: Pandas, Seaborn
 
-# In[1]:
+# In[ ]:
 
 
 import matplotlib.pyplot as plt
@@ -16,7 +16,7 @@ import os
 sns.set_style("white")
 
 
-# In[2]:
+# In[ ]:
 
 
 #problem = "initial"
@@ -27,7 +27,7 @@ problem = "cui"
 
 # #### Total Costs
 
-# In[3]:
+# In[5]:
 
 
 data = pd.read_csv(f"output/{problem}/plants.csv")
@@ -38,6 +38,67 @@ sns.barplot(
     data=data.groupby(["plant type", "year"]).sum().reset_index(),
 )
 plt.savefig(f"figures/{problem}/plant_costs.pdf", dpi=300);
+
+
+# In[34]:
+
+
+data.columns
+
+
+# In[40]:
+
+
+locations = sns.FacetGrid(data, row="location name")
+locations.map(sns.barplot, "year", "total cost ($)", errorbar = None, order = None)
+
+
+# In[41]:
+
+
+data
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+columns = [
+    "opening cost ($)",
+    "expansion cost ($)",
+    "fixed operating cost ($)",
+    "variable operating cost ($)",
+    "storage cost ($)",
+]
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+data.columns
+
+
+# In[ ]:
+
+
+
 
 
 # #### Cost Breakdown
@@ -56,6 +117,18 @@ data = pd.read_csv(f"output/{problem}/plants.csv")
 df = data.groupby(["plant type", "year"]).sum().reset_index()
 df[columns].plot(kind="bar", stacked=True, figsize=(8, 4))
 plt.savefig(f"figures/{problem}/plant_costs_breakdown.pdf", dpi=300);
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # ### Transportation Data
