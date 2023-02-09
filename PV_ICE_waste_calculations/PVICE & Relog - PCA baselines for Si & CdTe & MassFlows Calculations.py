@@ -31,7 +31,7 @@ plt.rcParams['figure.figsize'] = (12, 8)
 import os
 from pathlib import Path
 
-testfolder = str(Path().resolve().parent.parent.parent / 'PV_ICE' / 'TEMP')
+testfolder = str(Path().resolve().parent.parent / 'PV_ICE' / 'PV_ICE' / 'TEMP')
 
 print ("Your simulation will be stored in %s" % testfolder)
 
@@ -49,7 +49,7 @@ PV_ICE.__version__
 # In[4]:
 
 
-reedsFile = str(Path().resolve().parent.parent.parent.parent / 'December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
+reedsFile = str(Path().resolve().parent.parent / 'December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
 print ("Input file is stored in %s" % reedsFile)
 
 
@@ -108,13 +108,13 @@ baselineCdTe.head()
 
 # #### For each Scenario and for each PCA, combine with baseline and save as input file
 
-# In[8]:
+# In[ ]:
 
 
 # Set header dynamically
 
 
-# In[9]:
+# In[8]:
 
 
 import csv
@@ -135,13 +135,13 @@ for x in row2[1:]:
     row22 = row22 + ',' + x 
 
 
-# In[10]:
+# In[9]:
 
 
 # Load MarketShare File
 
 
-# In[11]:
+# In[10]:
 
 
 marketsharefile = r'../baselines/SupportingMaterial/output_RELOG_cSi_CdTe_capacity_reeds.csv'
@@ -152,7 +152,30 @@ marketshare.set_index('Year', inplace=True)
 marketshare.head()
 
 
-# In[12]:
+# In[34]:
+
+
+# Hack for plots...
+xvals = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017',
+             '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025',
+             '2026', '2027', '2028', '2029', '2030', '2031', '2032', '2033',
+             '2034', '2035', '2036', '2037', '2038', '2039', '2040', '2041',
+             '2042', '2043', '2044', '2045', '2046', '2047', '2048', '2049',
+             '2050']
+
+sparkplotfolder = os.path.join(testfolder, 'SPARKPLOTS')
+if not os.path.exists(sparkplotfolder):
+    os.makedirs(sparkplotfolder)
+sparkplot = True
+
+
+# In[40]:
+
+
+plt.rcParams.update({'font.size': 8})
+
+
+# In[122]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):
@@ -173,11 +196,24 @@ for ii in range (len(rawdf.unstack(level=1))):
     B = A.copy()
     B['new_Installed_Capacity_[MW]'] = B['new_Installed_Capacity_[MW]'] * marketshare['cSi Market Share'].values
     B['new_Installed_Capacity_[MW]'] = B['new_Installed_Capacity_[MW]'] * 1000   # ReEDS file is in GW.
+    # Sort Ascending 2022 to 2035 new_Installed_Capacity_[MW]
+    # Sort Descending 2035 to 2050 new_Installed_Capacity_[MW]
+    sortedB = (list(B.iloc[0:12]['new_Installed_Capacity_[MW]'].values) + list(B.iloc[12:25]['new_Installed_Capacity_[MW]'].sort_values().values)
+    +list(B.iloc[25::]['new_Installed_Capacity_[MW]'].sort_values(ascending=False).values))
+    sortedBdf = pd.DataFrame(sortedB, index = A.index, columns =['new_Installed_Capacity_[MW]'])
     # Add other columns
-    B = pd.concat([B, baseline.reindex(A.index)], axis=1)
+    B = pd.concat([sortedBdf.reindex(A.index), baseline.reindex(A.index)], axis=1)
    
     header = row11 + '\n' + row22 + '\n'
     
+    # SPARK PLOT
+    if sparkplot:
+        fig, axs = plt.subplots(figsize=(8, 5), facecolor='w', edgecolor='k')
+        plt.plot(xvals, B['new_Installed_Capacity_[MW]'].values)
+        plt.xticks(rotation=45)
+        figtitle = 'PV ICE ' + SCEN + ' Baseline_Csi_'+PCA+'.png'
+        fig.savefig(os.path.join(sparkplotfolder, figtitle), dpi=600)
+        plt.close(fig) # This avoids the figure from displayig and getting all the warnings
     with open(filetitle, 'w', newline='') as ict:
     # Write the header lines, including the index variable for
     # the last one if you're letting Pandas produce that for you.
@@ -194,8 +230,11 @@ for ii in range (len(rawdf.unstack(level=1))):
     B = A.copy()
     B['new_Installed_Capacity_[MW]'] = B['new_Installed_Capacity_[MW]'] * marketshare['CdTe Market Share'].values
     B['new_Installed_Capacity_[MW]'] = B['new_Installed_Capacity_[MW]'] * 1000   # ReEDS file is in GW.
+    sortedB = (list(B.iloc[0:12]['new_Installed_Capacity_[MW]'].values) + list(B.iloc[12:25]['new_Installed_Capacity_[MW]'].sort_values().values)
+    +list(B.iloc[25::]['new_Installed_Capacity_[MW]'].sort_values(ascending=False).values))
+    sortedBdf = pd.DataFrame(sortedB, index = A.index, columns =['new_Installed_Capacity_[MW]'])
     # Add other columns
-    B = pd.concat([B, baselineCdTe.reindex(B.index)], axis=1)
+    B = pd.concat([sortedBdf.reindex(A.index), baseline.reindex(A.index)], axis=1)
     
     with open(filetitle, 'w', newline='') as ict:
     # Write the header lines, including the index variable for
@@ -209,7 +248,7 @@ for ii in range (len(rawdf.unstack(level=1))):
     
 
 
-# In[13]:
+# In[ ]:
 
 
 PCAs = list(rawdf.unstack(level=2).iloc[0].unstack(level=0).index.unique())
@@ -217,7 +256,7 @@ PCAs = list(rawdf.unstack(level=2).iloc[0].unstack(level=0).index.unique())
 
 # ## 2. Loading the PCA baselines and doing the PV ICE Calculations
 
-# In[14]:
+# In[ ]:
 
 
 SFscenarios = ['95-by-35_Elec.Adv_DR_cSi', '95-by-35_Elec.Adv_DR_CdTe']
@@ -225,7 +264,7 @@ SFscenarios = ['95-by-35_Elec.Adv_DR_cSi', '95-by-35_Elec.Adv_DR_CdTe']
 
 # ### Reading GIS inputs
 
-# In[20]:
+# In[ ]:
 
 
 from geopy.geocoders import Nominatim
@@ -234,7 +273,7 @@ from geopy.point import Point
 geolocator = Nominatim(user_agent="geoapiExercises")
 
 
-# In[21]:
+# In[ ]:
 
 
 GISfile = str(Path().resolve().parent.parent.parent / 'gis_centroid_n.xlsx')
@@ -242,7 +281,7 @@ GIS = pd.read_excel(GISfile)
 GIS = GIS.set_index('id')
 
 
-# In[22]:
+# In[ ]:
 
 
 GIS
@@ -297,31 +336,31 @@ def city_state_country(row):
 # 
 # Keeping track of each scenario as its own PV ICE Object.
 
-# In[15]:
+# In[ ]:
 
 
 Path().resolve().parent
 
 
-# In[16]:
+# In[ ]:
 
 
 baselinefolder = os.path.join(Path().resolve().parent, 'baselines')
 
 
-# In[17]:
+# In[ ]:
 
 
 baselinefolder
 
 
-# In[18]:
+# In[ ]:
 
 
 testfolder
 
 
-# In[23]:
+# In[ ]:
 
 
 #for ii in range (0, 1): #len(scenarios):
@@ -359,7 +398,7 @@ r2.trim_Years(startYear=2010, endYear=2050)
 
 # ### Set characteristics for Manufacturing (probably don't want to inflate this as the waste happens elsewhere, just want EOL
 
-# In[24]:
+# In[ ]:
 
 
 PERFECTMFG = True
@@ -374,14 +413,14 @@ else:
 
 # #### Calculate Mass Flow
 
-# In[25]:
+# In[ ]:
 
 
 r1.calculateMassFlow()
 r2.calculateMassFlow()
 
 
-# In[26]:
+# In[ ]:
 
 
 print("PCAs:", r1.scenario.keys())
@@ -389,7 +428,7 @@ print("Module Keys:", r1.scenario[PCAs[jj]].dataIn_m.keys())
 print("Material Keys: ", r1.scenario[PCAs[jj]].material['glass'].matdataIn_m.keys())
 
 
-# In[27]:
+# In[ ]:
 
 
 """
@@ -404,34 +443,34 @@ pass
 
 # ## 4. Aggregate & Save Data
 
-# In[28]:
+# In[ ]:
 
 
 r1.aggregateResults()
 r2.aggregateResults()
 
 
-# In[29]:
+# In[ ]:
 
 
 datay = r1.USyearly
 datac = r1.UScum
 
 
-# In[30]:
+# In[ ]:
 
 
 datay_CdTe = r2.USyearly
 datac_CdTe = r2.UScum
 
 
-# In[31]:
+# In[ ]:
 
 
 datay.keys()
 
 
-# In[32]:
+# In[ ]:
 
 
 filter_colc = [col for col in datay if col.startswith('WasteEOL')]
@@ -440,7 +479,7 @@ filter_colc = [col for col in datay_CdTe if col.startswith('WasteEOL')]
 datay_CdTe[filter_colc].to_csv('PVICE_RELOG_PCA_CdTe_WasteEOL.csv')
 
 
-# In[33]:
+# In[ ]:
 
 
 datay
