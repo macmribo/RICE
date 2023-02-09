@@ -166,13 +166,19 @@ xvals = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017',
 sparkplotfolder = os.path.join(testfolder, 'SPARKPLOTS')
 if not os.path.exists(sparkplotfolder):
     os.makedirs(sparkplotfolder)
-sparkplot = True
 
 
 # In[40]:
 
 
 plt.rcParams.update({'font.size': 8})
+
+
+# In[ ]:
+
+
+sparkplot = True
+reorganize = True
 
 
 # In[122]:
@@ -198,11 +204,13 @@ for ii in range (len(rawdf.unstack(level=1))):
     B['new_Installed_Capacity_[MW]'] = B['new_Installed_Capacity_[MW]'] * 1000   # ReEDS file is in GW.
     # Sort Ascending 2022 to 2035 new_Installed_Capacity_[MW]
     # Sort Descending 2035 to 2050 new_Installed_Capacity_[MW]
-    sortedB = (list(B.iloc[0:12]['new_Installed_Capacity_[MW]'].values) + list(B.iloc[12:25]['new_Installed_Capacity_[MW]'].sort_values().values)
-    +list(B.iloc[25::]['new_Installed_Capacity_[MW]'].sort_values(ascending=False).values))
-    sortedBdf = pd.DataFrame(sortedB, index = A.index, columns =['new_Installed_Capacity_[MW]'])
+    if reorganize:
+        sortedB = (list(B.iloc[0:12]['new_Installed_Capacity_[MW]'].values) + list(B.iloc[12:25]['new_Installed_Capacity_[MW]'].sort_values().values)
+        +list(B.iloc[25::]['new_Installed_Capacity_[MW]'].sort_values(ascending=False).values))
+        sortedBdf = pd.DataFrame(sortedB, index = A.index, columns =['new_Installed_Capacity_[MW]'])
+        B = sortedBdf.reindex(A.index)
     # Add other columns
-    B = pd.concat([sortedBdf.reindex(A.index), baseline.reindex(A.index)], axis=1)
+    B = pd.concat([B, baseline.reindex(A.index)], axis=1)
    
     header = row11 + '\n' + row22 + '\n'
     
@@ -230,11 +238,13 @@ for ii in range (len(rawdf.unstack(level=1))):
     B = A.copy()
     B['new_Installed_Capacity_[MW]'] = B['new_Installed_Capacity_[MW]'] * marketshare['CdTe Market Share'].values
     B['new_Installed_Capacity_[MW]'] = B['new_Installed_Capacity_[MW]'] * 1000   # ReEDS file is in GW.
-    sortedB = (list(B.iloc[0:12]['new_Installed_Capacity_[MW]'].values) + list(B.iloc[12:25]['new_Installed_Capacity_[MW]'].sort_values().values)
-    +list(B.iloc[25::]['new_Installed_Capacity_[MW]'].sort_values(ascending=False).values))
-    sortedBdf = pd.DataFrame(sortedB, index = A.index, columns =['new_Installed_Capacity_[MW]'])
+    if reorganize:
+        sortedB = (list(B.iloc[0:12]['new_Installed_Capacity_[MW]'].values) + list(B.iloc[12:25]['new_Installed_Capacity_[MW]'].sort_values().values)
+        +list(B.iloc[25::]['new_Installed_Capacity_[MW]'].sort_values(ascending=False).values))
+        sortedBdf = pd.DataFrame(sortedB, index = A.index, columns =['new_Installed_Capacity_[MW]'])
+            B = sortedBdf.reindex(A.index)
     # Add other columns
-    B = pd.concat([sortedBdf.reindex(A.index), baseline.reindex(A.index)], axis=1)
+    B = pd.concat([B, baseline.reindex(A.index)], axis=1)
     
     with open(filetitle, 'w', newline='') as ict:
     # Write the header lines, including the index variable for
