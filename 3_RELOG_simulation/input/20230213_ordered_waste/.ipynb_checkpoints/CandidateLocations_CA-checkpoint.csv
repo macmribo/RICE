@@ -1,0 +1,110 @@
+name,latitude (deg),longitude (deg),area cost factor
+"Union, New Mexico",36.9733,-103.3038,0.66
+"Culpeper, Virginia",38.4539,-78.0237,0.81
+"Lassen, California",40.3759,-120.5172,1.0
+"Somerset, Maryland",38.2036,-75.6996,0.81
+"Smith, Texas",32.3675,-95.4382,0.57
+"Los Angeles, California",34.0827,-118.2251,1.0
+"Cedar, Missouri",37.6989,-93.7949,0.71
+"Riverside, California",33.7479,-116.8797,1.0
+"Hamilton, Indiana",39.9784,-86.1127,0.71
+"Scott, Missouri",36.8789,-89.5799,0.71
+"Sumter, South Carolina",33.9645,-80.4538,0.67
+"Pike, Ohio",39.0505,-83.051,0.71
+"Cimarron, Oklahoma",36.7625,-102.3202,0.62
+"Caledonia, Vermont",44.418,-72.017,0.88
+"Medina, Ohio",41.1385,-81.8334,0.71
+"Houghton, Michigan",47.1196,-88.5842,0.71
+"McIntosh, Oklahoma",35.304,-95.5927,0.62
+"Okaloosa, Florida",30.4593,-86.5678,0.57
+"Caddo, Louisiana",32.4807,-93.78,0.57
+"Delta, Michigan",45.7254,-86.6414,0.71
+"Walsh, North Dakota",48.4927,-97.8621,0.71
+"Chippewa, Wisconsin",45.1349,-91.5212,0.71
+"Curry, New Mexico",34.3977,-103.2205,0.66
+"Erie, Ohio",41.4464,-82.7298,0.71
+"Big Horn, Wyoming",44.803,-107.8281,0.66
+"Wayne, Michigan",42.3401,-83.3501,0.71
+"Carson, Texas",35.3376,-101.3817,0.57
+"Windham, Connecticut",41.7153,-72.1982,0.88
+"Franklin, New York",44.8961,-74.2901,0.81
+"Nevada, California",39.024,-121.0992,1.0
+"Putnam, New York",41.3637,-73.5726,0.81
+"Stearns, Minnesota",45.4517,-94.9869,0.71
+"Ada, Idaho",43.6153,-116.2073,0.66
+"Twiggs, Georgia",32.7587,-83.554,0.67
+"Van Wert, Ohio",40.7457,-84.7896,0.71
+"Franklin, Virginia",37.0012,-79.8901,0.81
+"Hidalgo, Texas",26.3084,-98.1612,0.57
+"Erie, Pennsylvania",42.1402,-79.9234,0.81
+"Johnson, Wyoming",44.0777,-106.6337,0.66
+"Nowata, Oklahoma",36.6775,-95.6369,0.62
+"Spokane, Washington",47.621,-117.4349,1.0
+"Pulaski, Arkansas",34.8867,-92.1064,0.57
+"McKinley, New Mexico",35.4033,-108.2583,0.66
+"Macon, North Carolina",35.1666,-83.3909,0.67
+"Cheboygan, Michigan",45.7436,-84.7284,0.71
+"Hocking, Ohio",39.5386,-82.4418,0.71
+"Dewey, South Dakota",45.3856,-101.47,0.71
+"Fresno, California",36.4219,-119.8031,1.0
+"Essex, Massachusetts",42.4495,-70.9805,0.88
+"Douglas, Nebraska",41.2618,-96.2919,0.71
+"Oklahoma, Oklahoma",35.4393,-97.5115,0.62
+"Kern, California",35.2637,-118.6299,1.0
+"Barren, Kentucky",36.995,-85.9124,0.57
+"Meagher, Montana",46.5482,-110.8964,0.66
+"Lancaster, South Carolina",34.941,-80.8384,0.67
+"Bexar, Texas",29.5913,-98.5985,0.57
+"Grant, New Mexico",32.7807,-108.4618,0.66
+"Pennington, Minnesota",48.1198,-96.1977,0.71
+"Colfax, New Mexico",36.8084,-104.3066,0.66
+"Shelby, Tennessee",35.1154,-90.028,0.57
+"Hale, Texas",34.2012,-101.7248,0.57
+"Bell, Texas",31.0702,-97.3692,0.57
+"Gilchrist, Florida",29.6184,-82.8184,0.57
+"San Luis Obispo, California",35.1346,-120.5708,1.0
+"Colusa, California",39.1573,-122.1441,1.0
+"Chaves, New Mexico",33.394,-104.6377,0.66
+"Spartanburg, South Carolina",34.8781,-81.991,0.67
+"Stutsman, North Dakota",46.8922,-98.734,0.71
+"Page, Iowa",40.8434,-95.2658,0.71
+"Santa Clara, California",37.162,-121.9906,1.0
+"Gila, Arizona",33.3666,-110.7171,0.66
+"San Bernardino, California",34.8988,-114.7668,1.0
+"Hall, Georgia",34.23,-83.8583,0.67
+"Fairfax, Virginia",38.7915,-77.172,0.81
+"Preston, West Virginia",39.557,-79.8034,0.81
+"Luna, New Mexico",31.8253,-108.0741,0.66
+"Nemaha, Kansas",39.914,-96.0522,0.71
+"Grays Harbor, Washington",46.9592,-123.775,1.0
+"Carter, Oklahoma",34.1728,-97.1681,0.62
+"Clark, Washington",45.6073,-122.5675,1.0
+"Glacier, Montana",48.3871,-113.2648,0.66
+"Henry, Iowa",40.9593,-91.5192,0.71
+"Franklin, Indiana",39.4152,-85.0129,0.71
+"Davis, Utah",40.8578,-111.9053,0.62
+"Pima, Arizona",32.2502,-110.944,0.66
+"Shannon, Missouri",37.4088,-91.4669,0.71
+"Catron, New Mexico",33.6218,-108.895,0.66
+"Dillon, South Carolina",34.2881,-79.2752,0.67
+"Nueces, Texas",27.8107,-97.4598,0.57
+"Mobile, Alabama",30.6249,-88.1248,0.57
+"McDuffie, Georgia",33.4129,-82.3854,0.67
+"Lincoln, New Mexico",33.5416,-105.5358,0.66
+"Denton, Texas",33.1965,-97.1392,0.57
+"Garland, Arkansas",34.5096,-93.0541,0.57
+"Jackson, Illinois",37.8893,-89.4921,0.71
+"Travis, Texas",30.3057,-97.7441,0.57
+"Erie, New York",42.9003,-78.6704,0.81
+"Polk, Florida",27.904,-81.8434,0.57
+"Richland, Montana",47.6889,-104.3141,0.66
+"Thomas, Georgia",30.8534,-83.9455,0.67
+"Indiana, Pennsylvania",40.4561,-79.0281,0.81
+"Jefferson, Alabama",33.5053,-86.8491,0.57
+"Miami-Dade, Florida",25.8986,-80.3448,0.57
+"Bayfield, Wisconsin",46.5021,-90.9244,0.71
+"Bulloch, Georgia",32.3077,-81.8735,0.67
+"Volusia, Florida",29.1069,-81.0175,0.57
+"Ouachita, Arkansas",33.613,-92.7744,0.57
+"Floyd, Indiana",38.2996,-85.8471,0.71
+"Cascade, Montana",47.5064,-111.3008,0.66

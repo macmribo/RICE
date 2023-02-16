@@ -1,0 +1,206 @@
+,long,lat,id,country,county,state
+0,-121.4522522,47.82099062,p1,United States,Snohomish County,Washington
+1,-117.1590386,35.12010447,p10,United States,San Bernardino,California
+2,-78.25771359,38.79110825,p100,United States,Warren County,Virginia
+3,-82.19247661,28.70869529,p101,United States,Sumter County,Florida
+4,-80.56373053,26.67709172,p102,United States,Palm Beach County,Florida
+5,-84.55437763,43.57419001,p103,United States,Midland County,Michigan
+6,-85.90993949,42.06225929,p104,United States,Cass County,Michigan
+7,-86.25965362,40.72939342,p105,United States,Cass County,Indiana
+8,-86.10103966,39.94240296,p106,United States,Hamilton County,Indiana
+9,-86.34789005,38.87073858,p107,United States,Lawrence County,Indiana
+10,-87.22032662,37.49153121,p108,United States,McLean County,Kentucky
+11,-84.51931615,37.83050346,p109,United States,Jessamine County,Kentucky
+12,-116.7176058,33.03174695,p11,United States,San Diego,California
+13,-82.8503912,37.37099172,p110,United States,Knott County,Kentucky
+14,-81.83937601,41.28166353,p111,United States,Cuyahoga County,Ohio
+15,-82.81856565,40.17734323,p112,United States,Delaware County,Ohio
+16,-83.9413805,39.78941957,p113,United States,Greene County,Ohio
+17,-84.23150769,39.20877458,p114,United States,Clermont County,Ohio
+18,-79.86635294,40.37731547,p115,United States,Allegheny County,Pennsylvania
+19,-80.19443111,38.8763551,p116,United States,Upshur County,West Virginia
+20,-81.7519919,38.05258266,p117,United States,Boone County,West Virginia
+21,-80.92007066,37.06277512,p118,United States,Wythe County,Virginia
+22,-78.01141702,41.3405889,p119,United States,Clinton County,Pennsylvania
+23,-116.7842291,39.59882101,p12,United States,Lander County,Nevada
+24,-77.895377,39.90665131,p120,United States,Franklin County,Pennsylvania
+25,-79.01946377,39.55126096,p121,United States,Allegany County,Maryland
+26,-77.39607808,40.92107394,p122,United States,Centre County,Pennsylvania
+27,-76.76367486,39.07725918,p123,United States,Anne Arundel County,Maryland
+28,-75.60492375,37.81184868,p124,United States,Accomack County,Virginia
+29,-75.53282965,39.04284209,p125,United States,Kent County,Delaware
+30,-74.6629847,40.24746962,p126,United States,Mercer County,New Jersey
+31,-75.57684419,43.01255158,p127,United States,Madison County,New York
+32,-73.25855327,40.80291312,p128,United States,Suffolk County,New York
+33,-72.66603564,44.03042544,p129,United States,Orange County,Vermont
+34,-115.0174041,36.23284216,p13,United States,Clark County,Nevada
+35,-71.56225601,43.71401219,p130,United States,Grafton County,New Hampshire
+36,-71.90533052,42.31304362,p131,United States,Worcester County,Massachusetts
+37,-72.75108047,41.60246114,p132,United States,Capitol Region COG,Connecticut
+38,-71.59672773,41.66667273,p133,United States,Kent County,Rhode Island
+39,-69.24794622,45.39211237,p134,United States,Piscataquis County,Maine
+40,-116.07783,32.594533,p135,México,Municipio de Tecate,Baja California
+41,-115.669242,32.583555,p136,México,Municipio de Mexicali,Baja California
+42,-124.9140668,50.54579597,p137,Canada,Strathcona Regional District,British Columbia
+43,-118.4107475,50.53886921,p138,Canada,Regional District of North Okanagan,British Columbia
+44,-125.941082,56.35689599,p139,Canada,Peace River Regional District,British Columbia
+45,-116.6294762,47.64818073,p14,United States,Kootenai County,Idaho
+46,-112.1288823,51.30720882,p140,Canada,Special Area No. 2,Alberta
+47,-115.1644141,56.23433148,p141,Canada,Northern Sunrise County,Alberta
+48,-105.9114732,54.42951564,p142,Canada,Division No. 18,Saskatchewan
+49,-97.44468077,54.90672265,p143,Canada,Division No. 22,Manitoba
+50,-89.00092146,52.20382958,p144,Canada,Kenora District,Ontario
+51,-82.23510013,48.81406999,p145,Canada,Cochrane District,Ontario
+52,-80.69566825,43.55355603,p146,Canada,Region of Waterloo,Ontario
+53,-77.25385531,44.92296968,p147,Canada,Lennox and Addington County,Ontario
+54,-73.25674258,45.38824794,p148,Canada,La Vallée-du-Richelieu,Québec
+55,-74.84126697,46.97991278,p149,Canada,Antoine-Labelle,Québec
+56,-115.2177288,44.43004937,p15,United States,Custer County,Idaho
+57,-69.38606882,47.37993467,p150,Canada,Témiscouata,Québec
+58,-71.76545386,54.32166312,p151,Canada,Jamésie,Québec
+59,-66.40473258,46.60816017,p152,Canada,Ludlow Parish,New Brunswick / Nouveau-Brunswick
+60,-63.98278562,44.89540621,p153,Canada,Hants County,Nova Scotia
+61,-62.05182371,54.23601551,p154,Canada,,Newfoundland and Labrador
+62,-63.24209805,46.39488962,p155,Canada,Lot 24,Prince Edward Island
+63,-56.05488227,48.72974123,p156,Canada,,Newfoundland and Labrador
+64,-112.4327899,43.02868119,p16,United States,Bingham County,Idaho
+65,-113.6065082,46.82138594,p17,United States,Missoula County,Montana
+66,-110.2231123,47.2494843,p18,United States,Judith Basin County,Montana
+67,-106.8433126,47.83744486,p19,United States,Valley County,Montana
+68,-121.4945952,46.60869095,p2,United States,Lewis County,Washington
+69,-108.0131914,46.4465773,p20,United States,Musselshell County,Montana
+70,-109.277895,43.04388094,p21,United States,Fremont County,Wyoming
+71,-106.7112461,44.32489043,p22,United States,Johnson County,Wyoming
+72,-105.0387513,44.24892369,p23,United States,Crook County,Wyoming
+73,-105.8451005,42.22317644,p24,United States,Albany County,Wyoming
+74,-111.9317099,39.1005072,p25,United States,Sanpete County,Utah
+75,-110.3182862,40.52141335,p26,United States,Duchesne County,Utah
+76,-113.7436192,35.72391313,p27,United States,Mohave County,Arizona
+77,-111.6056914,34.1838784,p28,United States,Gila County,Arizona
+78,-109.516242,35.34591005,p29,United States,Apache County,Arizona
+79,-118.472439,47.92035993,p3,United States,Ferry County,Washington
+80,-111.6857101,32.04276153,p30,United States,Pima County,Arizona
+81,-106.5737299,34.6249543,p31,United States,Valencia County,New Mexico
+82,-103.324472,44.05773319,p32,United States,Pennington County,South Dakota
+83,-105.8666298,40.03368077,p33,United States,Grand County,Colorado
+84,-105.2752917,38.1055194,p34,United States,Custer County,Colorado
+85,-105.0375055,47.1804594,p35,United States,Dawson County,Montana
+86,-102.0734343,47.15958973,p36,United States,Mercer County,North Dakota
+87,-99.03324693,47.70645859,p37,United States,Eddy County,North Dakota
+88,-99.79847762,44.48283152,p38,United States,Hughes County,South Dakota
+89,-102.6958257,41.74325238,p39,United States,Morrill County,Nebraska
+90,-119.5470861,47.4129124,p4,United States,Grant County,Washington
+91,-99.18350983,41.52161835,p40,United States,Valley County,Nebraska
+92,-96.34583201,40.93518639,p41,United States,Cass County,Nebraska
+93,-95.4795737,48.02901973,p42,United States,Beltrami County,Minnesota
+94,-93.66377494,46.26358649,p43,United States,Aitkin County,Minnesota
+95,-95.74181715,44.42138655,p44,United States,Lyon County,Minnesota
+96,-95.02634463,42.41935156,p45,United States,Sac County,Iowa
+97,-91.39624127,45.46791696,p46,United States,Rusk County,Wisconsin
+98,-103.9155591,33.48134861,p47,United States,Chaves County,New Mexico
+99,-101.7896096,34.85870122,p48,United States,Randall County,Texas
+100,-101.5000045,36.74873009,p49,United States,Texas County,Oklahoma
+101,-120.8593635,44.87742596,p5,United States,Wasco County,Oregon
+102,-97.47670229,35.30086027,p50,United States,Cleveland County,Oklahoma
+103,-95.63163853,36.28372003,p51,United States,Rogers County,Oklahoma
+104,-101.0284679,38.7673038,p52,United States,Logan County,Kansas
+105,-97.48884753,38.39197065,p53,United States,McPherson County,Kansas
+106,-93.93551551,39.68010457,p54,United States,Caldwell County,Missouri
+107,-93.63067538,37.39648815,p55,United States,Dade County,Missouri
+108,-93.59063588,35.49289456,p56,United States,Johnson County,Arkansas
+109,-94.5241288,32.86217276,p57,United States,Marion County,Texas
+110,-92.01150228,30.84054963,p58,United States,St. Landry Parish,Louisiana
+111,-106.2230818,31.77308956,p59,United States,El Paso County,Texas
+112,-122.7941288,42.80834786,p6,United States,Douglas County,Oregon
+113,-100.4747257,33.42197646,p60,United States,King County,Texas
+114,-102.5121274,30.79490767,p61,United States,Pecos County,Texas
+115,-102.3887614,31.77998214,p62,United States,Ector County,Texas
+116,-97.11815228,32.37182664,p63,United States,Johnson County,Texas
+117,-98.02819061,30.14290618,p64,United States,Hays County,Texas
+118,-98.36237296,28.14593418,p65,United States,McMullen County,Texas
+119,-94.49850005,30.68456443,p66,United States,Tyler County,Texas
+120,-95.42461309,29.5703565,p67,United States,Brazoria County,Texas
+121,-93.84641518,43.85294596,p68,United States,Blue Earth County,Minnesota
+122,-92.11168489,42.91269261,p69,United States,Chickasaw County,Iowa
+123,-118.790355,43.19860125,p7,United States,Harney County,Oregon
+124,-92.68514792,41.53491879,p70,United States,Poweshiek County,Iowa
+125,-92.01395166,39.96993092,p71,United States,Knox County,Missouri
+126,-91.3675038,38.4997353,p72,United States,Franklin County,Missouri
+127,-91.06236394,37.67809039,p73,United States,Iron County,Missouri
+128,-88.25976999,46.39589899,p74,United States,Iron County,Michigan
+129,-88.88363925,45.19646292,p75,United States,Langlade County,Wisconsin
+130,-89.11741448,44.06230241,p76,United States,Waushara County,Wisconsin
+131,-90.49937312,43.41560313,p77,United States,Richland County,Wisconsin
+132,-89.33478091,42.83835582,p78,United States,Rock County,Wisconsin
+133,-88.23565775,43.07262373,p79,United States,Waukesha County,Wisconsin
+134,-121.4464046,41.30824779,p8,United States,CAL Fire Lassen Modoc Plumas Unit,California
+135,-88.79751098,41.76580781,p80,United States,DeKalb County,Illinois
+136,-89.78363058,39.3367648,p81,United States,Macoupin County,Illinois
+137,-89.52274432,40.36595616,p82,United States,Tazewell County,Illinois
+138,-88.32037463,39.76077104,p83,United States,Douglas County,Illinois
+139,-91.29205837,37.05321965,p84,United States,Shannon County,Missouri
+140,-92.02589394,34.68125955,p85,United States,Lonoke County,Arkansas
+141,-91.92922355,32.56645631,p86,United States,Ouachita Parish,Louisiana
+142,-89.94310381,32.31228173,p87,United States,Rankin County,Mississippi
+143,-88.95057971,33.90483098,p88,United States,Chickasaw County,Mississippi
+144,-87.33420755,33.64251888,p89,United States,Walker County,Alabama
+145,-121.4370073,38.40912626,p9,United States,Sacramento County,California
+146,-86.45223669,32.1705336,p90,United States,Lowndes County,Alabama
+147,-86.0233856,30.60299528,p91,United States,Walton County,Florida
+148,-86.38840824,35.84707003,p92,United States,Rutherford County,Tennessee
+149,-87.70288407,36.88033989,p93,United States,Trigg County,Kentucky
+150,-83.44185834,32.65498374,p94,United States,Twiggs County,Georgia
+151,-82.05850213,34.68340161,p95,United States,Laurens County,South Carolina
+152,-80.47018517,33.66656218,p96,United States,Clarendon County,South Carolina
+153,-81.46948528,35.70354545,p97,United States,Burke County,North Carolina
+154,-78.0631739,35.43899188,p98,United States,Wayne County,North Carolina
+155,-78.02222606,37.64107262,p99,United States,Powhatan County,Virginia
+156,-111.2025168,29.81402207,p157,México,Carbó,Sonora
+157,-109.690077,30.92728994,p158,México,Fronteras,Sonora
+158,-109.9137459,27.37736599,p159,México,Cajeme,Sonora
+159,-108.6146288,25.72117333,p160,México,Municipio de Sinaloa,Sinaloa
+160,-107.3764086,24.68804155,p161,México,Culiacán,Sinaloa
+161,-106.267994,23.18410382,p162,México,Mazatlán,Sinaloa
+162,-106.4250716,31.65692683,p163,México,Municipio de Juárez,Chihuahua
+163,-107.7703501,30.24171605,p164,México,Nuevo Casas Grandes,Chihuahua
+164,-106.1969579,28.19125554,p165,México,Municipio de Chihuahua,Chihuahua
+165,-104.7336697,24.1495939,p166,México,Municipio de Durango,Durango
+166,-103.4483825,25.58541357,p167,México,Gómez Palacio,Durango
+167,-101.0142502,28.53882474,p168,México,Municipio de Zaragoza,Coahuila
+168,-99.4915839,27.3453176,p169,United States,Webb County,Texas
+169,-98.27239694,26.03424735,p170,México,Municipio de Reynosa,Tamaulipas
+170,-97.61483022,25.72465647,p171,México,Municipio de Matamoros,Tamaulipas
+171,-100.339198,25.76826459,p172,México,,Nuevo León
+172,-100.9856138,25.4254133,p173,México,Saltillo,Coahuila
+173,-98.95048976,22.01263402,p174,México,Ciudad Valles,San Luis Potosí
+174,-98.05674322,22.31710486,p175,México,Pánuco,Veracruz
+175,-98.87951978,21.42821379,p176,México,Axtla de Terrazas,San Luis Potosí
+176,-99.1949646,23.66091136,p177,México,Victoria,Tamaulipas
+177,-105.0431993,21.30002395,p178,México,Compostela,Nayarit
+178,-103.3396442,20.55892143,p179,México,San Pedro Tlaquepaque,Jalisco
+179,-102.1084545,21.819236,p180,México,Municipio de Aguascalientes,Aguascalientes
+180,-100.8234898,22.31108653,p181,México,Soledad de Graciano Sánchez,San Luis Potosí
+181,-101.1161652,20.47734554,p182,México,Valle de Santiago,Guanajuato
+182,-103.9089917,19.1454895,p183,México,Coquimatlán,Colima
+183,-101.6051196,19.64654002,p184,México,Tzintzuntzan,Michoacán
+184,-101.6099901,17.82599105,p185,México,Zihuatanejo de Azueta,Guerrero
+185,-100.3274039,20.73984797,p186,México,El Marqués,Querétaro
+186,-99.16439132,19.4996098,p187,México,Tlalnepantla de Baz,Estado de México
+187,-97.66318639,20.74101888,p188,México,Castillo de Teayo,Veracruz
+188,-96.65073308,19.08685126,p189,México,Comapa,Veracruz
+189,-97.97736111,19.18928938,p190,México,Acajete,Puebla
+190,-99.45705779,17.41606004,p191,México,Chilpancingo de los Bravo,Guerrero
+191,-96.655804,17.44550426,p192,México,San Miguel Aloápam,Oaxaca
+192,-94.72194,18.1110582,p193,México,Chinameca,Veracruz
+193,-93.07079695,18.00382833,p194,México,Cunduacán,Tabasco
+194,-92.60471267,16.36731441,p195,México,Venustiano Carranza,Chiapas
+195,-96.13955123,16.3174629,p196,México,San Carlos Yautepec,Oaxaca
+196,-90.84332935,19.02925702,p197,México,Champotón,Campeche
+197,-89.33407568,20.86814581,p198,México,Tahmek,Yucatán
+198,-87.03839081,20.89785604,p199,México,Puerto Morelos,Quintana Roo
+199,-88.44161344,18.71771089,p200,México,Bacalar,Quintana Roo
+200,-116.9335723,32.48574248,p201,México,Municipio de Tijuana,Baja California
+201,-116.3450529,31.55862276,p202,México,Municipio de Ensenada,Baja California
+202,-115.4182976,32.60755185,p203,México,Municipio de Mexicali,Baja California
+203,-114.8367778,32.37971904,p204,México,San Luis Río Colorado,Sonora
+204,-110.5892679,24.16389386,p205,México,Municipio de La Paz,Baja California Sur
