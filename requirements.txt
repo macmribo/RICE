@@ -1,0 +1,14 @@
+PV_ICE=0.3.0
+python=3.11
+ipython
+numpy
+pandas
+matplotlib
+geopy
+urllib
+requests
+itertools
+plotly
+json
+requests
+future
