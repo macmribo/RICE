@@ -12,3 +12,6 @@ plotly
 json
 requests
 future
+julia
+geopandas
+

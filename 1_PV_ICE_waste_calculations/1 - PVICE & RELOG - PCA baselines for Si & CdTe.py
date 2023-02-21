@@ -15,7 +15,7 @@
 #     <li> PCA data calculated with an exponencial that mathces the cumulative 2035 and 2050 targets </li>
 # </ol>
 
-# In[ ]:
+# In[1]:
 
 
 import PV_ICE
@@ -28,7 +28,7 @@ plt.rcParams.update({'font.size': 22})
 plt.rcParams['figure.figsize'] = (12, 8)
 
 
-# In[ ]:
+# In[2]:
 
 
 import os
@@ -42,7 +42,7 @@ if not os.path.exists(testfolder):
 print ("Your simulation will be stored in %s" % testfolder)
 
 
-# In[ ]:
+# In[3]:
 
 
 PV_ICE.__version__
@@ -52,14 +52,14 @@ PV_ICE.__version__
 
 # ### A. Reading a standard ReEDS output file
 
-# In[ ]:
+# In[4]:
 
 
 reedsFile = os.path.join(cwd, 'baselines','December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
 print ("Input file is stored in %s" % reedsFile)
 
 
-# In[ ]:
+# In[5]:
 
 
 REEDSInput = pd.read_excel(reedsFile,
@@ -73,7 +73,7 @@ REEDSInput = pd.read_excel(reedsFile,
 
 # #### Create a copy of the REEDS Input and modify structure for PCA focus
 
-# In[ ]:
+# In[6]:
 
 
 rawdf = REEDSInput.copy()
@@ -85,7 +85,7 @@ rawdf.head(21)
 
 # #### Loading Module Baseline. Will be used later to populate all the columns other than 'new_Installed_Capacity_[MW]' which will be supplied by the REEDS model
 
-# In[ ]:
+# In[7]:
 
 
 r1 = PV_ICE.Simulation(name='Simulation1', path=testfolder)
@@ -114,7 +114,7 @@ baselineCdTe.head()
 
 # #### For each Scenario and for each PCA, combine with baseline and save as input file
 
-# In[ ]:
+# In[8]:
 
 
 #### Set header dynamically
@@ -138,18 +138,18 @@ for x in row2[1:]:
 
 # #### Load MarketShare File
 
-# In[ ]:
+# In[11]:
 
 
 marketsharefile = os.path.join(cwd, 'baselines','output_RELOG_cSi_CdTe_capacity_reeds.csv')
 marketshare = pd.read_csv(marketsharefile)
 # Not elegant but I need to trim down to ReEds year start which is 2010
-marketshare = marketshare[marketshare['Year']>=2010].reset_index(drop=True)
-marketshare.set_index('Year', inplace=True)
+marketshare = marketshare[marketshare['year']>=2010].reset_index(drop=True)
+marketshare.set_index('year', inplace=True)
 marketshare.head()
 
 
-# In[ ]:
+# In[12]:
 
 
 # Hack for plots.
@@ -163,20 +163,21 @@ xvals = ['2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017',
 plt.rcParams.update({'font.size': 8})
 
 
-# ### Method 1 
-
-# <div class="alert alert-block alert-danger">
-# <b>Warning:</b>The file in 'baselines/output_RELOG_cSi_CdTe_capacity_reeds' drives the capacity installed for cSi and CdTe. The curreht file as of 2/17 has a zero on 2021 installed capacity for cristalline Siliconwhich is getting propagated to all PCAs.
-# </div>
-# 
-
 # In[ ]:
+
+
+
+
+
+# #### Method 1 
+
+# In[13]:
 
 
 reorganize = False
 
 
-# In[ ]:
+# In[14]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):
@@ -258,14 +259,9 @@ for ii in range (len(rawdf.unstack(level=1))):
     
 
 
-# ## Method 2
+# #### Method 2
 
-# <div class="alert alert-block alert-danger">
-# <b>Warning:</b>The file in 'baselines/output_RELOG_cSi_CdTe_capacity_reeds' drives the capacity installed for cSi and CdTe. The curreht file as of 2/17 has a zero on 2021 installed capacity for cristalline Siliconwhich is getting propagated to all PCAs.
-# </div>
-# 
-
-# In[ ]:
+# In[15]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):
@@ -342,20 +338,15 @@ for ii in range (len(rawdf.unstack(level=1))):
     
 
 
-# # Method 3 
+# #### Method 3 
 
-# <div class="alert alert-block alert-danger">
-# <b>Warning:</b>The file in 'baselines/output_RELOG_cSi_CdTe_capacity_reeds' drives the capacity installed for cSi and CdTe. The curreht file as of 2/17 has a zero on 2021 installed capacity for cristalline Siliconwhich is getting propagated to all PCAs.
-# </div>
-# 
-
-# In[ ]:
+# In[16]:
 
 
 interpolate2035 = True
 
 
-# In[ ]:
+# In[17]:
 
 
 # Heathers suggestion
@@ -367,7 +358,7 @@ def power_law(x, a, b):
     return a*np.power(x, b)
 
 
-# In[ ]:
+# In[18]:
 
 
 # LINEAR
@@ -378,7 +369,7 @@ def power_law(x, a, b):
 # yearly2050 = B.iloc[26::]['new_Installed_Capacity_[MW]'].sum()/len(B.iloc[26::])
 
 
-# In[ ]:
+# In[19]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):
@@ -466,6 +457,12 @@ for ii in range (len(rawdf.unstack(level=1))):
         #    savedata.to_csv(ict, index=False)
         B.to_csv(ict, header=False)
     
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
