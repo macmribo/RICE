@@ -15,7 +15,7 @@
 #     <li> PCA data calculated with an exponencial that mathces the cumulative 2035 and 2050 targets </li>
 # </ol>
 
-# In[1]:
+# In[ ]:
 
 
 import PV_ICE
@@ -28,7 +28,7 @@ plt.rcParams.update({'font.size': 22})
 plt.rcParams['figure.figsize'] = (12, 8)
 
 
-# In[2]:
+# In[ ]:
 
 
 import os
@@ -42,7 +42,7 @@ if not os.path.exists(testfolder):
 print ("Your simulation will be stored in %s" % testfolder)
 
 
-# In[3]:
+# In[ ]:
 
 
 PV_ICE.__version__
@@ -52,14 +52,14 @@ PV_ICE.__version__
 
 # ### A. Reading a standard ReEDS output file
 
-# In[4]:
+# In[ ]:
 
 
 reedsFile = os.path.join(cwd, 'baselines','December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
 print ("Input file is stored in %s" % reedsFile)
 
 
-# In[5]:
+# In[ ]:
 
 
 REEDSInput = pd.read_excel(reedsFile,
@@ -73,7 +73,7 @@ REEDSInput = pd.read_excel(reedsFile,
 
 # #### Create a copy of the REEDS Input and modify structure for PCA focus
 
-# In[6]:
+# In[ ]:
 
 
 rawdf = REEDSInput.copy()
@@ -85,7 +85,7 @@ rawdf.head(21)
 
 # #### Loading Module Baseline. Will be used later to populate all the columns other than 'new_Installed_Capacity_[MW]' which will be supplied by the REEDS model
 
-# In[7]:
+# In[ ]:
 
 
 r1 = PV_ICE.Simulation(name='Simulation1', path=testfolder)
@@ -114,7 +114,7 @@ baselineCdTe.head()
 
 # #### For each Scenario and for each PCA, combine with baseline and save as input file
 
-# In[8]:
+# In[ ]:
 
 
 #### Set header dynamically
@@ -138,7 +138,7 @@ for x in row2[1:]:
 
 # #### Load MarketShare File
 
-# In[11]:
+# In[ ]:
 
 
 marketsharefile = os.path.join(cwd, 'baselines','output_RELOG_cSi_CdTe_capacity_reeds.csv')
@@ -149,7 +149,7 @@ marketshare.set_index('year', inplace=True)
 marketshare.head()
 
 
-# In[12]:
+# In[ ]:
 
 
 # Hack for plots.
@@ -171,13 +171,13 @@ plt.rcParams.update({'font.size': 8})
 
 # #### Method 1 
 
-# In[13]:
+# In[ ]:
 
 
 reorganize = False
 
 
-# In[14]:
+# In[ ]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):
@@ -261,7 +261,7 @@ for ii in range (len(rawdf.unstack(level=1))):
 
 # #### Method 2
 
-# In[15]:
+# In[ ]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):
@@ -340,13 +340,13 @@ for ii in range (len(rawdf.unstack(level=1))):
 
 # #### Method 3 
 
-# In[16]:
+# In[ ]:
 
 
 interpolate2035 = True
 
 
-# In[17]:
+# In[ ]:
 
 
 # Heathers suggestion
@@ -358,7 +358,7 @@ def power_law(x, a, b):
     return a*np.power(x, b)
 
 
-# In[18]:
+# In[ ]:
 
 
 # LINEAR
@@ -369,7 +369,7 @@ def power_law(x, a, b):
 # yearly2050 = B.iloc[26::]['new_Installed_Capacity_[MW]'].sum()/len(B.iloc[26::])
 
 
-# In[19]:
+# In[ ]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):

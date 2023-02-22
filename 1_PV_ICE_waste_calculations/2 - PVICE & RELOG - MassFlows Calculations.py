@@ -64,9 +64,7 @@ GIS = GIS.set_index('id')
 # In[6]:
 
 
-# method = 'Method1' # Raw waste creation with the weird ReEDS 
-# method = 'Method2' # Ordered waste 
-method = 'Method3' # Uses the cummulative capacity between 2021 to 2035 and 2034 to 2050 to create a logarithmic growth of waste (it is still on the works)
+pv_ice_simulations = ['Method1', 'Method2','Method3']
 
 
 # ### Scenario creation
@@ -93,7 +91,7 @@ r1 = PV_ICE.Simulation(name=SFscenarios[i], path=testfolder)
 
 for jj in range (0, len(PCAs)): 
     filetitle = SFscenarios[i]+'_'+PCAs[jj]+'.csv'
-    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{method}', filetitle)    
+    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{pv_ice_simulations[2]}', filetitle)    # Change this number to the simulation you want to run
     r1.createScenario(name=PCAs[jj], massmodulefile=filetitle)
     r1.scenario[PCAs[jj]].addMaterials(['glass', 'silicon', 'silver', 'copper', 'aluminium_frames', 'encapsulant', 'backsheet'], baselinefolder=baselinefolder)
     # All -- but these where not included in the Reeds initial study as we didnt have encapsulant or backsheet
@@ -108,7 +106,7 @@ r2 = PV_ICE.Simulation(name=SFscenarios[i], path=testfolder)
 
 for jj in range (0, len(PCAs)): 
     filetitle = SFscenarios[i]+'_'+PCAs[jj]+'.csv'
-    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{method}', filetitle)        
+    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{pv_ice_simulations[2]}', filetitle)        
     r2.createScenario(name=PCAs[jj], massmodulefile=filetitle)
     # MAC Add here the materials you want.
     r2.scenario[PCAs[jj]].addMaterials(['cadmium', 'tellurium', 'glass_cdte', 'aluminium_frames_cdte', 'encapsulant_cdte', 'copper_cdte'], baselinefolder=baselinefolder)
@@ -193,9 +191,9 @@ datac_CdTe = r2.UScum
 
 
 filter_colc = [col for col in datay if col.startswith('WasteEOL')]
-datay[filter_colc].to_csv('PVICE_RELOG_PCA_cSi_WasteEOL.csv')
+datay[filter_colc].to_csv(f'PVICE_RELOG_PCA_cSi_WasteEOL_{pv_ice_simulations[2]}.csv')
 filter_colc = [col for col in datay_CdTe if col.startswith('WasteEOL')]
-datay_CdTe[filter_colc].to_csv('PVICE_RELOG_PCA_CdTe_WasteEOL.csv')
+datay_CdTe[filter_colc].to_csv(f'PVICE_RELOG_PCA_CdTe_WasteEOL_{pv_ice_simulations[2]}.csv')
 
 
 # In[ ]:
