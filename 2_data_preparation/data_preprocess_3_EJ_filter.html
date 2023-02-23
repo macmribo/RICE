@@ -14662,7 +14662,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>EJScreen API needs FIPS codes to access the EJ reports. So the first step is to load the file we want to use, in our case 'RELOG_import_data/CandidateLocations_CA.csv'.</p>
+<p>EJScreen API needs FIPS codes to access the EJ reports. So the first step is to load the file we want to use, in our case 'RELOG_import_data/CandidateLocations_CA_CASE0'.</p>
 
 </div>
 </div>
@@ -14672,11 +14672,960 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidates_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;RELOG_import_data/CandidateLocations_CA_CASE0.csv&#39;</span><span class="p">)</span>
+<span class="n">candidates_lat_long</span> <span class="o">=</span> <span class="n">candidates_raw</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;area cost factor&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidates_lat_long</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[5]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>latitude (deg)</th>
+      <th>longitude (deg)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>40.694300</td>
+      <td>-73.924900</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>34.113900</td>
+      <td>-118.406800</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>41.837300</td>
+      <td>-87.686200</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>25.783900</td>
+      <td>-80.210200</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>32.793600</td>
+      <td>-96.766200</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>39.613044</td>
+      <td>-119.251397</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>39.528106</td>
+      <td>-119.490916</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>44.095657</td>
+      <td>-121.305861</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>39.199730</td>
+      <td>-119.735956</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>39.713622</td>
+      <td>-82.544377</td>
+    </tr>
+  </tbody>
+</table>
+<p>156 rows × 2 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fips_county_codes</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">fips_state_codes</span> <span class="o">=</span> <span class="p">[]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">import</span> <span class="nn">urllib</span>
+
+<span class="c1">#Encode parameters </span>
+<span class="k">for</span> <span class="n">lat</span><span class="p">,</span> <span class="n">lon</span> <span class="ow">in</span> <span class="n">candidates_lat_long</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="n">params</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">urlencode</span><span class="p">({</span><span class="s1">&#39;latitude&#39;</span><span class="p">:</span> <span class="n">lat</span><span class="p">,</span> <span class="s1">&#39;longitude&#39;</span><span class="p">:</span><span class="n">lon</span><span class="p">,</span> <span class="s1">&#39;format&#39;</span><span class="p">:</span><span class="s1">&#39;json&#39;</span><span class="p">})</span>
+    <span class="c1">#Contruct request URL</span>
+    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://geo.fcc.gov/api/census/block/find?&#39;</span> <span class="o">+</span> <span class="n">params</span>
+
+    <span class="c1">#Get response from API</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+
+    <span class="c1">#Parse json in response</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
+    <span class="n">fips_county_codes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;County&#39;</span><span class="p">][</span><span class="s1">&#39;FIPS&#39;</span><span class="p">])</span>
+    <span class="n">fips_state_codes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;State&#39;</span><span class="p">][</span><span class="s1">&#39;FIPS&#39;</span><span class="p">])</span>
+    <span class="c1">#Print FIPS code</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidates_lat_long</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">fips_county_codes</span>
+<span class="n">candidates_lat_long</span><span class="p">[</span><span class="s1">&#39;fips_state&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">fips_state_codes</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's reshape the dataframe to have the names back and all the  EJ indices in the dataframe related to the fips codes.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span> <span class="o">=</span> <span class="n">candidates_lat_long</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">candidates_raw</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Now, I am going to query a random fips code to get the column names.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_query</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;https://ejscreen.epa.gov/mapper/ejscreenRESTbroker.aspx?namestr=Pickens County&amp;geometry=&amp;distance=&amp;unit=9035&amp;areatype=county&amp;areaid=35003&amp;f=pjson&#39;</span><span class="p">)</span>
+<span class="n">ej_query_keys</span> <span class="o">=</span> <span class="p">[</span><span class="n">keys</span> <span class="k">for</span> <span class="n">keys</span> <span class="ow">in</span> <span class="n">ej_query</span><span class="o">.</span><span class="n">json</span><span class="p">()</span><span class="o">.</span><span class="n">keys</span><span class="p">()]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>latitude (deg)</th>
+      <th>longitude (deg)</th>
+      <th>fips_county</th>
+      <th>fips_state</th>
+      <th>name</th>
+      <th>RAW_D_MINOR</th>
+      <th>RAW_D_INCOME</th>
+      <th>RAW_D_LESSHS</th>
+      <th>RAW_D_LING</th>
+      <th>RAW_D_UNDER5</th>
+      <th>...</th>
+      <th>statLayerCount</th>
+      <th>statLayerZeroPopCount</th>
+      <th>weightLayerCount</th>
+      <th>timeSeconds</th>
+      <th>distance</th>
+      <th>unit</th>
+      <th>areaid</th>
+      <th>areatype</th>
+      <th>statlevel</th>
+      <th>inputAreaMiles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>40.694300</td>
+      <td>-73.924900</td>
+      <td>36047</td>
+      <td>36</td>
+      <td>New York, , New York</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>34.113900</td>
+      <td>-118.406800</td>
+      <td>06037</td>
+      <td>06</td>
+      <td>Los Angeles, Los Angeles County, California</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>41.837300</td>
+      <td>-87.686200</td>
+      <td>17031</td>
+      <td>17</td>
+      <td>Chicago, Cook County, Illinois</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>25.783900</td>
+      <td>-80.210200</td>
+      <td>12086</td>
+      <td>12</td>
+      <td>Miami, Miami-Dade County, Florida</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>32.793600</td>
+      <td>-96.766200</td>
+      <td>48113</td>
+      <td>48</td>
+      <td>Dallas, Dallas County, Texas</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>151</th>
+      <td>39.613044</td>
+      <td>-119.251397</td>
+      <td>32019</td>
+      <td>32</td>
+      <td>ABTC-Fernley, Lyon County, Nevada</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>152</th>
+      <td>39.528106</td>
+      <td>-119.490916</td>
+      <td>32029</td>
+      <td>32</td>
+      <td>LiNiCoComstock-McCarran, Storey County, Nevada</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>153</th>
+      <td>44.095657</td>
+      <td>-121.305861</td>
+      <td>41017</td>
+      <td>41</td>
+      <td>OnTo Tech-Bend, Deschutes County, Oregon</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>154</th>
+      <td>39.199730</td>
+      <td>-119.735956</td>
+      <td>32510</td>
+      <td>32</td>
+      <td>Redwood Mat-Carson City, , Nevada</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>155</th>
+      <td>39.713622</td>
+      <td>-82.544377</td>
+      <td>39045</td>
+      <td>39</td>
+      <td>Retriev-Lancaster, Fairfield County, Ohio</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>156 rows × 146 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="n">ej_query_keys</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_77813/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  ej_candidates[ej_query_keys] = np.nan
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_query_values</span> <span class="o">=</span> <span class="p">[</span><span class="n">value</span> <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">ej_query</span><span class="o">.</span><span class="n">json</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">()]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_query_values</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[&#39;17%&#39;,
+ &#39;53%&#39;,
+ &#39;7%&#39;,
+ &#39;2%&#39;,
+ &#39;2%&#39;,
+ &#39;42%&#39;,
+ &#39;5%&#39;,
+ &#39;35%&#39;,
+ &#39;0.14&#39;,
+ &#39;0.0102&#39;,
+ &#39;10&#39;,
+ &#39;0.1&#39;,
+ &#39;1.2&#39;,
+ &#39;N/A&#39;,
+ &#39;0.0074&#39;,
+ &#39;0.056&#39;,
+ &#39;0.011&#39;,
+ &#39;56.4&#39;,
+ &#39;4.57&#39;,
+ &#39;0.0068&#39;,
+ &#39;63%&#39;,
+ &#39;39%&#39;,
+ &#39;14%&#39;,
+ &#39;5%&#39;,
+ &#39;6%&#39;,
+ &#39;17%&#39;,
+ &#39;7%&#39;,
+ &#39;51%&#39;,
+ &#39;0.18&#39;,
+ &#39;0.198&#39;,
+ &#39;20&#39;,
+ &#39;0.23&#39;,
+ &#39;510&#39;,
+ &#39;3.5&#39;,
+ &#39;0.14&#39;,
+ &#39;0.24&#39;,
+ &#39;0.81&#39;,
+ &#39;56&#39;,
+ &#39;5.54&#39;,
+ &#39;3.3&#39;,
+ &#39;  4&#39;,
+ &#39; 70&#39;,
+ &#39; 37&#39;,
+ &#39; 50&#39;,
+ &#39; 28&#39;,
+ &#39; 94&#39;,
+ &#39; 54&#39;,
+ &#39; 25&#39;,
+ &#39; 56&#39;,
+ &#39;  0&#39;,
+ &#39;  0&#39;,
+ &#39;  0&#39;,
+ &#39;  2&#39;,
+ &#39;N/A&#39;,
+ &#39;  3&#39;,
+ &#39; 29&#39;,
+ &#39;  4&#39;,
+ &#39; 54&#39;,
+ &#39; 18&#39;,
+ &#39; 24&#39;,
+ &#39; 43&#39;,
+ &#39;  0&#39;,
+ &#39;  0&#39;,
+ &#39;  0&#39;,
+ &#39;  0&#39;,
+ &#39;N/A&#39;,
+ &#39;  4&#39;,
+ &#39; 19&#39;,
+ &#39;  4&#39;,
+ &#39; 42&#39;,
+ &#39; 16&#39;,
+ &#39; 27&#39;,
+ &#39;40%&#39;,
+ &#39;30%&#39;,
+ &#39;12%&#39;,
+ &#39;5%&#39;,
+ &#39;6%&#39;,
+ &#39;16%&#39;,
+ &#39;5%&#39;,
+ &#39;35%&#39;,
+ &#39;0.27&#39;,
+ &#39;0.294&#39;,
+ &#39;28&#39;,
+ &#39;0.36&#39;,
+ &#39;760&#39;,
+ &#39;12&#39;,
+ &#39;0.13&#39;,
+ &#39;0.77&#39;,
+ &#39;2.2&#39;,
+ &#39;42.5&#39;,
+ &#39;8.67&#39;,
+ &#39;3.9&#39;,
+ &#39;35&#39;,
+ &#39;83&#39;,
+ &#39;46&#39;,
+ &#39;63&#39;,
+ &#39;23&#39;,
+ &#39;96&#39;,
+ &#39;61&#39;,
+ &#39;59&#39;,
+ &#39;41&#39;,
+ &#39;0&#39;,
+ &#39;2&#39;,
+ &#39;1&#39;,
+ &#39;2&#39;,
+ &#39;N/A&#39;,
+ &#39;2&#39;,
+ &#39;7&#39;,
+ &#39;1&#39;,
+ &#39;95&#39;,
+ &#39;0&#39;,
+ &#39;0&#39;,
+ &#39;55&#39;,
+ &#39;0&#39;,
+ &#39;2&#39;,
+ &#39;1&#39;,
+ &#39;3&#39;,
+ &#39;N/A&#39;,
+ &#39;4&#39;,
+ &#39;13&#39;,
+ &#39;2&#39;,
+ &#39;84&#39;,
+ &#39;0&#39;,
+ &#39;41&#39;,
+ &#39;NM&#39;,
+ &#39;NEW MEXICO&#39;,
+ &#39;6&#39;,
+ &#39;3547&#39;,
+ &#39;0&#39;,
+ &#39;0&#39;,
+ None,
+ &#39;5&#39;,
+ &#39;0&#39;,
+ &#39;0&#39;,
+ &#39;0.1830019&#39;,
+ &#39;0&#39;,
+ &#39;9035&#39;,
+ &#39;35003&#39;,
+ &#39;county&#39;,
+ &#39;blockgroup&#39;,
+ &#39;6929.63&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidates_raw</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;RELOG_import_data/CandidateLocations_CA.csv&#39;</span><span class="p">)</span>
-<span class="n">candidates_lat_long</span> <span class="o">=</span> <span class="n">candidates_raw</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;area cost factor&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;36047&#39;</span><span class="p">,</span> <span class="s1">&#39;RAW_D_MINOR&#39;</span><span class="p">:]</span> <span class="o">=</span> <span class="n">ej_query_values</span>
 </pre></div>
 
      </div>
@@ -14692,7 +15641,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidates_lat_long</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;36047&#39;</span><span class="p">,</span> <span class="s1">&#39;RAW_D_MINOR&#39;</span><span class="p">:]</span>
 </pre></div>
 
      </div>
@@ -14733,69 +15682,81 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>latitude (deg)</th>
-      <th>longitude (deg)</th>
+      <th>RAW_D_MINOR</th>
+      <th>RAW_D_INCOME</th>
+      <th>RAW_D_LESSHS</th>
+      <th>RAW_D_LING</th>
+      <th>RAW_D_UNDER5</th>
+      <th>RAW_D_OVER64</th>
+      <th>RAW_D_UNEMPLOYED</th>
+      <th>RAW_D_INDEX</th>
+      <th>RAW_E_LEAD</th>
+      <th>RAW_E_DIESEL</th>
+      <th>...</th>
+      <th>statLayerCount</th>
+      <th>statLayerZeroPopCount</th>
+      <th>weightLayerCount</th>
+      <th>timeSeconds</th>
+      <th>distance</th>
+      <th>unit</th>
+      <th>areaid</th>
+      <th>areatype</th>
+      <th>statlevel</th>
+      <th>inputAreaMiles</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>33.5854</td>
-      <td>-84.3778</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>36.3928</td>
-      <td>-103.0490</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>34.3336</td>
-      <td>-108.4771</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>35.2784</td>
-      <td>-107.9850</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>39.3646</td>
-      <td>-76.6158</td>
-    </tr>
-    <tr>
-      <th>...</th>
+      <td>17%</td>
+      <td>53%</td>
+      <td>7%</td>
+      <td>2%</td>
+      <td>2%</td>
+      <td>42%</td>
+      <td>5%</td>
+      <td>35%</td>
+      <td>0.14</td>
+      <td>0.0102</td>
       <td>...</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.1830019</td>
+      <td>0</td>
+      <td>9035</td>
+      <td>35003</td>
+      <td>county</td>
+      <td>blockgroup</td>
+      <td>6929.63</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>17%</td>
+      <td>53%</td>
+      <td>7%</td>
+      <td>2%</td>
+      <td>2%</td>
+      <td>42%</td>
+      <td>5%</td>
+      <td>35%</td>
+      <td>0.14</td>
+      <td>0.0102</td>
       <td>...</td>
-    </tr>
-    <tr>
-      <th>91</th>
-      <td>42.0537</td>
-      <td>-87.9100</td>
-    </tr>
-    <tr>
-      <th>92</th>
-      <td>44.6412</td>
-      <td>-104.0558</td>
-    </tr>
-    <tr>
-      <th>93</th>
-      <td>45.4279</td>
-      <td>-108.5339</td>
-    </tr>
-    <tr>
-      <th>94</th>
-      <td>32.2724</td>
-      <td>-99.0110</td>
-    </tr>
-    <tr>
-      <th>95</th>
-      <td>40.1272</td>
-      <td>-88.2436</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.1830019</td>
+      <td>0</td>
+      <td>9035</td>
+      <td>35003</td>
+      <td>county</td>
+      <td>blockgroup</td>
+      <td>6929.63</td>
     </tr>
   </tbody>
 </table>
-<p>96 rows × 2 columns</p>
+<p>2 rows × 141 columns</p>
 </div>
 </div>
 
@@ -14803,146 +15764,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fips_county_codes</span> <span class="o">=</span> <span class="p">[]</span>
-<span class="n">fips_state_codes</span> <span class="o">=</span> <span class="p">[]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes</span>
-<span class="kn">import</span> <span class="nn">requests</span>
-<span class="kn">import</span> <span class="nn">urllib</span>
-
-<span class="c1">#Encode parameters </span>
-<span class="k">for</span> <span class="n">lat</span><span class="p">,</span> <span class="n">lon</span> <span class="ow">in</span> <span class="n">candidates_lat_long</span><span class="o">.</span><span class="n">itertuples</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
-    <span class="n">params</span> <span class="o">=</span> <span class="n">urllib</span><span class="o">.</span><span class="n">parse</span><span class="o">.</span><span class="n">urlencode</span><span class="p">({</span><span class="s1">&#39;latitude&#39;</span><span class="p">:</span> <span class="n">lat</span><span class="p">,</span> <span class="s1">&#39;longitude&#39;</span><span class="p">:</span><span class="n">lon</span><span class="p">,</span> <span class="s1">&#39;format&#39;</span><span class="p">:</span><span class="s1">&#39;json&#39;</span><span class="p">})</span>
-    <span class="c1">#Contruct request URL</span>
-    <span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://geo.fcc.gov/api/census/block/find?&#39;</span> <span class="o">+</span> <span class="n">params</span>
-
-    <span class="c1">#Get response from API</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
-
-    <span class="c1">#Parse json in response</span>
-    <span class="n">data</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">json</span><span class="p">()</span>
-    <span class="n">fips_county_codes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;County&#39;</span><span class="p">][</span><span class="s1">&#39;FIPS&#39;</span><span class="p">])</span>
-    <span class="n">fips_state_codes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;State&#39;</span><span class="p">][</span><span class="s1">&#39;FIPS&#39;</span><span class="p">])</span>
-    <span class="c1">#Print FIPS code</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidates_lat_long</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">fips_county_codes</span>
-<span class="n">candidates_lat_long</span><span class="p">[</span><span class="s1">&#39;fips_state&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">fips_state_codes</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Let's reshape the dataframe to have the names back and all the  EJ indices in the dataframe related to the fips codes.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span> <span class="o">=</span> <span class="n">candidates_lat_long</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">candidates_raw</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Now, I am going to query a random fips code to get the column names.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[66]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_query</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;https://ejscreen.epa.gov/mapper/ejscreenRESTbroker.aspx?namestr=Pickens County&amp;geometry=&amp;distance=&amp;unit=9035&amp;areatype=county&amp;areaid=35003&amp;f=pjson&#39;</span><span class="p">)</span>
-<span class="n">ej_query_keys</span> <span class="o">=</span> <span class="p">[</span><span class="n">keys</span> <span class="k">for</span> <span class="n">keys</span> <span class="ow">in</span> <span class="n">ej_query</span><span class="o">.</span><span class="n">json</span><span class="p">()</span><span class="o">.</span><span class="n">keys</span><span class="p">()]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -14950,10 +15771,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[68]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="n">ej_query_keys</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">nan</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="n">ej_query_keys</span><span class="p">][</span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;36047&#39;</span><span class="p">]</span>
 </pre></div>
 
      </div>
@@ -14971,165 +15792,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-/var/folders/w2/85_h_nyn0mlbxf81x3k9n53xh90n_1/T/ipykernel_80367/2673602796.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
-  ej_candidates[ej_query_keys] = np.nan
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_query_values</span> <span class="o">=</span> <span class="p">[</span><span class="n">value</span> <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">ej_query</span><span class="o">.</span><span class="n">json</span><span class="p">()</span><span class="o">.</span><span class="n">values</span><span class="p">()]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;35003&#39;</span><span class="p">,</span> <span class="s1">&#39;RAW_D_MINOR&#39;</span><span class="p">:]</span> <span class="o">=</span> <span class="n">ej_query_values</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;35003&#39;</span><span class="p">,</span> <span class="s1">&#39;RAW_D_MINOR&#39;</span><span class="p">:]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[89]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
 
 
 
@@ -15177,7 +15840,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   </thead>
   <tbody>
     <tr>
-      <th>2</th>
+      <th>0</th>
       <td>17%</td>
       <td>53%</td>
       <td>7%</td>
@@ -15192,7 +15855,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>5</td>
       <td>0</td>
       <td>0</td>
-      <td>0.1769966</td>
+      <td>0.1830019</td>
       <td>0</td>
       <td>9035</td>
       <td>35003</td>
@@ -15200,93 +15863,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>blockgroup</td>
       <td>6929.63</td>
     </tr>
-  </tbody>
-</table>
-<p>1 rows × 141 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="n">ej_query_keys</span><span class="p">][</span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;35003&#39;</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>RAW_D_MINOR</th>
-      <th>RAW_D_INCOME</th>
-      <th>RAW_D_LESSHS</th>
-      <th>RAW_D_LING</th>
-      <th>RAW_D_UNDER5</th>
-      <th>RAW_D_OVER64</th>
-      <th>RAW_D_UNEMPLOYED</th>
-      <th>RAW_D_INDEX</th>
-      <th>RAW_E_LEAD</th>
-      <th>RAW_E_DIESEL</th>
-      <th>...</th>
-      <th>statLayerCount</th>
-      <th>statLayerZeroPopCount</th>
-      <th>weightLayerCount</th>
-      <th>timeSeconds</th>
-      <th>distance</th>
-      <th>unit</th>
-      <th>areaid</th>
-      <th>areatype</th>
-      <th>statlevel</th>
-      <th>inputAreaMiles</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr>
-      <th>2</th>
+      <th>18</th>
       <td>17%</td>
       <td>53%</td>
       <td>7%</td>
@@ -15301,7 +15879,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>5</td>
       <td>0</td>
       <td>0</td>
-      <td>0.1769966</td>
+      <td>0.1830019</td>
       <td>0</td>
       <td>9035</td>
       <td>35003</td>
@@ -15311,7 +15889,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
   </tbody>
 </table>
-<p>1 rows × 141 columns</p>
+<p>2 rows × 141 columns</p>
 </div>
 </div>
 
@@ -15326,7 +15904,23 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[91]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">fips_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">fips</span> <span class="k">for</span> <span class="n">fips</span> <span class="ow">in</span> <span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;fips_county&#39;</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">fips</span> <span class="ow">in</span> <span class="n">fips_list</span><span class="p">:</span>
@@ -15353,12 +15947,217 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>latitude (deg)</th>
+      <th>longitude (deg)</th>
+      <th>fips_county</th>
+      <th>fips_state</th>
+      <th>name</th>
+      <th>RAW_D_MINOR</th>
+      <th>RAW_D_INCOME</th>
+      <th>RAW_D_LESSHS</th>
+      <th>RAW_D_LING</th>
+      <th>RAW_D_UNDER5</th>
+      <th>...</th>
+      <th>statLayerCount</th>
+      <th>statLayerZeroPopCount</th>
+      <th>weightLayerCount</th>
+      <th>timeSeconds</th>
+      <th>distance</th>
+      <th>unit</th>
+      <th>areaid</th>
+      <th>areatype</th>
+      <th>statlevel</th>
+      <th>inputAreaMiles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>40.6943</td>
+      <td>-73.9249</td>
+      <td>36047</td>
+      <td>36</td>
+      <td>New York, , New York</td>
+      <td>64%</td>
+      <td>37%</td>
+      <td>17%</td>
+      <td>14%</td>
+      <td>7%</td>
+      <td>...</td>
+      <td>2156</td>
+      <td>90</td>
+      <td>0</td>
+      <td>0.6476208</td>
+      <td>0</td>
+      <td>9035</td>
+      <td>36047</td>
+      <td>county</td>
+      <td>blockgroup</td>
+      <td>96.85</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>34.1139</td>
+      <td>-118.4068</td>
+      <td>06037</td>
+      <td>06</td>
+      <td>Los Angeles, Los Angeles County, California</td>
+      <td>74%</td>
+      <td>33%</td>
+      <td>20%</td>
+      <td>12%</td>
+      <td>6%</td>
+      <td>...</td>
+      <td>6591</td>
+      <td>33</td>
+      <td>0</td>
+      <td>1.5742393</td>
+      <td>0</td>
+      <td>9035</td>
+      <td>06037</td>
+      <td>county</td>
+      <td>blockgroup</td>
+      <td>4749.41</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>41.8373</td>
+      <td>-87.6862</td>
+      <td>17031</td>
+      <td>17</td>
+      <td>Chicago, Cook County, Illinois</td>
+      <td>58%</td>
+      <td>30%</td>
+      <td>12%</td>
+      <td>7%</td>
+      <td>6%</td>
+      <td>...</td>
+      <td>4002</td>
+      <td>10</td>
+      <td>0</td>
+      <td>1.0323922</td>
+      <td>0</td>
+      <td>9035</td>
+      <td>17031</td>
+      <td>county</td>
+      <td>blockgroup</td>
+      <td>1634.62</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>25.7839</td>
+      <td>-80.2102</td>
+      <td>12086</td>
+      <td>12</td>
+      <td>Miami, Miami-Dade County, Florida</td>
+      <td>86%</td>
+      <td>39%</td>
+      <td>18%</td>
+      <td>25%</td>
+      <td>6%</td>
+      <td>...</td>
+      <td>1843</td>
+      <td>13</td>
+      <td>0</td>
+      <td>0.5279964</td>
+      <td>0</td>
+      <td>9035</td>
+      <td>12086</td>
+      <td>county</td>
+      <td>blockgroup</td>
+      <td>2389.31</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>32.7936</td>
+      <td>-96.7662</td>
+      <td>48113</td>
+      <td>48</td>
+      <td>Dallas, Dallas County, Texas</td>
+      <td>71%</td>
+      <td>37%</td>
+      <td>20%</td>
+      <td>10%</td>
+      <td>7%</td>
+      <td>...</td>
+      <td>1570</td>
+      <td>20</td>
+      <td>0</td>
+      <td>0.4897028</td>
+      <td>0</td>
+      <td>9035</td>
+      <td>48113</td>
+      <td>county</td>
+      <td>blockgroup</td>
+      <td>908.53</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 146 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span> <span class="o">=</span> <span class="n">ej_candidates</span><span class="o">.</span><span class="n">replace</span><span class="p">({</span><span class="s1">&#39;%&#39;</span><span class="p">:</span><span class="s1">&#39;&#39;</span><span class="p">},</span> <span class="n">regex</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15375,7 +16174,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[121]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">&#39;RAW_D_MINOR&#39;</span><span class="p">:</span><span class="s1">&#39;N_P_UST&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">ej_candidates</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">&#39;RAW_D_MINOR&#39;</span><span class="p">:</span><span class="s1">&#39;N_P_UST&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span>
@@ -15392,7 +16191,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[122]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
@@ -15418,10 +16217,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
-RangeIndex: 96 entries, 0 to 95
+RangeIndex: 156 entries, 0 to 155
 Columns: 146 entries, latitude (deg) to inputAreaMiles
 dtypes: float64(137), object(9)
-memory usage: 109.6+ KB
+memory usage: 178.1+ KB
 </pre>
 </div>
 </div>
@@ -15430,226 +16229,21 @@ memory usage: 109.6+ KB
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[116]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+<span class="n">ej_candidates</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;EJ_files&#39;</span><span class="p">,</span> <span class="s1">&#39;candidate_locations_with_EJ.csv&#39;</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[116]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0        Clayton, Georgia
-1       Union, New Mexico
-2      Catron, New Mexico
-3      Cibola, New Mexico
-4     Baltimore, Maryland
-             ...         
-91         Cook, Illinois
-92         Crook, Wyoming
-93      Big Horn, Montana
-94        Eastland, Texas
-95    Champaign, Illinois
-Name: name, Length: 96, dtype: object</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[132]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="s2">&quot;name&quot;</span><span class="p">,</span> <span class="p">(</span><span class="s2">&quot;N_D_MINOR&quot;</span><span class="p">,</span> <span class="s2">&quot;N_D_MINOR_PER&quot;</span><span class="p">),</span> <span class="n">data</span> <span class="o">=</span> <span class="n">ej_candidates</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;County&quot;</span><span class="p">)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s2">&quot;Population&quot;</span><span class="p">)</span>
-<span class="c1">#plt.title(&quot;&quot;)</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">ValueError</span>                                Traceback (most recent call last)
-Cell <span class="ansi-green-fg">In [132], line 1</span>
-<span class="ansi-green-fg">----&gt; 1</span> <span class="ansi-yellow-bg">plt</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">bar</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">name</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">N_D_MINOR</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">N_D_MINOR_PER</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">data</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">ej_candidates</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span> plt<span style="color: rgb(98,98,98)">.</span>xlabel(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">County</span><span style="color: rgb(175,0,0)">&#34;</span>)
-<span class="ansi-green-intense-fg ansi-bold">      3</span> plt<span style="color: rgb(98,98,98)">.</span>ylabel(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">Population</span><span style="color: rgb(175,0,0)">&#34;</span>)
-
-File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/matplotlib/pyplot.py:2399</span>, in <span class="ansi-cyan-fg">bar</span><span class="ansi-blue-fg">(x, height, width, bottom, align, data, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2395</span> <span style="color: rgb(175,0,255)">@_copy_docstring_and_deprecators</span>(Axes<span style="color: rgb(98,98,98)">.</span>bar)
-<span class="ansi-green-intense-fg ansi-bold">   2396</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">bar</span>(
-<span class="ansi-green-intense-fg ansi-bold">   2397</span>         x, height, width<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(98,98,98)">0.8</span>, bottom<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">None</span>, <span style="color: rgb(98,98,98)">*</span>, align<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">center</span><span style="color: rgb(175,0,0)">&#39;</span>,
-<span class="ansi-green-intense-fg ansi-bold">   2398</span>         data<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">None</span>, <span style="color: rgb(98,98,98)">*</span><span style="color: rgb(98,98,98)">*</span>kwargs):
-<span class="ansi-green-fg">-&gt; 2399</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">gca</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">bar</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-intense-fg ansi-bold">   2400</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">x</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">height</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">width</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">width</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">bottom</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">bottom</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">align</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">align</span><span class="ansi-yellow-bg">,</span>
-<span class="ansi-green-intense-fg ansi-bold">   2401</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">{</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">data</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">:</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">data</span><span class="ansi-yellow-bg">}</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">if</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">data</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,0,255)">is</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(175,0,255)">not</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">None</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">else</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">{</span><span class="ansi-yellow-bg">}</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/matplotlib/__init__.py:1438</span>, in <span class="ansi-cyan-fg">_preprocess_data.&lt;locals&gt;.inner</span><span class="ansi-blue-fg">(ax, data, *args, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   1434</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> label_namer <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">label</span><span style="color: rgb(175,0,0)">&#34;</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> args_and_kwargs:
-<span class="ansi-green-intense-fg ansi-bold">   1435</span>     new_kwargs[<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">label</span><span style="color: rgb(175,0,0)">&#34;</span>] <span style="color: rgb(98,98,98)">=</span> _label_from_arg(
-<span class="ansi-green-intense-fg ansi-bold">   1436</span>         args_and_kwargs<span style="color: rgb(98,98,98)">.</span>get(label_namer), auto_label)
-<span class="ansi-green-fg">-&gt; 1438</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">func</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">new_args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">new_kwargs</span><span class="ansi-yellow-bg">)</span>
-
-File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/matplotlib/axes/_axes.py:2342</span>, in <span class="ansi-cyan-fg">Axes.bar</span><span class="ansi-blue-fg">(self, x, height, width, bottom, align, **kwargs)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2339</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> yerr <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>:
-<span class="ansi-green-intense-fg ansi-bold">   2340</span>         yerr <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_convert_dx(yerr, y0, y, <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>convert_yunits)
-<span class="ansi-green-fg">-&gt; 2342</span> x, height, width, y, linewidth, hatch <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">np</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">broadcast_arrays</span><span class="ansi-yellow-bg">(</span>
-<span class="ansi-green-intense-fg ansi-bold">   2343</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg" style="color: rgb(95,135,135)"># Make args iterable too.</span>
-<span class="ansi-green-intense-fg ansi-bold">   2344</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">np</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">atleast_1d</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">x</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">height</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">width</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">y</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">linewidth</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">hatch</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">   2346</span> <span style="color: rgb(95,135,135)"># Now that units have been converted, set the tick locations.</span>
-<span class="ansi-green-intense-fg ansi-bold">   2347</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> orientation <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">vertical</span><span style="color: rgb(175,0,0)">&#39;</span>:
-
-File <span class="ansi-green-fg">&lt;__array_function__ internals&gt;:180</span>, in <span class="ansi-cyan-fg">broadcast_arrays</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
-
-File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:540</span>, in <span class="ansi-cyan-fg">broadcast_arrays</span><span class="ansi-blue-fg">(subok, *args)</span>
-<span class="ansi-green-intense-fg ansi-bold">    533</span> <span style="color: rgb(95,135,135)"># nditer is not used here to avoid the limit of 32 arrays.</span>
-<span class="ansi-green-intense-fg ansi-bold">    534</span> <span style="color: rgb(95,135,135)"># Otherwise, something like the following one-liner would suffice:</span>
-<span class="ansi-green-intense-fg ansi-bold">    535</span> <span style="color: rgb(95,135,135)"># return np.nditer(args, flags=[&#39;multi_index&#39;, &#39;zerosize_ok&#39;],</span>
-<span class="ansi-green-intense-fg ansi-bold">    536</span> <span style="color: rgb(95,135,135)">#                  order=&#39;C&#39;).itviews</span>
-<span class="ansi-green-intense-fg ansi-bold">    538</span> args <span style="color: rgb(98,98,98)">=</span> [np<span style="color: rgb(98,98,98)">.</span>array(_m, copy<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">False</span>, subok<span style="color: rgb(98,98,98)">=</span>subok) <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> _m <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> args]
-<span class="ansi-green-fg">--&gt; 540</span> shape <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">_broadcast_shape</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    542</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">all</span>(array<span style="color: rgb(98,98,98)">.</span>shape <span style="color: rgb(98,98,98)">==</span> shape <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> array <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> args):
-<span class="ansi-green-intense-fg ansi-bold">    543</span>     <span style="color: rgb(95,135,135)"># Common case where nothing needs to be broadcasted.</span>
-<span class="ansi-green-intense-fg ansi-bold">    544</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> args
-
-File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/numpy/lib/stride_tricks.py:422</span>, in <span class="ansi-cyan-fg">_broadcast_shape</span><span class="ansi-blue-fg">(*args)</span>
-<span class="ansi-green-intense-fg ansi-bold">    417</span> <span style="color: rgb(175,0,0)">&#34;&#34;&#34;Returns the shape of the arrays that would result from broadcasting the</span>
-<span class="ansi-green-intense-fg ansi-bold">    418</span> <span style="color: rgb(175,0,0)">supplied arrays against each other.</span>
-<span class="ansi-green-intense-fg ansi-bold">    419</span> <span style="color: rgb(175,0,0)">&#34;&#34;&#34;</span>
-<span class="ansi-green-intense-fg ansi-bold">    420</span> <span style="color: rgb(95,135,135)"># use the old-iterator because np.nditer does not handle size 0 arrays</span>
-<span class="ansi-green-intense-fg ansi-bold">    421</span> <span style="color: rgb(95,135,135)"># consistently</span>
-<span class="ansi-green-fg">--&gt; 422</span> b <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">np</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">broadcast</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">[</span><span class="ansi-yellow-bg">:</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">32</span><span class="ansi-yellow-bg">]</span><span class="ansi-yellow-bg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">    423</span> <span style="color: rgb(95,135,135)"># unfortunately, it cannot handle 32 or more arguments directly</span>
-<span class="ansi-green-intense-fg ansi-bold">    424</span> <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> pos <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">range</span>(<span style="color: rgb(98,98,98)">32</span>, <span style="color: rgb(0,135,0)">len</span>(args), <span style="color: rgb(98,98,98)">31</span>):
-<span class="ansi-green-intense-fg ansi-bold">    425</span>     <span style="color: rgb(95,135,135)"># ironically, np.broadcast does not properly handle np.broadcast</span>
-<span class="ansi-green-intense-fg ansi-bold">    426</span>     <span style="color: rgb(95,135,135)"># objects (it treats them as scalars)</span>
-<span class="ansi-green-intense-fg ansi-bold">    427</span>     <span style="color: rgb(95,135,135)"># use broadcasting to avoid allocating the full array</span>
-
-<span class="ansi-red-fg">ValueError</span>: shape mismatch: objects cannot be broadcast to a single shape.  Mismatch is between arg 0 with shape (96,) and arg 1 with shape (2,).</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-
-<div class="jp-RenderedImage jp-OutputArea-output ">
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAl8AAAGdCAYAAAAsdxY/AAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjUuMiwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy8qNh9FAAAACXBIWXMAAA9hAAAPYQGoP6dpAAAXw0lEQVR4nO3de5DVdf348ddBFkQWFkUSVxcEuUQKmTgoYU4mRkYq2GSmORLGoEOkg4KmpJU3xExRw1sIlApWqDNZeUGhFEZBjIJxBUVMG2TIG8tVVvn8/ujnfl3uIL0gfDxmzsyez+283/DHPudz3udsqSiKIgAASNFgVw8AAODTRHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAooa7egBsbP369bFkyZJo1qxZlEqlXT0cAGAbFEURK1asiMrKymjQYPP3t8TXbmjJkiVRVVW1q4cBAOyAN954Iw4++ODN7hdfu6FmzZpFxH/+85o3b76LRwMAbIuampqoqqqq+z2+OeJrN/TRW43NmzcXXwDwP2ZrS4YsuAcASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBIJL4AABKJLwCAROILACCR+AIASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBItF3xNWDAgCiVSjFq1Kh62x9++OEolUpbPX/69OlRKpWiVCpFgwYNoqKiIr7whS/EiBEj4s0339zmcfzkJz+JUqkUX/va1zbaN3r06CiVSvHlL3+53vFHHHHERuefd9559c6dO3dulEqleO211+ptnzhxYvTo0SOaNm0azZo1i+OOOy4eeeSRzc6tVCpFy5Yt4ytf+UrMmDFjm+cFAOz5tvvO19577x3XX399vPvuuzv8ogsWLIglS5bE7Nmz45JLLompU6fG4YcfHvPmzdvmaxx44IExbdq0+Ne//lVv+/jx46NNmzZbPX/vvfeOcePGxcKFC7d43MUXXxyDBw+O008/Pf7+97/HrFmz4ktf+lKceuqpcdttt21ybm+++WZMnz49WrVqFX379o1ly5Zt87wAgD3bdsdX7969o3Xr1nHdddft8It+5jOfidatW0enTp3ijDPOiBkzZkSrVq3i/PPP365rfPWrX42JEyfWbZs5c2a89dZb0bdv362e37lz5zj++ONj5MiRmz3m2WefjRtvvDFuuOGGuPjii6NDhw7RpUuXuOaaa+LCCy+MYcOGxRtvvLHJuXXt2jVGjhwZy5cvj+eee26b5wUA7Nm2O7722muvuPbaa+PWW2/d6K7TjmrSpEmcd955MWPGjO26SzRw4MCYMGFC3fN77rknzjrrrGjUqNE2nT9q1KiYMmVKzJ49e5P7J02aFOXl5TF48OCN9l100UVRW1sbU6ZM2eS5q1evjvHjx0dERFlZ2RbH8f7770dNTU29BwCwZ9qhBff9+/ePI444Iq688sqdNpDPfvazEREbrbfakm984xtRU1MTf/3rX2PVqlXx29/+NgYOHLjN5x955JFx+umnx6WXXrrJ/QsXLoxDDz10kzFXWVkZFRUVG71tefDBB0d5eXmUl5fHTTfdFN27d48TTjhhi+O47rrroqKiou5RVVW1zXMAAP637PCnHa+//vqYOHFivPjiiztlIEVRRERs08L9j5SVlcV3v/vdGD9+fPzud7+LTp06Rbdu3bbrda+++up4+umn4/HHH9+u8yL+M+YNx/v000/HCy+8EJMmTYq2bdvGhAkTtnrn60c/+lEsX7687rHhW5kAwJ6j4Y6eeNxxx0WfPn3isssuiwEDBnzigVRXV0dExCGHHLJd5w0cODCOPvromD9//nbd9frIoYceGoMGDYpLL700xo0bV29fp06d4plnnol169ZtdPdryZIlUVNTEx07dqy3vV27dtGiRYvo1KlTrF27Nvr37x/z58+Pxo0bb3YMjRs33uJ+AGDP8Ym+52vUqFHxhz/8IWbOnPmJBrFmzZq466674rjjjotWrVpt17mHHXZYHHbYYTF//vw488wzd+j1r7jiili4cGFMnjy53vYzzjgjVq5cGXfeeedG5/z85z+PsrKy+OY3v7nZ65599tmxfv36GDt27A6NCwDY8+zwna+IiK5du8ZZZ50Vt95663adt2zZsli7dm2sWLEi5syZE6NHj4633norHnzwwR0ax1NPPRW1tbXRokWLHTr/gAMOiGHDhsUNN9xQb3vPnj3jggsuiOHDh8e6deuiX79+UVtbG/fee2+MGTMmbr755i2uz2rQoEFceOGFcfXVV8fgwYNjn3322aHxAQB7jk/8DfdXXXVV3XqtbdW5c+eorKyM7t27x6hRo6J3794xf/78+NznPrdDY2jatOkOh9dHhg8fHuXl5Rttv/nmm2Ps2LExefLk6Nq1a3Tv3j3+8pe/xMMPPxxDhw7d6nUHDhwYtbW1m/xOMADg06dUbG858V9XU1MTFRUVsXz58mjevPmuHg4AsA229fe3v+0IAJBop8bXSSedVPcdVxs+rr322m2+zuauUV5eHk8//fTOHDIAQKpPtOB+Q7/61a9izZo1m9y33377bfN15s6du9l9Bx100PYOCwBgt7FT42tnhVGHDh12ynUAAHY31nwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkEl8AAInEFwBAIvEFAJBIfAEAJBJfAACJxBcAQCLxBQCQSHwBACQSXwAAicQXAEAi8QUAkEh8AQAkarirB8DGiqKIiIiamppdPBIAYFt99Hv7o9/jmyO+dkMrVqyIiIiqqqpdPBIAYHutWLEiKioqNru/VGwtz0i3fv36WLJkSTRr1ixKpdKuHg6wE9XU1ERVVVW88cYb0bx58109HGAnKooiVqxYEZWVldGgweZXdokvgEQ1NTVRUVERy5cvF1/wKWXBPQBAIvEFAJBIfAEkaty4cVx55ZXRuHHjXT0UYBex5gsAIJE7XwAAicQXAEAi8QUAkEh8Af+TSqVSPPzww7t6GJ86AwYMiH79+u3qYcD/NPEF7HaWLl0aQ4cOjfbt20fjxo2jqqoqTj755HjyySf/a685ffr0KJVK8d577/3XXmNrli5dGhdccEF06NAh9t577zjggAPi2GOPjTvuuCNWr169y8b1cWPGjIkJEybs6mHA/zR/2xHYrbz22mvRq1evaNGiRYwePTq6desWtbW18dhjj8WQIUPipZde2tVD/K949dVX6+Z97bXXRteuXeODDz6IhQsXxj333BOVlZVxyimn/Ndev7a2NsrKyrZ63Jb+Xh2wjQqA3chJJ51UHHTQQcXKlSs32vfuu+/W/RwRxUMPPVT3fMSIEUXHjh2LJk2aFO3atStGjhxZrFu3riiKoli8eHFRKpWK2bNn17veLbfcUrRp06Z49dVXi4io9zjnnHOKoiiKtWvXFkOHDi1atWpVNG7cuOjVq1cxa9asumtMmzatiIhi6tSpRffu3YsmTZoUPXv2LF566aXtmnefPn2Kgw8+eJPzLoqiWL9+fd3P7733XjFo0KCiVatWRbNmzYrjjz++mDt3br3jx44dW7Rv374oKysrOnXqVPz617+utz8iittvv7045ZRTin322ae44ooriqIoiquuuqpo1apVUV5eXpx77rnFJZdcUnz+85+vO++cc84pTj311Lrnf/7zn4tevXoVFRUVxX777Vf07du3eOWVV7Zr7vBp421HYLfxzjvvxKOPPhpDhgyJpk2bbrS/RYsWmz23WbNmMWHChHjxxRdjzJgxcffdd8dNN90UERGHHHJI9O7dO8aPH1/vnPHjx8eAAQOiTZs2MWXKlIiIWLBgQbz55psxZsyYiIgYMWJETJkyJSZOnBgvvPBCdOjQIfr06RPvvPNOvWtdfvnlceONN8bzzz8fDRs2jIEDB27zvN9+++14/PHHNzvviP+scYv4zx/u7du3byxdujT+9Kc/xZw5c+LII4+ME044oW5MDz30UFxwwQVx0UUXxfz582Pw4MHxve99L6ZNm1bvmldeeWWceuqpMW/evBg4cGDcd999cc0118T1118fc+bMiTZt2sTtt9++xbGvWrUqhg0bFrNnz44nn3wyGjRoEP3794/169dv8/zhU2dX1x/AR5577rkiIooHH3xwq8fGBne+NjR69Oiie/fudc8feOCBYt999y3Wrl1bFEVRzJ07tyiVSsXixYuLovi/O1gfv7u2cuXKoqysrLjvvvvqtq1bt66orKwsRo8eXe+8qVOn1h3zxz/+sYiIYs2aNdsy7eLZZ5/d5LxbtmxZNG3atGjatGkxYsSIoiiK4sknnyyaN29eN4+PHHroocWdd95ZFEVRfPGLXywGDRpUb/+3vvWt4utf/3rd84goLrzwwnrHHH300cWQIUPqbevVq9cW73xtaNmyZUVEFPPmzdvypOFTzJ0vYLdR/P8/uPHRXZ7t8fvf/z6OPfbYaN26dZSXl8ePf/zjeP311+v29+vXLxo2bBgPPfRQRETcc889cfzxx8chhxyy2WsuWrQoamtro1evXnXbysrKokePHlFdXV3v2G7dutX9fOCBB0ZExLJly7ZrDhvOe9asWTF37tw47LDD4v3334+IiDlz5sTKlSujZcuWUV5eXvdYvHhxLFq0KCIiqqur6405IqJXr14bjfmoo46q93zBggXRo0ePets2fL6hRYsWxZlnnhnt27eP5s2bR7t27SIi6v3bA/VZcA/sNjp27BilUimqq6u36+sMnn322TjjjDPipz/9afTp0ycqKipi8uTJceONN9Yd06hRozj77LNj/Pjxcdppp8X9998fN9988xavu7kYLIpio20fX6z+0b5tfeutQ4cOUSqVNvowQfv27SMiokmTJnXb1q9fHwceeGBMnz59o+t8/G3ZbRnzpt7i3NR5W3LyySdHVVVV3H333VFZWRnr16+Pww8/PNatW7fF8+DTzJ0vYLex3377RZ8+feKXv/xlrFq1aqP9m/saiBkzZkTbtm3j8ssvj6OOOio6duwY//znPzc67vvf/35MnTo1xo4dG7W1tXHaaafV7WvUqFFERHz44Yd12zp06BCNGjWKZ555pm5bbW1tPP/889GlS5cdneZGWrZsGSeeeGLcdtttm5z3xx155JGxdOnSaNiwYXTo0KHeY//994+IiC5dutQbc0TEzJkztzrmzp07x6xZs+pte/755zd7/Ntvvx3V1dUxcuTIOOGEE6JLly7x7rvvbvE1APEF7GbGjh0bH374YfTo0SOmTJkSL7/8clRXV8ctt9wSPXv23OQ5HTp0iNdffz0mT54cixYtiltuuaXu7cWP69KlSxxzzDFxySWXxHe+8516d5Tatm0bpVIpHnnkkfj3v/8dK1eujKZNm8b5558fw4cPj0cffTRefPHFGDRoUKxevTrOPffcnT7vDz74II466qh44IEHorq6OhYsWBD33ntvvPTSS7HXXntFRETv3r2jZ8+e0a9fv3jsscfitddei5kzZ8bIkSPrQmn48OExYcKEuOOOO+Lll1+OX/ziF/Hggw/GxRdfvMUxDB06NMaNGxcTJ06Ml19+Oa6++ur4xz/+sdm3gffdd99o2bJl3HXXXfHKK6/EU089FcOGDdup/y6wR9qlK84ANmHJkiXFkCFDirZt2xaNGjUqDjrooOKUU04ppk2bVndMbLDgfvjw4UXLli2L8vLy4tvf/nZx0003FRUVFRtde9y4cUVE1Pu6iI/87Gc/K1q3bl2USqW6r5pYs2ZNMXTo0GL//fff4ldNfHyh/t/+9rciIuoW8y9evLiIiHrj39y8f/CDHxTt2rUrysrKivLy8qJHjx7FDTfcUKxataruuJqammLo0KFFZWVlUVZWVlRVVRVnnXVW8frrr9cdsy1fNbGpDyz87Gc/K/bff/+ivLy8GDhwYPHDH/6wOOaYY+r2b7jg/oknnii6dOlSNG7cuOjWrVsxffr0rX4YAj7tSkWxlTf0AfYg11xzTUyePDnmzZuX9prTp0+P/v37x6uvvhr77rtv2uvuDCeeeGK0bt06fvOb3+zqocAew4J74FNh5cqVUV1dHbfeemtcddVVqa/96KOPxmWXXbbbh9fq1avjjjvuiD59+sRee+0VkyZNiqlTp8YTTzyxq4cGexR3voBPhQEDBsSkSZOiX79+cf/999etoeL/rFmzJk4++eR44YUX4v3334/OnTvHyJEj630wAfjkxBcAQCKfdgQASCS+AAASiS8AgETiCwAgkfgCAEgkvgAAEokvAIBE4gsAIJH4AgBI9P8AamUwFpWHyIQAAAAASUVORK5CYII=
-"
-class="
-"
->
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[129]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">ej_candidates</span><span class="p">[</span><span class="s1">&#39;N_D_MINOR_PER&#39;</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[129]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0     89.0
-1     66.0
-2     35.0
-3     84.0
-4     80.0
-      ... 
-91    72.0
-92    16.0
-93    80.0
-94    41.0
-95    54.0
-Name: N_D_MINOR_PER, Length: 96, dtype: float64</pre>
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">

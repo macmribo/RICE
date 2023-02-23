@@ -27,29 +27,29 @@ import requests # to get api data
 
 # ## 1. Load the file to filter and add FIPS codes
 
-# EJScreen API needs FIPS codes to access the EJ reports. So the first step is to load the file we want to use, in our case 'RELOG_import_data/CandidateLocations_CA.csv'.
+# EJScreen API needs FIPS codes to access the EJ reports. So the first step is to load the file we want to use, in our case 'RELOG_import_data/CandidateLocations_CA_CASE0'.
 
-# In[26]:
+# In[4]:
 
 
-candidates_raw = pd.read_csv('RELOG_import_data/CandidateLocations_CA.csv')
+candidates_raw = pd.read_csv('RELOG_import_data/CandidateLocations_CA_CASE0.csv')
 candidates_lat_long = candidates_raw.drop(['name', 'area cost factor'], axis=1, inplace= False)
 
 
-# In[27]:
+# In[5]:
 
 
 candidates_lat_long
 
 
-# In[33]:
+# In[6]:
 
 
 fips_county_codes = []
 fips_state_codes = []
 
 
-# In[34]:
+# In[7]:
 
 
 # Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes
@@ -72,7 +72,7 @@ for lat, lon in candidates_lat_long.itertuples(index=False):
     #Print FIPS code
 
 
-# In[37]:
+# In[8]:
 
 
 candidates_lat_long['fips_county'] = fips_county_codes
@@ -81,13 +81,13 @@ candidates_lat_long['fips_state'] = fips_state_codes
 
 # Let's reshape the dataframe to have the names back and all the  EJ indices in the dataframe related to the fips codes.
 
-# In[60]:
+# In[9]:
 
 
 ej_candidates = candidates_lat_long.copy()
 
 
-# In[62]:
+# In[10]:
 
 
 ej_candidates['name'] = candidates_raw['name']
@@ -95,44 +95,62 @@ ej_candidates['name'] = candidates_raw['name']
 
 # Now, I am going to query a random fips code to get the column names.
 
-# In[66]:
+# In[11]:
 
 
 ej_query = requests.get(f'https://ejscreen.epa.gov/mapper/ejscreenRESTbroker.aspx?namestr=Pickens County&geometry=&distance=&unit=9035&areatype=county&areaid=35003&f=pjson')
 ej_query_keys = [keys for keys in ej_query.json().keys()]
 
 
-# In[68]:
+# In[20]:
+
+
+ej_candidates
+
+
+# In[12]:
 
 
 ej_candidates[ej_query_keys] = np.nan
 
 
-# In[76]:
+# In[29]:
 
 
 ej_query_values = [value for value in ej_query.json().values()]
 
 
-# In[87]:
+# In[30]:
 
 
-ej_candidates.loc[ej_candidates['fips_county'] == '35003', 'RAW_D_MINOR':] = ej_query_values
+ej_query_values
 
 
-# In[89]:
+# In[26]:
 
 
-ej_candidates.loc[ej_candidates['fips_county'] == '35003', 'RAW_D_MINOR':]
+ej_candidates.loc[ej_candidates['fips_county'] == '36047', 'RAW_D_MINOR':] = ej_query_values
 
 
-# In[90]:
+# In[27]:
 
 
-ej_candidates[ej_query_keys][ej_candidates['fips_county'] == '35003']
+ej_candidates.loc[ej_candidates['fips_county'] == '36047', 'RAW_D_MINOR':]
 
 
-# In[91]:
+# In[39]:
+
+
+ej_candidates[ej_query_keys][ej_candidates['fips_county'] == '36047']
+
+
+# In[40]:
+
+
+fips_list = [fips for fips in ej_candidates['fips_county']]
+
+
+# In[41]:
 
 
 for fips in fips_list:
@@ -144,46 +162,37 @@ for fips in fips_list:
 
 # There are some percentages values that prevent me from making these numbers floats, so I am going to get rid of the %, I know what is percentage and what is percentile based on the 'EJ_json_dictionary_help.xlsx' file in the folder 'miscellaneous', you can also see a sample of these values from the EJ report screen capture [here](miscellaneous/json_variables_explained.png).
 
-# In[100]:
+# In[43]:
+
+
+ej_candidates.head()
+
+
+# In[44]:
 
 
 ej_candidates = ej_candidates.replace({'%':''}, regex=True)
 ej_candidates = ej_candidates.replace('N/A',np.nan)
 
 
-# In[121]:
+# In[45]:
 
 
 ej_candidates.loc[:, 'RAW_D_MINOR':'N_P_UST'] = ej_candidates.loc[:, 'RAW_D_MINOR':'N_P_UST'].astype(float)
 ej_candidates.loc[:, 'totalPop':'areaid'] = ej_candidates.loc[:, 'totalPop':'areaid'].astype(float)
 
 
-# In[122]:
+# In[46]:
 
 
 ej_candidates.info()
 
 
-# In[116]:
+# In[50]:
 
 
-ej_candidates['name']
-
-
-# In[132]:
-
-
-plt.bar("name", ("N_D_MINOR", "N_D_MINOR_PER"), data = ej_candidates)
-plt.xlabel("County")
-plt.ylabel("Population")
-#plt.title("")
-plt.show()
-
-
-# In[129]:
-
-
-ej_candidates['N_D_MINOR_PER']
+cwd = os.getcwd()
+ej_candidates.to_csv(os.path.join('EJ_files', 'candidate_locations_with_EJ.csv'), index=False)
 
 
 # In[ ]:

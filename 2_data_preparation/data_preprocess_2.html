@@ -14595,7 +14595,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p>To accommodate, I will do the following:</p>
 <ol>
 <li>Load the waste material data.</li>
-<li>Get the total PV module waste generated from 2023 to 2050. <em>Note: The 2023 files include waste accumulated from 2010 to 2023</em>.</li>
+<li>Get the total PV module waste generated from 2025 to 2050. <em>Note: The 2025 files include waste accumulated from 2010 to 2025</em>.</li>
 <li>Calculate % of specific material per tonne of total PV waste.</li>
 </ol>
 <p><strong>*NOTE:</strong> All quantities are given in <strong>metric tonnes</strong>.*</p>
@@ -14619,7 +14619,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[96]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -14662,7 +14662,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[97]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mats</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;csi&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte&#39;</span><span class="p">]</span>
@@ -14693,10 +14693,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[98]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">simulation</span> <span class="o">=</span> <span class="s1">&#39;Ordered&#39;</span> <span class="c1"># Change this one for the files you wish to load</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">simulation</span> <span class="o">=</span> <span class="s1">&#39;Method3&#39;</span> <span class="c1"># Change this one for the files you wish to load</span>
 </pre></div>
 
      </div>
@@ -14709,11 +14709,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[99]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span> <span class="c1">#current folder</span>
-<span class="n">pv_ice_output</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;PV_ICE_separate_outputs&#39;</span><span class="p">,</span> <span class="n">simulation</span><span class="p">)</span>
+<span class="n">pv_ice_output</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;PV_ICE_clean_outputs&#39;</span><span class="p">,</span> <span class="n">simulation</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14726,26 +14726,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[100]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cols</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pv_ice_output</span><span class="p">,</span> <span class="s2">&quot;csi_wasteEOL_Module.csv&quot;</span><span class="p">),</span> <span class="n">nrows</span> <span class="o">=</span><span class="mi">1</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rem_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;2010&#39;</span><span class="p">,</span><span class="s1">&#39;longitude&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude&#39;</span><span class="p">,</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="s1">&#39;45&#39;</span><span class="p">,</span> <span class="s1">&#39;total waste&#39;</span><span class="p">]</span>
 </pre></div>
 
      </div>
@@ -14758,7 +14742,111 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[101]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cols</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[101]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[&#39;0&#39;,
+ &#39;2010&#39;,
+ &#39;2011&#39;,
+ &#39;2012&#39;,
+ &#39;2013&#39;,
+ &#39;2014&#39;,
+ &#39;2015&#39;,
+ &#39;2016&#39;,
+ &#39;2017&#39;,
+ &#39;2018&#39;,
+ &#39;2019&#39;,
+ &#39;2020&#39;,
+ &#39;2021&#39;,
+ &#39;2022&#39;,
+ &#39;2023&#39;,
+ &#39;2024&#39;,
+ &#39;2025&#39;,
+ &#39;2026&#39;,
+ &#39;2027&#39;,
+ &#39;2028&#39;,
+ &#39;2029&#39;,
+ &#39;2030&#39;,
+ &#39;2031&#39;,
+ &#39;2032&#39;,
+ &#39;2033&#39;,
+ &#39;2034&#39;,
+ &#39;2035&#39;,
+ &#39;2036&#39;,
+ &#39;2037&#39;,
+ &#39;2038&#39;,
+ &#39;2039&#39;,
+ &#39;2040&#39;,
+ &#39;2041&#39;,
+ &#39;2042&#39;,
+ &#39;2043&#39;,
+ &#39;2044&#39;,
+ &#39;2045&#39;,
+ &#39;2046&#39;,
+ &#39;2047&#39;,
+ &#39;2048&#39;,
+ &#39;2049&#39;,
+ &#39;2050&#39;,
+ &#39;longitude&#39;,
+ &#39;latitude&#39;,
+ &#39;FIPS&#39;,
+ &#39;45&#39;,
+ &#39;46&#39;,
+ &#39;total waste&#39;]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[102]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">rem_cols</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;2010&#39;</span><span class="p">,</span><span class="s1">&#39;longitude&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude&#39;</span><span class="p">,</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="s1">&#39;45&#39;</span><span class="p">,</span> <span class="s1">&#39;46&#39;</span><span class="p">,</span> <span class="s1">&#39;total waste&#39;</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[103]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="p">[</span><span class="n">cols</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">item</span><span class="p">)</span> <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">rem_cols</span><span class="p">]</span> <span class="c1"># This one only works once! It will throw an error if you run it again.</span>
@@ -14779,13 +14867,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[103]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[None, None, None, None, None, None, None]</pre>
+<pre>[None, None, None, None, None, None, None, None]</pre>
 </div>
 
 </div>
@@ -14811,7 +14899,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[104]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">materials</span> <span class="o">=</span> <span class="p">[]</span>
@@ -14856,12 +14944,361 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[105]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_cadmium</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[105]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>2011</th>
+      <th>2012</th>
+      <th>2013</th>
+      <th>2014</th>
+      <th>2015</th>
+      <th>2016</th>
+      <th>2017</th>
+      <th>2018</th>
+      <th>2019</th>
+      <th>2020</th>
+      <th>...</th>
+      <th>2041</th>
+      <th>2042</th>
+      <th>2043</th>
+      <th>2044</th>
+      <th>2045</th>
+      <th>2046</th>
+      <th>2047</th>
+      <th>2048</th>
+      <th>2049</th>
+      <th>2050</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>5.752115e-14</td>
+      <td>1.080357e-11</td>
+      <td>5.875183e-10</td>
+      <td>7.918871e-09</td>
+      <td>5.153066e-08</td>
+      <td>2.195134e-07</td>
+      <td>7.143339e-07</td>
+      <td>1.938872e-06</td>
+      <td>4.626485e-06</td>
+      <td>1.003050e-05</td>
+      <td>...</td>
+      <td>0.023216</td>
+      <td>0.030126</td>
+      <td>0.061145</td>
+      <td>0.078896</td>
+      <td>0.049779</td>
+      <td>0.085559</td>
+      <td>0.076219</td>
+      <td>0.097107</td>
+      <td>0.135560</td>
+      <td>0.147769</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>1.808956e-09</td>
+      <td>1.721805e-07</td>
+      <td>2.367338e-06</td>
+      <td>1.465366e-05</td>
+      <td>5.908301e-05</td>
+      <td>1.827862e-04</td>
+      <td>4.737170e-04</td>
+      <td>1.084313e-03</td>
+      <td>2.266552e-03</td>
+      <td>4.421215e-03</td>
+      <td>...</td>
+      <td>1.858654</td>
+      <td>2.245478</td>
+      <td>6.232513</td>
+      <td>7.842521</td>
+      <td>1.690841</td>
+      <td>3.629486</td>
+      <td>1.963367</td>
+      <td>2.312896</td>
+      <td>3.687166</td>
+      <td>2.761815</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>1.694838e-14</td>
+      <td>2.724909e-12</td>
+      <td>5.842517e-11</td>
+      <td>5.452053e-10</td>
+      <td>3.086637e-09</td>
+      <td>1.262148e-08</td>
+      <td>4.191722e-08</td>
+      <td>...</td>
+      <td>0.006371</td>
+      <td>0.008912</td>
+      <td>0.012808</td>
+      <td>0.017421</td>
+      <td>0.022241</td>
+      <td>0.039590</td>
+      <td>0.036733</td>
+      <td>0.048599</td>
+      <td>0.069535</td>
+      <td>0.079487</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>8.860626e-11</td>
+      <td>8.441458e-09</td>
+      <td>1.166983e-07</td>
+      <td>7.285446e-07</td>
+      <td>2.964698e-06</td>
+      <td>9.237581e-06</td>
+      <td>2.398433e-05</td>
+      <td>5.457889e-05</td>
+      <td>1.124952e-04</td>
+      <td>2.148577e-04</td>
+      <td>...</td>
+      <td>0.521375</td>
+      <td>0.690327</td>
+      <td>1.131361</td>
+      <td>1.465759</td>
+      <td>1.353174</td>
+      <td>2.245920</td>
+      <td>2.035623</td>
+      <td>2.555140</td>
+      <td>3.492940</td>
+      <td>3.779274</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>6.119912e-11</td>
+      <td>5.817866e-09</td>
+      <td>7.939714e-08</td>
+      <td>4.856679e-07</td>
+      <td>1.931009e-06</td>
+      <td>5.879997e-06</td>
+      <td>1.494215e-05</td>
+      <td>3.332803e-05</td>
+      <td>6.737701e-05</td>
+      <td>1.261748e-04</td>
+      <td>...</td>
+      <td>0.164780</td>
+      <td>0.224648</td>
+      <td>0.315238</td>
+      <td>0.417723</td>
+      <td>0.515903</td>
+      <td>0.921054</td>
+      <td>0.797188</td>
+      <td>1.027222</td>
+      <td>1.463323</td>
+      <td>1.592708</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>1.847965e-14</td>
+      <td>2.971102e-12</td>
+      <td>6.409312e-11</td>
+      <td>6.563110e-10</td>
+      <td>4.591207e-09</td>
+      <td>2.422456e-08</td>
+      <td>1.021354e-07</td>
+      <td>...</td>
+      <td>0.108610</td>
+      <td>0.159872</td>
+      <td>0.242277</td>
+      <td>0.343570</td>
+      <td>0.454603</td>
+      <td>0.662445</td>
+      <td>0.846283</td>
+      <td>1.135543</td>
+      <td>1.519654</td>
+      <td>1.936906</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>1.459924e-13</td>
+      <td>2.347222e-11</td>
+      <td>5.043119e-10</td>
+      <td>4.861690e-09</td>
+      <td>2.987128e-08</td>
+      <td>1.377668e-07</td>
+      <td>5.329233e-07</td>
+      <td>...</td>
+      <td>0.285892</td>
+      <td>0.377021</td>
+      <td>0.520767</td>
+      <td>0.664370</td>
+      <td>0.759606</td>
+      <td>1.234537</td>
+      <td>1.065555</td>
+      <td>1.287140</td>
+      <td>1.717347</td>
+      <td>1.745162</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>3.268893e-11</td>
+      <td>3.137344e-09</td>
+      <td>4.527256e-08</td>
+      <td>3.010765e-07</td>
+      <td>1.309196e-06</td>
+      <td>4.340044e-06</td>
+      <td>1.193483e-05</td>
+      <td>2.870804e-05</td>
+      <td>6.255202e-05</td>
+      <td>1.264075e-04</td>
+      <td>...</td>
+      <td>0.238674</td>
+      <td>0.310977</td>
+      <td>0.661133</td>
+      <td>0.858144</td>
+      <td>0.514980</td>
+      <td>0.910334</td>
+      <td>0.818297</td>
+      <td>1.064822</td>
+      <td>1.513529</td>
+      <td>1.687112</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>8.848106e-12</td>
+      <td>9.086496e-10</td>
+      <td>1.796881e-08</td>
+      <td>1.646552e-07</td>
+      <td>9.107926e-07</td>
+      <td>3.612491e-06</td>
+      <td>1.153433e-05</td>
+      <td>3.188977e-05</td>
+      <td>7.959991e-05</td>
+      <td>1.835526e-04</td>
+      <td>...</td>
+      <td>0.663763</td>
+      <td>0.800102</td>
+      <td>2.067755</td>
+      <td>2.583117</td>
+      <td>0.648358</td>
+      <td>1.668397</td>
+      <td>0.606052</td>
+      <td>0.680005</td>
+      <td>1.321706</td>
+      <td>0.626148</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>2.492138e-13</td>
+      <td>4.006785e-11</td>
+      <td>8.598985e-10</td>
+      <td>8.143624e-09</td>
+      <td>4.789948e-08</td>
+      <td>2.070935e-07</td>
+      <td>7.332057e-07</td>
+      <td>...</td>
+      <td>0.226035</td>
+      <td>0.301673</td>
+      <td>0.424972</td>
+      <td>0.549808</td>
+      <td>0.634538</td>
+      <td>0.999345</td>
+      <td>0.939105</td>
+      <td>1.157749</td>
+      <td>1.533785</td>
+      <td>1.654197</td>
+    </tr>
+  </tbody>
+</table>
+<p>134 rows × 40 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[106]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">material</span> <span class="ow">in</span> <span class="n">materials</span><span class="p">:</span>
@@ -14871,6 +15308,355 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[107]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_tellurium</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[107]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>2011</th>
+      <th>2012</th>
+      <th>2013</th>
+      <th>2014</th>
+      <th>2015</th>
+      <th>2016</th>
+      <th>2017</th>
+      <th>2018</th>
+      <th>2019</th>
+      <th>2020</th>
+      <th>...</th>
+      <th>2042</th>
+      <th>2043</th>
+      <th>2044</th>
+      <th>2045</th>
+      <th>2046</th>
+      <th>2047</th>
+      <th>2048</th>
+      <th>2049</th>
+      <th>2050</th>
+      <th>total waste</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6.529342e-14</td>
+      <td>1.226335e-11</td>
+      <td>6.669039e-10</td>
+      <td>8.988870e-09</td>
+      <td>5.849349e-08</td>
+      <td>2.491741e-07</td>
+      <td>8.108549e-07</td>
+      <td>2.200853e-06</td>
+      <td>5.251617e-06</td>
+      <td>1.138583e-05</td>
+      <td>...</td>
+      <td>0.035342</td>
+      <td>0.071160</td>
+      <td>0.092177</td>
+      <td>0.060340</td>
+      <td>0.102618</td>
+      <td>0.094250</td>
+      <td>0.120906</td>
+      <td>0.168358</td>
+      <td>0.187022</td>
+      <td>1.196831</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2.053382e-09</td>
+      <td>1.954456e-07</td>
+      <td>2.687213e-06</td>
+      <td>1.663367e-05</td>
+      <td>6.706632e-05</td>
+      <td>2.074843e-04</td>
+      <td>5.377257e-04</td>
+      <td>1.230825e-03</td>
+      <td>2.572809e-03</td>
+      <td>5.018610e-03</td>
+      <td>...</td>
+      <td>2.563033</td>
+      <td>7.096308</td>
+      <td>8.934583</td>
+      <td>1.966675</td>
+      <td>4.187813</td>
+      <td>2.324175</td>
+      <td>2.757320</td>
+      <td>4.364268</td>
+      <td>3.373239</td>
+      <td>96.237594</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>1.923845e-14</td>
+      <td>3.093099e-12</td>
+      <td>6.631959e-11</td>
+      <td>6.188736e-10</td>
+      <td>3.503704e-09</td>
+      <td>1.432689e-08</td>
+      <td>4.758109e-08</td>
+      <td>...</td>
+      <td>0.010822</td>
+      <td>0.015619</td>
+      <td>0.021391</td>
+      <td>0.027610</td>
+      <td>0.048328</td>
+      <td>0.046462</td>
+      <td>0.061748</td>
+      <td>0.087857</td>
+      <td>0.102116</td>
+      <td>0.450552</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1.005788e-10</td>
+      <td>9.582070e-09</td>
+      <td>1.324666e-07</td>
+      <td>8.269857e-07</td>
+      <td>3.365289e-06</td>
+      <td>1.048577e-05</td>
+      <td>2.722510e-05</td>
+      <td>6.195361e-05</td>
+      <td>1.276955e-04</td>
+      <td>2.438893e-04</td>
+      <td>...</td>
+      <td>0.810297</td>
+      <td>1.325095</td>
+      <td>1.724908</td>
+      <td>1.625393</td>
+      <td>2.677527</td>
+      <td>2.490910</td>
+      <td>3.149283</td>
+      <td>4.302459</td>
+      <td>4.739481</td>
+      <td>25.670384</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>6.946836e-11</td>
+      <td>6.603978e-09</td>
+      <td>9.012531e-08</td>
+      <td>5.512914e-07</td>
+      <td>2.191927e-06</td>
+      <td>6.674503e-06</td>
+      <td>1.696114e-05</td>
+      <td>3.783132e-05</td>
+      <td>7.648101e-05</td>
+      <td>1.432236e-04</td>
+      <td>...</td>
+      <td>0.267725</td>
+      <td>0.377310</td>
+      <td>0.503285</td>
+      <td>0.628212</td>
+      <td>1.106581</td>
+      <td>0.990807</td>
+      <td>1.284648</td>
+      <td>1.821932</td>
+      <td>2.022181</td>
+      <td>9.928777</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>2.097662e-14</td>
+      <td>3.372557e-12</td>
+      <td>7.275340e-11</td>
+      <td>7.449919e-10</td>
+      <td>5.211572e-09</td>
+      <td>2.749779e-08</td>
+      <td>1.159359e-07</td>
+      <td>...</td>
+      <td>0.198685</td>
+      <td>0.301361</td>
+      <td>0.429386</td>
+      <td>0.573658</td>
+      <td>0.834575</td>
+      <td>1.076843</td>
+      <td>1.449458</td>
+      <td>1.942635</td>
+      <td>2.488480</td>
+      <td>9.674381</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>1.657190e-13</td>
+      <td>2.664379e-11</td>
+      <td>5.724547e-10</td>
+      <td>5.518603e-09</td>
+      <td>3.390750e-08</td>
+      <td>1.563819e-07</td>
+      <td>6.049321e-07</td>
+      <td>...</td>
+      <td>0.437687</td>
+      <td>0.606019</td>
+      <td>0.776394</td>
+      <td>0.894801</td>
+      <td>1.448023</td>
+      <td>1.275184</td>
+      <td>1.551719</td>
+      <td>2.072351</td>
+      <td>2.144719</td>
+      <td>12.394876</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>3.710587e-11</td>
+      <td>3.561263e-09</td>
+      <td>5.138980e-08</td>
+      <td>3.417580e-07</td>
+      <td>1.486094e-06</td>
+      <td>4.926472e-06</td>
+      <td>1.354747e-05</td>
+      <td>3.258708e-05</td>
+      <td>7.100407e-05</td>
+      <td>1.434877e-04</td>
+      <td>...</td>
+      <td>0.367218</td>
+      <td>0.772238</td>
+      <td>1.006649</td>
+      <td>0.632186</td>
+      <td>1.101612</td>
+      <td>1.024897</td>
+      <td>1.341314</td>
+      <td>1.897889</td>
+      <td>2.154601</td>
+      <td>12.764027</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>1.004366e-11</td>
+      <td>1.031427e-09</td>
+      <td>2.039676e-08</td>
+      <td>1.869034e-07</td>
+      <td>1.033859e-06</td>
+      <td>4.100612e-06</td>
+      <td>1.309285e-05</td>
+      <td>3.619872e-05</td>
+      <td>9.035547e-05</td>
+      <td>2.083543e-04</td>
+      <td>...</td>
+      <td>0.911121</td>
+      <td>2.351605</td>
+      <td>2.938809</td>
+      <td>0.745707</td>
+      <td>1.907800</td>
+      <td>0.707590</td>
+      <td>0.799020</td>
+      <td>1.537093</td>
+      <td>0.759760</td>
+      <td>22.278561</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>0.000000e+00</td>
+      <td>2.828877e-13</td>
+      <td>4.548182e-11</td>
+      <td>9.760882e-10</td>
+      <td>9.243992e-09</td>
+      <td>5.437167e-08</td>
+      <td>2.350760e-07</td>
+      <td>8.322767e-07</td>
+      <td>...</td>
+      <td>0.352684</td>
+      <td>0.498085</td>
+      <td>0.647556</td>
+      <td>0.754593</td>
+      <td>1.183575</td>
+      <td>1.135198</td>
+      <td>1.409746</td>
+      <td>1.870634</td>
+      <td>2.050318</td>
+      <td>10.864012</td>
+    </tr>
+  </tbody>
+</table>
+<p>134 rows × 41 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14902,7 +15688,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[108]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">vnames</span> <span class="o">=</span> <span class="p">[</span><span class="n">name</span> <span class="k">for</span> <span class="n">name</span> <span class="ow">in</span> <span class="nb">globals</span><span class="p">()]</span> 
@@ -14928,7 +15714,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>[&#39;__name__&#39;, &#39;__doc__&#39;, &#39;__package__&#39;, &#39;__loader__&#39;, &#39;__spec__&#39;, &#39;__builtin__&#39;, &#39;__builtins__&#39;, &#39;_ih&#39;, &#39;_oh&#39;, &#39;_dh&#39;, &#39;In&#39;, &#39;Out&#39;, &#39;get_ipython&#39;, &#39;exit&#39;, &#39;quit&#39;, &#39;_&#39;, &#39;__&#39;, &#39;___&#39;, &#39;_i&#39;, &#39;_ii&#39;, &#39;_iii&#39;, &#39;_i1&#39;, &#39;simulation&#39;, &#39;_i2&#39;, &#39;_i3&#39;, &#39;np&#39;, &#39;pd&#39;, &#39;os&#39;, &#39;sys&#39;, &#39;plt&#39;, &#39;Path&#39;, &#39;_i4&#39;, &#39;mats&#39;, &#39;material_list_csi&#39;, &#39;material_list_cdte&#39;, &#39;_i5&#39;, &#39;_i6&#39;, &#39;cwd&#39;, &#39;_i7&#39;, &#39;pv_ice_output&#39;, &#39;_i8&#39;, &#39;_8&#39;, &#39;_i9&#39;, &#39;_i10&#39;, &#39;cols&#39;, &#39;_i11&#39;, &#39;rem_cols&#39;, &#39;_i12&#39;, &#39;_12&#39;, &#39;_i13&#39;, &#39;_i14&#39;, &#39;_i15&#39;, &#39;_i16&#39;, &#39;_i17&#39;, &#39;_i18&#39;, &#39;_i19&#39;, &#39;_19&#39;, &#39;_i20&#39;, &#39;materials&#39;, &#39;y&#39;, &#39;x&#39;, &#39;csi_glass&#39;, &#39;csi_silicon&#39;, &#39;csi_silver&#39;, &#39;csi_copper&#39;, &#39;csi_aluminium_frames&#39;, &#39;csi_encapsulant&#39;, &#39;csi_backsheet&#39;, &#39;csi_Module&#39;, &#39;cdte_cadmium&#39;, &#39;cdte_tellurium&#39;, &#39;cdte_glass_cdte&#39;, &#39;cdte_aluminium_frames_cdte&#39;, &#39;cdte_Module&#39;, &#39;cdte_copper_cdte&#39;, &#39;cdte_encapsulant_cdte&#39;, &#39;_i21&#39;, &#39;material&#39;, &#39;_i22&#39;]
+<pre>[&#39;__name__&#39;, &#39;__doc__&#39;, &#39;__package__&#39;, &#39;__loader__&#39;, &#39;__spec__&#39;, &#39;__builtin__&#39;, &#39;__builtins__&#39;, &#39;_ih&#39;, &#39;_oh&#39;, &#39;_dh&#39;, &#39;In&#39;, &#39;Out&#39;, &#39;get_ipython&#39;, &#39;exit&#39;, &#39;quit&#39;, &#39;_&#39;, &#39;__&#39;, &#39;___&#39;, &#39;_i&#39;, &#39;_ii&#39;, &#39;_iii&#39;, &#39;_i1&#39;, &#39;np&#39;, &#39;pd&#39;, &#39;os&#39;, &#39;sys&#39;, &#39;plt&#39;, &#39;Path&#39;, &#39;_i2&#39;, &#39;mats&#39;, &#39;material_list_csi&#39;, &#39;material_list_cdte&#39;, &#39;_i3&#39;, &#39;simulation&#39;, &#39;_i4&#39;, &#39;cwd&#39;, &#39;pv_ice_output&#39;, &#39;_i5&#39;, &#39;cols&#39;, &#39;_i6&#39;, &#39;_6&#39;, &#39;_i7&#39;, &#39;rem_cols&#39;, &#39;_i8&#39;, &#39;_8&#39;, &#39;_i9&#39;, &#39;materials&#39;, &#39;y&#39;, &#39;x&#39;, &#39;csi_glass&#39;, &#39;csi_silicon&#39;, &#39;csi_silver&#39;, &#39;csi_copper&#39;, &#39;csi_aluminium_frames&#39;, &#39;csi_encapsulant&#39;, &#39;csi_backsheet&#39;, &#39;csi_Module&#39;, &#39;cdte_cadmium&#39;, &#39;cdte_tellurium&#39;, &#39;cdte_glass_cdte&#39;, &#39;cdte_aluminium_frames_cdte&#39;, &#39;cdte_Module&#39;, &#39;cdte_copper_cdte&#39;, &#39;cdte_encapsulant_cdte&#39;, &#39;_i10&#39;, &#39;_10&#39;, &#39;_i11&#39;, &#39;material&#39;, &#39;_i12&#39;, &#39;_12&#39;, &#39;_i13&#39;, &#39;_13&#39;, &#39;_i14&#39;, &#39;vnames&#39;, &#39;_i15&#39;, &#39;material_vars&#39;, &#39;_i16&#39;, &#39;total_wastes&#39;, &#39;_i17&#39;, &#39;_i18&#39;, &#39;_18&#39;, &#39;_i19&#39;, &#39;total_waste&#39;, &#39;_i20&#39;, &#39;_i21&#39;, &#39;_21&#39;, &#39;_i22&#39;, &#39;_22&#39;, &#39;_i23&#39;, &#39;total_pv_waste&#39;, &#39;_i24&#39;, &#39;_24&#39;, &#39;_i25&#39;, &#39;_i26&#39;, &#39;_i27&#39;, &#39;_i28&#39;, &#39;_28&#39;, &#39;_i29&#39;, &#39;_i30&#39;, &#39;_30&#39;, &#39;_i31&#39;, &#39;tt_contaminated_glass&#39;, &#39;_31&#39;, &#39;_i32&#39;, &#39;tt_cadmium_waste&#39;, &#39;_i33&#39;, &#39;_33&#39;, &#39;_i34&#39;, &#39;tt_all_waste&#39;, &#39;_i35&#39;, &#39;tt_other_waste&#39;, &#39;_i36&#39;, &#39;_36&#39;, &#39;_i37&#39;, &#39;_i38&#39;, &#39;_38&#39;, &#39;_i39&#39;, &#39;_i40&#39;, &#39;_i41&#39;, &#39;_i42&#39;, &#39;_i43&#39;, &#39;_43&#39;, &#39;_i44&#39;, &#39;_i45&#39;, &#39;_45&#39;, &#39;_i46&#39;, &#39;_i47&#39;, &#39;_47&#39;, &#39;_i48&#39;, &#39;_i49&#39;, &#39;_49&#39;, &#39;_i50&#39;, &#39;_i51&#39;, &#39;_i52&#39;, &#39;_i53&#39;, &#39;_i54&#39;, &#39;_i55&#39;, &#39;_55&#39;, &#39;_i56&#39;, &#39;_i57&#39;, &#39;_57&#39;, &#39;_i58&#39;, &#39;_i59&#39;, &#39;_59&#39;, &#39;_i60&#39;, &#39;_i61&#39;, &#39;_61&#39;, &#39;_i62&#39;, &#39;_i63&#39;, &#39;_i64&#39;, &#39;_i65&#39;, &#39;_i66&#39;, &#39;_66&#39;, &#39;_i67&#39;, &#39;_i68&#39;, &#39;_i69&#39;, &#39;_69&#39;, &#39;_i70&#39;, &#39;_70&#39;, &#39;_i71&#39;, &#39;_i72&#39;, &#39;_72&#39;, &#39;_i73&#39;, &#39;_i74&#39;, &#39;_i75&#39;, &#39;_i76&#39;, &#39;_76&#39;, &#39;_i77&#39;, &#39;_i78&#39;, &#39;_78&#39;, &#39;_i79&#39;, &#39;_79&#39;, &#39;_i80&#39;, &#39;_i81&#39;, &#39;_i82&#39;, &#39;_82&#39;, &#39;_i83&#39;, &#39;_i84&#39;, &#39;_i85&#39;, &#39;_85&#39;, &#39;_i86&#39;, &#39;_i87&#39;, &#39;_i88&#39;, &#39;_88&#39;, &#39;_i89&#39;, &#39;_i90&#39;, &#39;_90&#39;, &#39;_i91&#39;, &#39;_i92&#39;, &#39;_i93&#39;, &#39;_i94&#39;, &#39;_i95&#39;, &#39;_95&#39;, &#39;_i96&#39;, &#39;_i97&#39;, &#39;_i98&#39;, &#39;_i99&#39;, &#39;_i100&#39;, &#39;_i101&#39;, &#39;_101&#39;, &#39;_i102&#39;, &#39;_i103&#39;, &#39;_103&#39;, &#39;_i104&#39;, &#39;_i105&#39;, &#39;_105&#39;, &#39;_i106&#39;, &#39;_i107&#39;, &#39;_107&#39;, &#39;_i108&#39;]
 </pre>
 </div>
 </div>
@@ -14942,7 +15728,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[109]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">material_vars</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;csi_glass&#39;</span><span class="p">,</span> <span class="s1">&#39;csi_silicon&#39;</span><span class="p">,</span> <span class="s1">&#39;csi_silver&#39;</span><span class="p">,</span> <span class="s1">&#39;csi_copper&#39;</span><span class="p">,</span> <span class="s1">&#39;csi_aluminium_frames&#39;</span><span class="p">,</span> <span class="s1">&#39;csi_encapsulant&#39;</span><span class="p">,</span> <span class="s1">&#39;csi_backsheet&#39;</span><span class="p">,</span> <span class="s1">&#39;csi_Module&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte_cadmium&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte_tellurium&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte_glass_cdte&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte_aluminium_frames_cdte&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte_Module&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte_copper_cdte&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte_encapsulant_cdte&#39;</span><span class="p">]</span>
@@ -14958,7 +15744,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[110]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">()</span>
@@ -14974,7 +15760,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[111]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">material_vars</span>
@@ -14990,7 +15776,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[112]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">material_vars</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
@@ -15011,7 +15797,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[112]:</div>
 
 
 
@@ -15031,7 +15817,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[113]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_waste</span> <span class="o">=</span> <span class="p">[]</span>
@@ -15049,7 +15835,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[114]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Total waste&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">total_waste</span>
@@ -15078,6 +15864,18 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>This section shows how the Inputs &amp; Outputs section of the PV Recycling plant was calculated.</p>
+
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Calculate total PV input (cSi + CdTe).</p>
 
 </div>
@@ -15088,7 +15886,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[115]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;csi_Module&#39;</span><span class="p">][</span><span class="s1">&#39;Total waste&#39;</span><span class="p">]</span>
@@ -15109,13 +15907,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[115]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>7    4.836305e+06
+<pre>7    6.430749e+06
 Name: Total waste, dtype: float64</pre>
 </div>
 
@@ -15130,7 +15928,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[116]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;cdte_Module&#39;</span><span class="p">][</span><span class="s1">&#39;Total waste&#39;</span><span class="p">]</span>
@@ -15151,13 +15949,13 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[116]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>12    972952.578257
+<pre>12    1.345260e+06
 Name: Total waste, dtype: float64</pre>
 </div>
 
@@ -15172,7 +15970,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[117]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_pv_waste</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">total_wastes</span><span class="p">[</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;csi_Module&#39;</span><span class="p">][</span><span class="s1">&#39;Total waste&#39;</span><span class="p">],</span>\
@@ -15189,7 +15987,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[118]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_pv_waste</span>
@@ -15210,13 +16008,13 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[118]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([5809257.6378295])</pre>
+<pre>array([7776008.40186959])</pre>
 </div>
 
 </div>
@@ -15230,7 +16028,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[119]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Tonnes of waste per tonne of PV&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Total waste&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">divide</span><span class="p">(</span><span class="n">total_pv_waste</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
@@ -15258,7 +16056,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[120]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Recycling Efficiencies&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.98</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.95</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">]</span>
@@ -15274,7 +16072,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[121]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Tonnes of recycled material per tonne of PV&#39;</span><span class="p">]</span> <span class="o">=</span>\
@@ -15292,7 +16090,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[122]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span>
@@ -15313,7 +16111,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[122]:</div>
 
 
 
@@ -15347,122 +16145,122 @@ Name: Total waste, dtype: float64</pre>
     <tr>
       <th>0</th>
       <td>csi_glass</td>
-      <td>3.497735e+06</td>
-      <td>0.602097</td>
+      <td>4.739718e+06</td>
+      <td>0.609531</td>
       <td>0.98</td>
-      <td>0.590055</td>
+      <td>0.597340</td>
     </tr>
     <tr>
       <th>1</th>
       <td>csi_silicon</td>
-      <td>1.765625e+05</td>
-      <td>0.030393</td>
+      <td>2.198771e+05</td>
+      <td>0.028276</td>
       <td>0.95</td>
-      <td>0.028874</td>
+      <td>0.026863</td>
     </tr>
     <tr>
       <th>2</th>
       <td>csi_silver</td>
-      <td>6.356824e+03</td>
-      <td>0.001094</td>
+      <td>2.418875e+03</td>
+      <td>0.000311</td>
       <td>0.95</td>
-      <td>0.001040</td>
+      <td>0.000296</td>
     </tr>
     <tr>
       <th>3</th>
       <td>csi_copper</td>
-      <td>7.109337e+03</td>
-      <td>0.001224</td>
+      <td>3.865457e+03</td>
+      <td>0.000497</td>
       <td>0.95</td>
-      <td>0.001163</td>
+      <td>0.000472</td>
     </tr>
     <tr>
       <th>4</th>
       <td>csi_aluminium_frames</td>
-      <td>6.211345e+05</td>
-      <td>0.106921</td>
+      <td>7.735198e+05</td>
+      <td>0.099475</td>
       <td>1.00</td>
-      <td>0.106921</td>
+      <td>0.099475</td>
     </tr>
     <tr>
       <th>5</th>
       <td>csi_encapsulant</td>
-      <td>3.574855e+05</td>
-      <td>0.061537</td>
+      <td>4.504615e+05</td>
+      <td>0.057930</td>
       <td>1.00</td>
-      <td>0.061537</td>
+      <td>0.057930</td>
     </tr>
     <tr>
       <th>6</th>
       <td>csi_backsheet</td>
-      <td>1.957394e+05</td>
-      <td>0.033694</td>
+      <td>2.408876e+05</td>
+      <td>0.030978</td>
       <td>1.00</td>
-      <td>0.033694</td>
+      <td>0.030978</td>
     </tr>
     <tr>
       <th>7</th>
       <td>csi_Module</td>
-      <td>4.836305e+06</td>
-      <td>0.832517</td>
+      <td>6.430749e+06</td>
+      <td>0.826999</td>
       <td>0.00</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>8</th>
       <td>cdte_cadmium</td>
-      <td>4.662695e+03</td>
-      <td>0.000803</td>
+      <td>4.981058e+02</td>
+      <td>0.000064</td>
       <td>0.95</td>
-      <td>0.000763</td>
+      <td>0.000061</td>
     </tr>
     <tr>
       <th>9</th>
       <td>cdte_tellurium</td>
-      <td>4.714303e+03</td>
-      <td>0.000812</td>
+      <td>5.877020e+02</td>
+      <td>0.000076</td>
       <td>0.95</td>
-      <td>0.000771</td>
+      <td>0.000072</td>
     </tr>
     <tr>
       <th>10</th>
       <td>cdte_glass_cdte</td>
-      <td>9.379065e+05</td>
-      <td>0.161450</td>
+      <td>1.274889e+06</td>
+      <td>0.163952</td>
       <td>0.90</td>
-      <td>0.145305</td>
+      <td>0.147556</td>
     </tr>
     <tr>
       <th>11</th>
       <td>cdte_aluminium_frames_cdte</td>
-      <td>1.222027e+04</td>
-      <td>0.002104</td>
+      <td>3.252188e+04</td>
+      <td>0.004182</td>
       <td>1.00</td>
-      <td>0.002104</td>
+      <td>0.004182</td>
     </tr>
     <tr>
       <th>12</th>
       <td>cdte_Module</td>
-      <td>9.729526e+05</td>
-      <td>0.167483</td>
+      <td>1.345260e+06</td>
+      <td>0.173001</td>
       <td>0.00</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>13</th>
       <td>cdte_copper_cdte</td>
-      <td>7.655154e+03</td>
-      <td>0.001318</td>
+      <td>4.675463e+03</td>
+      <td>0.000601</td>
       <td>0.95</td>
-      <td>0.001252</td>
+      <td>0.000571</td>
     </tr>
     <tr>
       <th>14</th>
       <td>cdte_encapsulant_cdte</td>
-      <td>2.730868e+04</td>
-      <td>0.004701</td>
+      <td>3.208748e+04</td>
+      <td>0.004126</td>
       <td>0.90</td>
-      <td>0.004231</td>
+      <td>0.003714</td>
     </tr>
   </tbody>
 </table>
@@ -15492,7 +16290,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[123]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Tonnes of landfilled material per PV processed&#39;</span><span class="p">]</span> <span class="o">=</span>\
@@ -15522,7 +16320,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[124]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span> 
@@ -15543,7 +16341,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[124]:</div>
 
 
 
@@ -15578,137 +16376,137 @@ Name: Total waste, dtype: float64</pre>
     <tr>
       <th>0</th>
       <td>csi_glass</td>
-      <td>3.497735e+06</td>
-      <td>0.602097</td>
+      <td>4.739718e+06</td>
+      <td>0.609531</td>
       <td>0.98</td>
-      <td>0.590055</td>
-      <td>0.012042</td>
+      <td>0.597340</td>
+      <td>0.012191</td>
     </tr>
     <tr>
       <th>1</th>
       <td>csi_silicon</td>
-      <td>1.765625e+05</td>
-      <td>0.030393</td>
+      <td>2.198771e+05</td>
+      <td>0.028276</td>
       <td>0.95</td>
-      <td>0.028874</td>
-      <td>0.001520</td>
+      <td>0.026863</td>
+      <td>0.001414</td>
     </tr>
     <tr>
       <th>2</th>
       <td>csi_silver</td>
-      <td>6.356824e+03</td>
-      <td>0.001094</td>
+      <td>2.418875e+03</td>
+      <td>0.000311</td>
       <td>0.95</td>
-      <td>0.001040</td>
-      <td>0.000055</td>
+      <td>0.000296</td>
+      <td>0.000016</td>
     </tr>
     <tr>
       <th>3</th>
       <td>csi_copper</td>
-      <td>7.109337e+03</td>
-      <td>0.001224</td>
+      <td>3.865457e+03</td>
+      <td>0.000497</td>
       <td>0.95</td>
-      <td>0.001163</td>
-      <td>0.000061</td>
+      <td>0.000472</td>
+      <td>0.000025</td>
     </tr>
     <tr>
       <th>4</th>
       <td>csi_aluminium_frames</td>
-      <td>6.211345e+05</td>
-      <td>0.106921</td>
+      <td>7.735198e+05</td>
+      <td>0.099475</td>
       <td>1.00</td>
-      <td>0.106921</td>
+      <td>0.099475</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>5</th>
       <td>csi_encapsulant</td>
-      <td>3.574855e+05</td>
-      <td>0.061537</td>
+      <td>4.504615e+05</td>
+      <td>0.057930</td>
       <td>1.00</td>
-      <td>0.061537</td>
+      <td>0.057930</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>6</th>
       <td>csi_backsheet</td>
-      <td>1.957394e+05</td>
-      <td>0.033694</td>
+      <td>2.408876e+05</td>
+      <td>0.030978</td>
       <td>1.00</td>
-      <td>0.033694</td>
+      <td>0.030978</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>7</th>
       <td>csi_Module</td>
-      <td>4.836305e+06</td>
-      <td>0.832517</td>
+      <td>6.430749e+06</td>
+      <td>0.826999</td>
       <td>0.00</td>
       <td>0.000000</td>
-      <td>0.832517</td>
+      <td>0.826999</td>
     </tr>
     <tr>
       <th>8</th>
       <td>cdte_cadmium</td>
-      <td>4.662695e+03</td>
-      <td>0.000803</td>
+      <td>4.981058e+02</td>
+      <td>0.000064</td>
       <td>0.95</td>
-      <td>0.000763</td>
-      <td>0.000040</td>
+      <td>0.000061</td>
+      <td>0.000003</td>
     </tr>
     <tr>
       <th>9</th>
       <td>cdte_tellurium</td>
-      <td>4.714303e+03</td>
-      <td>0.000812</td>
+      <td>5.877020e+02</td>
+      <td>0.000076</td>
       <td>0.95</td>
-      <td>0.000771</td>
-      <td>0.000041</td>
+      <td>0.000072</td>
+      <td>0.000004</td>
     </tr>
     <tr>
       <th>10</th>
       <td>cdte_glass_cdte</td>
-      <td>9.379065e+05</td>
-      <td>0.161450</td>
+      <td>1.274889e+06</td>
+      <td>0.163952</td>
       <td>0.90</td>
-      <td>0.145305</td>
-      <td>0.016145</td>
+      <td>0.147556</td>
+      <td>0.016395</td>
     </tr>
     <tr>
       <th>11</th>
       <td>cdte_aluminium_frames_cdte</td>
-      <td>1.222027e+04</td>
-      <td>0.002104</td>
+      <td>3.252188e+04</td>
+      <td>0.004182</td>
       <td>1.00</td>
-      <td>0.002104</td>
+      <td>0.004182</td>
       <td>0.000000</td>
     </tr>
     <tr>
       <th>12</th>
       <td>cdte_Module</td>
-      <td>9.729526e+05</td>
-      <td>0.167483</td>
+      <td>1.345260e+06</td>
+      <td>0.173001</td>
       <td>0.00</td>
       <td>0.000000</td>
-      <td>0.167483</td>
+      <td>0.173001</td>
     </tr>
     <tr>
       <th>13</th>
       <td>cdte_copper_cdte</td>
-      <td>7.655154e+03</td>
-      <td>0.001318</td>
+      <td>4.675463e+03</td>
+      <td>0.000601</td>
       <td>0.95</td>
-      <td>0.001252</td>
-      <td>0.000066</td>
+      <td>0.000571</td>
+      <td>0.000030</td>
     </tr>
     <tr>
       <th>14</th>
       <td>cdte_encapsulant_cdte</td>
-      <td>2.730868e+04</td>
-      <td>0.004701</td>
+      <td>3.208748e+04</td>
+      <td>0.004126</td>
       <td>0.90</td>
-      <td>0.004231</td>
-      <td>0.000470</td>
+      <td>0.003714</td>
+      <td>0.000413</td>
     </tr>
   </tbody>
 </table>
@@ -15738,7 +16536,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[125]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_contaminated_glass</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">total_wastes</span><span class="p">[</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;csi_glass&#39;</span><span class="p">][</span><span class="s1">&#39;Tonnes of landfilled material per PV processed&#39;</span><span class="p">],</span>\
@@ -15761,19 +16559,47 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[39]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[125]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([0.02818697])</pre>
+<pre>array([0.02858578])</pre>
 </div>
 
 </div>
 
 </div>
 
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Let's add this to the dataframe.</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[126]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">total_wastes</span><span class="o">.</span><span class="n">index</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tt_contaminated_glass&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">tt_contaminated_glass</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
@@ -15793,7 +16619,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[127]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_cadmium_waste</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">total_wastes</span><span class="p">[</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;cdte_cadmium&#39;</span><span class="p">][</span><span class="s1">&#39;Tonnes of landfilled material per PV processed&#39;</span><span class="p">])</span>
@@ -15809,7 +16635,7 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[128]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_cadmium_waste</span>
@@ -15830,19 +16656,35 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[128]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([4.01315901e-05])</pre>
+<pre>array([3.20283742e-06])</pre>
 </div>
 
 </div>
 
 </div>
 
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[129]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">total_wastes</span><span class="o">.</span><span class="n">index</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tt_cadmium_waste&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">tt_cadmium_waste</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
@@ -15862,10 +16704,11 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[140]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_all_waste</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Tonnes of landfilled material per PV processed&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_module_fakewaste</span> <span class="o">=</span> <span class="n">total_wastes</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;csi_Module&#39;</span><span class="p">][</span><span class="s1">&#39;Tonnes of landfilled material per PV processed&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">cdte_module_fakewaste</span> <span class="o">=</span> <span class="n">total_wastes</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Material&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;cdte_Module&#39;</span><span class="p">][</span><span class="s1">&#39;Tonnes of landfilled material per PV processed&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
 
      </div>
@@ -15873,27 +16716,16 @@ Name: Total waste, dtype: float64</pre>
 </div>
 </div>
 
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>I substract 1 to the count to avoid counting the csi_Modules and cdte_Modules values.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[141]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_other_waste</span> <span class="o">=</span> <span class="n">tt_all_waste</span> <span class="o">-</span> <span class="n">tt_cadmium_waste</span> <span class="o">-</span> <span class="n">tt_contaminated_glass</span> <span class="o">-</span> <span class="mi">1</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_all_waste</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">total_wastes</span><span class="p">[</span><span class="s1">&#39;Tonnes of landfilled material per PV processed&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">))</span> \
+                <span class="o">-</span> <span class="n">tt_cadmium_waste</span> <span class="o">-</span> <span class="n">tt_contaminated_glass</span> <span class="o">-</span> <span class="n">csi_module_fakewaste</span> <span class="o">-</span> <span class="n">cdte_module_fakewaste</span>
 </pre></div>
 
      </div>
@@ -15906,10 +16738,10 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[142]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_other_waste</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tt_all_waste</span>
 </pre></div>
 
      </div>
@@ -15927,19 +16759,339 @@ Name: Total waste, dtype: float64</pre>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[142]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([0.00221212])</pre>
+<pre>array([0.0304897])</pre>
 </div>
 
 </div>
 
 </div>
 
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">total_wastes</span><span class="o">.</span><span class="n">index</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tt_all_waste&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">tt_all_waste</span><span class="p">]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">total_wastes</span><span class="o">.</span><span class="n">index</span><span class="p">)]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tt_other_waste&#39;</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">tt_other_waste</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Material</th>
+      <th>Total waste</th>
+      <th>Tonnes of waste per tonne of PV</th>
+      <th>Recycling Efficiencies</th>
+      <th>Tonnes of recycled material per tonne of PV</th>
+      <th>Tonnes of landfilled material per PV processed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>csi_glass</td>
+      <td>4.739718e+06</td>
+      <td>0.609531</td>
+      <td>0.98</td>
+      <td>0.597340</td>
+      <td>0.012191</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>csi_silicon</td>
+      <td>2.198771e+05</td>
+      <td>0.028276</td>
+      <td>0.95</td>
+      <td>0.026863</td>
+      <td>0.001414</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>csi_silver</td>
+      <td>2.418875e+03</td>
+      <td>0.000311</td>
+      <td>0.95</td>
+      <td>0.000296</td>
+      <td>0.000016</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>csi_copper</td>
+      <td>3.865457e+03</td>
+      <td>0.000497</td>
+      <td>0.95</td>
+      <td>0.000472</td>
+      <td>0.000025</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>csi_aluminium_frames</td>
+      <td>7.735198e+05</td>
+      <td>0.099475</td>
+      <td>1.00</td>
+      <td>0.099475</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>csi_encapsulant</td>
+      <td>4.504615e+05</td>
+      <td>0.057930</td>
+      <td>1.00</td>
+      <td>0.057930</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>csi_backsheet</td>
+      <td>2.408876e+05</td>
+      <td>0.030978</td>
+      <td>1.00</td>
+      <td>0.030978</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>csi_Module</td>
+      <td>6.430749e+06</td>
+      <td>0.826999</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+      <td>0.826999</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>cdte_cadmium</td>
+      <td>4.981058e+02</td>
+      <td>0.000064</td>
+      <td>0.95</td>
+      <td>0.000061</td>
+      <td>0.000003</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>cdte_tellurium</td>
+      <td>5.877020e+02</td>
+      <td>0.000076</td>
+      <td>0.95</td>
+      <td>0.000072</td>
+      <td>0.000004</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>cdte_glass_cdte</td>
+      <td>1.274889e+06</td>
+      <td>0.163952</td>
+      <td>0.90</td>
+      <td>0.147556</td>
+      <td>0.016395</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>cdte_aluminium_frames_cdte</td>
+      <td>3.252188e+04</td>
+      <td>0.004182</td>
+      <td>1.00</td>
+      <td>0.004182</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>cdte_Module</td>
+      <td>1.345260e+06</td>
+      <td>0.173001</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+      <td>0.173001</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>cdte_copper_cdte</td>
+      <td>4.675463e+03</td>
+      <td>0.000601</td>
+      <td>0.95</td>
+      <td>0.000571</td>
+      <td>0.00003</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>cdte_encapsulant_cdte</td>
+      <td>3.208748e+04</td>
+      <td>0.004126</td>
+      <td>0.90</td>
+      <td>0.003714</td>
+      <td>0.000413</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>tt_contaminated_glass</td>
+      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+      <td>0.028586</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>tt_cadmium_waste</td>
+      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+      <td>0.000003</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>tt_all_waste</td>
+      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+      <td>1.0590786838039976</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>tt_other_waste</td>
+      <td>0.000000e+00</td>
+      <td>0.000000</td>
+      <td>0.00</td>
+      <td>0.000000</td>
+      <td>0.03049</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[92]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[93]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">total_wastes</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;RELOG_import_data&#39;</span><span class="p">,</span> <span class="s1">&#39;RELOG_case_builder_io.csv&#39;</span><span class="p">),</span> <span class="n">index</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">

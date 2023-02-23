@@ -9,14 +9,14 @@
 # 
 # To accommodate, I will do the following:
 # 1. Load the waste material data.
-# 2. Get the total PV module waste generated from 2023 to 2050. *Note: The 2023 files include waste accumulated from 2010 to 2023*.
+# 2. Get the total PV module waste generated from 2025 to 2050. *Note: The 2025 files include waste accumulated from 2010 to 2025*.
 # 3. Calculate % of specific material per tonne of total PV waste.
 # 
 # ***NOTE:** All quantities are given in **metric tonnes**.*
 
 # ## 0. Load necessary libraries
 
-# In[13]:
+# In[96]:
 
 
 import numpy as np
@@ -30,7 +30,7 @@ from pathlib import Path
 
 # There are a lot of files here, so let's generate a code to load all the files with their variable name.
 
-# In[14]:
+# In[97]:
 
 
 mats = ['csi', 'cdte']
@@ -42,32 +42,38 @@ material_list_cdte = ['cadmium', 'tellurium', 'glass_cdte', 'aluminium_frames_cd
 # 
 # **TO DO:** Get rid of `'Unnamed: 0'` and `0` columns in data_preprocess_1 when I save the files in the first place, it is useless. Once I fix this and re-generate the files, I have to re-write part of this code.
 
-# In[15]:
+# In[98]:
 
 
-simulation = 'Ordered' # Change this one for the files you wish to load
+simulation = 'Method3' # Change this one for the files you wish to load
 
 
-# In[16]:
+# In[99]:
 
 
 cwd = os.getcwd() #current folder
-pv_ice_output = os.path.join(cwd, 'PV_ICE_separate_outputs', simulation)
+pv_ice_output = os.path.join(cwd, 'PV_ICE_clean_outputs', simulation)
 
 
-# In[17]:
+# In[100]:
 
 
 cols = list(pd.read_csv(os.path.join(pv_ice_output, "csi_wasteEOL_Module.csv"), nrows =1))
 
 
-# In[18]:
+# In[101]:
 
 
-rem_cols = ['0','2010','longitude', 'latitude', 'FIPS', '45', 'total waste']
+cols
 
 
-# In[19]:
+# In[102]:
+
+
+rem_cols = ['0','2010','longitude', 'latitude', 'FIPS', '45', '46', 'total waste']
+
+
+# In[103]:
 
 
 [cols.remove(item) for item in rem_cols] # This one only works once! It will throw an error if you run it again.
@@ -75,7 +81,7 @@ rem_cols = ['0','2010','longitude', 'latitude', 'FIPS', '45', 'total waste']
 
 # Load the files, set the column names as int for easy access, and make a list of the variables we are creating.
 
-# In[20]:
+# In[104]:
 
 
 materials = []
@@ -96,11 +102,23 @@ for y in mats:
 
 # Sum all years to generate a `total waste` column.
 
-# In[21]:
+# In[105]:
+
+
+cdte_cadmium
+
+
+# In[106]:
 
 
 for material in materials:
     material['total waste'] = material.loc[:, :].sum(axis=1)
+
+
+# In[107]:
+
+
+cdte_tellurium
 
 
 # Get the names of the created variables, create a list and then generate a dataframe with the total generated waste by material.
@@ -108,38 +126,38 @@ for material in materials:
 # The following cell prints all the variables generated in this notebook, I copy and pasted the ones I am interested. This would be helpful to automate the total sum of wastes.
 # 
 
-# In[22]:
+# In[108]:
 
 
 vnames = [name for name in globals()] 
 print(vnames)
 
 
-# In[23]:
+# In[109]:
 
 
 material_vars = ['csi_glass', 'csi_silicon', 'csi_silver', 'csi_copper', 'csi_aluminium_frames', 'csi_encapsulant', 'csi_backsheet', 'csi_Module', 'cdte_cadmium', 'cdte_tellurium', 'cdte_glass_cdte', 'cdte_aluminium_frames_cdte', 'cdte_Module', 'cdte_copper_cdte', 'cdte_encapsulant_cdte']
 
 
-# In[24]:
+# In[110]:
 
 
 total_wastes = pd.DataFrame()
 
 
-# In[25]:
+# In[111]:
 
 
 total_wastes['Material'] = material_vars
 
 
-# In[26]:
+# In[112]:
 
 
 material_vars[1]
 
 
-# In[27]:
+# In[113]:
 
 
 total_waste = []
@@ -147,7 +165,7 @@ for mats in range(len(material_vars)):
     total_waste.append(materials[mats]['total waste'].sum(axis=0))
 
 
-# In[28]:
+# In[114]:
 
 
 total_wastes['Total waste'] = total_waste
@@ -155,33 +173,35 @@ total_wastes['Total waste'] = total_waste
 
 # ## 3. Calculate tonnes of recycled material per tonne of PV processed.
 
+# This section shows how the Inputs & Outputs section of the PV Recycling plant was calculated.
+
 # Calculate total PV input (cSi + CdTe).
 
-# In[29]:
+# In[115]:
 
 
 total_wastes[total_wastes['Material'] == 'csi_Module']['Total waste']
 
 
-# In[30]:
+# In[116]:
 
 
 total_wastes[total_wastes['Material'] == 'cdte_Module']['Total waste']
 
 
-# In[31]:
+# In[117]:
 
 
 total_pv_waste = np.array(sum(total_wastes[total_wastes['Material'] == 'csi_Module']['Total waste'],                              total_wastes[total_wastes['Material'] == 'cdte_Module']['Total waste']))
 
 
-# In[32]:
+# In[118]:
 
 
 total_pv_waste
 
 
-# In[33]:
+# In[119]:
 
 
 total_wastes['Tonnes of waste per tonne of PV'] = total_wastes['Total waste'].divide(total_pv_waste[0])
@@ -189,19 +209,19 @@ total_wastes['Tonnes of waste per tonne of PV'] = total_wastes['Total waste'].di
 
 # Now, we add a new column with the material-specific recycling efficiencies. Luckily we made a dictionary of these values in [Data Preprocess 1 Section 4.3.](./data_preprocess_1.ipynb)
 
-# In[34]:
+# In[120]:
 
 
 total_wastes['Recycling Efficiencies'] = [0.98, 0.95, 0.95, 0.95, 1, 1, 1, 0, 0.95, 0.95, 0.9, 1, 0, 0.95, 0.9]
 
 
-# In[35]:
+# In[121]:
 
 
 total_wastes['Tonnes of recycled material per tonne of PV'] =                            total_wastes['Tonnes of waste per tonne of PV'] *                            total_wastes['Recycling Efficiencies']
 
 
-# In[36]:
+# In[122]:
 
 
 total_wastes
@@ -209,7 +229,7 @@ total_wastes
 
 # We assume that the material that is not recycled is landfilled. So let's calculate that!
 
-# In[37]:
+# In[123]:
 
 
 total_wastes['Tonnes of landfilled material per PV processed'] =                        total_wastes['Tonnes of waste per tonne of PV'] -                        total_wastes['Tonnes of recycled material per tonne of PV']
@@ -217,7 +237,7 @@ total_wastes['Tonnes of landfilled material per PV processed'] =                
 
 # Ignore the csi_Module and cdte_Modules. I should probably pop them out of the dataframe but for now I am keeping them for sanity check.
 
-# In[38]:
+# In[124]:
 
 
 total_wastes 
@@ -225,47 +245,96 @@ total_wastes
 
 # Contaminated glass has to go to a special waste management, so let's put it in its own bin.
 
-# In[39]:
+# In[125]:
 
 
 tt_contaminated_glass = np.array(sum(total_wastes[total_wastes['Material'] == 'csi_glass']['Tonnes of landfilled material per PV processed'],                              total_wastes[total_wastes['Material'] == 'cdte_glass_cdte']['Tonnes of landfilled material per PV processed']))
 tt_contaminated_glass
 
 
+# Let's add this to the dataframe.
+
+# In[126]:
+
+
+total_wastes.loc[len(total_wastes.index)] = ['tt_contaminated_glass', 0, 0, 0, 0, tt_contaminated_glass[0]]
+
+
 # Same goes with cadmium waste.
 
-# In[40]:
+# In[127]:
 
 
 tt_cadmium_waste = np.array(total_wastes[total_wastes['Material'] == 'cdte_cadmium']['Tonnes of landfilled material per PV processed'])
 
 
-# In[41]:
+# In[128]:
 
 
 tt_cadmium_waste
 
 
+# In[129]:
+
+
+total_wastes.loc[len(total_wastes.index)] = ['tt_cadmium_waste', 0, 0, 0, 0, tt_cadmium_waste[0]]
+
+
 # Now let's calculate the rest of the waste:
 
-# In[42]:
+# In[140]:
 
 
-tt_all_waste = np.array(total_wastes['Tonnes of landfilled material per PV processed'].sum(axis=0))
+csi_module_fakewaste = total_wastes.loc[total_wastes['Material'] == 'csi_Module']['Tonnes of landfilled material per PV processed'].values[0]
+cdte_module_fakewaste = total_wastes.loc[total_wastes['Material'] == 'cdte_Module']['Tonnes of landfilled material per PV processed'].values[0]
 
 
-# I substract 1 to the count to avoid counting the csi_Modules and cdte_Modules values.
-
-# In[44]:
+# In[141]:
 
 
-tt_other_waste = tt_all_waste - tt_cadmium_waste - tt_contaminated_glass - 1
+tt_all_waste = np.array(total_wastes['Tonnes of landfilled material per PV processed'].sum(axis=0))                 - tt_cadmium_waste - tt_contaminated_glass - csi_module_fakewaste - cdte_module_fakewaste
 
 
-# In[45]:
+# In[142]:
 
 
-tt_other_waste
+tt_all_waste
+
+
+# In[86]:
+
+
+total_wastes.loc[len(total_wastes.index)] = ['tt_all_waste', 0, 0, 0, 0, tt_all_waste]
+
+
+# In[89]:
+
+
+total_wastes.loc[len(total_wastes.index)] = ['tt_other_waste', 0, 0, 0, 0, tt_other_waste[0]]
+
+
+# In[90]:
+
+
+total_wastes
+
+
+# In[ ]:
+
+
+
+
+
+# In[92]:
+
+
+cwd = os.getcwd()
+
+
+# In[93]:
+
+
+total_wastes.to_csv(os.path.join(cwd, 'RELOG_import_data', 'RELOG_case_builder_io.csv'), index = False)
 
 
 # In[ ]:

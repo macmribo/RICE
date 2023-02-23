@@ -8,11 +8,11 @@
 
 import json
 max_capacity = 5628
-#problem = "solver"
-problem = '20230213_ordered_waste'
+
+problem = '20230222_CASE0_v1' #paste here the simulation name (folder in input) you want to run.
 
 
-# In[3]:
+# In[2]:
 
 
 with open(f"{problem}/case.json") as infile:
