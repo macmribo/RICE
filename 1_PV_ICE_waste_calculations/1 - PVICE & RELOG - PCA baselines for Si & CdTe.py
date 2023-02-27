@@ -15,7 +15,7 @@
 #     <li> PCA data calculated with an exponencial that mathces the cumulative 2035 and 2050 targets </li>
 # </ol>
 
-# In[ ]:
+# In[1]:
 
 
 import PV_ICE
@@ -28,7 +28,7 @@ plt.rcParams.update({'font.size': 22})
 plt.rcParams['figure.figsize'] = (12, 8)
 
 
-# In[ ]:
+# In[2]:
 
 
 import os
@@ -42,7 +42,7 @@ if not os.path.exists(testfolder):
 print ("Your simulation will be stored in %s" % testfolder)
 
 
-# In[ ]:
+# In[3]:
 
 
 PV_ICE.__version__
@@ -52,14 +52,14 @@ PV_ICE.__version__
 
 # ### A. Reading a standard ReEDS output file
 
-# In[ ]:
+# In[4]:
 
 
 reedsFile = os.path.join(cwd, 'baselines','December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
 print ("Input file is stored in %s" % reedsFile)
 
 
-# In[ ]:
+# In[5]:
 
 
 REEDSInput = pd.read_excel(reedsFile,
@@ -73,7 +73,7 @@ REEDSInput = pd.read_excel(reedsFile,
 
 # #### Create a copy of the REEDS Input and modify structure for PCA focus
 
-# In[ ]:
+# In[6]:
 
 
 rawdf = REEDSInput.copy()
@@ -85,7 +85,7 @@ rawdf.head(21)
 
 # #### Loading Module Baseline. Will be used later to populate all the columns other than 'new_Installed_Capacity_[MW]' which will be supplied by the REEDS model
 
-# In[ ]:
+# In[7]:
 
 
 r1 = PV_ICE.Simulation(name='Simulation1', path=testfolder)
@@ -114,7 +114,7 @@ baselineCdTe.head()
 
 # #### For each Scenario and for each PCA, combine with baseline and save as input file
 
-# In[ ]:
+# In[8]:
 
 
 #### Set header dynamically
@@ -138,7 +138,7 @@ for x in row2[1:]:
 
 # #### Load MarketShare File
 
-# In[ ]:
+# In[9]:
 
 
 marketsharefile = os.path.join(cwd, 'baselines','output_RELOG_cSi_CdTe_capacity_reeds.csv')
@@ -149,7 +149,7 @@ marketshare.set_index('year', inplace=True)
 marketshare.head()
 
 
-# In[ ]:
+# In[10]:
 
 
 # Hack for plots.
@@ -171,13 +171,13 @@ plt.rcParams.update({'font.size': 8})
 
 # #### Method 1 
 
-# In[ ]:
+# In[11]:
 
 
 reorganize = False
 
 
-# In[ ]:
+# In[12]:
 
 
 for ii in range (len(rawdf.unstack(level=1))):
@@ -349,13 +349,7 @@ interpolate2035 = True
 # In[ ]:
 
 
-# Heathers suggestion
-# Which I didnt really follow but would be better than the linear
 
-from scipy.optimize import curve_fit
-# Function to calculate the power-law with constants a and b
-def power_law(x, a, b):
-    return a*np.power(x, b)
 
 
 # In[ ]:
@@ -567,11 +561,28 @@ for ii in range (len(rawdf.unstack(level=1))):
 # In[ ]:
 
 
+# Heathers suggestion
+# Which I didnt really follow but would be better than the linear
 
+from scipy.optimize import curve_fit
+# Function to calculate the power-law with constants a and b
+def power_law(x, a, b):
+    return a*np.power(x, b)
 
 
 # In[ ]:
 
 
+#generae a dataset for the area in between
+mod_eff_late = mod_eff_raw.loc[(mod_eff_raw.index>=2020)]
 
+y_dummy = power_law(mod_eff_late.index-2019, mod_eff_late['mod_eff'][2020], 0.065) #17.9
+#played around with the exponential until y_dummy[31] closely matched projected 25.06% value. CITE
+print(y_dummy[-1])
+plt.plot(y_dummy)#create a dataframe of the projection
+
+mod_eff_late['mod_eff'] = y_dummy
+#print(mod_eff_late)
+plt.plot(mod_eff_late)
+#mod_eff_late.to_csv(cwd+'/../../../PV_ICE/baselines/SupportingMaterial/output_module_eff_perovskite.csv', index=True)
 
