@@ -6,7 +6,7 @@
 
 # Python Dependencies: Pandas, Seaborn
 
-# In[1]:
+# In[5]:
 
 
 import matplotlib.pyplot as plt
@@ -16,38 +16,36 @@ import os
 sns.set_style("white")
 
 
-# In[2]:
+# In[6]:
 
 
-#problem = "initial"
-#problem = "cui"
-problem = "20230213_ordered_waste"
+simulation = "20230222_CASE0_v1"
 
 
 # ### Plant Costs
 
 # #### Total Costs
 
-# In[3]:
+# In[7]:
 
 
-data = pd.read_csv(f"output/{problem}/plants.csv")
+data = pd.read_csv(f"output/{simulation}/plants.csv")
 sns.barplot(
     x="year",
     y="total cost ($)",
     hue="plant type",
     data=data.groupby(["plant type", "year"]).sum().reset_index(),
 )
-plt.savefig(f"figures/{problem}/plant_costs.pdf", dpi=300);
+plt.savefig(f"figures/{simulation}/plant_costs.pdf", dpi=300);
 
 
-# In[34]:
+# In[8]:
 
 
 data.columns
 
 
-# In[4]:
+# In[9]:
 
 
 locations = sns.FacetGrid(data, row="location name")
@@ -66,7 +64,7 @@ data
 
 
 
-# In[6]:
+# In[10]:
 
 
 columns = [
@@ -90,7 +88,7 @@ columns = [
 
 
 
-# In[7]:
+# In[11]:
 
 
 data.columns
@@ -104,7 +102,7 @@ data.columns
 
 # #### Cost Breakdown
 
-# In[8]:
+# In[12]:
 
 
 columns = [
@@ -114,10 +112,10 @@ columns = [
     "variable operating cost ($)",
     "storage cost ($)",
 ]
-data = pd.read_csv(f"output/{problem}/plants.csv")
+data = pd.read_csv(f"output/{simulation}/plants.csv")
 df = data.groupby(["plant type", "year"]).sum().reset_index()
 df[columns].plot(kind="bar", stacked=True, figsize=(8, 4))
-plt.savefig(f"figures/{problem}/plant_costs_breakdown.pdf", dpi=300);
+plt.savefig(f"figures/{simulation}/plant_costs_breakdown.pdf", dpi=300);
 
 
 # In[ ]:
@@ -146,7 +144,7 @@ plt.savefig(f"figures/{problem}/plant_costs_breakdown.pdf", dpi=300);
 # 
 # *Note: This is most likely an error for M1 apple users.*
 
-# In[5]:
+# In[13]:
 
 
 import fiona
@@ -157,7 +155,7 @@ from matplotlib import collections
 from shapely.geometry import LineString, Point
 
 
-# In[7]:
+# In[14]:
 
 
 # Plot base map
@@ -167,7 +165,7 @@ ax.set_ylim([23, 50])
 ax.set_xlim([-128, -65])
 
 # Draw transportation lines
-data = pd.read_csv(f"output/{problem}/transportation.csv")
+data = pd.read_csv(f"output/{simulation}/transportation.csv")
 lines = [
     [
         (
@@ -204,8 +202,71 @@ points = gp.points_from_xy(
     data["destination latitude (deg)"],
 )
 gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
-plt.savefig(f"figures/{problem}/recycling_logistics.pdf", dpi=300);
-plt.savefig(f"figures/{problem}/recycling_logistics.png", dpi=300);
+plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
+plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
+
+
+# In[16]:
+
+
+gp.datasets.available
+
+
+# In[19]:
+
+
+# Plot base map
+world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
+ax.set_ylim([23, 50])
+ax.set_xlim([-128, -65])
+
+# Draw transportation lines
+data = pd.read_csv(f"output/{simulation}/transportation.csv")
+lines = [
+    [
+        (
+            row["source longitude (deg)"],
+            row["source latitude (deg)"],
+        ),
+        (
+            row["destination longitude (deg)"],
+            row["destination latitude (deg)"],
+        ),
+    ]
+    for (index, row) in data.iterrows()
+]
+ax.add_collection(
+    collections.LineCollection(
+        lines,
+        linewidths=0.01,
+        zorder=1,
+        alpha=0.5,
+        color="0.7",
+    )
+)
+
+# Draw source points
+points = gp.points_from_xy(
+    data["source longitude (deg)"],
+    data["source latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="0.5", markersize=1)
+
+# Draw destination points
+points = gp.points_from_xy(
+    data["destination longitude (deg)"],
+    data["destination latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
+# plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
+# plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

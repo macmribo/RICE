@@ -214,14 +214,14 @@ pvice_TEMP_folder = os.path.join(previous_folder, '1_PV_ICE_waste_calculations',
 
 # This is to make the output file.
 
-# In[75]:
+# In[250]:
 
 
 cwd = os.getcwd()
-pvice_output_folder = os.path.join(cwd, 'PV_ICE_clean_outputs', pv_ice_simulations[2])
+pvice_output_folder = os.path.join(cwd, 'PV_ICE_clean_outputs', pv_ice_simulations[0])
 
 
-# In[76]:
+# In[251]:
 
 
 #python program to check if a directory exists
@@ -239,20 +239,20 @@ if not isExist:
 
 # Read the cSi and CdTe waste files, respectively.
 
-# In[77]:
+# In[252]:
 
 
 pvice_output_folder
 
 
-# In[78]:
+# In[253]:
 
 
-csi_eol = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_cSi_WasteEOL_{pv_ice_simulations[2]}.csv'), index_col='year')
-cdte_eol = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_CdTe_WasteEOL_{pv_ice_simulations[2]}.csv'), index_col='year')
+csi_eol = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_cSi_WasteEOL_{pv_ice_simulations[0]}.csv'), index_col='year')
+cdte_eol = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_CdTe_WasteEOL_{pv_ice_simulations[0]}.csv'), index_col='year')
 
 
-# In[79]:
+# In[254]:
 
 
 print('We have %s collection centers.' % len(GIS_us))
@@ -260,14 +260,14 @@ print('We have %s collection centers.' % len(GIS_us))
 
 # Now I need to select the columns and separate them by material, then add a column identifying the locations. Ideally, I need to populate a table for each material.
 
-# In[80]:
+# In[255]:
 
 
 material_list_csi = ['glass', 'silicon', 'silver', 'copper', 'aluminium_frames', 'encapsulant', 'backsheet', 'Module']
 material_list_cdte = ['cadmium', 'tellurium', 'glass_cdte', 'aluminium_frames_cdte', 'Module', 'copper_cdte', 'encapsulant_cdte']
 
 
-# In[81]:
+# In[256]:
 
 
 nums = np.arange(1,42)
@@ -275,7 +275,7 @@ years = np.arange(2010,2051)
 years_dict = {nums[i]: years[i] for i in range(len(nums))}
 
 
-# In[82]:
+# In[257]:
 
 
 mats = ['csi', 'cdte']
@@ -283,7 +283,7 @@ mats = ['csi', 'cdte']
 
 # #### 1.3.2. Generate waste files separated by technology and material.
 
-# In[83]:
+# In[258]:
 
 
 for y in mats:
@@ -334,13 +334,13 @@ for y in mats:
 # 
 # **LOAD OPTION 2:** If you haven't run Section 1.3.2 cells, use function load_csv with the corresponding file name. To use this option set the following cell to `load = True`.
 
-# In[19]:
+# In[259]:
 
 
 load = False #If you have not run Section 1 cells
 
 
-# In[84]:
+# In[260]:
 
 
 if load == True:
@@ -386,13 +386,13 @@ else:
 
 # Drop columns: 0, 2010 (there is no waste here), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows
 
-# In[85]:
+# In[261]:
 
 
 columns_to_erase = ['0', '2010', 'FIPS', '45', '46', 'total waste', 'latitude', 'longitude']
 
 
-# In[86]:
+# In[262]:
 
 
 csi_Module_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -405,7 +405,7 @@ csi_encapsulant_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one 
 csi_backsheet_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
 
 
-# In[87]:
+# In[263]:
 
 
 cdte_Module_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -417,7 +417,7 @@ cdte_copper_cdte_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one
 cdte_encapsulant_cdte_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
 
 
-# In[88]:
+# In[264]:
 
 
 csi_Module_ia
@@ -427,7 +427,7 @@ csi_Module_ia
 
 # I take the location file from GIS.
 
-# In[89]:
+# In[265]:
 
 
 GIS_usa = GIS[GIS.country == 'United States']
@@ -437,19 +437,19 @@ GIS_usa = GIS_usa.iloc[0:134] # I slice it until 142 because the next locations 
 
 # This line makes a new column with County, State so I make unique names for the RELOG "Initial Amounts" input file.
 
-# In[90]:
+# In[266]:
 
 
 GIS_usa['name'] = GIS_usa['county'] + ', ' + GIS_usa['state']
 
 
-# In[91]:
+# In[267]:
 
 
 len(GIS_usa['name'].unique()) 
 
 
-# In[92]:
+# In[268]:
 
 
 csi_Module_ia.insert(0, 'name', GIS_usa[['name']]) # Run this one only once or it will throw an error.
@@ -485,7 +485,7 @@ csi_backsheet_ia.insert(1, 'latitude (deg)', GIS_usa[['lat']])
 csi_backsheet_ia.insert(2, 'longitude (deg)', GIS_usa[['long']]) 
 
 
-# In[93]:
+# In[269]:
 
 
 cdte_Module_ia.insert(0, 'name', GIS_usa[['name']]) # Run this one only once or it will throw an error.
@@ -521,7 +521,7 @@ cdte_encapsulant_cdte_ia.insert(2, 'longitude (deg)', GIS_usa[['long']])
 
 # Since I am studying from 2025 onward with RELOG (because there is no significant amount of waste for RELOG to process in the recycling plants), I add the waste generated from 2011 until 2023. 
 
-# In[94]:
+# In[270]:
 
 
 csi_Module_ia_sumyears = csi_Module_ia.loc[:, '2011':'2025'].sum(axis=1)
@@ -545,7 +545,7 @@ cdte_encapsulant_cdte_ia_sumyears = cdte_encapsulant_cdte_ia.loc[:, '2011':'2025
 
 # Drop columns 2011 to 2025.
 
-# In[96]:
+# In[271]:
 
 
 csi_Module_ia.drop(csi_Module_ia.loc[:, '2011':'2025'], inplace=True, axis=1)
@@ -566,7 +566,7 @@ cdte_copper_cdte_ia.drop(cdte_copper_cdte_ia.loc[:, '2011':'2025'], inplace=True
 cdte_encapsulant_cdte_ia.drop(cdte_encapsulant_cdte_ia.loc[:, '2011':'2025'], inplace=True, axis=1)
 
 
-# In[97]:
+# In[272]:
 
 
 cdte_Module_ia
@@ -574,7 +574,7 @@ cdte_Module_ia
 
 # Insert the 2025 column that summed the waste between 2011 to 2025.
 
-# In[98]:
+# In[273]:
 
 
 csi_Module_ia.insert(3, 2025, csi_Module_ia_sumyears)
@@ -595,7 +595,7 @@ cdte_copper_cdte_ia.insert(3, 2025, cdte_copper_cdte_ia_sumyears)
 cdte_encapsulant_cdte_ia.insert(3, 2025, cdte_encapsulant_cdte_ia_sumyears) 
 
 
-# In[100]:
+# In[274]:
 
 
 csi_Module_ia.head()
@@ -606,20 +606,20 @@ csi_Module_ia.head()
 # Change the column names as 'amount 1', 'amount 2', etc. I am not sure if it matters, but I am going to do it just in case!
 # From 2023 to 2050, we have a total of 28 amounts.
 
-# In[106]:
+# In[275]:
 
 
 num_years = len(csi_Module_ia.columns) - 3 # simulation years
 num_years
 
 
-# In[107]:
+# In[276]:
 
 
 column_names = ['name', 'latitude (deg)', 'longitude (deg)']
 
 
-# In[108]:
+# In[277]:
 
 
 for year in range(num_years):
@@ -627,7 +627,7 @@ for year in range(num_years):
     column_names.append(amounts)
 
 
-# In[109]:
+# In[278]:
 
 
 csi_Module_ia.set_axis(column_names, axis=1, inplace=True)
@@ -652,7 +652,7 @@ cdte_encapsulant_cdte_ia.set_axis(column_names, axis=1, inplace=True)
 
 # Here I add cSi and CdTe modules as one, and common materials as one.
 
-# In[110]:
+# In[279]:
 
 
 pv_Modules_ia = pd.DataFrame(columns = column_names)
@@ -664,7 +664,7 @@ pv_encapsulant_ia = pd.DataFrame(columns = column_names)
 
 # Fill the data of name, latitude and longitude.
 
-# In[111]:
+# In[280]:
 
 
 pv_Modules_ia['name'], pv_Modules_ia['latitude (deg)'],pv_Modules_ia['longitude (deg)'] = csi_Module_ia[['name']], csi_Module_ia[['latitude (deg)']],csi_Module_ia[['longitude (deg)']] 
@@ -676,7 +676,7 @@ pv_encapsulant_ia['name'], pv_encapsulant_ia['latitude (deg)'],pv_encapsulant_ia
 
 # Add amounts.
 
-# In[112]:
+# In[281]:
 
 
 pv_Modules_ia.iloc[:,3::] = cdte_Module_ia.iloc[:,3::] + csi_Module_ia.iloc[:,3::] 
@@ -690,20 +690,20 @@ pv_encapsulant_ia.iloc[:,3::] = csi_encapsulant_ia.iloc[:,33::] + cdte_encapsula
 
 # ### 2.5. Export the 'Ininital amounts' files
 
-# In[113]:
+# In[282]:
 
 
-simulation = 'Method3'
+simulation = 'Method1'
 
 
-# In[114]:
+# In[283]:
 
 
 cwd = os.getcwd()
 RELOG_PV_ICE_import_data = os.path.join(cwd, 'RELOG_import_data', simulation)
 
 
-# In[115]:
+# In[284]:
 
 
 #python program to check if a directory exists
@@ -719,7 +719,7 @@ if not isExist:
     print("The new directory is created!")
 
 
-# In[116]:
+# In[285]:
 
 
 pv_Modules_ia.to_csv(os.path.join(RELOG_PV_ICE_import_data, 'pv_Modules_ia.csv'), index=False)

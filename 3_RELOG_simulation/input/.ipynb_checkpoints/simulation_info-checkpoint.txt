@@ -34,10 +34,3 @@ Current simulations in RICE:
 		   @ /lustre/eaglefs/projects/pvsoiling/RELOG/20230222_CASE0_v1/what-if.jl:31
 	o I have had this error before when I set up the what-if analysis and the storage % had 0%, maybe this is yelling at me because of the 0 cost? I should check.
 		in expression starting at /lustre/eaglefs/projects/pvsoiling/RELOG/20230222_CASE0_v1/what-if.jl:24
-
-  - 20230222_CASE0_v2
-      o Waste method used: Method1 (raw)
-      o Initial amounts file used: 2_data_preparation/RELOG_import_data/Method1/pv_Modules_ia.csv
-      o Candidate locations used: 2_data_preparation/RELOG_import_data/CandidateLocations_CA_CASE0.csv
-      o Cost assumption mode:My own costs (found in RELOG_case_biulder_io_clean_publication)
-      o	999999 storage limit

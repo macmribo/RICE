@@ -15379,11 +15379,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[75]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[250]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
-<span class="n">pvice_output_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;PV_ICE_clean_outputs&#39;</span><span class="p">,</span> <span class="n">pv_ice_simulations</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+<span class="n">pvice_output_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;PV_ICE_clean_outputs&#39;</span><span class="p">,</span> <span class="n">pv_ice_simulations</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 
      </div>
@@ -15396,7 +15396,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[251]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#python program to check if a directory exists</span>
@@ -15431,7 +15431,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The path already exists!
+<pre>The new directory has been created!
 </pre>
 </div>
 </div>
@@ -15457,7 +15457,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[252]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pvice_output_folder</span>
@@ -15478,13 +15478,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[77]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[252]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/2_data_preparation/PV_ICE_clean_outputs/Method3&#39;</pre>
+<pre>&#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/2_data_preparation/PV_ICE_clean_outputs/Method1&#39;</pre>
 </div>
 
 </div>
@@ -15498,11 +15498,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[253]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_eol</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pvice_TEMP_folder</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;PVICE_RELOG_PCA_cSi_WasteEOL_</span><span class="si">{</span><span class="n">pv_ice_simulations</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="si">}</span><span class="s1">.csv&#39;</span><span class="p">),</span> <span class="n">index_col</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">)</span>
-<span class="n">cdte_eol</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pvice_TEMP_folder</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;PVICE_RELOG_PCA_CdTe_WasteEOL_</span><span class="si">{</span><span class="n">pv_ice_simulations</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="si">}</span><span class="s1">.csv&#39;</span><span class="p">),</span> <span class="n">index_col</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_eol</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pvice_TEMP_folder</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;PVICE_RELOG_PCA_cSi_WasteEOL_</span><span class="si">{</span><span class="n">pv_ice_simulations</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s1">.csv&#39;</span><span class="p">),</span> <span class="n">index_col</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">)</span>
+<span class="n">cdte_eol</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pvice_TEMP_folder</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;PVICE_RELOG_PCA_CdTe_WasteEOL_</span><span class="si">{</span><span class="n">pv_ice_simulations</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="si">}</span><span class="s1">.csv&#39;</span><span class="p">),</span> <span class="n">index_col</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15515,7 +15515,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[254]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;We have </span><span class="si">%s</span><span class="s1"> collection centers.&#39;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">GIS_us</span><span class="p">))</span>
@@ -15566,7 +15566,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[255]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">material_list_csi</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;glass&#39;</span><span class="p">,</span> <span class="s1">&#39;silicon&#39;</span><span class="p">,</span> <span class="s1">&#39;silver&#39;</span><span class="p">,</span> <span class="s1">&#39;copper&#39;</span><span class="p">,</span> <span class="s1">&#39;aluminium_frames&#39;</span><span class="p">,</span> <span class="s1">&#39;encapsulant&#39;</span><span class="p">,</span> <span class="s1">&#39;backsheet&#39;</span><span class="p">,</span> <span class="s1">&#39;Module&#39;</span><span class="p">]</span>
@@ -15583,7 +15583,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[256]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">nums</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">42</span><span class="p">)</span>
@@ -15601,7 +15601,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[257]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mats</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;csi&#39;</span><span class="p">,</span> <span class="s1">&#39;cdte&#39;</span><span class="p">]</span>
@@ -15628,7 +15628,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[258]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="n">mats</span><span class="p">:</span>
@@ -15723,7 +15723,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[259]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">load</span> <span class="o">=</span> <span class="kc">False</span> <span class="c1">#If you have not run Section 1 cells</span>
@@ -15739,7 +15739,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[84]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[260]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">load</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
@@ -15814,7 +15814,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[85]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[261]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">columns_to_erase</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span> <span class="s1">&#39;2010&#39;</span><span class="p">,</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="s1">&#39;45&#39;</span><span class="p">,</span> <span class="s1">&#39;46&#39;</span><span class="p">,</span> <span class="s1">&#39;total waste&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude&#39;</span><span class="p">,</span> <span class="s1">&#39;longitude&#39;</span><span class="p">]</span>
@@ -15830,7 +15830,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[262]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns_to_erase</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -15853,7 +15853,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[263]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns_to_erase</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -15875,7 +15875,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[264]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span>
@@ -15896,7 +15896,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[264]:</div>
 
 
 
@@ -15956,16 +15956,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.123433</td>
       <td>0.259441</td>
       <td>...</td>
-      <td>367.105813</td>
-      <td>464.519012</td>
-      <td>1137.584986</td>
-      <td>1104.997184</td>
-      <td>653.336121</td>
-      <td>1275.341458</td>
-      <td>911.474689</td>
-      <td>1145.558060</td>
-      <td>1668.848100</td>
-      <td>1673.403702</td>
+      <td>349.284170</td>
+      <td>441.575556</td>
+      <td>1109.313006</td>
+      <td>1071.918119</td>
+      <td>617.189727</td>
+      <td>1239.784957</td>
+      <td>883.058388</td>
+      <td>1135.052166</td>
+      <td>1692.986270</td>
+      <td>1757.063044</td>
     </tr>
     <tr>
       <th>1</th>
@@ -15980,16 +15980,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>25.162912</td>
       <td>49.776116</td>
       <td>...</td>
-      <td>33432.520377</td>
-      <td>39915.647656</td>
-      <td>135129.791868</td>
-      <td>115419.060797</td>
-      <td>25695.847418</td>
-      <td>63974.857474</td>
-      <td>25792.666236</td>
-      <td>29688.444198</td>
-      <td>52024.627243</td>
-      <td>31720.398809</td>
+      <td>33090.492842</td>
+      <td>39411.840316</td>
+      <td>134403.711249</td>
+      <td>114393.756346</td>
+      <td>24275.829297</td>
+      <td>62044.985048</td>
+      <td>23218.932466</td>
+      <td>26321.994974</td>
+      <td>47710.808172</td>
+      <td>26314.989085</td>
     </tr>
     <tr>
       <th>2</th>
@@ -16004,16 +16004,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.000131</td>
       <td>0.000433</td>
       <td>...</td>
-      <td>92.185069</td>
-      <td>125.235435</td>
-      <td>180.528247</td>
-      <td>230.986470</td>
-      <td>285.467228</td>
-      <td>580.807092</td>
-      <td>428.563353</td>
-      <td>561.299293</td>
-      <td>838.870834</td>
-      <td>890.474737</td>
+      <td>53.107466</td>
+      <td>65.733444</td>
+      <td>91.976735</td>
+      <td>101.969659</td>
+      <td>101.205707</td>
+      <td>322.612322</td>
+      <td>73.418509</td>
+      <td>81.722579</td>
+      <td>203.290647</td>
+      <td>64.428824</td>
     </tr>
     <tr>
       <th>3</th>
@@ -16028,16 +16028,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>1.360242</td>
       <td>2.667169</td>
       <td>...</td>
-      <td>7741.175946</td>
-      <td>10029.869646</td>
-      <td>18503.448235</td>
-      <td>20080.839572</td>
-      <td>17710.662719</td>
-      <td>33125.930559</td>
-      <td>24470.371347</td>
-      <td>30293.999927</td>
-      <td>43037.365181</td>
-      <td>42986.692362</td>
+      <td>6380.247402</td>
+      <td>7961.962995</td>
+      <td>15431.300597</td>
+      <td>15610.886879</td>
+      <td>11332.766441</td>
+      <td>24193.545977</td>
+      <td>12184.265965</td>
+      <td>13694.472710</td>
+      <td>21012.251037</td>
+      <td>14305.015750</td>
     </tr>
     <tr>
       <th>4</th>
@@ -16052,16 +16052,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.653680</td>
       <td>1.238906</td>
       <td>...</td>
-      <td>2421.801121</td>
-      <td>3221.673657</td>
-      <td>4552.010366</td>
-      <td>5679.489367</td>
-      <td>6803.521641</td>
-      <td>13918.827668</td>
-      <td>9484.936364</td>
-      <td>12056.815197</td>
-      <td>18025.735304</td>
-      <td>17933.417557</td>
+      <td>2312.667543</td>
+      <td>3058.998998</td>
+      <td>4313.948820</td>
+      <td>5337.212786</td>
+      <td>6319.798983</td>
+      <td>13246.682204</td>
+      <td>8566.612883</td>
+      <td>10823.397007</td>
+      <td>16397.861116</td>
+      <td>15823.624399</td>
     </tr>
     <tr>
       <th>...</th>
@@ -16100,16 +16100,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.000383</td>
       <td>0.001723</td>
       <td>...</td>
-      <td>1315.615590</td>
-      <td>1909.485015</td>
-      <td>3001.939514</td>
-      <td>4032.225460</td>
-      <td>5221.442404</td>
-      <td>7896.714142</td>
-      <td>9541.375785</td>
-      <td>12780.940040</td>
-      <td>17234.100124</td>
-      <td>21709.045213</td>
+      <td>1418.165212</td>
+      <td>2105.748937</td>
+      <td>3349.356300</td>
+      <td>4613.998084</td>
+      <td>6155.017516</td>
+      <td>9344.095844</td>
+      <td>11721.268664</td>
+      <td>15982.385290</td>
+      <td>21830.654631</td>
+      <td>28171.504747</td>
     </tr>
     <tr>
       <th>130</th>
@@ -16124,16 +16124,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.001795</td>
       <td>0.007515</td>
       <td>...</td>
-      <td>4119.202382</td>
-      <td>5352.493545</td>
-      <td>7626.743815</td>
-      <td>9096.070169</td>
-      <td>10154.934191</td>
-      <td>18572.580620</td>
-      <td>13123.797777</td>
-      <td>15614.874807</td>
-      <td>21694.928560</td>
-      <td>20131.127753</td>
+      <td>3799.827830</td>
+      <td>4875.424154</td>
+      <td>6929.357852</td>
+      <td>8096.909415</td>
+      <td>8750.339596</td>
+      <td>16633.787852</td>
+      <td>10495.253778</td>
+      <td>12114.923755</td>
+      <td>17120.467070</td>
+      <td>14268.252211</td>
     </tr>
     <tr>
       <th>131</th>
@@ -16148,16 +16148,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>1.047129</td>
       <td>2.145658</td>
       <td>...</td>
-      <td>3830.764159</td>
-      <td>4851.253443</td>
-      <td>12511.171132</td>
-      <td>12022.337358</td>
-      <td>6707.050949</td>
-      <td>13540.455161</td>
-      <td>9665.569750</td>
-      <td>12424.884136</td>
-      <td>18468.255276</td>
-      <td>18981.832527</td>
+      <td>3038.309633</td>
+      <td>3644.229656</td>
+      <td>10713.965878</td>
+      <td>9401.961405</td>
+      <td>2960.877701</td>
+      <td>8284.117269</td>
+      <td>2422.822614</td>
+      <td>2622.337507</td>
+      <td>5439.269964</td>
+      <td>1985.448754</td>
     </tr>
     <tr>
       <th>132</th>
@@ -16172,16 +16172,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>1.778165</td>
       <td>3.868323</td>
       <td>...</td>
-      <td>12219.705781</td>
-      <td>14608.710170</td>
-      <td>44909.897913</td>
-      <td>38987.130045</td>
-      <td>10918.032932</td>
-      <td>31810.333782</td>
-      <td>8716.327122</td>
-      <td>9536.476340</td>
-      <td>20722.905825</td>
-      <td>7278.157685</td>
+      <td>12071.891948</td>
+      <td>14383.881583</td>
+      <td>44575.553912</td>
+      <td>38500.182624</td>
+      <td>10222.544781</td>
+      <td>30835.279269</td>
+      <td>7373.704440</td>
+      <td>7720.296593</td>
+      <td>18309.836071</td>
+      <td>4130.873906</td>
     </tr>
     <tr>
       <th>133</th>
@@ -16196,16 +16196,16 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>0.002421</td>
       <td>0.008960</td>
       <td>...</td>
-      <td>3182.939897</td>
-      <td>4179.686377</td>
-      <td>6111.681971</td>
-      <td>7342.627034</td>
-      <td>8246.389988</td>
-      <td>14435.812856</td>
-      <td>11348.373599</td>
-      <td>13801.744931</td>
-      <td>18865.804341</td>
-      <td>18937.171191</td>
+      <td>2665.310878</td>
+      <td>3393.112409</td>
+      <td>4943.174226</td>
+      <td>5642.717726</td>
+      <td>5821.560631</td>
+      <td>11041.180300</td>
+      <td>6681.860387</td>
+      <td>7501.678444</td>
+      <td>10514.799681</td>
+      <td>8076.163383</td>
     </tr>
   </tbody>
 </table>
@@ -16247,7 +16247,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[89]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[265]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS_usa</span> <span class="o">=</span> <span class="n">GIS</span><span class="p">[</span><span class="n">GIS</span><span class="o">.</span><span class="n">country</span> <span class="o">==</span> <span class="s1">&#39;United States&#39;</span><span class="p">]</span>
@@ -16277,7 +16277,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[266]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;county&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;, &#39;</span> <span class="o">+</span> <span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span>
@@ -16293,7 +16293,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[91]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[267]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span> 
@@ -16314,7 +16314,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[91]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[267]:</div>
 
 
 
@@ -16334,7 +16334,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[92]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[268]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="n">GIS_usa</span><span class="p">[[</span><span class="s1">&#39;name&#39;</span><span class="p">]])</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -16380,7 +16380,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[93]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[269]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="n">GIS_usa</span><span class="p">[[</span><span class="s1">&#39;name&#39;</span><span class="p">]])</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -16445,7 +16445,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[94]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[270]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">&#39;2011&#39;</span><span class="p">:</span><span class="s1">&#39;2025&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -16489,7 +16489,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[96]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[271]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="s1">&#39;2011&#39;</span><span class="p">:</span><span class="s1">&#39;2025&#39;</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -16520,7 +16520,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[97]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[272]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_Module_ia</span>
@@ -16541,7 +16541,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[97]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[272]:</div>
 
 
 
@@ -16593,120 +16593,120 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Snohomish County, Washington</td>
       <td>47.820991</td>
       <td>-121.452252</td>
-      <td>0.880140</td>
-      <td>1.383355</td>
-      <td>2.118125</td>
-      <td>3.165994</td>
-      <td>4.627664</td>
-      <td>6.624312</td>
-      <td>9.495629</td>
+      <td>0.880110</td>
+      <td>1.383154</td>
+      <td>2.117192</td>
+      <td>3.162629</td>
+      <td>4.617654</td>
+      <td>6.598716</td>
+      <td>9.437634</td>
       <td>...</td>
-      <td>62.834884</td>
-      <td>81.567880</td>
-      <td>165.722161</td>
-      <td>213.611936</td>
-      <td>135.063550</td>
-      <td>231.912667</td>
-      <td>207.297784</td>
-      <td>264.369070</td>
-      <td>369.233531</td>
-      <td>403.279804</td>
+      <td>58.630387</td>
+      <td>76.201919</td>
+      <td>159.187609</td>
+      <td>206.095928</td>
+      <td>127.071726</td>
+      <td>224.445098</td>
+      <td>202.092847</td>
+      <td>264.233099</td>
+      <td>378.471462</td>
+      <td>428.230352</td>
     </tr>
     <tr>
       <th>1</th>
       <td>San Bernardino, California</td>
       <td>35.120104</td>
       <td>-117.159039</td>
-      <td>232.183479</td>
-      <td>354.558830</td>
-      <td>528.232742</td>
-      <td>768.878095</td>
-      <td>1094.673183</td>
-      <td>1525.826703</td>
-      <td>8301.207101</td>
+      <td>232.183221</td>
+      <td>354.557126</td>
+      <td>528.224809</td>
+      <td>768.849212</td>
+      <td>1094.585594</td>
+      <td>1525.595951</td>
+      <td>8300.663172</td>
       <td>...</td>
-      <td>5030.285454</td>
-      <td>6077.349327</td>
-      <td>16891.480588</td>
-      <td>21209.816587</td>
-      <td>4576.952800</td>
-      <td>9808.626329</td>
-      <td>5325.554973</td>
-      <td>6277.754284</td>
-      <td>10008.670747</td>
-      <td>7513.000193</td>
+      <td>4947.318864</td>
+      <td>5955.210965</td>
+      <td>16715.558238</td>
+      <td>20961.538304</td>
+      <td>4233.293596</td>
+      <td>9341.853227</td>
+      <td>4703.435042</td>
+      <td>5464.550252</td>
+      <td>8967.357918</td>
+      <td>6209.225804</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Warren County, Virginia</td>
       <td>38.791108</td>
       <td>-78.257714</td>
-      <td>0.020719</td>
-      <td>0.039183</td>
-      <td>0.070706</td>
-      <td>0.122637</td>
-      <td>0.205809</td>
-      <td>0.336090</td>
-      <td>0.536552</td>
+      <td>0.020700</td>
+      <td>0.039060</td>
+      <td>0.070129</td>
+      <td>0.120499</td>
+      <td>0.199162</td>
+      <td>0.318025</td>
+      <td>0.492417</td>
       <td>...</td>
-      <td>17.241076</td>
-      <td>24.136953</td>
-      <td>34.718725</td>
-      <td>47.259764</td>
-      <td>60.404640</td>
-      <td>107.401159</td>
-      <td>100.027686</td>
-      <td>132.471981</td>
-      <td>189.613288</td>
-      <td>217.167282</td>
+      <td>7.701787</td>
+      <td>9.611040</td>
+      <td>13.099704</td>
+      <td>15.759162</td>
+      <td>15.411663</td>
+      <td>44.348857</td>
+      <td>13.289633</td>
+      <td>15.327466</td>
+      <td>34.336857</td>
+      <td>15.318619</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Sumter County, Florida</td>
       <td>28.708695</td>
       <td>-82.192477</td>
-      <td>9.720987</td>
-      <td>14.865903</td>
-      <td>22.377418</td>
-      <td>33.181349</td>
-      <td>48.493904</td>
-      <td>69.893701</td>
-      <td>403.960647</td>
+      <td>9.720313</td>
+      <td>14.861420</td>
+      <td>22.356363</td>
+      <td>33.103566</td>
+      <td>48.252944</td>
+      <td>69.241422</td>
+      <td>402.373749</td>
       <td>...</td>
-      <td>1410.893268</td>
-      <td>1868.830299</td>
-      <td>3065.252644</td>
-      <td>3969.977183</td>
-      <td>3669.926242</td>
-      <td>6086.054679</td>
-      <td>5532.624101</td>
-      <td>6951.128972</td>
-      <td>9507.709890</td>
-      <td>10305.843040</td>
+      <td>1078.831876</td>
+      <td>1364.266498</td>
+      <td>2315.648821</td>
+      <td>2879.292756</td>
+      <td>2113.667667</td>
+      <td>3906.431455</td>
+      <td>2534.568269</td>
+      <td>2900.384496</td>
+      <td>4132.766904</td>
+      <td>3306.120096</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Palm Beach County, Florida</td>
       <td>26.677092</td>
       <td>-80.563731</td>
-      <td>4.482820</td>
-      <td>6.575320</td>
-      <td>9.479585</td>
-      <td>13.453542</td>
-      <td>18.820679</td>
-      <td>25.987598</td>
-      <td>245.818342</td>
+      <td>4.482559</td>
+      <td>6.573824</td>
+      <td>9.473635</td>
+      <td>13.435017</td>
+      <td>18.772057</td>
+      <td>25.874736</td>
+      <td>245.579139</td>
       <td>...</td>
-      <td>445.800114</td>
-      <td>608.127715</td>
-      <td>853.980008</td>
-      <td>1132.241231</td>
-      <td>1399.728269</td>
-      <td>2496.133864</td>
-      <td>2168.329060</td>
-      <td>2796.728647</td>
-      <td>3985.683019</td>
-      <td>4346.743602</td>
+      <td>417.567360</td>
+      <td>565.981120</td>
+      <td>792.224332</td>
+      <td>1043.356288</td>
+      <td>1273.995490</td>
+      <td>2321.281577</td>
+      <td>1929.256725</td>
+      <td>2475.398769</td>
+      <td>3561.299250</td>
+      <td>3796.355445</td>
     </tr>
     <tr>
       <th>...</th>
@@ -16737,120 +16737,120 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Laurens County, South Carolina</td>
       <td>34.683402</td>
       <td>-82.058502</td>
-      <td>0.096339</td>
-      <td>0.191903</td>
-      <td>0.365997</td>
-      <td>0.676757</td>
-      <td>1.225119</td>
-      <td>2.184618</td>
-      <td>3.847117</td>
+      <td>0.095946</td>
+      <td>0.189591</td>
+      <td>0.356536</td>
+      <td>0.646766</td>
+      <td>1.146653</td>
+      <td>2.008541</td>
+      <td>3.500042</td>
       <td>...</td>
-      <td>294.123896</td>
-      <td>433.365568</td>
-      <td>657.367413</td>
-      <td>932.914054</td>
-      <td>1235.894517</td>
-      <td>1801.758966</td>
-      <td>2305.311463</td>
-      <td>3096.197014</td>
-      <td>4147.162807</td>
-      <td>5292.040811</td>
+      <td>318.446022</td>
+      <td>480.289619</td>
+      <td>740.844033</td>
+      <td>1073.178974</td>
+      <td>1461.545792</td>
+      <td>2152.287483</td>
+      <td>2834.086084</td>
+      <td>3873.825705</td>
+      <td>5265.001820</td>
+      <td>6865.367943</td>
     </tr>
     <tr>
       <th>130</th>
       <td>Clarendon County, South Carolina</td>
       <td>33.666562</td>
       <td>-80.470185</td>
-      <td>0.708550</td>
-      <td>1.493137</td>
-      <td>2.945619</td>
-      <td>5.490839</td>
-      <td>9.750228</td>
-      <td>16.606291</td>
-      <td>27.280781</td>
+      <td>0.708310</td>
+      <td>1.491594</td>
+      <td>2.938609</td>
+      <td>5.465789</td>
+      <td>9.675163</td>
+      <td>16.409645</td>
+      <td>26.817387</td>
       <td>...</td>
-      <td>773.563304</td>
-      <td>1020.434347</td>
-      <td>1410.157603</td>
-      <td>1799.286531</td>
-      <td>2058.552733</td>
-      <td>3342.794136</td>
-      <td>2892.714785</td>
-      <td>3497.070041</td>
-      <td>4668.442570</td>
-      <td>4752.078659</td>
+      <td>695.576756</td>
+      <td>903.960747</td>
+      <td>1239.922441</td>
+      <td>1555.424695</td>
+      <td>1715.790625</td>
+      <td>2869.745252</td>
+      <td>2251.474864</td>
+      <td>2643.392373</td>
+      <td>3552.884065</td>
+      <td>3322.610179</td>
     </tr>
     <tr>
       <th>131</th>
       <td>Burke County, North Carolina</td>
       <td>35.703545</td>
       <td>-81.469485</td>
-      <td>8.395905</td>
-      <td>13.093866</td>
-      <td>19.925614</td>
-      <td>29.636138</td>
-      <td>43.146521</td>
-      <td>61.570918</td>
-      <td>198.583931</td>
+      <td>8.395533</td>
+      <td>13.091381</td>
+      <td>19.913911</td>
+      <td>29.592770</td>
+      <td>43.011688</td>
+      <td>61.204450</td>
+      <td>197.688560</td>
       <td>...</td>
-      <td>646.005486</td>
-      <td>842.071118</td>
-      <td>1792.142471</td>
-      <td>2323.663859</td>
-      <td>1397.965563</td>
-      <td>2468.440540</td>
-      <td>2227.128266</td>
-      <td>2900.965613</td>
-      <td>4125.128382</td>
-      <td>4607.360609</td>
+      <td>452.582340</td>
+      <td>547.448706</td>
+      <td>1353.444944</td>
+      <td>1684.002706</td>
+      <td>483.443321</td>
+      <td>1185.191307</td>
+      <td>458.836143</td>
+      <td>507.568266</td>
+      <td>943.753202</td>
+      <td>456.923501</td>
     </tr>
     <tr>
       <th>132</th>
       <td>Wayne County, North Carolina</td>
       <td>35.438992</td>
       <td>-78.063174</td>
-      <td>23.476249</td>
-      <td>38.658824</td>
-      <td>61.662370</td>
-      <td>95.528996</td>
-      <td>144.082623</td>
-      <td>211.982273</td>
-      <td>335.122043</td>
+      <td>23.476176</td>
+      <td>38.658342</td>
+      <td>61.660107</td>
+      <td>95.520639</td>
+      <td>144.056741</td>
+      <td>211.912185</td>
+      <td>334.951404</td>
       <td>...</td>
-      <td>1796.042906</td>
-      <td>2164.982571</td>
-      <td>5603.071866</td>
-      <td>6985.430842</td>
-      <td>1754.057689</td>
-      <td>4505.103515</td>
-      <td>1643.473029</td>
-      <td>1845.023208</td>
-      <td>3585.239801</td>
-      <td>1703.366123</td>
+      <td>1759.963964</td>
+      <td>2110.104703</td>
+      <td>5521.461087</td>
+      <td>6866.568327</td>
+      <td>1584.287488</td>
+      <td>4267.085890</td>
+      <td>1315.723517</td>
+      <td>1401.665776</td>
+      <td>2996.163711</td>
+      <td>935.044185</td>
     </tr>
     <tr>
       <th>133</th>
       <td>Powhatan County, Virginia</td>
       <td>37.641073</td>
       <td>-78.022226</td>
-      <td>0.594995</td>
-      <td>1.217892</td>
-      <td>2.353797</td>
-      <td>4.324823</td>
-      <td>7.603882</td>
-      <td>12.866961</td>
-      <td>21.058227</td>
+      <td>0.594746</td>
+      <td>1.216225</td>
+      <td>2.345934</td>
+      <td>4.295665</td>
+      <td>7.513272</td>
+      <td>12.621059</td>
+      <td>20.458783</td>
       <td>...</td>
-      <td>611.627795</td>
-      <td>816.588008</td>
-      <td>1150.965713</td>
-      <td>1489.362841</td>
-      <td>1720.207442</td>
-      <td>2707.505830</td>
-      <td>2550.502993</td>
-      <td>3147.020261</td>
-      <td>4171.825253</td>
-      <td>4506.599667</td>
+      <td>485.373441</td>
+      <td>624.733771</td>
+      <td>865.948712</td>
+      <td>1074.719064</td>
+      <td>1128.722676</td>
+      <td>1879.428295</td>
+      <td>1412.116271</td>
+      <td>1610.049975</td>
+      <td>2134.374654</td>
+      <td>1856.555283</td>
     </tr>
   </tbody>
 </table>
@@ -16881,7 +16881,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[98]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[273]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_Module_ia_sumyears</span><span class="p">)</span>
@@ -16912,7 +16912,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[100]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[274]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -16933,7 +16933,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[100]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[274]:</div>
 
 
 
@@ -16985,120 +16985,120 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>Snohomish County, Washington</td>
       <td>47.820991</td>
       <td>-121.452252</td>
-      <td>10.523176</td>
-      <td>6.786772</td>
-      <td>10.337901</td>
-      <td>15.362704</td>
-      <td>22.313372</td>
-      <td>31.719380</td>
-      <td>44.177775</td>
+      <td>10.523165</td>
+      <td>6.786649</td>
+      <td>10.337083</td>
+      <td>15.358896</td>
+      <td>22.299612</td>
+      <td>31.678396</td>
+      <td>44.072829</td>
       <td>...</td>
-      <td>367.105813</td>
-      <td>464.519012</td>
-      <td>1137.584986</td>
-      <td>1104.997184</td>
-      <td>653.336121</td>
-      <td>1275.341458</td>
-      <td>911.474689</td>
-      <td>1145.558060</td>
-      <td>1668.848100</td>
-      <td>1673.403702</td>
+      <td>349.284170</td>
+      <td>441.575556</td>
+      <td>1109.313006</td>
+      <td>1071.918119</td>
+      <td>617.189727</td>
+      <td>1239.784957</td>
+      <td>883.058388</td>
+      <td>1135.052166</td>
+      <td>1692.986270</td>
+      <td>1757.063044</td>
     </tr>
     <tr>
       <th>1</th>
       <td>San Bernardino, California</td>
       <td>35.120104</td>
       <td>-117.159039</td>
-      <td>1816.600300</td>
-      <td>1125.005872</td>
-      <td>1693.925206</td>
-      <td>2489.897657</td>
-      <td>3577.768240</td>
-      <td>5030.712239</td>
-      <td>6927.179974</td>
+      <td>1816.600206</td>
+      <td>1125.004822</td>
+      <td>1693.918257</td>
+      <td>2489.865269</td>
+      <td>3577.650205</td>
+      <td>5030.353945</td>
+      <td>6926.235235</td>
       <td>...</td>
-      <td>33432.520377</td>
-      <td>39915.647656</td>
-      <td>135129.791868</td>
-      <td>115419.060797</td>
-      <td>25695.847418</td>
-      <td>63974.857474</td>
-      <td>25792.666236</td>
-      <td>29688.444198</td>
-      <td>52024.627243</td>
-      <td>31720.398809</td>
+      <td>33090.492842</td>
+      <td>39411.840316</td>
+      <td>134403.711249</td>
+      <td>114393.756346</td>
+      <td>24275.829297</td>
+      <td>62044.985048</td>
+      <td>23218.932466</td>
+      <td>26321.994974</td>
+      <td>47710.808172</td>
+      <td>26314.989085</td>
     </tr>
     <tr>
       <th>2</th>
       <td>Warren County, Virginia</td>
       <td>38.791108</td>
       <td>-78.257714</td>
-      <td>0.094562</td>
-      <td>0.113635</td>
-      <td>0.221876</td>
-      <td>0.409966</td>
-      <td>0.723049</td>
-      <td>1.226341</td>
-      <td>2.012775</td>
+      <td>0.094556</td>
+      <td>0.113560</td>
+      <td>0.221376</td>
+      <td>0.407608</td>
+      <td>0.714308</td>
+      <td>1.199150</td>
+      <td>1.938840</td>
       <td>...</td>
-      <td>92.185069</td>
-      <td>125.235435</td>
-      <td>180.528247</td>
-      <td>230.986470</td>
-      <td>285.467228</td>
-      <td>580.807092</td>
-      <td>428.563353</td>
-      <td>561.299293</td>
-      <td>838.870834</td>
-      <td>890.474737</td>
+      <td>53.107466</td>
+      <td>65.733444</td>
+      <td>91.976735</td>
+      <td>101.969659</td>
+      <td>101.205707</td>
+      <td>322.612322</td>
+      <td>73.418509</td>
+      <td>81.722579</td>
+      <td>203.290647</td>
+      <td>64.428824</td>
     </tr>
     <tr>
       <th>3</th>
       <td>Sumter County, Florida</td>
       <td>28.708695</td>
       <td>-82.192477</td>
-      <td>95.068196</td>
-      <td>59.616109</td>
-      <td>91.580623</td>
-      <td>138.243326</td>
-      <td>205.212769</td>
-      <td>299.718650</td>
-      <td>430.918798</td>
+      <td>95.067951</td>
+      <td>59.613363</td>
+      <td>91.562341</td>
+      <td>138.157351</td>
+      <td>204.894845</td>
+      <td>298.733022</td>
+      <td>428.249163</td>
       <td>...</td>
-      <td>7741.175946</td>
-      <td>10029.869646</td>
-      <td>18503.448235</td>
-      <td>20080.839572</td>
-      <td>17710.662719</td>
-      <td>33125.930559</td>
-      <td>24470.371347</td>
-      <td>30293.999927</td>
-      <td>43037.365181</td>
-      <td>42986.692362</td>
+      <td>6380.247402</td>
+      <td>7961.962995</td>
+      <td>15431.300597</td>
+      <td>15610.886879</td>
+      <td>11332.766441</td>
+      <td>24193.545977</td>
+      <td>12184.265965</td>
+      <td>13694.472710</td>
+      <td>21012.251037</td>
+      <td>14305.015750</td>
     </tr>
     <tr>
       <th>4</th>
       <td>Palm Beach County, Florida</td>
       <td>26.677092</td>
       <td>-80.563731</td>
-      <td>39.177375</td>
-      <td>22.665610</td>
-      <td>33.680516</td>
-      <td>49.230042</td>
-      <td>70.861328</td>
-      <td>100.529169</td>
-      <td>140.683602</td>
+      <td>39.177269</td>
+      <td>22.664551</td>
+      <td>33.674455</td>
+      <td>49.206003</td>
+      <td>70.786721</td>
+      <td>100.334059</td>
+      <td>140.232534</td>
       <td>...</td>
-      <td>2421.801121</td>
-      <td>3221.673657</td>
-      <td>4552.010366</td>
-      <td>5679.489367</td>
-      <td>6803.521641</td>
-      <td>13918.827668</td>
-      <td>9484.936364</td>
-      <td>12056.815197</td>
-      <td>18025.735304</td>
-      <td>17933.417557</td>
+      <td>2312.667543</td>
+      <td>3058.998998</td>
+      <td>4313.948820</td>
+      <td>5337.212786</td>
+      <td>6319.798983</td>
+      <td>13246.682204</td>
+      <td>8566.612883</td>
+      <td>10823.397007</td>
+      <td>16397.861116</td>
+      <td>15823.624399</td>
     </tr>
   </tbody>
 </table>
@@ -17141,7 +17141,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[106]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[275]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_years</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">-</span> <span class="mi">3</span> <span class="c1"># simulation years</span>
@@ -17163,7 +17163,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[106]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[275]:</div>
 
 
 
@@ -17183,7 +17183,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[107]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[276]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">column_names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude (deg)&#39;</span><span class="p">,</span> <span class="s1">&#39;longitude (deg)&#39;</span><span class="p">]</span>
@@ -17199,7 +17199,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[108]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[277]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_years</span><span class="p">):</span>
@@ -17217,7 +17217,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[109]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[278]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">set_axis</span><span class="p">(</span><span class="n">column_names</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -17271,7 +17271,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[110]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[279]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="n">column_names</span><span class="p">)</span>
@@ -17303,7 +17303,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[111]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[280]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">pv_Modules_ia</span><span class="p">[</span><span class="s1">&#39;latitude (deg)&#39;</span><span class="p">],</span><span class="n">pv_Modules_ia</span><span class="p">[</span><span class="s1">&#39;longitude (deg)&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">csi_Module_ia</span><span class="p">[[</span><span class="s1">&#39;name&#39;</span><span class="p">]],</span> <span class="n">csi_Module_ia</span><span class="p">[[</span><span class="s1">&#39;latitude (deg)&#39;</span><span class="p">]],</span><span class="n">csi_Module_ia</span><span class="p">[[</span><span class="s1">&#39;longitude (deg)&#39;</span><span class="p">]]</span> 
@@ -17335,7 +17335,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[112]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[281]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">3</span><span class="p">::]</span> <span class="o">=</span> <span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">3</span><span class="p">::]</span> <span class="o">+</span> <span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">3</span><span class="p">::]</span> 
@@ -17366,10 +17366,10 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[113]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[282]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">simulation</span> <span class="o">=</span> <span class="s1">&#39;Method3&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">simulation</span> <span class="o">=</span> <span class="s1">&#39;Method1&#39;</span>
 </pre></div>
 
      </div>
@@ -17382,7 +17382,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[114]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[283]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
@@ -17399,7 +17399,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[115]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[284]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#python program to check if a directory exists</span>
@@ -17448,7 +17448,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[116]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[285]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">RELOG_PV_ICE_import_data</span><span class="p">,</span> <span class="s1">&#39;pv_Modules_ia.csv&#39;</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
