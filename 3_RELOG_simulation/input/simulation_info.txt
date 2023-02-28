@@ -41,3 +41,22 @@ Current simulations in RICE:
       o Candidate locations used: 2_data_preparation/RELOG_import_data/CandidateLocations_CA_CASE0.csv
       o Cost assumption mode:My own costs (found in RELOG_case_biulder_io_clean_publication)
       o	999999 storage limit
+
+	
+	Notes
+       -------
+	ERROR: LoadError: KeyError: key "Energy" not found
+Stacktrace:
+ [1] getindex
+   @ ~/.julia/packages/OrderedCollections/PRayh/src/ordered_dict.jl:380 [inlined]
+ [2] plants_report(solution::OrderedCollections.OrderedDict{Any, Any})
+   @ RELOG ~/.julia/packages/RELOG/vFFgb/src/reports/plants.jl:27
+ [3] write_plants_report(solution::OrderedCollections.OrderedDict{Any, Any}, filename::String)
+   @ RELOG ~/.julia/packages/RELOG/vFFgb/src/reports/plants.jl:79
+ [4] top-level scope
+   @ /lustre/eaglefs/projects/pvsoiling/RELOG/20230223_CASE0_v2/what-if.jl:31
+in expression starting at /lustre/eaglefs/projects/pvsoiling/RELOG/20230223_CASE0_v2/what-if.jl:24
+
+Same error as before
+
+

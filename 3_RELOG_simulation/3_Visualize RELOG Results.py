@@ -6,7 +6,7 @@
 
 # Python Dependencies: Pandas, Seaborn
 
-# In[5]:
+# In[1]:
 
 
 import matplotlib.pyplot as plt
@@ -16,17 +16,17 @@ import os
 sns.set_style("white")
 
 
-# In[6]:
+# In[4]:
 
 
-simulation = "20230222_CASE0_v1"
+simulation = "20230223_CASE0_v2"
 
 
 # ### Plant Costs
 
 # #### Total Costs
 
-# In[7]:
+# In[5]:
 
 
 data = pd.read_csv(f"output/{simulation}/plants.csv")
@@ -39,13 +39,13 @@ sns.barplot(
 plt.savefig(f"figures/{simulation}/plant_costs.pdf", dpi=300);
 
 
-# In[8]:
+# In[6]:
 
 
 data.columns
 
 
-# In[9]:
+# In[7]:
 
 
 locations = sns.FacetGrid(data, row="location name")
@@ -102,7 +102,7 @@ data.columns
 
 # #### Cost Breakdown
 
-# In[12]:
+# In[8]:
 
 
 columns = [

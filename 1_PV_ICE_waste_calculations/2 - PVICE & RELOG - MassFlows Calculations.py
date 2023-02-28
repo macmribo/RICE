@@ -61,6 +61,12 @@ GIS = GIS.set_index('id')
 # 2. Method 2: Uses ordered wastes between 2021 to 2035 and 2046 to 2050. Still creates unrealistic peaks.
 # 3. Method 3: Uses the cummulative capacity between 2021 to 2035 and 2034 to 2050 to create a logarithmic growth of waste (this method is being tested, not validated yet, and subjected to ongoing changes).
 
+# In[ ]:
+
+
+simulation = input('Choose one of the following methods: Method1, Method2 or Method3.')
+
+
 # In[6]:
 
 
