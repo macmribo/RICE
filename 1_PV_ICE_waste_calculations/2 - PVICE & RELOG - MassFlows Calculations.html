@@ -14747,82 +14747,20 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_ice_simulations</span> <span class="o">=</span> <span class="s1">&#39;fsdf&#39;</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">method_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Method1&#39;</span><span class="p">,</span> <span class="s1">&#39;Method2&#39;</span><span class="p">,</span> <span class="s1">&#39;Method3&#39;</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_ice_simulations</span> <span class="ow">in</span> <span class="n">method_list</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Choose one of the following methods: Method1, Method2 or Method3.&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">method_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Method1&#39;</span><span class="p">,</span> <span class="s1">&#39;Method2&#39;</span><span class="p">,</span> <span class="s1">&#39;Method3&#39;</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Choose one of the following methods: Method1, Method2 or Method3.&quot;</span><span class="p">)</span>
 <span class="n">pv_ice_simulations</span> <span class="o">=</span> <span class="kc">None</span>
 <span class="k">while</span> <span class="n">pv_ice_simulations</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">{</span><span class="s2">&quot;Method1&quot;</span><span class="p">,</span> <span class="s2">&quot;Method2&quot;</span><span class="p">,</span> <span class="s2">&quot;Method3&quot;</span><span class="p">}:</span>
     <span class="n">pv_ice_simulations</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You have chosen </span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pv_ice_simulations</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -14843,80 +14781,35 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-<span class="ansi-cyan-fg">  Input </span><span class="ansi-green-fg">In [7]</span>
-<span class="ansi-red-fg">    print &#34;Choose one of the following methods: Method1, Method2 or Method3.&#34;</span>
-    ^
-<span class="ansi-red-fg">SyntaxError</span><span class="ansi-red-fg">:</span> Missing parentheses in call to &#39;print&#39;. Did you mean print(...)?
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Choose one of the following methods: Method1, Method2 or Method3.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>You have chosen Method1.
 </pre>
 </div>
 </div>
 
 </div>
 
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">method_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Method1&#39;</span><span class="p">,</span> <span class="s1">&#39;Method2&#39;</span><span class="p">,</span> <span class="s1">&#39;Method3&#39;</span><span class="p">]</span>
-<span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="n">pv_ice_simulations</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Choose one of the following methods: Method1, Method2 or Method3.&#39;</span><span class="p">)</span>
-    <span class="k">except</span> <span class="ne">ValueError</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.&#39;</span><span class="p">)</span>
-        <span class="k">continue</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You have chosen </span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pv_ice_simulations</span><span class="p">))</span>
-        <span class="k">break</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">method_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Method1&#39;</span><span class="p">,</span> <span class="s1">&#39;Method2&#39;</span><span class="p">,</span> <span class="s1">&#39;Method3&#39;</span><span class="p">]</span>
-<span class="n">pv_ice_simulations</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Choose one of the following methods: Method1, Method2 or Method3.&#39;</span><span class="p">)</span>
-<span class="k">if</span> <span class="n">pv_ice_simulations</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">method_list</span><span class="p">:</span>
-    <span class="k">while</span> <span class="kc">False</span><span class="p">:</span>
-        <span class="n">pv_ice_simulations</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.&#39;</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;You have chosen </span><span class="si">{}</span><span class="s1">.&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">pv_ice_simulations</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_ice_simulations</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
 </div>
 
 </div>

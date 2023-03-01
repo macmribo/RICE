@@ -17,7 +17,7 @@
 
 # ## 0. Load necessary libraries
 
-# In[1]:
+# In[2]:
 
 
 import numpy as np
@@ -775,11 +775,11 @@ cdte_encapsulant_cdte_ia.to_csv(os.path.join(RELOG_PV_ICE_import_data,'cdte_enca
 # 2. Since this file does not contain state, it might be useful to change the `name` column as "nwike's name, city, county, state name". This is not strictly necessary though, it is just helpful to use for better user experience so the user knows which county belongs to which state.
 # 3. Change the area cost factors to the area we are basing our plant cost model. This might be a bit tricky because the cost factors are not at state level but at county level, so we need to decide or figure out where the 
 
-# In[238]:
+# In[4]:
 
 
 cwd = os.getcwd()
-cl_nwike_battery = pd.read_csv(os.path.join(cwd, 'RELOG_import_data', 'Candidate locations - Battery Project.csv'))
+cl_nwike_battery = pd.read_csv(os.path.join(cwd, 'RELOG_import_data', 'CandidateLocations','Candidate locations - Battery Project.csv'))
 
 
 # To get the county, I need to apply the function `city_state_country()` to the `cl_nwike_battery` dataframe.
@@ -961,7 +961,7 @@ index_df
 # In[218]:
 
 
-cadidate_loc = pd.read_csv(os.path.join('RELOG_import_data', 'CandidateLocations_op_NM.csv'))
+cadidate_loc = pd.read_csv(os.path.join('RELOG_import_data', 'CandidateLocations' , 'CandidateLocations_op_NM.csv'))
 
 
 # In[219]:
@@ -1093,7 +1093,7 @@ def city_state_country_2(row):
 # In[ ]:
 
 
-cadidate_loc_2 = pd.read_csv(os.path.join('RELOG_import_data', 'Candidate locations - Battery Project.csv'))
+cadidate_loc_2 = pd.read_csv(os.path.join('RELOG_import_data', 'CandidateLocations','Candidate locations - Battery Project.csv'))
 
 
 # Let's apply that function:
@@ -1116,7 +1116,7 @@ cadidate_loc_2 = cadidate_loc_2.apply(city_state_country_2, axis=1)
 # In[ ]:
 
 
-candidate_locations = pd.DataFrame(columns=['name', 'latitude (deg)', 'longitude (deg)', 'area cost factor'])                
+candidate_locations = pd.DataFrame(columns=['name', 'latitude (deg)', 'longitude (deg)', 'initial capacity (tonne)','area cost factor'])                
 
 
 # I am going to correlate states and regions as well and then delete it, this is to add the area cost factors.

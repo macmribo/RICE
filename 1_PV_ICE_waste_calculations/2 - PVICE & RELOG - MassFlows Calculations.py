@@ -61,69 +61,15 @@ GIS = GIS.set_index('id')
 # 2. Method 2: Uses ordered wastes between 2021 to 2035 and 2046 to 2050. Still creates unrealistic peaks.
 # 3. Method 3: Uses the cummulative capacity between 2021 to 2035 and 2034 to 2050 to create a logarithmic growth of waste (this method is being tested, not validated yet, and subjected to ongoing changes).
 
-# In[5]:
-
-
-pv_ice_simulations = 'fsdf'
-
-
-# In[ ]:
+# In[9]:
 
 
 method_list = ['Method1', 'Method2', 'Method3']
-
-
-# In[ ]:
-
-
-pv_ice_simulations in method_list
-
-
-# In[ ]:
-
-
-
-
-
-# In[7]:
-
-
-print("Choose one of the following methods: Method1, Method2 or Method3."
+print("Choose one of the following methods: Method1, Method2 or Method3.")
 pv_ice_simulations = None
 while pv_ice_simulations not in {"Method1", "Method2", "Method3"}:
     pv_ice_simulations = input('Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.')
-
-
-# In[6]:
-
-
-method_list = ['Method1', 'Method2', 'Method3']
-while True:
-    try:
-        pv_ice_simulations = input('Choose one of the following methods: Method1, Method2 or Method3.')
-    except ValueError:
-        print('Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.')
-        continue
-    else:
-        print('You have chosen {}.'.format(pv_ice_simulations))
-        break
-
-
-# In[ ]:
-
-
-method_list = ['Method1', 'Method2', 'Method3']
-pv_ice_simulations = input('Choose one of the following methods: Method1, Method2 or Method3.')
-if pv_ice_simulations not in method_list:
-    while False:
-        pv_ice_simulations = input('Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.')
 print('You have chosen {}.'.format(pv_ice_simulations))
-
-
-# In[ ]:
-
-
-pv_ice_simulations
 
 
 # ### Scenario creation
