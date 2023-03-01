@@ -35,7 +35,7 @@ SFscenarios = ['95-by-35_Elec.Adv_DR_cSi', '95-by-35_Elec.Adv_DR_CdTe']
 
 # ### Reading GIS inputs
 
-# In[4]:
+# In[ ]:
 
 
 from geopy.geocoders import Nominatim
@@ -44,7 +44,7 @@ from geopy.point import Point
 geolocator = Nominatim(user_agent="geoapiExercises")
 
 
-# In[5]:
+# In[ ]:
 
 
 GISfile = os.path.join(baselinefolder, 'gis_centroid_n.xlsx')
@@ -61,21 +61,74 @@ GIS = GIS.set_index('id')
 # 2. Method 2: Uses ordered wastes between 2021 to 2035 and 2046 to 2050. Still creates unrealistic peaks.
 # 3. Method 3: Uses the cummulative capacity between 2021 to 2035 and 2034 to 2050 to create a logarithmic growth of waste (this method is being tested, not validated yet, and subjected to ongoing changes).
 
+# In[5]:
+
+
+pv_ice_simulations = 'fsdf'
+
+
 # In[ ]:
 
 
-simulation = input('Choose one of the following methods: Method1, Method2 or Method3.')
+method_list = ['Method1', 'Method2', 'Method3']
+
+
+# In[ ]:
+
+
+pv_ice_simulations in method_list
+
+
+# In[ ]:
+
+
+
+
+
+# In[7]:
+
+
+print("Choose one of the following methods: Method1, Method2 or Method3."
+pv_ice_simulations = None
+while pv_ice_simulations not in {"Method1", "Method2", "Method3"}:
+    pv_ice_simulations = input('Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.')
 
 
 # In[6]:
 
 
-pv_ice_simulations = ['Method1', 'Method2','Method3']
+method_list = ['Method1', 'Method2', 'Method3']
+while True:
+    try:
+        pv_ice_simulations = input('Choose one of the following methods: Method1, Method2 or Method3.')
+    except ValueError:
+        print('Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.')
+        continue
+    else:
+        print('You have chosen {}.'.format(pv_ice_simulations))
+        break
+
+
+# In[ ]:
+
+
+method_list = ['Method1', 'Method2', 'Method3']
+pv_ice_simulations = input('Choose one of the following methods: Method1, Method2 or Method3.')
+if pv_ice_simulations not in method_list:
+    while False:
+        pv_ice_simulations = input('Input method not in the list, please choose one of the following methods: Method1, Method2 or Method3.')
+print('You have chosen {}.'.format(pv_ice_simulations))
+
+
+# In[ ]:
+
+
+pv_ice_simulations
 
 
 # ### Scenario creation
 
-# In[7]:
+# In[ ]:
 
 
 reedsFile = os.path.join(cwd, 'baselines','December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
@@ -88,7 +141,7 @@ rawdf.set_index(['Scenario','Year','PCA'], inplace=True)
 PCAs = list(rawdf.unstack(level=2).iloc[0].unstack(level=0).index.unique())
 
 
-# In[8]:
+# In[ ]:
 
 
 #for ii in range (0, 1): #len(scenarios):
@@ -97,7 +150,7 @@ r1 = PV_ICE.Simulation(name=SFscenarios[i], path=testfolder)
 
 for jj in range (0, len(PCAs)): 
     filetitle = SFscenarios[i]+'_'+PCAs[jj]+'.csv'
-    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{pv_ice_simulations[0]}', filetitle)    # Change this number to the simulation you want to run
+    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{pv_ice_simulations}', filetitle)    # Change this number to the simulation you want to run
     r1.createScenario(name=PCAs[jj], massmodulefile=filetitle)
     r1.scenario[PCAs[jj]].addMaterials(['glass', 'silicon', 'silver', 'copper', 'aluminium_frames', 'encapsulant', 'backsheet'], baselinefolder=baselinefolder)
     # All -- but these where not included in the Reeds initial study as we didnt have encapsulant or backsheet
@@ -112,7 +165,7 @@ r2 = PV_ICE.Simulation(name=SFscenarios[i], path=testfolder)
 
 for jj in range (0, len(PCAs)): 
     filetitle = SFscenarios[i]+'_'+PCAs[jj]+'.csv'
-    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{pv_ice_simulations[0]}', filetitle)        
+    filetitle = os.path.join(testfolder, f'PCAs_RELOG_{pv_ice_simulations}', filetitle)        
     r2.createScenario(name=PCAs[jj], massmodulefile=filetitle)
     # MAC Add here the materials you want.
     r2.scenario[PCAs[jj]].addMaterials(['cadmium', 'tellurium', 'glass_cdte', 'aluminium_frames_cdte', 'encapsulant_cdte', 'copper_cdte'], baselinefolder=baselinefolder)
@@ -127,7 +180,7 @@ r2.trim_Years(startYear=2010, endYear=2050)
 # ### Set characteristics for Manufacturing (probably don't want to inflate this as the waste happens elsewhere, just want EOL
 # 
 
-# In[9]:
+# In[ ]:
 
 
 PERFECTMFG = True
@@ -142,14 +195,14 @@ else:
 
 # ## 3. Calculate Mass Flow
 
-# In[10]:
+# In[ ]:
 
 
 r1.calculateMassFlow()
 r2.calculateMassFlow()
 
 
-# In[11]:
+# In[ ]:
 
 
 print("PCAs:", r1.scenario.keys())
@@ -157,7 +210,7 @@ print("Module Keys:", r1.scenario[PCAs[jj]].dataIn_m.keys())
 print("Material Keys: ", r1.scenario[PCAs[jj]].material['glass'].matdataIn_m.keys())
 
 
-# In[12]:
+# In[ ]:
 
 
 """
@@ -172,34 +225,34 @@ pass
 
 # ## 4. Aggregate & Save Data
 
-# In[13]:
+# In[ ]:
 
 
 r1.aggregateResults()
 r2.aggregateResults()
 
 
-# In[14]:
+# In[ ]:
 
 
 datay = r1.USyearly
 datac = r1.UScum
 
 
-# In[15]:
+# In[ ]:
 
 
 datay_CdTe = r2.USyearly
 datac_CdTe = r2.UScum
 
 
-# In[16]:
+# In[ ]:
 
 
 filter_colc = [col for col in datay if col.startswith('WasteEOL')]
-datay[filter_colc].to_csv(f'PVICE_RELOG_PCA_cSi_WasteEOL_{pv_ice_simulations[0]}.csv')
+datay[filter_colc].to_csv(f'PVICE_RELOG_PCA_cSi_WasteEOL_{pv_ice_simulations}.csv')
 filter_colc = [col for col in datay_CdTe if col.startswith('WasteEOL')]
-datay_CdTe[filter_colc].to_csv(f'PVICE_RELOG_PCA_CdTe_WasteEOL_{pv_ice_simulations[0]}.csv')
+datay_CdTe[filter_colc].to_csv(f'PVICE_RELOG_PCA_CdTe_WasteEOL_{pv_ice_simulations}.csv')
 
 
 # In[ ]:
