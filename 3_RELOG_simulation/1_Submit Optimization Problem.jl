@@ -9,10 +9,7 @@ using RELOG
 using TickTock
 
 
-#problem = "initial"
-#problem = "cui"
-#problem = "test_1"
-problem = "20230213_ordered_waste"
+problem = "20230301_CASE0_v3"
 
 tick()
 # Solve optimization problem

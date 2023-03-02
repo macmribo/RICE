@@ -15,7 +15,7 @@
 
 # I like naming my scenarios with the date I created them in ISO format (i.e. YYYYMMDD) and a name that helps me identify my scenario. I like putting an identifying name, and a version, in case I make small changes on the simulation I want to create.
 
-# In[1]:
+# In[17]:
 
 
 import os
@@ -24,23 +24,23 @@ import shutil
 from distutils.dir_util import copy_tree
 
 
-# In[130]:
+# In[18]:
 
 
 date = datetime.today().strftime('%Y%m%d')
-simulation_name = f'{date}_CASE0_v2' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
+simulation_name = f'{date}_CASE0_v3' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
 simulation_whatif = 'what-if_' + simulation_name
 
 
 # ## Folder generation:
 
-# In[131]:
+# In[19]:
 
 
 cwd = os.getcwd()
 
 
-# In[132]:
+# In[20]:
 
 
 input_file = os.path.join(cwd, 'input', simulation_name)
@@ -51,19 +51,19 @@ figures_file = os.path.join(cwd, 'figures', simulation_name)
 figures_file_whatif = os.path.join(cwd, 'figures', simulation_whatif)
 
 
-# In[133]:
+# In[21]:
 
 
 files_to_create = [input_file, input_file_whatif, output_file, output_file_whatif, figures_file, figures_file_whatif]
 
 
-# In[134]:
+# In[22]:
 
 
 files_to_create[5]
 
 
-# In[135]:
+# In[23]:
 
 
 for files in range(len(files_to_create)):
@@ -81,31 +81,31 @@ for files in range(len(files_to_create)):
 
 # Only use this one when you have your input files ready for simulation, this means that the `input` folder has the `case.json` (i.e. the saved file made in the [RELOG case builder](https://relog.axavier.org/casebuilder)), and the `what-if_blablabla` has been also generated.
 
-# In[2]:
+# In[36]:
 
 
 cwd = os.getcwd()
 
 
-# In[3]:
+# In[37]:
 
 
 test = False
 
 
-# In[4]:
+# In[38]:
 
 
 if test:
     simulation_name = 'bleh'  #test to see the error
 else:
     #simulation_name = f'{date}_CASE0_v1' # This line is to generte  file the same day, use the following line if you want to manually specify the simulation folder
-    simulation_name = '20230223_CASE0_v2'
+    simulation_name = '20230301_CASE0_v3'
 
 
 # 1. Make sure that the simulation folder exists in the main folders, that it has a `case.json` file inside and that it also has the what-if scenarios generated. If these are not created it will throw an error asking you to do those steps first.
 
-# In[5]:
+# In[39]:
 
 
 input_solver_folder_location = os.path.join(cwd, 'input', simulation_name)
@@ -121,7 +121,7 @@ simulation_folders = [input_solver_folder_location, input_whatif_folder_location
 
 # ### Check if the paths exists.
 
-# In[6]:
+# In[40]:
 
 
 for files in range(len(simulation_folders)):
@@ -134,7 +134,7 @@ for files in range(len(simulation_folders)):
 
 # ### Check if the files are inside.
 
-# In[7]:
+# In[41]:
 
 
 if os.listdir(simulation_folders[0]) == ['case.json']:
@@ -147,7 +147,7 @@ else:
     print('The what-if files exist, you may continue!')
 
 
-# In[9]:
+# In[42]:
 
 
 hpc_input_solver_folder = os.path.join(cwd, 'hpc_simulation_folders', simulation_name, 'input', 'solver') 
@@ -157,7 +157,7 @@ hpc_output_whatif_folder = os.path.join(cwd, 'hpc_simulation_folders', simulatio
 check_list = [hpc_input_solver_folder, hpc_input_whatif_folder, hpc_output_solver_folder, hpc_output_whatif_folder]
 
 
-# In[10]:
+# In[43]:
 
 
 for files in range(len(check_list)):
@@ -173,7 +173,7 @@ for files in range(len(check_list)):
 
 # ### Copy the files from the template codes into the simulation folder:
 
-# In[11]:
+# In[44]:
 
 
 cwd = os.getcwd()
@@ -181,7 +181,7 @@ template_files = os.path.join(cwd, 'hpc_simulation_folders', 'template_codes')
 input_files = os.path.join(cwd, 'hpc_simulation_folders', simulation_name)
 
 
-# In[12]:
+# In[45]:
 
 
 copy_tree(template_files, input_files)
@@ -189,13 +189,13 @@ copy_tree(template_files, input_files)
 
 # ### Change the word 'scenario' for the folder scenario name in the solver.jl and the what-if.jl files:
 
-# In[13]:
+# In[46]:
 
 
 copy_tree(template_files, input_files)
 
 
-# In[14]:
+# In[47]:
 
 
 # Read in the file
@@ -210,7 +210,7 @@ with open(os.path.join(input_files, 'solver.jl'), 'w') as file:
     file.write(filedata)
 
 
-# In[15]:
+# In[48]:
 
 
 # Read in the file
@@ -227,7 +227,7 @@ with open(os.path.join(input_files, 'what-if.jl'), 'w') as file:
 
 # ### Copy the solver and whatif files to the hpc scenario folders
 
-# In[16]:
+# In[49]:
 
 
 copy_tree(input_solver_folder_location, hpc_input_solver_folder)
@@ -245,6 +245,11 @@ copy_tree(input_whatif_folder_location, hpc_input_whatif_folder)
 # **Note: It will ask for the Eagle password**  
 #     
 # 
+
+# ### Little bonus code for the lazy
+# Just run this cell and copy the line you need to either copy from local machine to HPC, of from HPC to local machine:
+
+# Local machine to HPC:
 
 # In[ ]:
 

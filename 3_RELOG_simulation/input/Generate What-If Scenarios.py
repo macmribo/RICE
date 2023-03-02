@@ -3,16 +3,16 @@
 
 # ## Generate What-if Scenarios
 
-# In[1]:
+# In[3]:
 
 
 import json
 max_capacity = 5628
 
-problem = '20230223_CASE0_v2' #paste here the simulation name (folder in input) you want to run.
+problem = '20230301_CASE0_v3' #paste here the simulation name (folder in input) you want to run.
 
 
-# In[2]:
+# In[4]:
 
 
 with open(f"{problem}/case.json") as infile:
