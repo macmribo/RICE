@@ -249,7 +249,29 @@ copy_tree(input_whatif_folder_location, hpc_input_whatif_folder)
 # ### Little bonus code for the lazy
 # Just run this cell and copy the line you need to either copy from local machine to HPC, of from HPC to local machine:
 
-# Local machine to HPC:
+# Local machine to HPC (copy and paste it into your terminal):
+
+# In[51]:
+
+
+cwd = os.getcwd()
+
+
+# In[56]:
+
+
+local_path = os.path.join(cwd, 'hpc_simulation_folders', '20230301_CASE0_v3') #change the last entry for the specific name of your simulation
+print('scp -r', local_path)
+
+
+# HPC to local machine (copy and paste it into your terminal), this path only works me, but if you have access to the same project folder, use it).
+
+# In[57]:
+
+
+hpc_path = os.path.join('mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/scenario_name/output', '20230301_CASE0_v3') #change the last entry for the specific name of your simulation
+print('scp -r', hpc_path)
+
 
 # In[ ]:
 

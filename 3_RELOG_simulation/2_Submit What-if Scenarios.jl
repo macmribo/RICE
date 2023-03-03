@@ -15,12 +15,12 @@ using Logging
 
 
 #problem = "initial"
-problem = "cui"
+problem = "20230301_CASE0_v3"
 
 tick()
 # Solve reference case
 
-_, model = RELOG.solve("input/$problem/InputPipelineData.json", return_model=true);
+_, model = RELOG.solve("input/$problem/case.json", return_model=true);
 
 # Solve what-if scenarios
 for filename in glob("input/what-if_$problem/*.json")

@@ -14577,7 +14577,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-julia"><pre><span></span><span class="c"># Improve output style on Jupyter Notebook</span>
@@ -14611,7 +14611,8 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre><span class="ansi-green-intense-fg ansi-bold">   Resolving</span> package versions...
+<pre><span class="ansi-green-intense-fg ansi-bold">    Updating</span> registry at `~/.julia/registries/General.toml`
+<span class="ansi-green-intense-fg ansi-bold">   Resolving</span> package versions...
 <span class="ansi-green-intense-fg ansi-bold">  No Changes</span> to `~/.julia/environments/v1.8/Project.toml`
 <span class="ansi-green-intense-fg ansi-bold">  No Changes</span> to `~/.julia/environments/v1.8/Manifest.toml`
 </pre>
@@ -14627,7 +14628,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-julia"><pre><span></span><span class="k">using</span> <span class="n">RELOG</span>
@@ -14645,11 +14646,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-julia"><pre><span></span><span class="c">#problem = &quot;initial&quot;</span>
-<span class="n">problem</span> <span class="o">=</span> <span class="s">&quot;cui&quot;</span>
+<span class="n">problem</span> <span class="o">=</span> <span class="s">&quot;20230301_CASE0_v3&quot;</span>
 </pre></div>
 
      </div>
@@ -14667,13 +14668,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[10]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[3]:</div>
 
 
 
 
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#34;cui&#34;</pre>
+<pre>&#34;20230301_CASE0_v3&#34;</pre>
 </div>
 
 </div>
@@ -14687,13 +14688,13 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-julia"><pre><span></span><span class="n">tick</span><span class="p">()</span>
 <span class="c"># Solve reference case</span>
 
-<span class="n">_</span><span class="p">,</span> <span class="n">model</span> <span class="o">=</span> <span class="n">RELOG</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="s">&quot;input/</span><span class="si">$problem</span><span class="s">/InputPipelineData.json&quot;</span><span class="p">,</span> <span class="n">return_model</span><span class="o">=</span><span class="nb">true</span><span class="p">);</span>
+<span class="n">_</span><span class="p">,</span> <span class="n">model</span> <span class="o">=</span> <span class="n">RELOG</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="s">&quot;input/</span><span class="si">$problem</span><span class="s">/case.json&quot;</span><span class="p">,</span> <span class="n">return_model</span><span class="o">=</span><span class="nb">true</span><span class="p">);</span>
 
 <span class="c"># Solve what-if scenarios</span>
 <span class="k">for</span> <span class="n">filename</span> <span class="k">in</span> <span class="n">glob</span><span class="p">(</span><span class="s">&quot;input/what-if_</span><span class="si">$problem</span><span class="s">/*.json&quot;</span><span class="p">)</span>
@@ -14732,22 +14733,88 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre><span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span> started timer at: 2023-01-27T08:14:18.129
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Reading input/cui/InputPipelineData.json...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>         121 collection centers
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>          96 candidate plant locations
+<pre><span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span> started timer at: 2023-03-02T14:51:17.285
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Reading input/20230301_CASE0_v3/case.json...
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>         134 collection centers
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>         312 candidate plant locations
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Building graph...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              28 time periods
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              96 process nodes
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>            1536 shipping nodes (plant)
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>             121 shipping nodes (collection)
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>           13152 arcs
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              26 time periods
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>             312 process nodes
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>            2496 shipping nodes (plant)
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>             134 shipping nodes (collection)
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>           44304 arcs
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Building optimization model...
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Optimizing MILP...
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Re-optimizing with integer variables fixed...
 <span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Extracting solution...
-<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>       253.644199833s: 4 minutes, 13 seconds, 644 milliseconds
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Reading input/what-if_20230301_CASE0_v3/storage_ultra_cap_0.25_cost_100.json...
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>         134 collection centers
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>         312 candidate plant locations
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Building new graph...
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>              26 time periods
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>             312 process nodes
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>            2496 shipping nodes (plant)
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>             134 shipping nodes (collection)
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>           44304 arcs
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Building new optimization model...
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Fixing decision variables...
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Optimizing MILP...
+<span class="ansi-cyan-intense-fg ansi-bold">[ </span><span class="ansi-cyan-intense-fg ansi-bold">Info: </span>Extracting solution...
 </pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+Primal solution not available
+
+Stacktrace:
+  [1] error(s::String)
+    @ Base ./error.jl:35
+  [2] get(model::Clp.Optimizer, attr::MathOptInterface.VariablePrimal, x::MathOptInterface.VariableIndex)
+    @ Clp ~/.julia/packages/Clp/EmULO/src/MOI_wrapper/MOI_wrapper.jl:549
+  [3] get(model::MathOptInterface.Utilities.CachingOptimizer{Clp.Optimizer, MathOptInterface.Utilities.UniversalFallback{Clp.OptimizerCache}}, attr::MathOptInterface.VariablePrimal, index::MathOptInterface.VariableIndex)
+    @ MathOptInterface.Utilities ~/.julia/packages/MathOptInterface/Ohzb2/src/Utilities/cachingoptimizer.jl:911
+  [4] get(b::MathOptInterface.Bridges.LazyBridgeOptimizer{MathOptInterface.Utilities.CachingOptimizer{Clp.Optimizer, MathOptInterface.Utilities.UniversalFallback{Clp.OptimizerCache}}}, attr::MathOptInterface.VariablePrimal, index::MathOptInterface.VariableIndex)
+    @ MathOptInterface.Bridges ~/.julia/packages/MathOptInterface/Ohzb2/src/Bridges/bridge_optimizer.jl:1116
+  [5] get(model::MathOptInterface.Utilities.CachingOptimizer{MathOptInterface.Bridges.LazyBridgeOptimizer{MathOptInterface.Utilities.CachingOptimizer{Clp.Optimizer, MathOptInterface.Utilities.UniversalFallback{Clp.OptimizerCache}}}, MathOptInterface.Utilities.UniversalFallback{MathOptInterface.Utilities.Model{Float64}}}, attr::MathOptInterface.VariablePrimal, index::MathOptInterface.VariableIndex)
+    @ MathOptInterface.Utilities ~/.julia/packages/MathOptInterface/Ohzb2/src/Utilities/cachingoptimizer.jl:911
+  [6] _moi_get_result(::MathOptInterface.Utilities.CachingOptimizer{MathOptInterface.Bridges.LazyBridgeOptimizer{MathOptInterface.Utilities.CachingOptimizer{Clp.Optimizer, MathOptInterface.Utilities.UniversalFallback{Clp.OptimizerCache}}}, MathOptInterface.Utilities.UniversalFallback{MathOptInterface.Utilities.Model{Float64}}}, ::MathOptInterface.VariablePrimal, ::Vararg{Any})
+    @ JuMP ~/.julia/packages/JuMP/gVq7V/src/JuMP.jl:1155
+  [7] get(model::JuMP.Model, attr::MathOptInterface.VariablePrimal, v::JuMP.VariableRef)
+    @ JuMP ~/.julia/packages/JuMP/gVq7V/src/JuMP.jl:1212
+  [8] value(v::JuMP.VariableRef; result::Int64)
+    @ JuMP ~/.julia/packages/JuMP/gVq7V/src/variables.jl:1032
+  [9] value(v::JuMP.VariableRef)
+    @ JuMP ~/.julia/packages/JuMP/gVq7V/src/variables.jl:1031
+ [10] (::RELOG.var&#34;#52#68&#34;{JuMP.Model, RELOG.ProcessNode})(t::Int64)
+    @ RELOG ./none:0
+ [11] iterate
+    @ ./generator.jl:47 [inlined]
+ [12] collect(itr::Base.Generator{UnitRange{Int64}, RELOG.var&#34;#52#68&#34;{JuMP.Model, RELOG.ProcessNode}})
+    @ Base ./array.jl:787
+ [13] get_solution(model::JuMP.Model; marginal_costs::Bool)
+    @ RELOG ~/.julia/packages/RELOG/vFFgb/src/model/getsol.jl:63
+ [14] resolve(model_old::JuMP.Model, instance::RELOG.Instance; optimizer::Nothing)
+    @ RELOG ~/.julia/packages/RELOG/vFFgb/src/model/resolve.jl:40
+ [15] resolve
+    @ ~/.julia/packages/RELOG/vFFgb/src/model/resolve.jl:13 [inlined]
+ [16] resolve(model_old::JuMP.Model, filename::String; kwargs::Base.Pairs{Symbol, Union{}, Tuple{}, NamedTuple{(), Tuple{}}})
+    @ RELOG ~/.julia/packages/RELOG/vFFgb/src/model/resolve.jl:10
+ [17] resolve(model_old::JuMP.Model, filename::String)
+    @ RELOG ~/.julia/packages/RELOG/vFFgb/src/model/resolve.jl:7
+ [18] top-level scope
+    @ ./In[4]:8
+ [19] eval
+    @ ./boot.jl:368 [inlined]
+ [20] include_string(mapexpr::typeof(REPL.softscope), mod::Module, code::String, filename::String)
+    @ Base ./loading.jl:1428</pre>
 </div>
 </div>
 
