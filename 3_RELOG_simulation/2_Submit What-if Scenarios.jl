@@ -14,6 +14,14 @@ using Glob
 using Logging
 
 
+folder = joinpath(pwd(), "output")
+
+readdir(folder)
+
+
+
+glob(" ", folder)
+
 #problem = "initial"
 problem = "20230301_CASE0_v3"
 

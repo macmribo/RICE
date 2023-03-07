@@ -9,7 +9,7 @@ using RELOG
 using TickTock
 
 
-problem = "20230301_CASE0_v3"
+problem = "20230306_CASE0_Manufacturing_v1"
 
 tick()
 # Solve optimization problem
@@ -27,5 +27,11 @@ RELOG.write_transportation_report(solution, "output/$problem/transportation.csv"
 # Write CSV report showing primary product amounts, locations and marginal costs
 RELOG.write_products_report(solution, "output/$problem/products.csv");
 tock()
+
+
+
+
+
+
 
 

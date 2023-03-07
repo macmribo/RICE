@@ -6,7 +6,7 @@
 
 # Python Dependencies: Pandas, Seaborn
 
-# In[9]:
+# In[27]:
 
 
 import matplotlib.pyplot as plt
@@ -16,17 +16,17 @@ import os
 sns.set_style("white")
 
 
-# In[10]:
+# In[28]:
 
 
-simulation = "20230301_CASE0_v3"
+simulation = "20230306_CASE0_Manufacturing_v1"
 
 
 # ### Plant Costs
 
 # #### Total Costs
 
-# In[11]:
+# In[29]:
 
 
 data = pd.read_csv(f"output/{simulation}/plants.csv")
@@ -39,20 +39,20 @@ sns.barplot(
 plt.savefig(f"figures/{simulation}/plant_costs.pdf", dpi=300);
 
 
-# In[12]:
+# In[30]:
 
 
 data.columns
 
 
-# In[13]:
+# In[31]:
 
 
 locations = sns.FacetGrid(data, row="location name")
 locations.map(sns.barplot, "year", "total cost ($)", errorbar = None, order = None)
 
 
-# In[14]:
+# In[32]:
 
 
 data
@@ -64,7 +64,7 @@ data
 
 
 
-# In[15]:
+# In[33]:
 
 
 columns = [
@@ -88,7 +88,7 @@ columns = [
 
 
 
-# In[16]:
+# In[34]:
 
 
 data.columns
@@ -102,7 +102,7 @@ data.columns
 
 # #### Cost Breakdown
 
-# In[17]:
+# In[35]:
 
 
 columns = [
@@ -144,7 +144,7 @@ plt.savefig(f"figures/{simulation}/plant_costs_breakdown.pdf", dpi=300);
 # 
 # *Note: This is most likely an error for M1 apple users.*
 
-# In[18]:
+# In[36]:
 
 
 import fiona
@@ -155,7 +155,7 @@ from matplotlib import collections
 from shapely.geometry import LineString, Point
 
 
-# In[19]:
+# In[37]:
 
 
 # Plot base map
@@ -206,13 +206,13 @@ plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
 plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
 
 
-# In[20]:
+# In[38]:
 
 
 gp.datasets.available
 
 
-# In[21]:
+# In[39]:
 
 
 # Plot base map

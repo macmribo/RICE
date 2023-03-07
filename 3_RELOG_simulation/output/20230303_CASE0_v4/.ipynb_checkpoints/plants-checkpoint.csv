@@ -1,0 +1,1041 @@
+plant type,location name,year,latitude (deg),longitude (deg),capacity (tonne),amount processed (tonne),amount received (tonne),amount in storage (tonne),utilization factor (%),energy (GJ),opening cost ($),expansion cost ($),fixed operating cost ($),variable operating cost ($),storage cost ($),total cost ($)
+Storage Facility,"Fort Wayne, Allen County, Indiana",1,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",2,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",3,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",4,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",5,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",6,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",7,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",8,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",9,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",10,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",11,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",12,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",13,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",14,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",15,41.0886,-85.1437,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",16,41.0886,-85.1437,0.0,0.0,8769.67,8769.67,NaN,2.8,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",17,41.0886,-85.1437,0.0,0.0,0.0,8769.67,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Wayne, Allen County, Indiana",18,41.0886,-85.1437,8769.67,8769.67,0.0,0.0,100.0,0.0,0.0,0.0,150937.45,0.0,0.0,150937.45
+Storage Facility,"Fort Wayne, Allen County, Indiana",19,41.0886,-85.1437,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Wayne, Allen County, Indiana",20,41.0886,-85.1437,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Wayne, Allen County, Indiana",21,41.0886,-85.1437,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Wayne, Allen County, Indiana",22,41.0886,-85.1437,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Wayne, Allen County, Indiana",23,41.0886,-85.1437,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Wayne, Allen County, Indiana",24,41.0886,-85.1437,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Wayne, Allen County, Indiana",25,41.0886,-85.1437,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Wayne, Allen County, Indiana",26,41.0886,-85.1437,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Cape Coral, Lee County, Florida",1,26.6446,-81.9956,1039.54,1039.54,1039.54,0.0,100.0,0.33,0.0,0.0,17069.26,0.0,0.0,17069.26
+Storage Facility,"Cape Coral, Lee County, Florida",2,26.6446,-81.9956,1535.89,1535.89,1535.89,0.0,100.0,0.49,0.0,0.0,25219.22,0.0,0.0,25219.22
+Storage Facility,"Cape Coral, Lee County, Florida",3,26.6446,-81.9956,1535.89,1535.89,1535.89,0.0,100.0,0.49,0.0,0.0,25219.22,0.0,0.0,25219.22
+Storage Facility,"Cape Coral, Lee County, Florida",4,26.6446,-81.9956,5693.79,5693.79,8331.94,2638.15,100.0,2.66,0.0,0.0,93491.98,0.0,0.0,93491.98
+Storage Facility,"Cape Coral, Lee County, Florida",5,26.6446,-81.9956,5693.79,5693.79,4755.54,1699.9,100.0,1.52,0.0,0.0,93491.98,0.0,0.0,93491.98
+Storage Facility,"Cape Coral, Lee County, Florida",6,26.6446,-81.9956,5693.79,5693.79,3993.9,0.0,100.0,1.27,0.0,-0.0,93491.98,0.0,0.0,93491.98
+Storage Facility,"Cape Coral, Lee County, Florida",7,26.6446,-81.9956,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",8,26.6446,-81.9956,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",9,26.6446,-81.9956,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",10,26.6446,-81.9956,14314.52,14314.52,40553.3,26238.78,100.0,12.94,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",11,26.6446,-81.9956,14314.52,14314.52,2390.25,14314.52,100.0,0.76,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",12,26.6446,-81.9956,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",13,26.6446,-81.9956,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",14,26.6446,-81.9956,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",15,26.6446,-81.9956,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",16,26.6446,-81.9956,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",17,26.6446,-81.9956,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",18,26.6446,-81.9956,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",19,26.6446,-81.9956,14314.52,14314.52,77939.91,63625.39,100.0,24.86,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",20,26.6446,-81.9956,14314.52,14314.52,7947.19,57258.07,100.0,2.54,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",21,26.6446,-81.9956,14314.52,14314.52,0.0,42943.55,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",22,26.6446,-81.9956,14314.52,14314.52,0.0,28629.03,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",23,26.6446,-81.9956,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",24,26.6446,-81.9956,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",25,26.6446,-81.9956,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Cape Coral, Lee County, Florida",26,26.6446,-81.9956,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Denton, Denton County, Texas",1,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",2,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",3,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",4,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",5,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",6,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",7,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",8,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",9,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",10,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",11,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",12,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",13,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",14,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",15,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",16,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",17,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",18,33.2176,-97.1419,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Denton, Denton County, Texas",19,33.2176,-97.1419,14314.52,14314.52,15557.22,1242.7,100.0,4.96,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Denton, Denton County, Texas",20,33.2176,-97.1419,14314.52,14314.52,27386.33,14314.52,100.0,8.74,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Denton, Denton County, Texas",21,33.2176,-97.1419,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Denton, Denton County, Texas",22,33.2176,-97.1419,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Denton, Denton County, Texas",23,33.2176,-97.1419,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Denton, Denton County, Texas",24,33.2176,-97.1419,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Denton, Denton County, Texas",25,33.2176,-97.1419,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Denton, Denton County, Texas",26,33.2176,-97.1419,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",1,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",2,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",3,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",4,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",5,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",6,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",7,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",8,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",9,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",10,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",11,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",12,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",13,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",14,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",15,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",16,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",17,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",18,36.7831,-119.7941,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fresno, Fresno County, California",19,36.7831,-119.7941,14314.52,14314.52,36932.17,22617.65,100.0,11.78,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",20,36.7831,-119.7941,14314.52,14314.52,6011.38,14314.52,100.0,1.92,0.0,-0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",21,36.7831,-119.7941,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",22,36.7831,-119.7941,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",23,36.7831,-119.7941,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",24,36.7831,-119.7941,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",25,36.7831,-119.7941,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fresno, Fresno County, California",26,36.7831,-119.7941,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",1,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",2,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",3,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",4,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",5,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",6,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",7,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",8,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",9,35.0657,-85.2488,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",10,35.0657,-85.2488,10137.55,10137.55,10137.55,0.0,100.0,3.23,0.0,0.0,168463.93,0.0,0.0,168463.93
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",11,35.0657,-85.2488,10137.55,10137.55,10137.55,0.0,100.0,3.23,0.0,0.0,168463.93,0.0,0.0,168463.93
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",12,35.0657,-85.2488,10137.55,10137.55,10137.55,0.0,100.0,3.23,0.0,0.0,168463.93,0.0,0.0,168463.93
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",13,35.0657,-85.2488,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",14,35.0657,-85.2488,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",15,35.0657,-85.2488,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,-0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",16,35.0657,-85.2488,14314.52,14314.52,21078.74,6764.22,100.0,6.72,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",17,35.0657,-85.2488,14314.52,14314.52,7550.3,0.0,100.0,2.41,0.0,-0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",18,35.0657,-85.2488,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",19,35.0657,-85.2488,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",20,35.0657,-85.2488,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",21,35.0657,-85.2488,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",22,35.0657,-85.2488,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",23,35.0657,-85.2488,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",24,35.0657,-85.2488,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",25,35.0657,-85.2488,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Chattanooga, Hamilton County, Tennessee",26,35.0657,-85.2488,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Fort Worth, Tarrant County, Texas",1,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",2,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",3,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",4,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",5,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",6,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",7,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",8,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",9,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",10,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",11,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",12,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",13,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",14,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",15,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",16,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",17,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",18,32.7811,-97.3473,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Fort Worth, Tarrant County, Texas",19,32.7811,-97.3473,14314.52,14314.52,37042.41,22727.9,100.0,11.82,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Worth, Tarrant County, Texas",20,32.7811,-97.3473,14314.52,14314.52,20215.65,28629.03,100.0,6.45,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Worth, Tarrant County, Texas",21,32.7811,-97.3473,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Worth, Tarrant County, Texas",22,32.7811,-97.3473,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Worth, Tarrant County, Texas",23,32.7811,-97.3473,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Worth, Tarrant County, Texas",24,32.7811,-97.3473,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Worth, Tarrant County, Texas",25,32.7811,-97.3473,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Fort Worth, Tarrant County, Texas",26,32.7811,-97.3473,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"San Juan, , Puerto Rico",1,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",2,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",3,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",4,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",5,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",6,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",7,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",8,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",9,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",10,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",11,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",12,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",13,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",14,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",15,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",16,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",17,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",18,18.4037,-66.0636,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Juan, , Puerto Rico",19,18.4037,-66.0636,1002.48,1002.48,1002.48,0.0,100.0,0.32,0.0,0.0,17253.96,0.0,0.0,17253.96
+Storage Facility,"San Juan, , Puerto Rico",20,18.4037,-66.0636,1002.48,1002.48,5012.39,4009.91,100.0,1.6,0.0,0.0,17253.96,0.0,0.0,17253.96
+Storage Facility,"San Juan, , Puerto Rico",21,18.4037,-66.0636,1002.48,1002.48,0.0,3007.43,100.0,0.0,0.0,0.0,17253.96,0.0,0.0,17253.96
+Storage Facility,"San Juan, , Puerto Rico",22,18.4037,-66.0636,1002.48,1002.48,0.0,2004.96,100.0,0.0,0.0,0.0,17253.96,0.0,0.0,17253.96
+Storage Facility,"San Juan, , Puerto Rico",23,18.4037,-66.0636,1002.48,1002.48,0.0,1002.48,100.0,0.0,0.0,0.0,17253.96,0.0,0.0,17253.96
+Storage Facility,"San Juan, , Puerto Rico",24,18.4037,-66.0636,1002.48,1002.48,0.0,0.0,100.0,0.0,0.0,0.0,17253.96,0.0,0.0,17253.96
+Storage Facility,"San Juan, , Puerto Rico",25,18.4037,-66.0636,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"San Juan, , Puerto Rico",26,18.4037,-66.0636,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Pensacola, Escambia County, Florida",1,30.4427,-87.1886,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Pensacola, Escambia County, Florida",2,30.4427,-87.1886,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Pensacola, Escambia County, Florida",3,30.4427,-87.1886,1164.28,1164.28,2632.25,1467.98,100.0,0.84,0.0,0.0,19117.4,0.0,0.0,19117.4
+Storage Facility,"Pensacola, Escambia County, Florida",4,30.4427,-87.1886,1164.28,1164.28,536.63,840.33,100.0,0.17,0.0,-0.0,19117.4,0.0,0.0,19117.4
+Storage Facility,"Pensacola, Escambia County, Florida",5,30.4427,-87.1886,1164.28,1164.28,323.95,0.0,100.0,0.1,0.0,0.0,19117.4,0.0,0.0,19117.4
+Storage Facility,"Pensacola, Escambia County, Florida",6,30.4427,-87.1886,1164.28,1164.28,1164.28,0.0,100.0,0.37,0.0,0.0,19117.4,0.0,0.0,19117.4
+Storage Facility,"Pensacola, Escambia County, Florida",7,30.4427,-87.1886,3599.5,3599.5,3599.5,0.0,100.0,1.15,0.0,0.0,59103.72,0.0,0.0,59103.72
+Storage Facility,"Pensacola, Escambia County, Florida",8,30.4427,-87.1886,3599.5,3599.5,7199.0,3599.5,100.0,2.3,0.0,0.0,59103.72,0.0,0.0,59103.72
+Storage Facility,"Pensacola, Escambia County, Florida",9,30.4427,-87.1886,3599.5,3599.5,0.0,0.0,100.0,0.0,0.0,0.0,59103.72,0.0,0.0,59103.72
+Storage Facility,"Pensacola, Escambia County, Florida",10,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",11,30.4427,-87.1886,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",12,30.4427,-87.1886,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",13,30.4427,-87.1886,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",14,30.4427,-87.1886,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",15,30.4427,-87.1886,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",16,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",17,30.4427,-87.1886,14314.52,14314.52,20508.63,6194.11,100.0,6.54,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",18,30.4427,-87.1886,14314.52,14314.52,8120.4,0.0,100.0,2.59,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",19,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",20,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",21,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",22,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",23,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",24,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",25,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Pensacola, Escambia County, Florida",26,30.4427,-87.1886,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",1,26.3559,-81.7861,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Bonita Springs, Lee County, Florida",2,26.3559,-81.7861,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Bonita Springs, Lee County, Florida",3,26.3559,-81.7861,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Bonita Springs, Lee County, Florida",4,26.3559,-81.7861,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Bonita Springs, Lee County, Florida",5,26.3559,-81.7861,0.0,0.0,102.05,102.05,NaN,0.03,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Bonita Springs, Lee County, Florida",6,26.3559,-81.7861,519.46,519.46,936.88,519.46,100.0,0.3,0.0,0.0,8529.56,0.0,0.0,8529.56
+Storage Facility,"Bonita Springs, Lee County, Florida",7,26.3559,-81.7861,519.46,519.46,0.0,0.0,100.0,0.0,0.0,0.0,8529.56,0.0,0.0,8529.56
+Storage Facility,"Bonita Springs, Lee County, Florida",8,26.3559,-81.7861,14314.52,14314.52,19047.92,4733.4,100.0,6.08,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",9,26.3559,-81.7861,14314.52,14314.52,9581.12,0.0,100.0,3.06,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",10,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",11,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",12,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",13,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",14,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",15,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",16,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",17,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",18,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",19,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",20,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",21,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",22,26.3559,-81.7861,14314.52,14314.52,19503.53,5189.02,100.0,6.22,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",23,26.3559,-81.7861,14314.52,14314.52,9125.5,0.0,100.0,2.91,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",24,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",25,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Bonita Springs, Lee County, Florida",26,26.3559,-81.7861,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",1,27.955,-80.6627,274.56,274.56,274.56,0.0,100.0,0.09,0.0,0.0,4508.22,0.0,0.0,4508.22
+Storage Facility,"Palm Bay, Brevard County, Florida",2,27.955,-80.6627,274.56,274.56,274.56,0.0,100.0,0.09,0.0,0.0,4508.22,0.0,0.0,4508.22
+Storage Facility,"Palm Bay, Brevard County, Florida",3,27.955,-80.6627,274.56,274.56,549.11,274.56,100.0,0.18,0.0,0.0,4508.22,0.0,0.0,4508.22
+Storage Facility,"Palm Bay, Brevard County, Florida",4,27.955,-80.6627,274.56,274.56,0.0,0.0,100.0,0.0,0.0,0.0,4508.22,0.0,0.0,4508.22
+Storage Facility,"Palm Bay, Brevard County, Florida",5,27.955,-80.6627,274.56,274.56,274.56,0.0,100.0,0.09,0.0,0.0,4508.22,0.0,0.0,4508.22
+Storage Facility,"Palm Bay, Brevard County, Florida",6,27.955,-80.6627,1650.67,1650.67,2957.86,1307.19,100.0,0.94,0.0,0.0,27103.95,0.0,0.0,27103.95
+Storage Facility,"Palm Bay, Brevard County, Florida",7,27.955,-80.6627,1650.67,1650.67,343.47,0.0,100.0,0.11,0.0,0.0,27103.95,0.0,0.0,27103.95
+Storage Facility,"Palm Bay, Brevard County, Florida",8,27.955,-80.6627,3965.45,3965.45,5956.62,1991.16,100.0,1.9,0.0,0.0,65112.67,0.0,0.0,65112.67
+Storage Facility,"Palm Bay, Brevard County, Florida",9,27.955,-80.6627,3965.45,3965.45,1974.29,0.0,100.0,0.63,0.0,0.0,65112.67,0.0,0.0,65112.67
+Storage Facility,"Palm Bay, Brevard County, Florida",10,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",11,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",12,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",13,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",14,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",15,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",16,27.955,-80.6627,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",17,27.955,-80.6627,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",18,27.955,-80.6627,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",19,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",20,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",21,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",22,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",23,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",24,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",25,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Bay, Brevard County, Florida",26,27.955,-80.6627,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"San Antonio, Bexar County, Texas",1,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",2,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",3,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",4,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",5,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",6,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",7,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",8,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",9,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",10,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",11,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",12,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",13,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",14,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",15,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",16,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",17,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",18,29.4658,-98.5253,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"San Antonio, Bexar County, Texas",19,29.4658,-98.5253,9728.97,9728.97,9728.97,0.0,100.0,3.1,0.0,0.0,167448.38,0.0,0.0,167448.38
+Storage Facility,"San Antonio, Bexar County, Texas",20,29.4658,-98.5253,9728.97,9728.97,9728.97,0.0,100.0,3.1,0.0,0.0,167448.38,0.0,0.0,167448.38
+Storage Facility,"San Antonio, Bexar County, Texas",21,29.4658,-98.5253,9728.97,9728.97,9728.97,0.0,100.0,3.1,0.0,0.0,167448.38,0.0,0.0,167448.38
+Storage Facility,"San Antonio, Bexar County, Texas",22,29.4658,-98.5253,9728.97,9728.97,18470.09,8741.12,100.0,5.89,0.0,0.0,167448.38,0.0,0.0,167448.38
+Storage Facility,"San Antonio, Bexar County, Texas",23,29.4658,-98.5253,9728.97,9728.97,987.86,0.0,100.0,0.32,0.0,0.0,167448.38,0.0,0.0,167448.38
+Storage Facility,"San Antonio, Bexar County, Texas",24,29.4658,-98.5253,14073.89,14073.89,14073.89,0.0,100.0,4.49,0.0,0.0,242230.18,0.0,0.0,242230.18
+Storage Facility,"San Antonio, Bexar County, Texas",25,29.4658,-98.5253,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"San Antonio, Bexar County, Texas",26,29.4658,-98.5253,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",1,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",2,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",3,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",4,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",5,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",6,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",7,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",8,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",9,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",10,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",11,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",12,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",13,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",14,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",15,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",16,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",17,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",18,38.0423,-84.4587,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lexington, Fayette County, Kentucky",19,38.0423,-84.4587,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",20,38.0423,-84.4587,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",21,38.0423,-84.4587,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",22,38.0423,-84.4587,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",23,38.0423,-84.4587,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",24,38.0423,-84.4587,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",25,38.0423,-84.4587,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Lexington, Fayette County, Kentucky",26,38.0423,-84.4587,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Knoxville, Knox County, Tennessee",1,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",2,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",3,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",4,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",5,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",6,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",7,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",8,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",9,35.9692,-83.9496,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Knoxville, Knox County, Tennessee",10,35.9692,-83.9496,2810.9,2810.9,2810.9,0.0,100.0,0.9,0.0,0.0,46711.0,0.0,0.0,46711.0
+Storage Facility,"Knoxville, Knox County, Tennessee",11,35.9692,-83.9496,2810.9,2810.9,5621.8,2810.9,100.0,1.79,0.0,0.0,46711.0,0.0,0.0,46711.0
+Storage Facility,"Knoxville, Knox County, Tennessee",12,35.9692,-83.9496,2810.9,2810.9,0.0,0.0,100.0,0.0,0.0,0.0,46711.0,0.0,0.0,46711.0
+Storage Facility,"Knoxville, Knox County, Tennessee",13,35.9692,-83.9496,14314.52,14314.52,38234.2,23919.69,100.0,12.2,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",14,35.9692,-83.9496,14314.52,14314.52,0.0,9605.17,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",15,35.9692,-83.9496,14314.52,14314.52,4709.35,0.0,100.0,1.5,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",16,35.9692,-83.9496,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",17,35.9692,-83.9496,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",18,35.9692,-83.9496,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",19,35.9692,-83.9496,14314.52,14314.52,52553.11,38238.59,100.0,16.76,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",20,35.9692,-83.9496,14314.52,14314.52,12117.15,36041.22,100.0,3.87,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",21,35.9692,-83.9496,14314.52,14314.52,0.0,21726.71,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",22,35.9692,-83.9496,14314.52,14314.52,13283.9,20696.09,100.0,4.24,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",23,35.9692,-83.9496,14314.52,14314.52,0.0,6381.58,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",24,35.9692,-83.9496,14314.52,14314.52,7932.94,0.0,100.0,2.53,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",25,35.9692,-83.9496,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Knoxville, Knox County, Tennessee",26,35.9692,-83.9496,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Miami, Miami-Dade County, Florida",1,25.7839,-80.2102,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Miami, Miami-Dade County, Florida",2,25.7839,-80.2102,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Miami, Miami-Dade County, Florida",3,25.7839,-80.2102,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Miami, Miami-Dade County, Florida",4,25.7839,-80.2102,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Miami, Miami-Dade County, Florida",5,25.7839,-80.2102,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Miami, Miami-Dade County, Florida",6,25.7839,-80.2102,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Miami, Miami-Dade County, Florida",7,25.7839,-80.2102,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Miami, Miami-Dade County, Florida",8,25.7839,-80.2102,3414.0,3414.0,6828.0,3414.0,100.0,2.18,0.0,0.0,56057.87,0.0,0.0,56057.87
+Storage Facility,"Miami, Miami-Dade County, Florida",9,25.7839,-80.2102,3414.0,3414.0,0.0,0.0,100.0,0.0,0.0,0.0,56057.87,0.0,0.0,56057.87
+Storage Facility,"Miami, Miami-Dade County, Florida",10,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",11,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",12,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",13,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",14,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",15,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",16,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",17,25.7839,-80.2102,14314.52,14314.52,15063.91,749.4,100.0,4.81,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",18,25.7839,-80.2102,14314.52,14314.52,13565.12,0.0,100.0,4.33,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",19,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",20,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",21,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",22,25.7839,-80.2102,14314.52,14314.52,30321.56,16007.04,100.0,9.67,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",23,25.7839,-80.2102,14314.52,14314.52,4950.37,6642.9,100.0,1.58,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",24,25.7839,-80.2102,14314.52,14314.52,7671.62,0.0,100.0,2.45,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",25,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Miami, Miami-Dade County, Florida",26,25.7839,-80.2102,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Dallas, Dallas County, Texas",1,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",2,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",3,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",4,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",5,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",6,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",7,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",8,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",9,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",10,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",11,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",12,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",13,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",14,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",15,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",16,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",17,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",18,32.7936,-96.7662,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Dallas, Dallas County, Texas",19,32.7936,-96.7662,1248.26,1248.26,1248.26,0.0,100.0,0.4,0.0,0.0,21484.18,0.0,0.0,21484.18
+Storage Facility,"Dallas, Dallas County, Texas",20,32.7936,-96.7662,1248.26,1248.26,1248.26,0.0,100.0,0.4,0.0,0.0,21484.18,0.0,0.0,21484.18
+Storage Facility,"Dallas, Dallas County, Texas",21,32.7936,-96.7662,1248.26,1248.26,1248.26,0.0,100.0,0.4,0.0,0.0,21484.18,0.0,0.0,21484.18
+Storage Facility,"Dallas, Dallas County, Texas",22,32.7936,-96.7662,1248.26,1248.26,2496.52,1248.26,100.0,0.8,0.0,-0.0,21484.18,0.0,0.0,21484.18
+Storage Facility,"Dallas, Dallas County, Texas",23,32.7936,-96.7662,1248.26,1248.26,0.0,0.0,100.0,0.0,0.0,0.0,21484.18,0.0,0.0,21484.18
+Storage Facility,"Dallas, Dallas County, Texas",24,32.7936,-96.7662,1248.26,1248.26,1248.26,0.0,100.0,0.4,0.0,0.0,21484.18,0.0,0.0,21484.18
+Storage Facility,"Dallas, Dallas County, Texas",25,32.7936,-96.7662,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Dallas, Dallas County, Texas",26,32.7936,-96.7662,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Orlando, Orange County, Florida",1,28.4772,-81.3369,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Orlando, Orange County, Florida",2,28.4772,-81.3369,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Orlando, Orange County, Florida",3,28.4772,-81.3369,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Orlando, Orange County, Florida",4,28.4772,-81.3369,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Orlando, Orange County, Florida",5,28.4772,-81.3369,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Orlando, Orange County, Florida",6,28.4772,-81.3369,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Orlando, Orange County, Florida",7,28.4772,-81.3369,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Orlando, Orange County, Florida",8,28.4772,-81.3369,1159.88,1159.88,2319.76,1159.88,100.0,0.74,0.0,0.0,19045.21,0.0,0.0,19045.21
+Storage Facility,"Orlando, Orange County, Florida",9,28.4772,-81.3369,1159.88,1159.88,0.0,0.0,100.0,0.0,0.0,0.0,19045.21,0.0,0.0,19045.21
+Storage Facility,"Orlando, Orange County, Florida",10,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",11,28.4772,-81.3369,14314.52,14314.52,18099.57,3785.05,100.0,5.77,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",12,28.4772,-81.3369,14314.52,14314.52,10529.47,0.0,100.0,3.36,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",13,28.4772,-81.3369,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",14,28.4772,-81.3369,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",15,28.4772,-81.3369,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",16,28.4772,-81.3369,14314.52,14314.52,33448.91,19134.39,100.0,10.67,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",17,28.4772,-81.3369,14314.52,14314.52,103.75,4923.62,100.0,0.03,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",18,28.4772,-81.3369,14314.52,14314.52,9390.89,0.0,100.0,3.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",19,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",20,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",21,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",22,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",23,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",24,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",25,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Orlando, Orange County, Florida",26,28.4772,-81.3369,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",1,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",2,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",3,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",4,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",5,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",6,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",7,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",8,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",9,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",10,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",11,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",12,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",13,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",14,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",15,30.4418,-91.131,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",16,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",17,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",18,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",19,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",20,30.4418,-91.131,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",21,30.4418,-91.131,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",22,30.4418,-91.131,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",23,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",24,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",25,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Baton Rouge, East Baton Rouge Parish, Louisiana",26,30.4418,-91.131,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",1,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",2,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",3,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",4,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",5,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",6,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",7,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",8,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",9,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",10,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",11,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",12,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",13,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",14,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",15,34.6988,-86.6412,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Huntsville, Madison County, Alabama",16,34.6988,-86.6412,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",17,34.6988,-86.6412,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",18,34.6988,-86.6412,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",19,34.6988,-86.6412,14314.52,14314.52,24388.81,10074.29,100.0,7.78,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",20,34.6988,-86.6412,14314.52,14314.52,4240.23,0.0,100.0,1.35,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",21,34.6988,-86.6412,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",22,34.6988,-86.6412,14314.52,14314.52,49687.04,35372.52,100.0,15.85,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",23,34.6988,-86.6412,14314.52,14314.52,0.0,21058.0,100.0,0.0,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",24,34.6988,-86.6412,14314.52,14314.52,0.0,6743.49,100.0,0.0,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",25,34.6988,-86.6412,14314.52,14314.52,19435.42,11864.39,100.0,6.2,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Huntsville, Madison County, Alabama",26,34.6988,-86.6412,14314.52,14314.52,2450.13,0.0,100.0,0.78,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"El Paso, El Paso County, Texas",1,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",2,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",3,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",4,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",5,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",6,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",7,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",8,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",9,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",10,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",11,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",12,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",13,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",14,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",15,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",16,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",17,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",18,31.8479,-106.4309,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"El Paso, El Paso County, Texas",19,31.8479,-106.4309,1118.9,1118.9,1118.9,0.0,100.0,0.36,0.0,0.0,19257.76,0.0,0.0,19257.76
+Storage Facility,"El Paso, El Paso County, Texas",20,31.8479,-106.4309,1118.9,1118.9,1118.9,0.0,100.0,0.36,0.0,0.0,19257.76,0.0,0.0,19257.76
+Storage Facility,"El Paso, El Paso County, Texas",21,31.8479,-106.4309,1118.9,1118.9,1118.9,0.0,100.0,0.36,0.0,0.0,19257.76,0.0,0.0,19257.76
+Storage Facility,"El Paso, El Paso County, Texas",22,31.8479,-106.4309,1118.9,1118.9,3356.7,2237.8,100.0,1.07,0.0,0.0,19257.76,0.0,0.0,19257.76
+Storage Facility,"El Paso, El Paso County, Texas",23,31.8479,-106.4309,1118.9,1118.9,0.0,1118.9,100.0,0.0,0.0,0.0,19257.76,0.0,0.0,19257.76
+Storage Facility,"El Paso, El Paso County, Texas",24,31.8479,-106.4309,1118.9,1118.9,0.0,0.0,100.0,0.0,0.0,0.0,19257.76,0.0,0.0,19257.76
+Storage Facility,"El Paso, El Paso County, Texas",25,31.8479,-106.4309,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"El Paso, El Paso County, Texas",26,31.8479,-106.4309,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",1,27.2796,-80.3883,1712.24,1712.24,4137.5,2425.26,100.0,1.32,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",2,27.2796,-80.3883,1712.24,1712.24,0.0,713.02,100.0,0.0,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",3,27.2796,-80.3883,1712.24,1712.24,1626.65,627.43,100.0,0.52,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",4,27.2796,-80.3883,1712.24,1712.24,1084.81,0.0,100.0,0.35,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",5,27.2796,-80.3883,1712.24,1712.24,3424.48,1712.24,100.0,1.09,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",6,27.2796,-80.3883,1712.24,1712.24,0.0,0.0,100.0,0.0,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",7,27.2796,-80.3883,1712.24,1712.24,1712.24,0.0,100.0,0.55,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",8,27.2796,-80.3883,1712.24,1712.24,1712.24,0.0,100.0,0.55,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",9,27.2796,-80.3883,1712.24,1712.24,1712.24,0.0,100.0,0.55,0.0,0.0,28114.95,0.0,0.0,28114.95
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",10,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",11,27.2796,-80.3883,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",12,27.2796,-80.3883,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",13,27.2796,-80.3883,14314.52,14314.52,27264.22,12949.71,100.0,8.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",14,27.2796,-80.3883,14314.52,14314.52,1364.81,0.0,100.0,0.44,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",15,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",16,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",17,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",18,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",19,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",20,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",21,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",22,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",23,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",24,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",25,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Port St. Lucie, Saint Lucie County, Florida",26,27.2796,-80.3883,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",1,29.5392,-81.246,305.46,305.46,305.46,0.0,100.0,0.1,0.0,0.0,5015.7,0.0,0.0,5015.7
+Storage Facility,"Palm Coast, Flagler County, Florida",2,29.5392,-81.246,305.46,305.46,740.36,434.9,100.0,0.24,0.0,0.0,5015.7,0.0,0.0,5015.7
+Storage Facility,"Palm Coast, Flagler County, Florida",3,29.5392,-81.246,305.46,305.46,481.49,610.93,100.0,0.15,0.0,0.0,5015.7,0.0,0.0,5015.7
+Storage Facility,"Palm Coast, Flagler County, Florida",4,29.5392,-81.246,305.46,305.46,0.0,305.46,100.0,0.0,0.0,-0.0,5015.7,0.0,0.0,5015.7
+Storage Facility,"Palm Coast, Flagler County, Florida",5,29.5392,-81.246,305.46,305.46,0.0,0.0,100.0,0.0,0.0,0.0,5015.7,0.0,0.0,5015.7
+Storage Facility,"Palm Coast, Flagler County, Florida",6,29.5392,-81.246,2184.24,2184.24,2184.24,0.0,100.0,0.7,0.0,0.0,35865.17,0.0,0.0,35865.17
+Storage Facility,"Palm Coast, Flagler County, Florida",7,29.5392,-81.246,2184.24,2184.24,2184.24,0.0,100.0,0.7,0.0,0.0,35865.17,0.0,0.0,35865.17
+Storage Facility,"Palm Coast, Flagler County, Florida",8,29.5392,-81.246,14314.52,14314.52,22697.88,8383.37,100.0,7.24,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",9,29.5392,-81.246,14314.52,14314.52,5931.15,0.0,100.0,1.89,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",10,29.5392,-81.246,14314.52,14314.52,36630.46,22315.94,100.0,11.68,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",11,29.5392,-81.246,14314.52,14314.52,6313.09,14314.52,100.0,2.01,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",12,29.5392,-81.246,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",13,29.5392,-81.246,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",14,29.5392,-81.246,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",15,29.5392,-81.246,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",16,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",17,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",18,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",19,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",20,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",21,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",22,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",23,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",24,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",25,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Palm Coast, Flagler County, Florida",26,29.5392,-81.246,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Austin, Travis County, Texas",1,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",2,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",3,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",4,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",5,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",6,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",7,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",8,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",9,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",10,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",11,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",12,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",13,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",14,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",15,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",16,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",17,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",18,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",19,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",20,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",21,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",22,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",23,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",24,30.3004,-97.7522,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Austin, Travis County, Texas",25,30.3004,-97.7522,3423.23,3423.23,3423.23,0.0,100.0,1.09,0.0,0.0,58918.26,0.0,0.0,58918.26
+Storage Facility,"Austin, Travis County, Texas",26,30.3004,-97.7522,8925.2,8925.2,8925.2,0.0,100.0,2.85,0.0,0.0,153614.47,0.0,0.0,153614.47
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",1,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",2,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",3,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",4,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",5,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",6,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",7,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",8,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",9,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",10,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",11,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",12,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",13,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",14,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",15,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",16,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",17,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",18,33.600251,-83.863043,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",19,33.600251,-83.863043,14173.35,14173.35,42520.04,28346.7,100.0,13.56,0.0,0.0,243941.92,0.0,0.0,243941.92
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",20,33.600251,-83.863043,14173.35,14173.35,0.0,14173.35,100.0,0.0,0.0,0.0,243941.92,0.0,0.0,243941.92
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",21,33.600251,-83.863043,14173.35,14173.35,0.0,0.0,100.0,0.0,0.0,0.0,243941.92,0.0,0.0,243941.92
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",22,33.600251,-83.863043,14173.35,14173.35,14173.35,0.0,100.0,4.52,0.0,-0.0,243941.92,0.0,0.0,243941.92
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",23,33.600251,-83.863043,14173.35,14173.35,14173.35,0.0,100.0,4.52,0.0,0.0,243941.92,0.0,0.0,243941.92
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",24,33.600251,-83.863043,14173.35,14173.35,14173.35,0.0,100.0,4.52,0.0,0.0,243941.92,0.0,0.0,243941.92
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",25,33.600251,-83.863043,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Battery Resourcers-Covington, Newton County, Georgia",26,33.600251,-83.863043,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Memphis, Shelby County, Tennessee",1,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",2,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",3,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",4,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",5,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",6,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",7,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",8,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",9,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",10,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",11,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",12,35.1046,-89.9773,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Memphis, Shelby County, Tennessee",13,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",14,35.1046,-89.9773,14314.52,14314.52,15300.4,985.89,100.0,4.88,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",15,35.1046,-89.9773,14314.52,14314.52,13328.63,0.0,100.0,4.25,0.0,-0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",16,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",17,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",18,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",19,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",20,35.1046,-89.9773,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",21,35.1046,-89.9773,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",22,35.1046,-89.9773,14314.52,14314.52,28347.12,14032.61,100.0,9.04,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",23,35.1046,-89.9773,14314.52,14314.52,281.91,0.0,100.0,0.09,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",24,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",25,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Memphis, Shelby County, Tennessee",26,35.1046,-89.9773,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Birmingham, Jefferson County, Alabama",1,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",2,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",3,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",4,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",5,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",6,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",7,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",8,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",9,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",10,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",11,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",12,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",13,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",14,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",15,33.5277,-86.7987,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Birmingham, Jefferson County, Alabama",16,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",17,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",18,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",19,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",20,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",21,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",22,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",23,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",24,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",25,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Birmingham, Jefferson County, Alabama",26,33.5277,-86.7987,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Lakeland, Polk County, Florida",1,28.0556,-81.9545,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lakeland, Polk County, Florida",2,28.0556,-81.9545,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lakeland, Polk County, Florida",3,28.0556,-81.9545,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lakeland, Polk County, Florida",4,28.0556,-81.9545,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lakeland, Polk County, Florida",5,28.0556,-81.9545,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lakeland, Polk County, Florida",6,28.0556,-81.9545,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lakeland, Polk County, Florida",7,28.0556,-81.9545,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Lakeland, Polk County, Florida",8,28.0556,-81.9545,13925.64,13925.64,27851.28,13925.64,100.0,8.88,0.0,0.0,228658.81,0.0,0.0,228658.81
+Storage Facility,"Lakeland, Polk County, Florida",9,28.0556,-81.9545,13925.64,13925.64,0.0,0.0,100.0,0.0,0.0,0.0,228658.81,0.0,0.0,228658.81
+Storage Facility,"Lakeland, Polk County, Florida",10,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",11,28.0556,-81.9545,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",12,28.0556,-81.9545,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",13,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",14,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",15,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",16,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",17,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",18,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",19,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",20,28.0556,-81.9545,14314.52,14314.52,23098.29,8783.77,100.0,7.37,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",21,28.0556,-81.9545,14314.52,14314.52,5530.75,0.0,100.0,1.76,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",22,28.0556,-81.9545,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",23,28.0556,-81.9545,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",24,28.0556,-81.9545,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",25,28.0556,-81.9545,14314.52,14314.52,15143.49,828.97,100.0,4.83,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Lakeland, Polk County, Florida",26,28.0556,-81.9545,14314.52,14314.52,13485.54,0.0,100.0,4.3,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",1,30.3322,-81.6749,674.01,674.01,674.01,0.0,100.0,0.22,0.0,0.0,11067.16,0.0,0.0,11067.16
+Storage Facility,"Jacksonville, Duval County, Florida",2,30.3322,-81.6749,674.01,674.01,674.01,0.0,100.0,0.22,0.0,0.0,11067.16,0.0,0.0,11067.16
+Storage Facility,"Jacksonville, Duval County, Florida",3,30.3322,-81.6749,674.01,674.01,674.01,0.0,100.0,0.22,0.0,0.0,11067.16,0.0,0.0,11067.16
+Storage Facility,"Jacksonville, Duval County, Florida",4,30.3322,-81.6749,674.01,674.01,674.01,0.0,100.0,0.22,0.0,0.0,11067.16,0.0,0.0,11067.16
+Storage Facility,"Jacksonville, Duval County, Florida",5,30.3322,-81.6749,674.01,674.01,8150.68,7476.68,100.0,2.6,0.0,0.0,11067.16,0.0,0.0,11067.16
+Storage Facility,"Jacksonville, Duval County, Florida",6,30.3322,-81.6749,4144.09,4144.09,6124.94,9457.53,100.0,1.95,0.0,0.0,68045.84,0.0,0.0,68045.84
+Storage Facility,"Jacksonville, Duval County, Florida",7,30.3322,-81.6749,14314.52,14314.52,4856.99,0.0,100.0,1.55,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",8,30.3322,-81.6749,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",9,30.3322,-81.6749,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",10,30.3322,-81.6749,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",11,30.3322,-81.6749,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",12,30.3322,-81.6749,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",13,30.3322,-81.6749,14314.52,14314.52,16933.14,2618.62,100.0,5.4,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",14,30.3322,-81.6749,14314.52,14314.52,11695.9,0.0,100.0,3.73,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",15,30.3322,-81.6749,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",16,30.3322,-81.6749,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",17,30.3322,-81.6749,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",18,30.3322,-81.6749,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",19,30.3322,-81.6749,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",20,30.3322,-81.6749,14314.52,14314.52,22925.99,8611.47,100.0,7.31,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",21,30.3322,-81.6749,14314.52,14314.52,5703.05,0.0,100.0,1.82,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",22,30.3322,-81.6749,14314.52,14314.52,39824.79,25510.27,100.0,12.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",23,30.3322,-81.6749,14314.52,14314.52,0.0,11195.75,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",24,30.3322,-81.6749,14314.52,14314.52,3118.76,0.0,100.0,0.99,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",25,30.3322,-81.6749,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Jacksonville, Duval County, Florida",26,30.3322,-81.6749,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"McAllen, Hidalgo County, Texas",1,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",2,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",3,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",4,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",5,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",6,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",7,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",8,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",9,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",10,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",11,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",12,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",13,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",14,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",15,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",16,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",17,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",18,26.2273,-98.2471,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"McAllen, Hidalgo County, Texas",19,26.2273,-98.2471,11822.46,11822.46,16762.29,4939.82,100.0,5.35,0.0,0.0,203480.13,0.0,0.0,203480.13
+Storage Facility,"McAllen, Hidalgo County, Texas",20,26.2273,-98.2471,11822.46,11822.46,6882.64,0.0,100.0,2.2,0.0,0.0,203480.13,0.0,0.0,203480.13
+Storage Facility,"McAllen, Hidalgo County, Texas",21,26.2273,-98.2471,11822.46,11822.46,13747.45,1924.99,100.0,4.39,0.0,0.0,203480.13,0.0,0.0,203480.13
+Storage Facility,"McAllen, Hidalgo County, Texas",22,26.2273,-98.2471,11822.46,11822.46,33542.4,23644.93,100.0,10.7,0.0,0.0,203480.13,0.0,0.0,203480.13
+Storage Facility,"McAllen, Hidalgo County, Texas",23,26.2273,-98.2471,11822.46,11822.46,0.0,11822.46,100.0,0.0,0.0,0.0,203480.13,0.0,0.0,203480.13
+Storage Facility,"McAllen, Hidalgo County, Texas",24,26.2273,-98.2471,11822.46,11822.46,0.0,0.0,100.0,0.0,0.0,0.0,203480.13,0.0,0.0,203480.13
+Storage Facility,"McAllen, Hidalgo County, Texas",25,26.2273,-98.2471,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"McAllen, Hidalgo County, Texas",26,26.2273,-98.2471,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Mobile, Mobile County, Alabama",1,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",2,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",3,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",4,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",5,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",6,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",7,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",8,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",9,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",10,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",11,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",12,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",13,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",14,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",15,30.6783,-88.1162,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Mobile, Mobile County, Alabama",16,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",17,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",18,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",19,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",20,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",21,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",22,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",23,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",24,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",25,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Mobile, Mobile County, Alabama",26,30.6783,-88.1162,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",1,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",2,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",3,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",4,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",5,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",6,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",7,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",8,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",9,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",10,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",11,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",12,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",13,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",14,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",15,33.390543,-87.610711,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",16,33.390543,-87.610711,14314.52,14314.52,19572.77,5258.25,100.0,6.24,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",17,33.390543,-87.610711,14314.52,14314.52,9056.27,0.0,100.0,2.89,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",18,33.390543,-87.610711,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",19,33.390543,-87.610711,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",20,33.390543,-87.610711,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",21,33.390543,-87.610711,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",22,33.390543,-87.610711,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",23,33.390543,-87.610711,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",24,33.390543,-87.610711,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",25,33.390543,-87.610711,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Li-Cycle-Tuscaloosa, Tuscaloosa County, Alabama",26,33.390543,-87.610711,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Corpus Christi, Nueces County, Texas",1,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",2,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",3,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",4,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",5,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",6,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",7,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",8,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",9,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",10,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",11,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",12,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",13,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",14,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",15,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",16,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",17,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",18,27.726,-97.3755,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Corpus Christi, Nueces County, Texas",19,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Corpus Christi, Nueces County, Texas",20,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Corpus Christi, Nueces County, Texas",21,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Corpus Christi, Nueces County, Texas",22,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Corpus Christi, Nueces County, Texas",23,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Corpus Christi, Nueces County, Texas",24,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Corpus Christi, Nueces County, Texas",25,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Corpus Christi, Nueces County, Texas",26,27.726,-97.3755,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",1,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",2,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",3,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",4,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",5,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",6,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",7,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",8,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",9,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",10,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",11,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",12,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",13,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",14,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",15,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",16,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",17,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",18,29.7863,-95.3889,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Houston, Harris County, Texas",19,29.7863,-95.3889,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",20,29.7863,-95.3889,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",21,29.7863,-95.3889,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",22,29.7863,-95.3889,14314.52,14314.52,21796.6,7482.08,100.0,6.95,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",23,29.7863,-95.3889,14314.52,14314.52,6832.44,0.0,100.0,2.18,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",24,29.7863,-95.3889,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",25,29.7863,-95.3889,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Houston, Harris County, Texas",26,29.7863,-95.3889,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",1,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",2,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",3,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",4,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",5,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",6,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",7,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",8,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",9,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",10,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",11,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",12,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",13,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",14,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",15,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",16,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",17,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",18,38.1663,-85.6485,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Louisville, Jefferson County, Kentucky",19,38.1663,-85.6485,14314.52,14314.52,18783.38,4468.86,100.0,5.99,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",20,38.1663,-85.6485,14314.52,14314.52,22491.92,12646.27,100.0,7.17,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",21,38.1663,-85.6485,14314.52,14314.52,1668.25,0.0,100.0,0.53,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",22,38.1663,-85.6485,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",23,38.1663,-85.6485,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",24,38.1663,-85.6485,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",25,38.1663,-85.6485,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Louisville, Jefferson County, Kentucky",26,38.1663,-85.6485,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Nashville, Davidson County, Tennessee",1,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",2,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",3,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",4,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",5,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",6,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",7,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",8,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",9,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",10,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",11,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",12,36.1715,-86.7843,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Nashville, Davidson County, Tennessee",13,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",14,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",15,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",16,36.1715,-86.7843,14314.52,14314.52,38751.87,24437.36,100.0,12.36,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",17,36.1715,-86.7843,14314.52,14314.52,0.0,10122.84,100.0,0.0,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",18,36.1715,-86.7843,14314.52,14314.52,4191.68,0.0,100.0,1.34,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",19,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",20,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",21,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",22,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",23,36.1715,-86.7843,14314.52,14314.52,24083.07,9768.55,100.0,7.68,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",24,36.1715,-86.7843,14314.52,14314.52,4545.96,0.0,100.0,1.45,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",25,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Nashville, Davidson County, Tennessee",26,36.1715,-86.7843,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,237876.05,0.0,0.0,237876.05
+Storage Facility,"Little Rock, Pulaski County, Arkansas",1,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",2,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",3,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",4,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",5,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",6,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",7,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",8,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",9,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",10,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",11,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",12,34.7256,-92.3576,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Little Rock, Pulaski County, Arkansas",13,34.7256,-92.3576,14314.52,14314.52,22027.77,7713.25,100.0,7.03,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",14,34.7256,-92.3576,14314.52,14314.52,6601.27,0.0,100.0,2.11,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",15,34.7256,-92.3576,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",16,34.7256,-92.3576,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",17,34.7256,-92.3576,14314.52,14314.52,14450.24,135.72,100.0,4.61,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",18,34.7256,-92.3576,14314.52,14314.52,14178.8,0.0,100.0,4.52,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",19,34.7256,-92.3576,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",20,34.7256,-92.3576,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",21,34.7256,-92.3576,14314.52,14314.52,22276.07,7961.56,100.0,7.11,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",22,34.7256,-92.3576,14314.52,14314.52,34981.99,28629.03,100.0,11.16,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",23,34.7256,-92.3576,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,-0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",24,34.7256,-92.3576,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",25,34.7256,-92.3576,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"Little Rock, Pulaski County, Arkansas",26,34.7256,-92.3576,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,240707.9,0.0,0.0,240707.9
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",1,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",2,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",3,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",4,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",5,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",6,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",7,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",8,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",9,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",10,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",11,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",12,30.0687,-89.9288,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",13,30.0687,-89.9288,4864.49,4864.49,9728.98,4864.49,100.0,3.1,0.0,0.0,82761.89,0.0,0.0,82761.89
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",14,30.0687,-89.9288,4864.49,4864.49,0.0,0.0,100.0,0.0,0.0,0.0,82761.89,0.0,0.0,82761.89
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",15,30.0687,-89.9288,4864.49,4864.49,4864.49,0.0,100.0,1.55,0.0,-0.0,82761.89,0.0,0.0,82761.89
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",16,30.0687,-89.9288,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",17,30.0687,-89.9288,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",18,30.0687,-89.9288,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",19,30.0687,-89.9288,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",20,30.0687,-89.9288,14314.52,14314.52,19567.47,5252.95,100.0,6.24,0.0,-0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",21,30.0687,-89.9288,14314.52,14314.52,9061.56,0.0,100.0,2.89,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",22,30.0687,-89.9288,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",23,30.0687,-89.9288,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",24,30.0687,-89.9288,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",25,30.0687,-89.9288,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"New Orleans, Orleans Parish, Louisiana",26,30.0687,-89.9288,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,243539.76,0.0,0.0,243539.76
+Storage Facility,"Atlanta, Fulton County, Georgia",1,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",2,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",3,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",4,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",5,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",6,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",7,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",8,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",9,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",10,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",11,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",12,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",13,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",14,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",15,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",16,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",17,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",18,33.7627,-84.4224,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Atlanta, Fulton County, Georgia",19,33.7627,-84.4224,3052.03,3052.03,3052.03,0.0,100.0,0.97,0.0,0.0,52529.52,0.0,0.0,52529.52
+Storage Facility,"Atlanta, Fulton County, Georgia",20,33.7627,-84.4224,3052.03,3052.03,3052.03,0.0,100.0,0.97,0.0,0.0,52529.52,0.0,0.0,52529.52
+Storage Facility,"Atlanta, Fulton County, Georgia",21,33.7627,-84.4224,3052.03,3052.03,3052.03,0.0,100.0,0.97,0.0,0.0,52529.52,0.0,0.0,52529.52
+Storage Facility,"Atlanta, Fulton County, Georgia",22,33.7627,-84.4224,3052.03,3052.03,6104.07,3052.03,100.0,1.95,0.0,0.0,52529.52,0.0,0.0,52529.52
+Storage Facility,"Atlanta, Fulton County, Georgia",23,33.7627,-84.4224,3052.03,3052.03,0.0,0.0,100.0,0.0,0.0,0.0,52529.52,0.0,0.0,52529.52
+Storage Facility,"Atlanta, Fulton County, Georgia",24,33.7627,-84.4224,3052.03,3052.03,3052.03,0.0,100.0,0.97,0.0,0.0,52529.52,0.0,0.0,52529.52
+Storage Facility,"Atlanta, Fulton County, Georgia",25,33.7627,-84.4224,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Atlanta, Fulton County, Georgia",26,33.7627,-84.4224,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",1,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",2,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",3,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",4,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",5,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",6,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",7,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",8,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",9,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",10,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",11,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",12,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",13,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",14,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",15,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",16,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",17,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",18,33.3645,-82.0708,0.0,0.0,0.0,0.0,NaN,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Storage Facility,"Augusta, Richmond County, Georgia",19,33.3645,-82.0708,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",20,33.3645,-82.0708,14314.52,14314.52,71572.58,57258.07,100.0,22.83,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",21,33.3645,-82.0708,14314.52,14314.52,0.0,42943.55,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",22,33.3645,-82.0708,14314.52,14314.52,0.0,28629.03,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",23,33.3645,-82.0708,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",24,33.3645,-82.0708,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",25,33.3645,-82.0708,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Augusta, Richmond County, Georgia",26,33.3645,-82.0708,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,246371.62,0.0,0.0,246371.62
+Storage Facility,"Tampa, Hillsborough County, Florida",1,27.9942,-82.4451,915.47,915.47,3244.45,2328.98,100.0,1.03,0.0,0.0,15031.98,0.0,0.0,15031.98
+Storage Facility,"Tampa, Hillsborough County, Florida",2,27.9942,-82.4451,915.47,915.47,0.0,1413.51,100.0,0.0,0.0,-0.0,15031.98,0.0,0.0,15031.98
+Storage Facility,"Tampa, Hillsborough County, Florida",3,27.9942,-82.4451,915.47,915.47,496.53,994.57,100.0,0.16,0.0,0.0,15031.98,0.0,0.0,15031.98
+Storage Facility,"Tampa, Hillsborough County, Florida",4,27.9942,-82.4451,915.47,915.47,836.37,915.47,100.0,0.27,0.0,-0.0,15031.98,0.0,0.0,15031.98
+Storage Facility,"Tampa, Hillsborough County, Florida",5,27.9942,-82.4451,915.47,915.47,0.0,0.0,100.0,0.0,0.0,0.0,15031.98,0.0,0.0,15031.98
+Storage Facility,"Tampa, Hillsborough County, Florida",6,27.9942,-82.4451,915.47,915.47,3305.39,2389.92,100.0,1.05,0.0,0.0,15031.98,0.0,0.0,15031.98
+Storage Facility,"Tampa, Hillsborough County, Florida",7,27.9942,-82.4451,3286.41,3286.41,896.49,0.0,100.0,0.29,0.0,0.0,53962.79,0.0,0.0,53962.79
+Storage Facility,"Tampa, Hillsborough County, Florida",8,27.9942,-82.4451,3286.41,3286.41,5672.18,2385.77,100.0,1.81,0.0,0.0,53962.79,0.0,0.0,53962.79
+Storage Facility,"Tampa, Hillsborough County, Florida",9,27.9942,-82.4451,3286.41,3286.41,900.64,0.0,100.0,0.29,0.0,0.0,53962.79,0.0,0.0,53962.79
+Storage Facility,"Tampa, Hillsborough County, Florida",10,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",11,27.9942,-82.4451,14314.52,14314.52,19710.2,5395.69,100.0,6.29,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",12,27.9942,-82.4451,14314.52,14314.52,8918.83,0.0,100.0,2.85,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",13,27.9942,-82.4451,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",14,27.9942,-82.4451,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",15,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",16,27.9942,-82.4451,14314.52,14314.52,42943.55,28629.03,100.0,13.7,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",17,27.9942,-82.4451,14314.52,14314.52,0.0,14314.52,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",18,27.9942,-82.4451,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",19,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",20,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",21,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",22,27.9942,-82.4451,14314.52,14314.52,25148.26,10833.74,100.0,8.02,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",23,27.9942,-82.4451,14314.52,14314.52,3480.77,0.0,100.0,1.11,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",24,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",25,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Tampa, Hillsborough County, Florida",26,27.9942,-82.4451,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",1,28.3042,-81.4164,220.53,220.53,220.53,0.0,100.0,0.07,0.0,0.0,3621.1,0.0,0.0,3621.1
+Storage Facility,"Kissimmee, Osceola County, Florida",2,28.3042,-81.4164,2066.85,2066.85,2910.77,843.92,100.0,0.93,0.0,0.0,33937.64,0.0,0.0,33937.64
+Storage Facility,"Kissimmee, Osceola County, Florida",3,28.3042,-81.4164,2066.85,2066.85,1225.22,2.29,100.0,0.39,0.0,0.0,33937.64,0.0,0.0,33937.64
+Storage Facility,"Kissimmee, Osceola County, Florida",4,28.3042,-81.4164,2066.85,2066.85,2064.56,0.0,100.0,0.66,0.0,0.0,33937.64,0.0,0.0,33937.64
+Storage Facility,"Kissimmee, Osceola County, Florida",5,28.3042,-81.4164,2372.92,2372.92,2372.92,0.0,100.0,0.76,0.0,0.0,38963.35,0.0,0.0,38963.35
+Storage Facility,"Kissimmee, Osceola County, Florida",6,28.3042,-81.4164,6572.79,6572.79,6572.79,0.0,100.0,2.1,0.0,0.0,107925.06,0.0,0.0,107925.06
+Storage Facility,"Kissimmee, Osceola County, Florida",7,28.3042,-81.4164,9548.66,9548.66,9548.66,0.0,100.0,3.05,0.0,0.0,156788.82,0.0,0.0,156788.82
+Storage Facility,"Kissimmee, Osceola County, Florida",8,28.3042,-81.4164,9548.66,9548.66,9548.66,0.0,100.0,3.05,0.0,0.0,156788.82,0.0,0.0,156788.82
+Storage Facility,"Kissimmee, Osceola County, Florida",9,28.3042,-81.4164,9548.66,9548.66,9548.66,0.0,100.0,3.05,0.0,0.0,156788.82,0.0,0.0,156788.82
+Storage Facility,"Kissimmee, Osceola County, Florida",10,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",11,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",12,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",13,28.3042,-81.4164,14314.52,14314.52,15696.55,1382.03,100.0,5.01,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",14,28.3042,-81.4164,14314.52,14314.52,17921.65,4989.16,100.0,5.72,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",15,28.3042,-81.4164,14314.52,14314.52,9325.35,0.0,100.0,2.97,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",16,28.3042,-81.4164,14314.52,14314.52,24118.52,9804.0,100.0,7.69,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",17,28.3042,-81.4164,14314.52,14314.52,4813.78,303.27,100.0,1.54,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",18,28.3042,-81.4164,14314.52,14314.52,14011.25,0.0,100.0,4.47,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",19,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",20,28.3042,-81.4164,14314.52,14314.52,28629.03,14314.52,100.0,9.13,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",21,28.3042,-81.4164,14314.52,14314.52,0.0,0.0,100.0,0.0,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",22,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",23,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",24,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",25,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,0.0,235044.19,0.0,0.0,235044.19
+Storage Facility,"Kissimmee, Osceola County, Florida",26,28.3042,-81.4164,14314.52,14314.52,14314.52,0.0,100.0,4.57,0.0,-0.0,235044.19,0.0,0.0,235044.19

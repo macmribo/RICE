@@ -15,7 +15,7 @@
 
 # I like naming my scenarios with the date I created them in ISO format (i.e. YYYYMMDD) and a name that helps me identify my scenario. I like putting an identifying name, and a version, in case I make small changes on the simulation I want to create.
 
-# In[17]:
+# In[15]:
 
 
 import os
@@ -24,23 +24,23 @@ import shutil
 from distutils.dir_util import copy_tree
 
 
-# In[18]:
+# In[16]:
 
 
 date = datetime.today().strftime('%Y%m%d')
-simulation_name = f'{date}_CASE0_v3' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
+simulation_name = f'{date}_CASE0_Manufacturing_v1' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
 simulation_whatif = 'what-if_' + simulation_name
 
 
 # ## Folder generation:
 
-# In[19]:
+# In[17]:
 
 
 cwd = os.getcwd()
 
 
-# In[20]:
+# In[18]:
 
 
 input_file = os.path.join(cwd, 'input', simulation_name)
@@ -51,19 +51,19 @@ figures_file = os.path.join(cwd, 'figures', simulation_name)
 figures_file_whatif = os.path.join(cwd, 'figures', simulation_whatif)
 
 
-# In[21]:
+# In[19]:
 
 
 files_to_create = [input_file, input_file_whatif, output_file, output_file_whatif, figures_file, figures_file_whatif]
 
 
-# In[22]:
+# In[20]:
 
 
 files_to_create[5]
 
 
-# In[23]:
+# In[21]:
 
 
 for files in range(len(files_to_create)):
@@ -81,31 +81,31 @@ for files in range(len(files_to_create)):
 
 # Only use this one when you have your input files ready for simulation, this means that the `input` folder has the `case.json` (i.e. the saved file made in the [RELOG case builder](https://relog.axavier.org/casebuilder)), and the `what-if_blablabla` has been also generated.
 
-# In[36]:
+# In[24]:
 
 
 cwd = os.getcwd()
 
 
-# In[37]:
+# In[25]:
 
 
 test = False
 
 
-# In[38]:
+# In[26]:
 
 
 if test:
     simulation_name = 'bleh'  #test to see the error
 else:
     #simulation_name = f'{date}_CASE0_v1' # This line is to generte  file the same day, use the following line if you want to manually specify the simulation folder
-    simulation_name = '20230301_CASE0_v3'
+    simulation_name = '20230306_CASE0_Manufacturing_v1'
 
 
 # 1. Make sure that the simulation folder exists in the main folders, that it has a `case.json` file inside and that it also has the what-if scenarios generated. If these are not created it will throw an error asking you to do those steps first.
 
-# In[39]:
+# In[27]:
 
 
 input_solver_folder_location = os.path.join(cwd, 'input', simulation_name)
@@ -121,7 +121,7 @@ simulation_folders = [input_solver_folder_location, input_whatif_folder_location
 
 # ### Check if the paths exists.
 
-# In[40]:
+# In[28]:
 
 
 for files in range(len(simulation_folders)):

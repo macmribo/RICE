@@ -35,7 +35,7 @@ SFscenarios = ['95-by-35_Elec.Adv_DR_cSi', '95-by-35_Elec.Adv_DR_CdTe']
 
 # ### Reading GIS inputs
 
-# In[ ]:
+# In[4]:
 
 
 from geopy.geocoders import Nominatim
@@ -44,7 +44,7 @@ from geopy.point import Point
 geolocator = Nominatim(user_agent="geoapiExercises")
 
 
-# In[ ]:
+# In[5]:
 
 
 GISfile = os.path.join(baselinefolder, 'gis_centroid_n.xlsx')
@@ -61,7 +61,7 @@ GIS = GIS.set_index('id')
 # 2. Method 2: Uses ordered wastes between 2021 to 2035 and 2046 to 2050. Still creates unrealistic peaks.
 # 3. Method 3: Uses the cummulative capacity between 2021 to 2035 and 2034 to 2050 to create a logarithmic growth of waste (this method is being tested, not validated yet, and subjected to ongoing changes).
 
-# In[9]:
+# In[7]:
 
 
 method_list = ['Method1', 'Method2', 'Method3']
@@ -74,7 +74,7 @@ print('You have chosen {}.'.format(pv_ice_simulations))
 
 # ### Scenario creation
 
-# In[ ]:
+# In[8]:
 
 
 reedsFile = os.path.join(cwd, 'baselines','December Core Scenarios ReEDS Outputs Solar Futures v3a.xlsx')
@@ -87,7 +87,7 @@ rawdf.set_index(['Scenario','Year','PCA'], inplace=True)
 PCAs = list(rawdf.unstack(level=2).iloc[0].unstack(level=0).index.unique())
 
 
-# In[ ]:
+# In[9]:
 
 
 #for ii in range (0, 1): #len(scenarios):
@@ -126,7 +126,7 @@ r2.trim_Years(startYear=2010, endYear=2050)
 # ### Set characteristics for Manufacturing (probably don't want to inflate this as the waste happens elsewhere, just want EOL
 # 
 
-# In[ ]:
+# In[10]:
 
 
 PERFECTMFG = True
@@ -141,14 +141,14 @@ else:
 
 # ## 3. Calculate Mass Flow
 
-# In[ ]:
+# In[11]:
 
 
 r1.calculateMassFlow()
 r2.calculateMassFlow()
 
 
-# In[ ]:
+# In[12]:
 
 
 print("PCAs:", r1.scenario.keys())
@@ -156,7 +156,7 @@ print("Module Keys:", r1.scenario[PCAs[jj]].dataIn_m.keys())
 print("Material Keys: ", r1.scenario[PCAs[jj]].material['glass'].matdataIn_m.keys())
 
 
-# In[ ]:
+# In[13]:
 
 
 """
@@ -171,28 +171,30 @@ pass
 
 # ## 4. Aggregate & Save Data
 
-# In[ ]:
+# In[14]:
 
 
 r1.aggregateResults()
 r2.aggregateResults()
 
 
-# In[ ]:
+# In[15]:
 
 
 datay = r1.USyearly
 datac = r1.UScum
 
 
-# In[ ]:
+# In[16]:
 
 
 datay_CdTe = r2.USyearly
 datac_CdTe = r2.UScum
 
 
-# In[ ]:
+# ### Get the EOL waste
+
+# In[17]:
 
 
 filter_colc = [col for col in datay if col.startswith('WasteEOL')]
@@ -201,16 +203,15 @@ filter_colc = [col for col in datay_CdTe if col.startswith('WasteEOL')]
 datay_CdTe[filter_colc].to_csv(f'PVICE_RELOG_PCA_CdTe_WasteEOL_{pv_ice_simulations}.csv')
 
 
-# In[ ]:
+# ### Get the Virgin materials
+
+# In[19]:
 
 
-
-
-
-# In[ ]:
-
-
-
+filter_colc = [col for col in datay if col.startswith('VirginStock')]
+datay[filter_colc].to_csv(f'PVICE_RELOG_PCA_cSi_VirginStock_{pv_ice_simulations}.csv')
+filter_colc = [col for col in datay_CdTe if col.startswith('VirginStock')]
+datay_CdTe[filter_colc].to_csv(f'PVICE_RELOG_PCA_CdTe_VirginStock_{pv_ice_simulations}.csv')
 
 
 # In[ ]:
