@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[39]:
+# In[1]:
 
 
 import os
@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# In[40]:
+# In[2]:
 
 
 cwd= os.getcwd()
@@ -22,7 +22,7 @@ cwd= os.getcwd()
 
 # ### Explore differences between CASE0_v4 and CASE0_v5
 
-# In[41]:
+# In[3]:
 
 
 output_folder = os.path.join(cwd, 'output')
@@ -53,10 +53,58 @@ print('Simulation v5 with 7157 tonnes of waste has {} storage facilities.'.forma
 v4['plant type'].unique()
 
 
-# In[46]:
+# In[5]:
 
 
-[storage for storage in v5['amount in storage (tonne)'] if storage != 0]
+man_plants = pd.read_csv(os.path.join(output_folder, '20230306_CASE0_Manufacturing_v1', 'plants.csv'))
+man_products = pd.read_csv(os.path.join(output_folder, '20230306_CASE0_Manufacturing_v1', 'products.csv'))
+man_transportation = pd.read_csv(os.path.join(output_folder, '20230306_CASE0_Manufacturing_v1', 'transportation.csv'))
+
+
+# In[ ]:
+
+
+import seaborn as sns
+import re
+
+rc = {'figure.figsize':(5,5),
+      'axes.facecolor':'white',
+      'axes.grid' : True,
+      'grid.color': '1',
+      #'font.family':'Times New Roman',
+      'font.size' : 9}
+plt.rcParams.update(rc)
+
+#sns.set_style("ticks", rc={"axes.edgecolor": ".0", "axes.facecolor":"none"})
+palette = sns.color_palette('pastel')
+
+
+# In[82]:
+
+
+y_axis_range = list(range(2025, 2051))*5
+
+
+# In[70]:
+
+
+mask = man_plants['location name'].str.contains('Port', case=False, na=False)
+
+
+# In[79]:
+
+
+fig = sns.lineplot(x="year", y="amount processed (tonne)",
+             hue="location name",
+             data=man_plants, palette=palette)
+fig.set(xlabel='', ylabel='Amount processed [tonne]');
+#fig.set_xticklabels(y_axis_range)
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

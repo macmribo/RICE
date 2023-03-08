@@ -465,7 +465,7 @@ for ii in range (len(rawdf.unstack(level=1))):
 # * increasing o the cumulative between 2022 to 2050 --> divide by 435 instead and set kk to loop 0 to 29 
 # * Or increasing between 2022 to 2035, and decreasing for 2036 to 2050 
 
-# In[ ]:
+# In[11]:
 
 
 # Heathers suggestion
@@ -477,7 +477,7 @@ def power_law(x, a, b):
     return a*np.power(x, b)
 
 
-# In[ ]:
+# In[12]:
 
 
 #generae a dataset for the area in between
@@ -492,4 +492,10 @@ mod_eff_late['mod_eff'] = y_dummy
 #print(mod_eff_late)
 plt.plot(mod_eff_late)
 #mod_eff_late.to_csv(cwd+'/../../../PV_ICE/baselines/SupportingMaterial/output_module_eff_perovskite.csv', index=True)
+
+
+# In[ ]:
+
+
+
 
