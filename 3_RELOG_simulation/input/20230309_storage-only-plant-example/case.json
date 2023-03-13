@@ -1,0 +1,233 @@
+{
+  "parameters": {
+    "time horizon (years)": 2,
+    "building period (years)": [
+      1,
+      2
+    ],
+    "distance metric": "Euclidean"
+  },
+  "products": {
+    "Material": {
+      "initial amounts": {
+        "Washakie County": {
+          "amount (tonne)": [
+            1000,
+            1000
+          ],
+          "longitude (deg)": -107.6602,
+          "latitude (deg)": 43.8356
+        }
+      },
+      "disposal limit (tonne)": [
+        0,
+        0
+      ],
+      "transportation energy (J/km/tonne)": [
+        0,
+        0
+      ],
+      "disposal cost ($/tonne)": [
+        0,
+        0
+      ],
+      "acquisition cost ($/tonne)": [
+        0,
+        0
+      ],
+      "transportation cost ($/km/tonne)": [
+        0,
+        0
+      ]
+    }
+  },
+  "plants": {
+    "Storage Plant": {
+      "input": "Material",
+      "energy (GJ/tonne)": [
+        0,
+        0
+      ],
+      "outputs (tonne/tonne)": {
+        "Material": 1
+      },
+      "locations": {
+        "Washakie County": {
+          "capacities (tonne)": {
+            "10000": {
+              "opening cost ($)": [
+                500,
+                500
+              ],
+              "fixed operating cost ($)": [
+                0,
+                0
+              ],
+              "variable operating cost ($/tonne)": [
+                0,
+                0
+              ]
+            }
+          },
+          "latitude (deg)": 43.8356,
+          "longitude (deg)": -107.6602,
+          "initial capacity (tonne)": 0,
+          "disposal": {
+            "Material": {
+              "cost ($/tonne)": [
+                0,
+                0
+              ],
+              "limit (tonne)": [
+                0,
+                0
+              ]
+            }
+          },
+          "storage": {
+            "cost ($/tonne)": [
+              0,
+              0
+            ],
+            "limit (tonne)": 1000
+          }
+        }
+      }
+    },
+    "Processing Plant": {
+      "input": "Material",
+      "energy (GJ/tonne)": [
+        0,
+        0
+      ],
+      "locations": {
+        "Washakie County": {
+          "capacities (tonne)": {
+            "2000": {
+              "opening cost ($)": [
+                100,
+                100
+              ],
+              "fixed operating cost ($)": [
+                5000,
+                5000
+              ],
+              "variable operating cost ($/tonne)": [
+                0,
+                0
+              ]
+            }
+          },
+          "latitude (deg)": 43.8356,
+          "longitude (deg)": -107.6602,
+          "initial capacity (tonne)": 0,
+          "disposal": {},
+          "storage": {
+            "cost ($/tonne)": [
+              0,
+              0
+            ],
+            "limit (tonne)": 1000
+          }
+        }
+      }
+    }
+  },
+  "case builder": {
+    "plants": {
+      "Storage Plant": {
+        "disposal cost ($/tonne)": {
+          "Material": 0
+        },
+        "energy (GJ/tonne)": "0",
+        "x": 480,
+        "locations": {
+          "Washakie County": {
+            "longitude (deg)": -107.6602,
+            "initial capacity (tonne)": 0,
+            "latitude (deg)": 43.8356,
+            "area cost factor": 1
+          }
+        },
+        "maximum capacity (tonne)": "10000",
+        "opening cost (max capacity) ($)": "0",
+        "outputs (tonne/tonne)": {
+          "Material": "1"
+        },
+        "storage": {
+          "limit (tonne)": "1000",
+          "cost ($/tonne)": "0"
+        },
+        "y": 315,
+        "fixed operating cost (max capacity) ($)": "0",
+        "opening cost (min capacity) ($)": "500",
+        "fixed operating cost (min capacity) ($)": "0",
+        "input": "Material",
+        "emissions (tonne/tonne)": {},
+        "minimum capacity (tonne)": "10000",
+        "disposal limit (tonne)": {
+          "Material": "0"
+        },
+        "variable operating cost ($/tonne)": "0"
+      },
+      "Processing Plant": {
+        "disposal cost ($/tonne)": {},
+        "energy (GJ/tonne)": "0",
+        "x": 720,
+        "locations": {
+          "Washakie County": {
+            "longitude (deg)": -107.6602,
+            "initial capacity (tonne)": 0,
+            "latitude (deg)": 43.8356,
+            "area cost factor": 1
+          }
+        },
+        "maximum capacity (tonne)": "2000",
+        "opening cost (max capacity) ($)": "0",
+        "outputs (tonne/tonne)": {},
+        "storage": {
+          "limit (tonne)": "1000",
+          "cost ($/tonne)": "0"
+        },
+        "y": 315,
+        "fixed operating cost (max capacity) ($)": "0",
+        "opening cost (min capacity) ($)": "100",
+        "fixed operating cost (min capacity) ($)": "5000",
+        "input": "Material",
+        "emissions (tonne/tonne)": {},
+        "minimum capacity (tonne)": "2000",
+        "disposal limit (tonne)": {},
+        "variable operating cost ($/tonne)": "0"
+      }
+    },
+    "parameters": {
+      "inflation rate (%)": "0",
+      "time horizon (years)": "2",
+      "building period (years)": "[1,2]",
+      "distance metric": "Euclidean"
+    },
+    "products": {
+      "Material": {
+        "y": 210,
+        "acquisition cost ($/tonne)": "0",
+        "initial amounts": {
+          "Washakie County": {
+            "amount (tonne)": [
+              1000,
+              1000
+            ],
+            "longitude (deg)": -107.6602,
+            "latitude (deg)": 43.8356
+          }
+        },
+        "disposal limit (tonne)": "0",
+        "disposal limit (%)": "",
+        "disposal cost ($/tonne)": "0",
+        "x": 660,
+        "transportation cost ($/km/tonne)": "0",
+        "transportation emissions (tonne/km/tonne)": {},
+        "transportation energy (J/km/tonne)": "0"
+      }
+    }
+  }
+}

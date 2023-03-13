@@ -1,0 +1,3 @@
+product name,location name,latitude (deg),longitude (deg),year,amount (tonne),amount disposed (tonne),marginal cost ($/tonne),acquisition cost ($),disposal cost ($)
+Material,Washakie County,43.8356,-107.6602,1,1000.0,0.0,0.0,0.0,0.0
+Material,Washakie County,43.8356,-107.6602,2,1000.0,0.0,0.0,0.0,0.0

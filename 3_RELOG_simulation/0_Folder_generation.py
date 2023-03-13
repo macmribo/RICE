@@ -15,7 +15,7 @@
 
 # I like naming my scenarios with the date I created them in ISO format (i.e. YYYYMMDD) and a name that helps me identify my scenario. I like putting an identifying name, and a version, in case I make small changes on the simulation I want to create.
 
-# In[15]:
+# In[32]:
 
 
 import os
@@ -24,23 +24,23 @@ import shutil
 from distutils.dir_util import copy_tree
 
 
-# In[16]:
+# In[33]:
 
 
 date = datetime.today().strftime('%Y%m%d')
-simulation_name = f'{date}_CASE0_Manufacturing_v1' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
+simulation_name = f'{date}_storage-only-plant-example' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
 simulation_whatif = 'what-if_' + simulation_name
 
 
 # ## Folder generation:
 
-# In[17]:
+# In[34]:
 
 
 cwd = os.getcwd()
 
 
-# In[18]:
+# In[35]:
 
 
 input_file = os.path.join(cwd, 'input', simulation_name)
@@ -51,19 +51,19 @@ figures_file = os.path.join(cwd, 'figures', simulation_name)
 figures_file_whatif = os.path.join(cwd, 'figures', simulation_whatif)
 
 
-# In[19]:
+# In[36]:
 
 
 files_to_create = [input_file, input_file_whatif, output_file, output_file_whatif, figures_file, figures_file_whatif]
 
 
-# In[20]:
+# In[37]:
 
 
 files_to_create[5]
 
 
-# In[21]:
+# In[38]:
 
 
 for files in range(len(files_to_create)):

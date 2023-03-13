@@ -29,20 +29,23 @@ Current simulations in RICE:
 List (further details below about the content in each simulation):
 * 20230222_CASE0_v1 - Status: unstable/not working
 * 20230222_CASE0_v2 - Status: unstable/not working
-* 20230301_CASE0_v3 - Status: testting
+* 20230301_CASE0_v3 - Status: not working/the waste is not distributed between centers
+* 20230303_CASE0_v4 - Status: not working/the waste is not distributed between centers
+* 20230303_CASE0_v5 - Status: not working/the waste is not distributed between centers
+* 20230306_CASE0_Manufacturing_v1 - Status: semi stable/there are some Florida selected facilities that get nothing at all.
+* 20230308_CASE0_Recycling_v1 - Status: testing
 
-Simulation details:
 -------------------
 
 * 20230222_CASE0_v1: 
 --------------------
 This simulation is to check that the Method3 and aggregate waste until 2050 give more reasonable results.
 	o Waste method used: Method3 (linear interpolation)
-	o Initial amounts file used: 2_data_preparation/RELOG_import_data/Method3/pv_Modules_ia.csv
+	o Initial amounts file used: Initial amounts file used: 2_data_preparation/RELOG_import_data/Recycling/Method1/pv_Modules_ia.csv
 	o Candidate locations used: 2_data_preparation/RELOG_import_data/CandidateLocations_CA_CASE0.csv
 	o Cost assumption mode: Only variable cost, but not sure if it is correct.
 	
-	Notes
+   Notes
    -------
 	o HPC throws an error with the what-if analysis. It does not find a solution, here's the error:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -66,13 +69,13 @@ Stacktrace:
 --------------------
 This scenario uses the Method1 to generate the waste files, the reason for this is because we want to avoid preprocessing the data too much. We are going to try to avoid waste jumps setting the storage to a more reasonable value.
 	o Waste method used: Method1 (raw)
-	o Initial amounts file used: 2_data_preparation/RELOG_import_data/Method1/pv_Modules_ia.csv
+	o Initial amounts file used: 2_data_preparation/RELOG_import_data/Recycling/Method1/pv_Modules_ia.csv
 	o Candidate locations used: 2_data_preparation/RELOG_import_data/CandidateLocations_CA_CASE0.csv
 	o Cost assumption mode:My own costs (found in RELOG_case_biulder_io_clean_publication)
 	o 999999 storage limit
 
 	
-	Notes
+   Notes
    -------
 	o Same error as before 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -98,7 +101,7 @@ in expression starting at /lustre/eaglefs/projects/pvsoiling/RELOG/20230223_CASE
 The previous version seem to "smooth" the waste, however not enough, in this simulation I used double processing centers STORAGE and PV RECYCLING CENTER as Alinson suggested.
 	o Waste method used: Method1 (raw)
 	o No expansion allowed plant only processes 1 t/h
-	o Initial amounts file used: 2_data_preparation/RELOG_import_data/Method1/pv_Modules_ia.csv
+	o Initial amounts file used: 2_data_preparation/RELOG_import_data/Recycling/Method1/pv_Modules_ia.csv
 	o Candidate locations used: 2_data_preparation/RELOG_import_data/CandidateLocations_CA_CASE0.csv
 	o Cost assumption mode: My own costs (found in RELOG_case_biulder_io_clean_publication) - FOR NOW
 	o 999999 storage limit FOR BOTH:
@@ -156,8 +159,78 @@ Stacktrace:
 	o How about I set it to zero storage? It is currently set at 999999: It gives me 103.0 possible locations
 	Now I am going to try 0 storage and half of 7157 (3578): No solution :(
 	Testing with 5000 tonnes: 142 locations, no PV recycling plant
-	2500: No solution
-	3000: No solution
-	3500: No solution
-	4000: No solution
-	4500: 155.0, no PV plant
+	
+	- 2500: No solution
+	- 3000: No solution
+	- 3500: No solution
+	- 4000: No solution
+	- 4500: 155.0 locations, no PV plant
+
+
+****************************************************************************************************
+
+* 20230306_CASE0_Manufacturing_v1:
+----------------------------------
+This simulation uses RELOG to find manufacturing locations instead of recycling centers.
+	o Method used: Method1 (raw), this time instead of waste, we get virgin materials from PV ICE.
+	o Economics for the manufacturing plant
+	o Initial amounts file used: 2_data_preparation/RELOG_import_data/Manufacturing/Method1/pv_Modules_ia.csv
+	o Candidate locations used: 2_data_preparation/RELOG_import_data/CandidateLocations_CA_CASE0.csv
+	o Cost assumption mode: MSmith, Brittany L., Michael Woodhouse, Kelsey A. W. Horowitz, Timothy J. Silverman, Jarett Zuboy, and Robert M. Margolis. 2021. Photovoltaic (PV) Module Technologies: 2020 Benchmark Costs and Technology Evolution Framework Results. Golden, CO: National Renewable Energy Laboratory. NREL/TP-7A40-78173. https://www.nrel.gov/docs/fy22osti/78173.pdf.
+
+	o 999999 storage limit:
+		
+	Notes
+	-----
+	o Weird that some facilities selected process nothing. They don't even open, but they are selected as result.
+
+****************************************************************************************************
+
+SENSITIVITY ANALYSIS RECYCLING
+
+* 20230308_CASE0_Recycling_v1:
+------------------------------
+Copy of CASE0_v4,  but with new cost numbers from Deng and only one facility (I never managed to make the double facility to work). Also capacity goes down to 7000 tones.
+
+	o Medium cost values.
+
+* 20230308_CASE0_Recycling_v2:
+------------------------------
+Copy of CASE0_v4,  but with new cost numbers from Deng and only one facility (I never managed to make the double facility to work). 
+
+	o Minimum cost values.
+
+* 20230308_CASE0_Recycling_v1:
+------------------------------
+Copy of CASE0_v4,  but with new cost numbers from Deng and only one facility (I never managed to make the double facility to work). 
+
+	o Maximum cost values.
+
+Notes:
+------
+No solution in any case, maybe it is something with the storage? I am going to set storage of in dividual materials as unlimited
+**************************************************
+
+* 20230306_CASE0_Manufacturing_v1:
+------------------------------
+Trying to use RELOG as for the manufacturing facilities.
+	o Medium cost values.
+
+* 20230308_CASE0_Manufacturing_v2:
+------------------------------
+Trying to use RELOG as for the manufacturing facilities.
+	o Minimum cost values.
+
+* 20230306_CASE0_Manufacturing_v3:
+------------------------------
+Trying to use RELOG as for the manufacturing facilities.
+	o Maximum cost values.
+Notes
+-----
+No solution! Maybe too expensive?
+
+*****************************************************
+Generic notes
+
+Tested changing v1 recycling to unlimited. This seems to work! Ask why to Nwike and Alinson.
+

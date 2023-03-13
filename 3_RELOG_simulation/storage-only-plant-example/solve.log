@@ -1,0 +1,71 @@
+Initializing...
+[ Info: Reading ./case.json...
+[ Info:            1 collection centers
+[ Info:            2 candidate plant locations
+[ Info: Building graph...
+[ Info:            2 time periods
+[ Info:            2 process nodes
+[ Info:            1 shipping nodes (plant)
+[ Info:            1 shipping nodes (collection)
+[ Info:            4 arcs
+[ Info: Building optimization model...
+[ Info: Optimizing MILP...
+Running HiGHS 1.4.2 [date: 1970-01-01, git hash: f797c1ab6]
+Copyright (c) 2022 ERGO-Code under MIT licence terms
+Presolving model
+26 rows, 22 cols, 60 nonzeros
+16 rows, 14 cols, 39 nonzeros
+10 rows, 9 cols, 22 nonzeros
+7 rows, 7 cols, 16 nonzeros
+6 rows, 5 cols, 13 nonzeros
+Objective function is integral with scale 0.002
+
+Solving MIP model with:
+   6 rows
+   5 cols (2 binary, 0 integer, 0 implied int., 3 continuous)
+   13 nonzeros
+
+        Nodes      |    B&B Tree     |            Objective Bounds              |  Dynamic Constraints |       Work      
+     Proc. InQueue |  Leaves   Expl. | BestBound       BestSol              Gap |   Cuts   InLp Confl. | LpIters     Time
+
+         0       0         0   0.00%   5600            inf                  inf        0      0      0         0     0.0s
+
+Solving report
+  Status            Optimal
+  Primal bound      5600
+  Dual bound        5600
+  Gap               0% (tolerance: 0.01%)
+  Solution status   feasible
+                    5600 (objective)
+                    0 (bound viol.)
+                    0 (int. viol.)
+                    0 (row viol.)
+  Timing            0.05 (total)
+                    0.01 (presolve)
+                    0.00 (postsolve)
+  Nodes             1
+  LP iterations     3 (total)
+                    0 (strong br.)
+                    0 (separation)
+                    0 (heuristics)
+[ Info: Re-optimizing with integer variables fixed...
+Running HiGHS 1.4.2 [date: 1970-01-01, git hash: f797c1ab6]
+Copyright (c) 2022 ERGO-Code under MIT licence terms
+Presolving model
+8 rows, 10 cols, 19 nonzeros
+0 rows, 0 cols, 0 nonzeros
+Presolve : Reductions: rows 0(-44); columns 0(-36); elements 0(-96) - Reduced to empty
+Solving the original LP from the solution after postsolve
+Model   status      : Optimal
+Objective value     :  5.6000000000e+03
+HiGHS run time      :          0.00
+[ Info: Extracting solution...
+  adding: case_tr_emissions.csv (deflated 59%)
+  adding: case.json (deflated 79%)
+  adding: case_products.csv (deflated 48%)
+  adding: case_plant_outputs.csv (deflated 46%)
+  adding: case_plants.csv (deflated 63%)
+  adding: case_plant_emissions.csv (deflated 18%)
+  adding: output.json (stored 0%)
+  adding: case_tr.csv (deflated 77%)
+  adding: solve.log
