@@ -9,7 +9,7 @@ using RELOG
 using TickTock
 
 
-problem = "20230309_storage-only-plant-example"
+problem = "20230314_Recycling_min_v4"
 
 tick()
 # Solve optimization problem

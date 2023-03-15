@@ -1,0 +1,723 @@
+﻿OID_,Entity_ID,Plant_Name,Nameplate_Capacity__MW_,Technology,Operating_Year,Retirement_Year,County_GEOID,County Name,State,State code
+1,803,Cholla,414,Conventional Steam Coal,1981,2020,4017,Navajo,Arizona,AZ
+2,17828,Dallman,90.2,Conventional Steam Coal,1968,2020,17167,Sangamon,Illinois,IL
+3,17828,Dallman,90.2,Conventional Steam Coal,1972,2020,17167,Sangamon,Illinois,IL
+4,56155,Eckert Station,80,Conventional Steam Coal,1968,2020,26065,Ingham,Michigan,MI
+5,56155,Eckert Station,80,Conventional Steam Coal,1970,2020,26065,Ingham,Michigan,MI
+6,19099,Transalta Centralia Generation,729.9,Conventional Steam Coal,1972,2020,53041,Lewis,Washington,WA
+7,6452,Indiantown Cogeneration LP,395.4,Conventional Steam Coal,1995,2020,12085,Martin,Florida,FL
+8,30151,Escalante,257,Conventional Steam Coal,1984,2020,35031,McKinley,New Mexico,NM
+9,189,Lowman Energy Center,66,Conventional Steam Coal,1969,2020,1129,Washington,Alabama,AL
+10,189,Lowman Energy Center,236,Conventional Steam Coal,1978,2020,1129,Washington,Alabama,AL
+11,189,Lowman Energy Center,236,Conventional Steam Coal,1980,2020,1129,Washington,Alabama,AL
+12,15248,Boardman,642.2,Conventional Steam Coal,1980,2020,41049,Morrow,Oregon,OR
+13,15474,Oklaunion,720,Conventional Steam Coal,1986,2020,48487,Wilbarger,Texas,TX
+14,12653,Dickerson,196,Conventional Steam Coal,1960,2020,24031,Montgomery,Maryland,MD
+15,12653,Dickerson,196,Conventional Steam Coal,1962,2020,24031,Montgomery,Maryland,MD
+16,12653,Dickerson,196,Conventional Steam Coal,1959,2020,24031,Montgomery,Maryland,MD
+17,60422,Herbert A Wagner,136,Conventional Steam Coal,1959,2020,24003,Anne Arundel,Maryland,MD
+18,7483,J B Sims,80,Conventional Steam Coal,1983,2020,26139,Ottawa,Michigan,MI
+19,58620,Conesville,841.5,Conventional Steam Coal,1973,2020,39031,Coshocton,Ohio,OH
+20,14268,Elmer Smith,163.2,Conventional Steam Coal,1964,2020,21059,Daviess,Kentucky,KY
+21,14268,Elmer Smith,282.1,Conventional Steam Coal,1974,2020,21059,Daviess,Kentucky,KY
+22,6526,FirstEnergy W H Sammis,190.4,Conventional Steam Coal,1959,2020,39081,Jefferson,Ohio,OH
+23,6526,FirstEnergy W H Sammis,190.4,Conventional Steam Coal,1960,2020,39081,Jefferson,Ohio,OH
+24,6526,FirstEnergy W H Sammis,190.4,Conventional Steam Coal,1961,2020,39081,Jefferson,Ohio,OH
+25,6526,FirstEnergy W H Sammis,190.4,Conventional Steam Coal,1962,2020,39081,Jefferson,Ohio,OH
+26,5860,Asbury,212.8,Conventional Steam Coal,1970,2020,29097,Jasper,Missouri,MO
+27,22129,Somerset Operating Co LLC,655.1,Conventional Steam Coal,1984,2020,36063,Niagara,New York,NY
+28,20541,Wheelabrator Frackville Energy,48,Conventional Steam Coal,1988,2020,42107,Schuylkill,Pennsylvania,PA
+29,18642,Paradise,1150.2,Conventional Steam Coal,1970,2020,21177,Muhlenberg,Kentucky,KY
+30,3046,Asheville,206.6,Conventional Steam Coal,1964,2020,37021,Buncombe,North Carolina,NC
+31,3046,Asheville,207,Conventional Steam Coal,1971,2020,37021,Buncombe,North Carolina,NC
+32,15298,Colstrip,358,Conventional Steam Coal,1975,2020,30087,Rosebud,Montana,MT
+33,15298,Colstrip,358,Conventional Steam Coal,1976,2020,30087,Rosebud,Montana,MT
+34,12949,Morgantown Energy Facility,68.9,Conventional Steam Coal,1991,2020,54061,Monongalia,West Virginia,WV
+35,4045,Columbia (MO),22,Conventional Steam Coal,1965,2019,29019,Boone,Missouri,MO
+36,49756,Duck Creek,441,Conventional Steam Coal,1976,2019,17057,Fulton,Illinois,IL
+37,49805,Kennecott Power Plant,82,Conventional Steam Coal,1958,2019,49035,Salt Lake,Utah,UT
+38,520,Coffeen,388.9,Conventional Steam Coal,1965,2019,17135,Montgomery,Illinois,IL
+39,520,Coffeen,616.5,Conventional Steam Coal,1972,2019,17135,Montgomery,Illinois,IL
+40,5517,Havana,488,Conventional Steam Coal,1978,2019,17125,Mason,Illinois,IL
+41,5517,Hennepin Power Station,75,Conventional Steam Coal,1953,2019,17155,Putnam,Illinois,IL
+42,5517,Hennepin Power Station,231.3,Conventional Steam Coal,1959,2019,17155,Putnam,Illinois,IL
+43,16572,Navajo,803.1,Conventional Steam Coal,1974,2019,4005,Coconino,Arizona,AZ
+44,16572,Navajo,803.1,Conventional Steam Coal,1975,2019,4005,Coconino,Arizona,AZ
+45,6526,FirstEnergy Bruce Mansfield,913.7,Conventional Steam Coal,1980,2019,42007,Beaver,Pennsylvania,PA
+46,22125,Cayuga Operating Company,155.3,Conventional Steam Coal,1955,2019,36109,Tompkins,New York,NY
+47,22125,Cayuga Operating Company,167.2,Conventional Steam Coal,1958,2019,36109,Tompkins,New York,NY
+48,18715,Gibbons Creek,453.5,Conventional Steam Coal,1983,2019,48185,Grimes,Texas,TX
+49,30151,Nucla,11.5,Conventional Steam Coal,1959,2019,8085,Montrose,Colorado,CO
+50,30151,Nucla,11.5,Conventional Steam Coal,1959,2019,8085,Montrose,Colorado,CO
+51,30151,Nucla,11.5,Conventional Steam Coal,1959,2019,8085,Montrose,Colorado,CO
+52,30151,Nucla,79.3,Conventional Steam Coal,1991,2019,8085,Montrose,Colorado,CO
+53,16572,Navajo,803.1,Conventional Steam Coal,1976,2019,4005,Coconino,Arizona,AZ
+54,2884,Cambria Cogen,98,Conventional Steam Coal,1991,2019,42021,Cambria,Pennsylvania,PA
+55,7140,Hammond,125,Conventional Steam Coal,1954,2019,13115,Floyd,Georgia,GA
+56,7140,Hammond,125,Conventional Steam Coal,1954,2019,13115,Floyd,Georgia,GA
+57,7140,Hammond,125,Conventional Steam Coal,1955,2019,13115,Floyd,Georgia,GA
+58,7140,Hammond,578,Conventional Steam Coal,1970,2019,13115,Floyd,Georgia,GA
+59,7140,McIntosh,177.6,Conventional Steam Coal,1979,2019,13103,Effingham,Georgia,GA
+60,61138,James River Genco LLC,57.4,Conventional Steam Coal,1988,2019,51670,Hopewell City,Virginia,VA
+61,61138,James River Genco LLC,57.4,Conventional Steam Coal,1988,2019,51670,Hopewell City,Virginia,VA
+62,58620,Conesville,443.9,Conventional Steam Coal,1976,2019,39031,Coshocton,Ohio,OH
+63,58620,Conesville,443.9,Conventional Steam Coal,1978,2019,39031,Coshocton,Ohio,OH
+64,50097,Luke Mill,35,Conventional Steam Coal,1958,2019,24001,Allegany,Maryland,MD
+65,50097,Luke Mill,30,Conventional Steam Coal,1979,2019,24001,Allegany,Maryland,MD
+66,195,Gorgas,788.8,Conventional Steam Coal,1972,2019,1127,Walker,Alabama,AL
+67,195,Gorgas,187.5,Conventional Steam Coal,1956,2019,1127,Walker,Alabama,AL
+68,195,Gorgas,190.4,Conventional Steam Coal,1958,2019,1127,Walker,Alabama,AL
+69,11701,Shiras,12.5,Conventional Steam Coal,1967,2019,26103,Marquette,Michigan,MI
+70,11701,Shiras,21,Conventional Steam Coal,1972,2019,26103,Marquette,Michigan,MI
+71,11701,Shiras,44,Conventional Steam Coal,1983,2019,26103,Marquette,Michigan,MI
+72,55768,B L England,163.2,Conventional Steam Coal,1964,2019,34009,Cape May,New Jersey,NJ
+73,55739,Edgecombe Genco LLC,57.4,Conventional Steam Coal,1990,2019,37065,Edgecombe,North Carolina,NC
+74,55739,Edgecombe Genco LLC,57.4,Conventional Steam Coal,1990,2019,37065,Edgecombe,North Carolina,NC
+75,5109,St Clair,168.7,Conventional Steam Coal,1953,2019,26147,St Clair,Michigan,MI
+76,20847,Presque Isle,90,Conventional Steam Coal,1974,2019,26103,Marquette,Michigan,MI
+77,20847,Presque Isle,90,Conventional Steam Coal,1975,2019,26103,Marquette,Michigan,MI
+78,20847,Presque Isle,90,Conventional Steam Coal,1978,2019,26103,Marquette,Michigan,MI
+79,20847,Presque Isle,90,Conventional Steam Coal,1978,2019,26103,Marquette,Michigan,MI
+80,20847,Presque Isle,90,Conventional Steam Coal,1979,2019,26103,Marquette,Michigan,MI
+81,19876,Chesterfield,112.5,Conventional Steam Coal,1952,2019,51041,Chesterfield,Virginia,VA
+82,19876,Chesterfield,187.5,Conventional Steam Coal,1960,2019,51041,Chesterfield,Virginia,VA
+83,19876,Yorktown,187.5,Conventional Steam Coal,1957,2019,51199,York,Virginia,VA
+84,19876,Yorktown,187.5,Conventional Steam Coal,1959,2019,51199,York,Virginia,VA
+85,19876,Mecklenburg Power Station,69.9,Conventional Steam Coal,1992,2019,51117,Mecklenburg,Virginia,VA
+86,19876,Mecklenburg Power Station,69.9,Conventional Steam Coal,1992,2019,51117,Mecklenburg,Virginia,VA
+87,10171,E W Brown,113.6,Conventional Steam Coal,1957,2019,21167,Mercer,Kentucky,KY
+88,10171,E W Brown,179.5,Conventional Steam Coal,1963,2019,21167,Mercer,Kentucky,KY
+89,1692,HMP&L Station Two Henderson,200,Conventional Steam Coal,1973,2019,21233,Henderson,Kentucky,KY
+90,1692,HMP&L Station Two Henderson,205,Conventional Steam Coal,1974,2019,21233,Henderson,Kentucky,KY
+91,15534,TalenEnergy Montour,17.2,Conventional Steam Coal,1973,2019,42093,Montour,Pennsylvania,PA
+92,6526,FirstEnergy Bruce Mansfield,913.7,Conventional Steam Coal,1976,2019,42007,Beaver,Pennsylvania,PA
+93,6526,FirstEnergy Bruce Mansfield,913.7,Conventional Steam Coal,1977,2019,42007,Beaver,Pennsylvania,PA
+94,6455,Crystal River,440.5,Conventional Steam Coal,1966,2018,12017,Citrus,Florida,FL
+95,6455,Crystal River,523.8,Conventional Steam Coal,1969,2018,12017,Citrus,Florida,FL
+96,12647,Clay Boswell,75,Conventional Steam Coal,1958,2018,27061,Itasca,Minnesota,MN
+97,12647,Clay Boswell,75,Conventional Steam Coal,1960,2018,27061,Itasca,Minnesota,MN
+98,10000,Montrose,188,Conventional Steam Coal,1960,2018,29083,Henry,Missouri,MO
+99,10000,Montrose,188,Conventional Steam Coal,1964,2018,29083,Henry,Missouri,MO
+100,56211,Sibley,50,Conventional Steam Coal,1962,2018,29095,Jackson,Missouri,MO
+101,56211,Sibley,419,Conventional Steam Coal,1969,2018,29095,Jackson,Missouri,MO
+102,17568,R D Morrow,200,Conventional Steam Coal,1978,2018,28073,Lamar,Mississippi,MS
+103,17568,R D Morrow,200,Conventional Steam Coal,1978,2018,28073,Lamar,Mississippi,MS
+104,13833,Kline Township Cogen Facility,59,Conventional Steam Coal,1989,2018,42107,Schuylkill,Pennsylvania,PA
+105,22500,Tecumseh Energy Center,82,Conventional Steam Coal,1957,2018,20177,Shawnee,Kansas,KS
+106,20860,Pulliam,81.6,Conventional Steam Coal,1958,2018,55009,Brown,Wisconsin,WI
+107,20860,Pulliam,149.6,Conventional Steam Coal,1964,2018,55009,Brown,Wisconsin,WI
+108,20856,Edgewater,351,Conventional Steam Coal,1969,2018,55117,Sheboygan,Wisconsin,WI
+109,13756,Bailly,190.4,Conventional Steam Coal,1962,2018,18127,Porter,Indiana,IN
+110,13756,Bailly,413.1,Conventional Steam Coal,1968,2018,18127,Porter,Indiana,IN
+111,60415,"CP Crane Power, LLC",190.4,Conventional Steam Coal,1961,2018,24005,Baltimore,Maryland,MD
+112,60415,"CP Crane Power, LLC",209.4,Conventional Steam Coal,1963,2018,24005,Baltimore,Maryland,MD
+113,4922,J M Stuart,610.2,Conventional Steam Coal,1970,2018,39001,Adams,Ohio,OH
+114,4922,J M Stuart,610.2,Conventional Steam Coal,1972,2018,39001,Adams,Ohio,OH
+115,4922,J M Stuart,610.2,Conventional Steam Coal,1974,2018,39001,Adams,Ohio,OH
+116,4922,Killen Station,660.6,Conventional Steam Coal,1982,2018,39001,Adams,Ohio,OH
+117,20847,Pleasant Prairie,616.6,Conventional Steam Coal,1980,2018,55059,Kenosha,Wisconsin,WI
+118,20847,Pleasant Prairie,616.6,Conventional Steam Coal,1985,2018,55059,Kenosha,Wisconsin,WI
+119,18642,Allen,330,Conventional Steam Coal,1959,2018,47157,Shelby,Tennessee,TN
+120,18642,Allen,330,Conventional Steam Coal,1959,2018,47157,Shelby,Tennessee,TN
+121,18642,Allen,330,Conventional Steam Coal,1959,2018,47157,Shelby,Tennessee,TN
+122,55983,Big Brown,593.4,Conventional Steam Coal,1971,2018,48161,Freestone,Texas,TX
+123,55983,Big Brown,593.4,Conventional Steam Coal,1972,2018,48161,Freestone,Texas,TX
+124,9617,St Johns River Power Park,679,Conventional Steam Coal,1987,2018,12031,Duval,Florida,FL
+125,9617,St Johns River Power Park,679,Conventional Steam Coal,1988,2018,12031,Duval,Florida,FL
+126,55983,Monticello,593.4,Conventional Steam Coal,1974,2018,48449,Titus,Texas,TX
+127,55983,Monticello,593.4,Conventional Steam Coal,1975,2018,48449,Titus,Texas,TX
+128,55983,Monticello,793.2,Conventional Steam Coal,1995,2018,48449,Titus,Texas,TX
+129,55983,Sandow No 4,590.6,Conventional Steam Coal,1981,2018,48331,Milam,Texas,TX
+130,59621,Elizabethtown Power LLC,34.7,Conventional Steam Coal,1985,2018,37017,Bladen,North Carolina,NC
+131,55983,Sandow No 5,661.5,Conventional Steam Coal,2010,2018,48331,Milam,Texas,TX
+132,17833,James River Power Station,22,Conventional Steam Coal,1957,2017,29077,Greene,Missouri,MO
+133,17833,James River Power Station,22,Conventional Steam Coal,1957,2017,29077,Greene,Missouri,MO
+134,17833,James River Power Station,44,Conventional Steam Coal,1960,2017,29077,Greene,Missouri,MO
+135,15473,San Juan,369,Conventional Steam Coal,1973,2017,35045,San Juan,New Mexico,NM
+136,15473,San Juan,555,Conventional Steam Coal,1979,2017,35045,San Juan,New Mexico,NM
+137,18642,Johnsonville,125,Conventional Steam Coal,1951,2017,47085,Humphreys,Tennessee,TN
+138,18642,Johnsonville,125,Conventional Steam Coal,1951,2017,47085,Humphreys,Tennessee,TN
+139,18642,Johnsonville,125,Conventional Steam Coal,1952,2017,47085,Humphreys,Tennessee,TN
+140,18642,Johnsonville,125,Conventional Steam Coal,1952,2017,47085,Humphreys,Tennessee,TN
+141,733,Kanawha River,219.6,Conventional Steam Coal,1953,2017,54039,Kanawha,West Virginia,WV
+142,733,Kanawha River,219.6,Conventional Steam Coal,1953,2017,54039,Kanawha,West Virginia,WV
+143,5109,St Clair,168.7,Conventional Steam Coal,1954,2017,26147,St Clair,Michigan,MI
+144,4922,J M Stuart,610.2,Conventional Steam Coal,1971,2017,39001,Adams,Ohio,OH
+145,15466,Valmont,191.7,Conventional Steam Coal,1964,2017,8013,Boulder,Colorado,CO
+146,58534,Brayton Point,241,Conventional Steam Coal,1963,2017,25005,Bristol,Massachusetts,MA
+147,58534,Brayton Point,241,Conventional Steam Coal,1964,2017,25005,Bristol,Massachusetts,MA
+148,58534,Brayton Point,642.6,Conventional Steam Coal,1969,2017,25005,Bristol,Massachusetts,MA
+149,8723,James De Young,22,Conventional Steam Coal,1962,2017,26139,Ottawa,Michigan,MI
+150,8723,James De Young,29.3,Conventional Steam Coal,1969,2017,26139,Ottawa,Michigan,MI
+151,56211,Sibley,55,Conventional Steam Coal,1960,2017,29095,Jackson,Missouri,MO
+152,15147,PSEG Mercer Generating Station,326.4,Conventional Steam Coal,1960,2017,34021,Mercer,New Jersey,NJ
+153,15147,PSEG Mercer Generating Station,326.4,Conventional Steam Coal,1961,2017,34021,Mercer,New Jersey,NJ
+154,18642,Paradise,704,Conventional Steam Coal,1963,2017,21177,Muhlenberg,Kentucky,KY
+155,18642,Paradise,704,Conventional Steam Coal,1963,2017,21177,Muhlenberg,Kentucky,KY
+156,13407,Reid Gardner,294.8,Conventional Steam Coal,1983,2017,32003,Clark,Nevada,NV
+157,7570,Stanton,190.2,Conventional Steam Coal,1967,2017,38057,Mercer,North Dakota,ND
+158,55808,Roanoke Valley Energy Facility I,182.3,Conventional Steam Coal,1994,2017,37083,Halifax,North Carolina,NC
+159,55808,Roanoke Valley Energy Facility II,57.8,Conventional Steam Coal,1995,2017,37083,Halifax,North Carolina,NC
+160,19204,Trinidad (CO),3.7,Conventional Steam Coal,1950,2017,8071,Las Animas,Colorado,CO
+161,57440,SABIC Innovative Plastics Mt. Vernon,5.5,Conventional Steam Coal,1996,2017,18129,Posey,Indiana,IN
+162,3989,Martin Drake,50,Conventional Steam Coal,1962,2016,8041,El Paso,Colorado,CO
+163,15470,Wabash River,387,Conventional Steam Coal,1968,2016,18167,Vigo,Indiana,IN
+164,11732,Marshall (MO),16.5,Conventional Steam Coal,1967,2016,29195,Saline,Missouri,MO
+165,56730,Cedar Bay Generating Company LP,291.6,Conventional Steam Coal,1994,2016,12031,Duval,Florida,FL
+166,49805,Kennecott Power Plant,50,Conventional Steam Coal,1943,2016,49035,Salt Lake,Utah,UT
+167,49805,Kennecott Power Plant,25,Conventional Steam Coal,1943,2016,49035,Salt Lake,Utah,UT
+168,49805,Kennecott Power Plant,25,Conventional Steam Coal,1946,2016,49035,Salt Lake,Utah,UT
+169,520,Newton,617.4,Conventional Steam Coal,1982,2016,17079,Jasper,Illinois,IL
+170,7140,Mitchell (GA),163.2,Conventional Steam Coal,1964,2016,13095,Dougherty,Georgia,GA
+171,11732,Marshall (MO),6,Conventional Steam Coal,1956,2016,29195,Saline,Missouri,MO
+172,49923,American Eagle Paper Mills,2.5,Conventional Steam Coal,1929,2016,42013,Blair,Pennsylvania,PA
+173,49923,American Eagle Paper Mills,4.5,Conventional Steam Coal,1930,2016,42013,Blair,Pennsylvania,PA
+174,49923,American Eagle Paper Mills,3,Conventional Steam Coal,1936,2016,42013,Blair,Pennsylvania,PA
+175,49923,American Eagle Paper Mills,7.5,Conventional Steam Coal,1958,2016,42013,Blair,Pennsylvania,PA
+176,5109,River Rouge,292.5,Conventional Steam Coal,1957,2016,26163,Wayne,Michigan,MI
+177,8723,James De Young,11.5,Conventional Steam Coal,1951,2016,26139,Ottawa,Michigan,MI
+178,5517,Wood River,112.5,Conventional Steam Coal,1954,2016,17119,Madison,Illinois,IL
+179,5517,Wood River,387.6,Conventional Steam Coal,1964,2016,17119,Madison,Illinois,IL
+180,14165,Avon Lake,86,Conventional Steam Coal,1949,2016,39093,Lorain,Ohio,OH
+181,12807,Endicott Station,55,Conventional Steam Coal,1982,2016,26059,Hillsdale,Michigan,MI
+182,9667,Jasper 2,14.5,Conventional Steam Coal,1968,2016,18037,Dubois,Indiana,IN
+183,56217,Portsmouth Genco LLC,57.4,Conventional Steam Coal,1988,2016,51740,Portsmouth City,Virginia,VA
+184,56217,Portsmouth Genco LLC,57.4,Conventional Steam Coal,1988,2016,51740,Portsmouth City,Virginia,VA
+185,18642,Colbert,200,Conventional Steam Coal,1955,2016,1033,Colbert,Alabama,AL
+186,18642,Colbert,200,Conventional Steam Coal,1955,2016,1033,Colbert,Alabama,AL
+187,18642,Colbert,200,Conventional Steam Coal,1955,2016,1033,Colbert,Alabama,AL
+188,18642,Colbert,200,Conventional Steam Coal,1955,2016,1033,Colbert,Alabama,AL
+189,18642,Colbert,550,Conventional Steam Coal,1965,2016,1033,Colbert,Alabama,AL
+190,9273,Eagle Valley (IN),50,Conventional Steam Coal,1951,2016,18109,Morgan,Indiana,IN
+191,9273,Eagle Valley (IN),69,Conventional Steam Coal,1953,2016,18109,Morgan,Indiana,IN
+192,9273,Eagle Valley (IN),69,Conventional Steam Coal,1953,2016,18109,Morgan,Indiana,IN
+193,9273,Eagle Valley (IN),113.6,Conventional Steam Coal,1956,2016,18109,Morgan,Indiana,IN
+194,15470,Wabash River,112.5,Conventional Steam Coal,1953,2016,18167,Vigo,Indiana,IN
+195,15470,Wabash River,123.2,Conventional Steam Coal,1954,2016,18167,Vigo,Indiana,IN
+196,15470,Wabash River,112.5,Conventional Steam Coal,1955,2016,18167,Vigo,Indiana,IN
+197,15470,Wabash River,125,Conventional Steam Coal,1956,2016,18167,Vigo,Indiana,IN
+198,12341,George Neal North,147,Conventional Steam Coal,1964,2016,19193,Woodbury,Iowa,IA
+199,12341,George Neal North,349.2,Conventional Steam Coal,1972,2016,19193,Woodbury,Iowa,IA
+200,5580,Dale,81,Conventional Steam Coal,1957,2016,21049,Clark,Kentucky,KY
+201,5580,Dale,81,Conventional Steam Coal,1960,2016,21049,Clark,Kentucky,KY
+202,4254,B C Cobb,156.3,Conventional Steam Coal,1956,2016,26121,Muskegon,Michigan,MI
+203,4254,B C Cobb,156.3,Conventional Steam Coal,1957,2016,26121,Muskegon,Michigan,MI
+204,4254,J C Weadock,156.3,Conventional Steam Coal,1955,2016,26017,Bay,Michigan,MI
+205,4254,J C Weadock,156.3,Conventional Steam Coal,1958,2016,26017,Bay,Michigan,MI
+206,4254,J R Whiting,106.3,Conventional Steam Coal,1952,2016,26115,Monroe,Michigan,MI
+207,4254,J R Whiting,106.3,Conventional Steam Coal,1952,2016,26115,Monroe,Michigan,MI
+208,4254,J R Whiting,132.8,Conventional Steam Coal,1953,2016,26115,Monroe,Michigan,MI
+209,5109,Trenton Channel,120,Conventional Steam Coal,1949,2016,26163,Wayne,Michigan,MI
+210,10000,Montrose,188,Conventional Steam Coal,1958,2016,29083,Henry,Missouri,MO
+211,4045,Columbia (MO),16.5,Conventional Steam Coal,1957,2016,29019,Boone,Missouri,MO
+212,15474,Northeastern,473,Conventional Steam Coal,1980,2016,40131,Rogers,Oklahoma,OK
+213,17698,Welsh,558,Conventional Steam Coal,1980,2016,48449,Titus,Texas,TX
+214,20847,Milwaukee County,11,Conventional Steam Coal,1955,2016,55079,Milwaukee,Wisconsin,WI
+215,7801,Lansing Smith,149.6,Conventional Steam Coal,1965,2016,12005,Bay,Florida,FL
+216,7801,Lansing Smith,190.4,Conventional Steam Coal,1967,2016,12005,Bay,Florida,FL
+217,13168,C R Huntley Generating Station,200,Conventional Steam Coal,1957,2016,36029,Erie,New York,NY
+218,13168,C R Huntley Generating Station,200,Conventional Steam Coal,1958,2016,36029,Erie,New York,NY
+219,11142,Logansport,18,Conventional Steam Coal,1958,2016,18017,Cass,Indiana,IN
+220,11142,Logansport,25,Conventional Steam Coal,1964,2016,18017,Cass,Indiana,IN
+221,58246,Escanaba,11.5,Conventional Steam Coal,1958,2016,26041,Delta,Michigan,MI
+222,58246,Escanaba,11.5,Conventional Steam Coal,1958,2016,26041,Delta,Michigan,MI
+223,9231,Missouri City,23,Conventional Steam Coal,1954,2016,29047,Clay,Missouri,MO
+224,9231,Missouri City,23,Conventional Steam Coal,1954,2016,29047,Clay,Missouri,MO
+225,49756,E D Edwards,136,Conventional Steam Coal,1960,2015,17143,Peoria,Illinois,IL
+226,14839,Peru (IN),22,Conventional Steam Coal,1959,2015,18103,Miami,Indiana,IN
+227,14839,Peru (IN),12.5,Conventional Steam Coal,1949,2015,18103,Miami,Indiana,IN
+228,56155,Eckert Station,47,Conventional Steam Coal,1960,2015,26065,Ingham,Michigan,MI
+229,16181,Silver Lake,8,Conventional Steam Coal,1948,2015,27109,Olmsted,Minnesota,MN
+230,16181,Silver Lake,12,Conventional Steam Coal,1953,2015,27109,Olmsted,Minnesota,MN
+231,16181,Silver Lake,25,Conventional Steam Coal,1962,2015,27109,Olmsted,Minnesota,MN
+232,16181,Silver Lake,54,Conventional Steam Coal,1969,2015,27109,Olmsted,Minnesota,MN
+233,3242,Chamois,15,Conventional Steam Coal,1953,2015,29151,Osage,Missouri,MO
+234,3242,Chamois,44,Conventional Steam Coal,1960,2015,29151,Osage,Missouri,MO
+235,18642,Johnsonville,172.8,Conventional Steam Coal,1959,2015,47085,Humphreys,Tennessee,TN
+236,18642,Johnsonville,147,Conventional Steam Coal,1952,2015,47085,Humphreys,Tennessee,TN
+237,18642,Johnsonville,147,Conventional Steam Coal,1953,2015,47085,Humphreys,Tennessee,TN
+238,18642,Johnsonville,172.8,Conventional Steam Coal,1958,2015,47085,Humphreys,Tennessee,TN
+239,18642,Johnsonville,172.8,Conventional Steam Coal,1959,2015,47085,Humphreys,Tennessee,TN
+240,18642,Johnsonville,172.8,Conventional Steam Coal,1959,2015,47085,Humphreys,Tennessee,TN
+241,733,Clinch River,237.5,Conventional Steam Coal,1961,2015,51167,Russell,Virginia,VA
+242,20856,Edgewater,69,Conventional Steam Coal,1951,2015,55117,Sheboygan,Wisconsin,WI
+243,20856,Nelson Dewey Generating Station,113.6,Conventional Steam Coal,1959,2015,55043,Grant,Wisconsin,WI
+244,20856,Nelson Dewey Generating Station,113.6,Conventional Steam Coal,1962,2015,55043,Grant,Wisconsin,WI
+245,803,Cholla,288.9,Conventional Steam Coal,1978,2015,4017,Navajo,Arizona,AZ
+246,22500,Lawrence Energy Center,49,Conventional Steam Coal,1955,2015,20045,Douglas,Kansas,KS
+247,22500,Tecumseh Energy Center,150,Conventional Steam Coal,1962,2015,20177,Shawnee,Kansas,KS
+248,733,Philip Sporn,152.5,Conventional Steam Coal,1950,2015,54053,Mason,West Virginia,WV
+249,733,Philip Sporn,152.5,Conventional Steam Coal,1950,2015,54053,Mason,West Virginia,WV
+250,733,Philip Sporn,152.5,Conventional Steam Coal,1951,2015,54053,Mason,West Virginia,WV
+251,733,Philip Sporn,152.5,Conventional Steam Coal,1952,2015,54053,Mason,West Virginia,WV
+252,7140,Kraft,54.4,Conventional Steam Coal,1961,2015,13051,Chatham,Georgia,GA
+253,7140,Kraft,103.5,Conventional Steam Coal,1965,2015,13051,Chatham,Georgia,GA
+254,7140,Kraft,50,Conventional Steam Coal,1958,2015,13051,Chatham,Georgia,GA
+255,10171,Green River,75,Conventional Steam Coal,1954,2015,21177,Muhlenberg,Kentucky,KY
+256,10171,Green River,113.6,Conventional Steam Coal,1959,2015,21177,Muhlenberg,Kentucky,KY
+257,9788,John Deere Harvester Works,2.5,Conventional Steam Coal,1960,2015,17161,Rock Island,Illinois,IL
+258,57300,Bayer CropScience Institute Plant,6.3,Conventional Steam Coal,1961,2015,54039,Kanawha,West Virginia,WV
+259,18642,Widows Creek,575,Conventional Steam Coal,1961,2015,1071,Jackson,Alabama,AL
+260,18642,Widows Creek,550,Conventional Steam Coal,1965,2015,1071,Jackson,Alabama,AL
+261,56155,Eckert Station,44,Conventional Steam Coal,1954,2015,26065,Ingham,Michigan,MI
+262,57300,Bayer CropScience Institute Plant,6.3,Conventional Steam Coal,1958,2015,54039,Kanawha,West Virginia,WV
+263,195,Barry,272,Conventional Steam Coal,1959,2015,1097,Mobile,Alabama,AL
+264,195,Gorgas,125,Conventional Steam Coal,1951,2015,1127,Walker,Alabama,AL
+265,195,Gorgas,125,Conventional Steam Coal,1952,2015,1127,Walker,Alabama,AL
+266,15466,Cherokee,170.5,Conventional Steam Coal,1962,2015,8001,Adams,Colorado,CO
+267,9324,Tanners Creek,152.5,Conventional Steam Coal,1951,2015,18029,Dearborn,Indiana,IN
+268,9324,Tanners Creek,152.5,Conventional Steam Coal,1952,2015,18029,Dearborn,Indiana,IN
+269,9324,Tanners Creek,215.4,Conventional Steam Coal,1954,2015,18029,Dearborn,Indiana,IN
+270,9324,Tanners Creek,579.7,Conventional Steam Coal,1964,2015,18029,Dearborn,Indiana,IN
+271,11249,Cane Run,163.2,Conventional Steam Coal,1962,2015,21111,Jefferson,Kentucky,KY
+272,11249,Cane Run,209.4,Conventional Steam Coal,1966,2015,21111,Jefferson,Kentucky,KY
+273,59919,Miami Fort,163.2,Conventional Steam Coal,1960,2015,39061,Hamilton,Ohio,OH
+274,61919,O H Hutchings,69,Conventional Steam Coal,1948,2015,39113,Montgomery,Ohio,OH
+275,61919,O H Hutchings,69,Conventional Steam Coal,1949,2015,39113,Montgomery,Ohio,OH
+276,61919,O H Hutchings,69,Conventional Steam Coal,1950,2015,39113,Montgomery,Ohio,OH
+277,61919,O H Hutchings,69,Conventional Steam Coal,1952,2015,39113,Montgomery,Ohio,OH
+278,61919,O H Hutchings,69,Conventional Steam Coal,1953,2015,39113,Montgomery,Ohio,OH
+279,733,Glen Lyn,100,Conventional Steam Coal,1944,2015,51071,Giles,Virginia,VA
+280,733,Glen Lyn,237.5,Conventional Steam Coal,1957,2015,51071,Giles,Virginia,VA
+281,20860,Pulliam,50,Conventional Steam Coal,1949,2015,55009,Brown,Wisconsin,WI
+282,20860,Pulliam,69,Conventional Steam Coal,1951,2015,55009,Brown,Wisconsin,WI
+283,20860,Weston,60,Conventional Steam Coal,1954,2015,55073,Marathon,Wisconsin,WI
+284,22053,Big Sandy,816.3,Conventional Steam Coal,1969,2015,21127,Lawrence,Kentucky,KY
+285,58620,Picway,106.2,Conventional Steam Coal,1955,2015,39129,Pickaway,Ohio,OH
+286,58620,Muskingum River,219.6,Conventional Steam Coal,1953,2015,39115,Washington,Ohio,OH
+287,58620,Muskingum River,219.6,Conventional Steam Coal,1954,2015,39115,Washington,Ohio,OH
+288,58620,Muskingum River,237.5,Conventional Steam Coal,1957,2015,39115,Washington,Ohio,OH
+289,58620,Muskingum River,237.5,Conventional Steam Coal,1958,2015,39115,Washington,Ohio,OH
+290,58620,Muskingum River,615.2,Conventional Steam Coal,1968,2015,39115,Washington,Ohio,OH
+291,58620,Kammer,237.5,Conventional Steam Coal,1958,2015,54051,Marshall,West Virginia,WV
+292,58620,Kammer,237.5,Conventional Steam Coal,1958,2015,54051,Marshall,West Virginia,WV
+293,58620,Kammer,237.5,Conventional Steam Coal,1959,2015,54051,Marshall,West Virginia,WV
+294,9788,John Deere Harvester Works,0.9,Conventional Steam Coal,2003,2015,17161,Rock Island,Illinois,IL
+295,12647,Taconite Harbor Energy Center,84,Conventional Steam Coal,1967,2015,27031,Cook,Minnesota,MN
+296,142,AES Beaver Valley Partners Beaver Valley,35,Conventional Steam Coal,1987,2015,42007,Beaver,Pennsylvania,PA
+297,142,AES Beaver Valley Partners Beaver Valley,114,Conventional Steam Coal,1987,2015,42007,Beaver,Pennsylvania,PA
+298,7801,Scholz,49,Conventional Steam Coal,1953,2015,12063,Jackson,Florida,FL
+299,7801,Scholz,49,Conventional Steam Coal,1953,2015,12063,Jackson,Florida,FL
+300,7140,Harllee Branch,299.2,Conventional Steam Coal,1965,2015,13237,Putnam,Georgia,GA
+301,7140,Harllee Branch,544,Conventional Steam Coal,1968,2015,13237,Putnam,Georgia,GA
+302,7140,Harllee Branch,544,Conventional Steam Coal,1969,2015,13237,Putnam,Georgia,GA
+303,7140,Yates,122.5,Conventional Steam Coal,1950,2015,13077,Coweta,Georgia,GA
+304,7140,Yates,122.5,Conventional Steam Coal,1950,2015,13077,Coweta,Georgia,GA
+305,7140,Yates,122.5,Conventional Steam Coal,1952,2015,13077,Coweta,Georgia,GA
+306,7140,Yates,156.2,Conventional Steam Coal,1957,2015,13077,Coweta,Georgia,GA
+307,7140,Yates,156.2,Conventional Steam Coal,1958,2015,13077,Coweta,Georgia,GA
+308,12384,Will County,299.2,Conventional Steam Coal,1957,2015,17197,Will,Illinois,IL
+309,11249,Cane Run,272,Conventional Steam Coal,1969,2015,21111,Jefferson,Kentucky,KY
+310,5580,Dale,27,Conventional Steam Coal,1954,2015,21049,Clark,Kentucky,KY
+311,5580,Dale,27,Conventional Steam Coal,1954,2015,21049,Clark,Kentucky,KY
+312,5109,Trenton Channel,120,Conventional Steam Coal,1950,2015,26163,Wayne,Michigan,MI
+313,13781,Black Dog,113.6,Conventional Steam Coal,1955,2015,27037,Dakota,Minnesota,MN
+314,13781,Black Dog,163.2,Conventional Steam Coal,1960,2015,27037,Dakota,Minnesota,MN
+315,6526,FirstEnergy Ashtabula,256,Conventional Steam Coal,1958,2015,39007,Ashtabula,Ohio,OH
+316,6526,FirstEnergy Eastlake,123,Conventional Steam Coal,1953,2015,39085,Lake,Ohio,OH
+317,6526,FirstEnergy Eastlake,123,Conventional Steam Coal,1953,2015,39085,Lake,Ohio,OH
+318,6526,FirstEnergy Eastlake,123,Conventional Steam Coal,1954,2015,39085,Lake,Ohio,OH
+319,6526,FirstEnergy Lake Shore,256,Conventional Steam Coal,1962,2015,39035,Cuyahoga,Ohio,OH
+320,14354,Carbon,75,Conventional Steam Coal,1954,2015,49007,Carbon,Utah,UT
+321,14354,Carbon,113.6,Conventional Steam Coal,1957,2015,49007,Carbon,Utah,UT
+322,13657,Juniata Locomotive Shop,2,Conventional Steam Coal,1955,2015,42013,Blair,Pennsylvania,PA
+323,13657,Juniata Locomotive Shop,2,Conventional Steam Coal,1955,2015,42013,Blair,Pennsylvania,PA
+324,57279,Colton Plant,15,Conventional Steam Coal,1985,2015,6071,San Bernardino,California,CA
+325,57279,Colton Plant,15,Conventional Steam Coal,1985,2015,6071,San Bernardino,California,CA
+326,9267,Frank E Ratts,116.6,Conventional Steam Coal,1970,2015,18125,Pike,Indiana,IN
+327,9267,Frank E Ratts,116.6,Conventional Steam Coal,1970,2015,18125,Pike,Indiana,IN
+328,12341,Walter Scott Jr Energy Center,49,Conventional Steam Coal,1954,2015,19155,Pottawattamie,Iowa,IA
+329,12341,Walter Scott Jr Energy Center,81.6,Conventional Steam Coal,1958,2015,19155,Pottawattamie,Iowa,IA
+330,15298,J E Corette Plant,172.8,Conventional Steam Coal,1968,2015,30111,Yellowstone,Montana,MT
+331,58159,West Campus Steam Plant,2.5,Conventional Steam Coal,1938,2015,42027,Centre,Pennsylvania,PA
+332,58159,West Campus Steam Plant,3.5,Conventional Steam Coal,1949,2015,42027,Centre,Pennsylvania,PA
+333,3103,Cargill Corn Wet Milling Plant,25,Conventional Steam Coal,1985,2015,47157,Shelby,Tennessee,TN
+334,19876,Chesapeake,185.2,Conventional Steam Coal,1959,2015,51550,Chesapeake City,Virginia,VA
+335,19876,Chesapeake,112.5,Conventional Steam Coal,1953,2015,51550,Chesapeake City,Virginia,VA
+336,19876,Chesapeake,112.5,Conventional Steam Coal,1954,2015,51550,Chesapeake City,Virginia,VA
+337,19876,Chesapeake,239.3,Conventional Steam Coal,1962,2015,51550,Chesapeake City,Virginia,VA
+338,12986,Morton Salt Rittman,1.5,Conventional Steam Coal,1978,2015,39169,Wayne,Ohio,OH
+339,57316,Albany Brewery,6,Conventional Steam Coal,1979,2015,13095,Dougherty,Georgia,GA
+340,13407,Reid Gardner,114,Conventional Steam Coal,1965,2014,32003,Clark,Nevada,NV
+341,13407,Reid Gardner,114,Conventional Steam Coal,1968,2014,32003,Clark,Nevada,NV
+342,13407,Reid Gardner,114,Conventional Steam Coal,1976,2014,32003,Clark,Nevada,NV
+343,14795,Oilseed Plant,1.7,Conventional Steam Coal,1985,2014,51550,Chesapeake City,Virginia,VA
+344,2138,Brainerd Public Utilities,0.6,Conventional Steam Coal,1959,2014,27035,Crow Wing,Minnesota,MN
+345,5416,W S Lee,90,Conventional Steam Coal,1951,2014,45007,Anderson,South Carolina,SC
+346,5416,W S Lee,90,Conventional Steam Coal,1951,2014,45007,Anderson,South Carolina,SC
+347,16002,Rio Bravo Poso,38.2,Conventional Steam Coal,1989,2014,6029,Kern,California,CA
+348,19724,Vanderbilt University Power Plant,6.5,Conventional Steam Coal,1988,2014,47037,Davidson,Tennessee,TN
+349,3542,Walter C Beckjord,244.8,Conventional Steam Coal,1962,2014,39025,Clermont,Ohio,OH
+350,3542,Walter C Beckjord,460.8,Conventional Steam Coal,1969,2014,39025,Clermont,Ohio,OH
+351,4716,Alma,81.6,Conventional Steam Coal,1960,2014,55011,Buffalo,Wisconsin,WI
+352,52,ACE Cogeneration Facility,108,Conventional Steam Coal,1990,2014,6071,San Bernardino,California,CA
+353,109,AG Processing Inc,8.5,Conventional Steam Coal,1982,2014,19197,Wright,Iowa,IA
+354,55919,Consumer Operations LLC,28.2,Conventional Steam Coal,2005,2014,55009,Brown,Wisconsin,WI
+355,55919,Consumer Operations LLC,10,Conventional Steam Coal,1954,2014,55009,Brown,Wisconsin,WI
+356,55965,Whiting Mill,4.1,Conventional Steam Coal,1951,2014,55097,Portage,Wisconsin,WI
+357,16061,Rio Bravo Jasmin,38.2,Conventional Steam Coal,1989,2014,6029,Kern,California,CA
+358,10633,Lamar Plant,18.5,Conventional Steam Coal,2009,2014,8099,Prowers,Colorado,CO
+359,4716,Alma,54.4,Conventional Steam Coal,1957,2014,55011,Buffalo,Wisconsin,WI
+360,9788,John Deere Harvester Works,2,Conventional Steam Coal,1940,2014,17161,Rock Island,Illinois,IL
+361,18642,Widows Creek,140.6,Conventional Steam Coal,1952,2014,1071,Jackson,Alabama,AL
+362,18642,Widows Creek,140.6,Conventional Steam Coal,1952,2014,1071,Jackson,Alabama,AL
+363,18642,Widows Creek,140.6,Conventional Steam Coal,1953,2014,1071,Jackson,Alabama,AL
+364,18642,Widows Creek,140.6,Conventional Steam Coal,1954,2014,1071,Jackson,Alabama,AL
+365,22001,Sunbury Generation LP,89.1,Conventional Steam Coal,1949,2014,42109,Snyder,Pennsylvania,PA
+366,22001,Sunbury Generation LP,89.1,Conventional Steam Coal,1949,2014,42109,Snyder,Pennsylvania,PA
+367,22001,Sunbury Generation LP,103.5,Conventional Steam Coal,1951,2014,42109,Snyder,Pennsylvania,PA
+368,22001,Sunbury Generation LP,156.2,Conventional Steam Coal,1953,2014,42109,Snyder,Pennsylvania,PA
+369,18642,Shawnee,175,Conventional Steam Coal,1956,2014,21145,McCracken,Kentucky,KY
+370,15085,Mount Tom,136,Conventional Steam Coal,1960,2014,25013,Hampden,Massachusetts,MA
+371,59928,Salem Harbor,81.9,Conventional Steam Coal,1952,2014,25009,Essex,Massachusetts,MA
+372,59928,Salem Harbor,82,Conventional Steam Coal,1952,2014,25009,Essex,Massachusetts,MA
+373,59928,Salem Harbor,165.7,Conventional Steam Coal,1958,2014,25009,Essex,Massachusetts,MA
+374,18642,John Sevier,200,Conventional Steam Coal,1956,2014,47073,Hawkins,Tennessee,TN
+375,18642,John Sevier,200,Conventional Steam Coal,1957,2014,47073,Hawkins,Tennessee,TN
+376,12298,Menasha,7.5,Conventional Steam Coal,1954,2014,55139,WINNEBAGO,Wisconsin,WI
+377,12298,Menasha,13.6,Conventional Steam Coal,1964,2014,55139,WINNEBAGO,Wisconsin,WI
+378,12298,Menasha,6.9,Conventional Steam Coal,2006,2014,55139,WINNEBAGO,Wisconsin,WI
+379,55768,B L England,136,Conventional Steam Coal,1962,2014,34009,Cape May,New Jersey,NJ
+380,58793,Missouri S&T - Power Plant,0.5,Conventional Steam Coal,1951,2014,29161,Phelps,Missouri,MO
+381,56155,Eckert Station,44,Conventional Steam Coal,1958,2014,26065,Ingham,Michigan,MI
+382,14165,Elrama Power Plant,100,Conventional Steam Coal,1952,2014,42125,Washington,Pennsylvania,PA
+383,14165,Elrama Power Plant,100,Conventional Steam Coal,1953,2014,42125,Washington,Pennsylvania,PA
+384,14165,Elrama Power Plant,125,Conventional Steam Coal,1954,2014,42125,Washington,Pennsylvania,PA
+385,14165,Elrama Power Plant,185,Conventional Steam Coal,1960,2014,42125,Washington,Pennsylvania,PA
+386,19545,Ben French,25,Conventional Steam Coal,1960,2014,46103,Pennington,South Dakota,SD
+387,19545,Neil Simpson,21.7,Conventional Steam Coal,1959,2014,56005,Campbell,Wyoming,WY
+388,19545,Osage (WY),11.5,Conventional Steam Coal,1948,2014,56045,Weston,Wyoming,WY
+389,19545,Osage (WY),11.5,Conventional Steam Coal,1950,2014,56045,Weston,Wyoming,WY
+390,19545,Osage (WY),11.5,Conventional Steam Coal,1952,2014,56045,Weston,Wyoming,WY
+391,19724,Vanderbilt University Power Plant,4.5,Conventional Steam Coal,1989,2014,47037,Davidson,Tennessee,TN
+392,3542,Walter C Beckjord,163.2,Conventional Steam Coal,1958,2014,39025,Clermont,Ohio,OH
+393,9332,Indian River Generating Station,176.8,Conventional Steam Coal,1970,2014,10005,Sussex,Delaware,DE
+394,4129,Piney Creek Project,36.2,Conventional Steam Coal,1992,2014,42031,CLARION,Pennsylvania,PA
+395,56146,W N Clark,18.7,Conventional Steam Coal,1955,2013,8043,Fremont,Colorado,CO
+396,56146,W N Clark,25,Conventional Steam Coal,1959,2013,8043,Fremont,Colorado,CO
+397,15466,Arapahoe,40,Conventional Steam Coal,1951,2013,8031,Denver,Colorado,CO
+398,15466,Arapahoe,112.5,Conventional Steam Coal,1955,2013,8031,Denver,Colorado,CO
+399,5860,Asbury,18.7,Conventional Steam Coal,1986,2013,29097,Jasper,Missouri,MO
+400,803,Four Corners,190,Conventional Steam Coal,1963,2013,35045,San Juan,New Mexico,NM
+401,803,Four Corners,190,Conventional Steam Coal,1963,2013,35045,San Juan,New Mexico,NM
+402,803,Four Corners,253.4,Conventional Steam Coal,1964,2013,35045,San Juan,New Mexico,NM
+403,20508,Covington Facility,10.5,Conventional Steam Coal,1946,2013,51005,Covington City,Virginia,VA
+404,3258,Fair Station,25,Conventional Steam Coal,1960,2013,19139,Muscatine,Iowa,IA
+405,3258,Fair Station,37.5,Conventional Steam Coal,1967,2013,19139,Muscatine,Iowa,IA
+406,5109,Harbor Beach,121,Conventional Steam Coal,1968,2013,26063,Huron,Michigan,MI
+407,3046,L V Sutton Steam,112.5,Conventional Steam Coal,1954,2013,37129,New Hanover,North Carolina,NC
+408,3046,L V Sutton Steam,112.5,Conventional Steam Coal,1955,2013,37129,New Hanover,North Carolina,NC
+409,3046,L V Sutton Steam,446.6,Conventional Steam Coal,1972,2013,37129,New Hanover,North Carolina,NC
+410,17043,Shelby Municipal Light Plant,12.5,Conventional Steam Coal,1968,2013,39139,Richland,Ohio,OH
+411,17043,Shelby Municipal Light Plant,12.5,Conventional Steam Coal,1973,2013,39139,Richland,Ohio,OH
+412,17043,Shelby Municipal Light Plant,7,Conventional Steam Coal,1954,2013,39139,Richland,Ohio,OH
+413,17539,Canadys Steam,136,Conventional Steam Coal,1964,2013,45029,Colleton,South Carolina,SC
+414,17539,Canadys Steam,217.6,Conventional Steam Coal,1967,2013,45029,Colleton,South Carolina,SC
+415,3542,Walter C Beckjord,112.5,Conventional Steam Coal,1953,2013,39025,Clermont,Ohio,OH
+416,3542,Walter C Beckjord,125,Conventional Steam Coal,1954,2013,39025,Clermont,Ohio,OH
+417,23279,Hatfields Ferry Power Station,576,Conventional Steam Coal,1969,2013,42059,Greene,Pennsylvania,PA
+418,23279,Hatfields Ferry Power Station,576,Conventional Steam Coal,1970,2013,42059,Greene,Pennsylvania,PA
+419,23279,Hatfields Ferry Power Station,576,Conventional Steam Coal,1971,2013,42059,Greene,Pennsylvania,PA
+420,23279,FirstEnergy Mitchell Power Station,299.2,Conventional Steam Coal,1963,2013,42125,Washington,Pennsylvania,PA
+421,20508,Covington Facility,10.5,Conventional Steam Coal,1939,2013,51005,Covington City,Virginia,VA
+422,57437,MillerCoors Trenton Brewery,13.8,Conventional Steam Coal,1992,2013,39017,Butler,Ohio,OH
+423,57437,MillerCoors Trenton Brewery,8,Conventional Steam Coal,1992,2013,39017,Butler,Ohio,OH
+424,7140,Harllee Branch,359,Conventional Steam Coal,1967,2013,13237,Putnam,Georgia,GA
+425,63041,Titus,75,Conventional Steam Coal,1951,2013,42011,Berks,Pennsylvania,PA
+426,63041,Titus,75,Conventional Steam Coal,1951,2013,42011,Berks,Pennsylvania,PA
+427,63041,Titus,75,Conventional Steam Coal,1953,2013,42011,Berks,Pennsylvania,PA
+428,9788,John Deere Harvester Works,2.5,Conventional Steam Coal,1949,2013,17161,Rock Island,Illinois,IL
+429,14465,Park 500 Philip Morris USA,6.1,Conventional Steam Coal,1984,2013,51041,Chesterfield,Virginia,VA
+430,19194,Syracuse Energy,90.6,Conventional Steam Coal,1991,2013,36067,Onondaga,New York,NY
+431,19194,Syracuse Energy,10.5,Conventional Steam Coal,2002,2013,36067,Onondaga,New York,NY
+432,12341,Riverside,5,Conventional Steam Coal,1949,2013,19163,Scott,Iowa,IA
+433,772,Archer Daniels Midland Peoria,1.5,Conventional Steam Coal,1934,2013,17143,Peoria,Illinois,IL
+434,18642,Widows Creek,140.6,Conventional Steam Coal,1952,2013,1071,Jackson,Alabama,AL
+435,18642,Widows Creek,140.6,Conventional Steam Coal,1954,2013,1071,Jackson,Alabama,AL
+436,9332,Indian River Generating Station,81.6,Conventional Steam Coal,1957,2013,10005,Sussex,Delaware,DE
+437,9332,Indian River Generating Station,81.6,Conventional Steam Coal,1959,2013,10005,Sussex,Delaware,DE
+438,9417,Lansing,37.5,Conventional Steam Coal,1957,2013,19005,Allamakee,Iowa,IA
+439,61919,O H Hutchings,69,Conventional Steam Coal,1951,2013,39113,Montgomery,Ohio,OH
+440,63039,Portland (PA),255,Conventional Steam Coal,1962,2013,42095,Northampton,Pennsylvania,PA
+441,5416,Buck,125,Conventional Steam Coal,1953,2013,37159,Rowan,North Carolina,NC
+442,5416,Buck,125,Conventional Steam Coal,1953,2013,37159,Rowan,North Carolina,NC
+443,5416,Riverbend,100,Conventional Steam Coal,1952,2013,37071,Gaston,North Carolina,NC
+444,5416,Riverbend,100,Conventional Steam Coal,1952,2013,37071,Gaston,North Carolina,NC
+445,5416,Riverbend,133,Conventional Steam Coal,1954,2013,37071,Gaston,North Carolina,NC
+446,5416,Riverbend,133,Conventional Steam Coal,1954,2013,37071,Gaston,North Carolina,NC
+447,2999,Rittman Paperboard,3,Conventional Steam Coal,1928,2013,39169,WAYNE,Ohio,OH
+448,2999,Rittman Paperboard,5,Conventional Steam Coal,1940,2013,39169,WAYNE,Ohio,OH
+449,2999,Rittman Paperboard,6,Conventional Steam Coal,1946,2013,39169,WAYNE,Ohio,OH
+450,24263,Menominee Acquisition,2.5,Conventional Steam Coal,1950,2013,26109,Menominee,Michigan,MI
+451,57303,Jacksonville Developmental Center,0.7,Conventional Steam Coal,1945,2013,17137,Morgan,Illinois,IL
+452,57303,Jacksonville Developmental Center,0.7,Conventional Steam Coal,1945,2013,17137,Morgan,Illinois,IL
+453,57303,Jacksonville Developmental Center,2,Conventional Steam Coal,1945,2013,17137,Morgan,Illinois,IL
+454,10171,Tyrone,75,Conventional Steam Coal,1953,2013,21239,Woodford,Kentucky,KY
+455,58620,Conesville,161.5,Conventional Steam Coal,1962,2012,39031,Coshocton,Ohio,OH
+456,17539,Canadys Steam,136,Conventional Steam Coal,1962,2012,45029,Colleton,South Carolina,SC
+457,17543,Dolphus M Grainger,81.6,Conventional Steam Coal,1966,2012,45051,Horry,South Carolina,SC
+458,17543,Dolphus M Grainger,81.6,Conventional Steam Coal,1966,2012,45051,Horry,South Carolina,SC
+459,17543,Jefferies,172.8,Conventional Steam Coal,1970,2012,45015,Berkeley,South Carolina,SC
+460,17543,Jefferies,172.8,Conventional Steam Coal,1970,2012,45015,Berkeley,South Carolina,SC
+461,18642,John Sevier,200,Conventional Steam Coal,1955,2012,47073,Hawkins,Tennessee,TN
+462,18642,John Sevier,200,Conventional Steam Coal,1955,2012,47073,Hawkins,Tennessee,TN
+463,19876,North Branch (WV),80,Conventional Steam Coal,1992,2012,54023,Grant,West Virginia,WV
+464,42,AES Thames,213.9,Conventional Steam Coal,1989,2012,36103,New London,New York,NY
+465,772,Archer Daniels Midland Peoria,4,Conventional Steam Coal,1985,2012,17143,Peoria,Illinois,IL
+466,3046,Cape Fear,140.6,Conventional Steam Coal,1956,2012,37037,Chatham,North Carolina,NC
+467,3046,Cape Fear,187.9,Conventional Steam Coal,1958,2012,37037,Chatham,North Carolina,NC
+468,3046,HF Lee Plant,75,Conventional Steam Coal,1952,2012,37191,Wayne,North Carolina,NC
+469,3046,HF Lee Plant,75,Conventional Steam Coal,1951,2012,37191,Wayne,North Carolina,NC
+470,3046,HF Lee Plant,252.4,Conventional Steam Coal,1962,2012,37191,Wayne,North Carolina,NC
+471,63030,Niles Power Plant,132.8,Conventional Steam Coal,1954,2012,39155,Trumbull,Ohio,OH
+472,3046,H B Robinson,206.6,Conventional Steam Coal,1960,2012,45031,Darlington,South Carolina,SC
+473,12588,Potomac River,92,Conventional Steam Coal,1949,2012,51510,Alexandria,Virginia,VA
+474,12588,Potomac River,92,Conventional Steam Coal,1950,2012,51510,Alexandria,Virginia,VA
+475,12588,Potomac River,110,Conventional Steam Coal,1954,2012,51510,Alexandria,Virginia,VA
+476,12588,Potomac River,110,Conventional Steam Coal,1956,2012,51510,Alexandria,Virginia,VA
+477,12588,Potomac River,110,Conventional Steam Coal,1957,2012,51510,Alexandria,Virginia,VA
+478,23279,FirstEnergy R Paul Smith Power Station,75,Conventional Steam Coal,1958,2012,24043,Washington,Maryland,MD
+479,23279,FirstEnergy R Paul Smith Power Station,34.5,Conventional Steam Coal,1947,2012,24043,Washington,Maryland,MD
+480,6526,FirstEnergy Eastlake,208,Conventional Steam Coal,1956,2012,39085,Lake,Ohio,OH
+481,6526,FirstEnergy Eastlake,680,Conventional Steam Coal,1972,2012,39085,Lake,Ohio,OH
+482,6526,FirstEnergy R E Burger,103.4,Conventional Steam Coal,1950,2012,39013,Belmont,Ohio,OH
+483,62031,FirstEnergy Bay Shore,140.6,Conventional Steam Coal,1959,2012,39095,Lucas,Ohio,OH
+484,62031,FirstEnergy Bay Shore,140.6,Conventional Steam Coal,1963,2012,39095,Lucas,Ohio,OH
+485,62031,FirstEnergy Bay Shore,217.6,Conventional Steam Coal,1968,2012,39095,Lucas,Ohio,OH
+486,23279,FirstEnergy Armstrong Power Station,163.2,Conventional Steam Coal,1958,2012,42005,Armstrong,Pennsylvania,PA
+487,23279,FirstEnergy Armstrong Power Station,163.2,Conventional Steam Coal,1959,2012,42005,Armstrong,Pennsylvania,PA
+488,12796,FirstEnergy Albright,69,Conventional Steam Coal,1952,2012,54077,Preston,West Virginia,WV
+489,12796,FirstEnergy Albright,69,Conventional Steam Coal,1952,2012,54077,Preston,West Virginia,WV
+490,12796,FirstEnergy Albright,140.2,Conventional Steam Coal,1954,2012,54077,Preston,West Virginia,WV
+491,12796,FirstEnergy Rivesville,35,Conventional Steam Coal,1943,2012,54049,Marion,West Virginia,WV
+492,12796,FirstEnergy Rivesville,74.7,Conventional Steam Coal,1951,2012,54049,Marion,West Virginia,WV
+493,12796,FirstEnergy Willow Island,50,Conventional Steam Coal,1949,2012,54073,Pleasants,West Virginia,WV
+494,12796,FirstEnergy Willow Island,163.2,Conventional Steam Coal,1960,2012,54073,Pleasants,West Virginia,WV
+495,54881,G F Weaton Power Station,60,Conventional Steam Coal,1958,2012,42007,Beaver,Pennsylvania,PA
+496,54881,G F Weaton Power Station,60,Conventional Steam Coal,1958,2012,42007,Beaver,Pennsylvania,PA
+497,55973,Catalyst Paper Snowflake Mill,27.2,Conventional Steam Coal,1961,2012,4017,NAVAJO,Arizona,AZ
+498,55973,Catalyst Paper Snowflake Mill,43.3,Conventional Steam Coal,1974,2012,4017,NAVAJO,Arizona,AZ
+499,12384,Crawford,239.3,Conventional Steam Coal,1958,2012,17031,Cook,Illinois,IL
+500,12384,Crawford,358.1,Conventional Steam Coal,1961,2012,17031,Cook,Illinois,IL
+501,12384,Fisk Street,374,Conventional Steam Coal,1968,2012,17031,Cook,Illinois,IL
+502,56208,Smart Papers LLC,1,Conventional Steam Coal,2009,2012,39017,Butler,Ohio,OH
+503,56208,Smart Papers LLC,1.5,Conventional Steam Coal,2009,2012,39017,Butler,Ohio,OH
+504,56208,Smart Papers LLC,9.4,Conventional Steam Coal,2009,2012,39017,Butler,Ohio,OH
+505,56208,Smart Papers LLC,9.4,Conventional Steam Coal,2009,2012,39017,Butler,Ohio,OH
+506,56208,Smart Papers LLC,6,Conventional Steam Coal,1924,2012,39017,Butler,Ohio,OH
+507,56208,Smart Papers LLC,7.5,Conventional Steam Coal,1930,2012,39017,Butler,Ohio,OH
+508,56208,Smart Papers LLC,10.5,Conventional Steam Coal,1930,2012,39017,Butler,Ohio,OH
+509,17609,Mohave,818.1,Conventional Steam Coal,1971,2012,32003,Clark,Nevada,NV
+510,17609,Mohave,818.1,Conventional Steam Coal,1971,2012,32003,Clark,Nevada,NV
+511,14645,Pella,11.5,Conventional Steam Coal,1964,2012,19125,Marion,Iowa,IA
+512,14645,Pella,26.5,Conventional Steam Coal,1972,2012,19125,Marion,Iowa,IA
+513,63030,Niles Power Plant,132.8,Conventional Steam Coal,1954,2012,39155,Trumbull,Ohio,OH
+514,40307,Pearl Station,22,Conventional Steam Coal,1967,2012,17149,Pike,Illinois,IL
+515,3542,Walter C Beckjord,115,Conventional Steam Coal,1952,2012,39025,Clermont,Ohio,OH
+516,6035,Eddystone Generating Station,353.6,Conventional Steam Coal,1960,2012,42045,Delaware,Pennsylvania,PA
+517,15466,Cherokee,125,Conventional Steam Coal,1957,2012,8001,Adams,Colorado,CO
+518,5416,Dan River,70,Conventional Steam Coal,1949,2012,37157,Rockingham,North Carolina,NC
+519,5416,Dan River,70,Conventional Steam Coal,1950,2012,37157,Rockingham,North Carolina,NC
+520,5416,Dan River,150,Conventional Steam Coal,1955,2012,37157,Rockingham,North Carolina,NC
+521,17043,Shelby Municipal Light Plant,5,Conventional Steam Coal,1948,2012,39139,Richland,Ohio,OH
+522,56190,US DOE Savannah River Site (D Area),9.4,Conventional Steam Coal,1952,2012,45003,Aiken,South Carolina,SC
+523,56190,US DOE Savannah River Site (D Area),9.4,Conventional Steam Coal,1952,2012,45003,Aiken,South Carolina,SC
+524,56190,US DOE Savannah River Site (D Area),9.4,Conventional Steam Coal,1952,2012,45003,Aiken,South Carolina,SC
+525,56190,US DOE Savannah River Site (D Area),12.5,Conventional Steam Coal,1952,2012,45003,Aiken,South Carolina,SC
+526,56190,US DOE Savannah River Site (D Area),12.5,Conventional Steam Coal,1952,2012,45003,Aiken,South Carolina,SC
+527,56190,US DOE Savannah River Site (D Area),12.5,Conventional Steam Coal,1952,2012,45003,Aiken,South Carolina,SC
+528,56190,US DOE Savannah River Site (D Area),12.5,Conventional Steam Coal,1952,2012,45003,Aiken,South Carolina,SC
+529,772,Walhalla,2,Conventional Steam Coal,2000,2012,38067,Pembina,North Dakota,ND
+530,18041,State Line Energy,124.9,Conventional Steam Coal,1955,2012,18089,Lake,Indiana,IN
+531,18041,State Line Energy,100,Conventional Steam Coal,1955,2012,18089,Lake,Indiana,IN
+532,18041,State Line Energy,209.4,Conventional Steam Coal,1962,2012,18089,Lake,Indiana,IN
+533,18041,State Line Energy,179.5,Conventional Steam Coal,1962,2012,18089,Lake,Indiana,IN
+534,4716,Alma,15,Conventional Steam Coal,1947,2012,55011,Buffalo,Wisconsin,WI
+535,4716,Alma,15,Conventional Steam Coal,1947,2012,55011,Buffalo,Wisconsin,WI
+536,4716,Alma,15,Conventional Steam Coal,1951,2012,55011,Buffalo,Wisconsin,WI
+537,9788,John Deere Harvester Works,3,Conventional Steam Coal,1951,2012,17161,Rock Island,Illinois,IL
+538,353,Stockton Cogen,60,Conventional Steam Coal,1988,2012,6077,San Joaquin,California,CA
+539,7140,Jack McDonough,299.2,Conventional Steam Coal,1963,2012,13067,Cobb,Georgia,GA
+540,15470,R Gallagher,150,Conventional Steam Coal,1959,2012,18043,Floyd,Indiana,IN
+541,15470,R Gallagher,150,Conventional Steam Coal,1960,2012,18043,Floyd,Indiana,IN
+542,733,Philip Sporn,495.5,Conventional Steam Coal,1960,2012,54053,Mason,West Virginia,WV
+543,35120,Norit Americas Marshall Plant,2,Conventional Steam Coal,2011,2012,48203,Harrison,Texas,TX
+544,57424,Miller Coors Eden LLC,5.5,Conventional Steam Coal,1978,2012,37157,Rockingham,North Carolina,NC
+545,58676,Hutsonville,75,Conventional Steam Coal,1953,2011,17033,Crawford,Illinois,IL
+546,58676,Hutsonville,75,Conventional Steam Coal,1954,2011,17033,Crawford,Illinois,IL
+547,58676,Meredosia,57.5,Conventional Steam Coal,1948,2011,17137,Morgan,Illinois,IL
+548,58676,Meredosia,57.5,Conventional Steam Coal,1949,2011,17137,Morgan,Illinois,IL
+549,58676,Meredosia,239.3,Conventional Steam Coal,1960,2011,17137,Morgan,Illinois,IL
+550,5109,Marysville,75,Conventional Steam Coal,1943,2011,26147,St Clair,Michigan,MI
+551,5109,Marysville,75,Conventional Steam Coal,1947,2011,26147,St Clair,Michigan,MI
+552,18642,Watts Bar Fossil,60,Conventional Steam Coal,1942,2011,47143,Rhea,Tennessee,TN
+553,18642,Watts Bar Fossil,60,Conventional Steam Coal,1942,2011,47143,Rhea,Tennessee,TN
+554,18642,Watts Bar Fossil,60,Conventional Steam Coal,1943,2011,47143,Rhea,Tennessee,TN
+555,18642,Watts Bar Fossil,60,Conventional Steam Coal,1945,2011,47143,Rhea,Tennessee,TN
+556,11479,Blount Street,34.5,Conventional Steam Coal,1953,2011,55025,Dane,Wisconsin,WI
+557,11479,Blount Street,20,Conventional Steam Coal,1938,2011,55025,Dane,Wisconsin,WI
+558,11479,Blount Street,23,Conventional Steam Coal,1948,2011,55025,Dane,Wisconsin,WI
+559,772,Archer Daniels Midland Peoria,1.5,Conventional Steam Coal,1934,2011,17143,Peoria,Illinois,IL
+560,772,Archer Daniels Midland Peoria,4,Conventional Steam Coal,1954,2011,17143,Peoria,Illinois,IL
+561,772,Archer Daniels Midland Peoria,4,Conventional Steam Coal,1985,2011,17143,Peoria,Illinois,IL
+562,10633,Lamar Plant,25,Conventional Steam Coal,1972,2011,8099,Prowers,Colorado,CO
+563,5517,Vermilion,108.8,Conventional Steam Coal,1956,2011,17183,Vermilion,Illinois,IL
+564,5517,Vermilion,73.5,Conventional Steam Coal,1955,2011,17183,Vermilion,Illinois,IL
+565,55779,Alloy Steam Station,40,Conventional Steam Coal,1950,2011,54019,Fayette,West Virginia,WV
+566,15466,Cherokee,125,Conventional Steam Coal,1959,2011,8001,Adams,Colorado,CO
+567,5416,James E. Rogers Energy Complex,40,Conventional Steam Coal,1940,2011,37045,Cleveland,North Carolina,NC
+568,5416,James E. Rogers Energy Complex,40,Conventional Steam Coal,1940,2011,37045,Cleveland,North Carolina,NC
+569,5416,James E. Rogers Energy Complex,65,Conventional Steam Coal,1948,2011,37045,Cleveland,North Carolina,NC
+570,5416,James E. Rogers Energy Complex,65,Conventional Steam Coal,1948,2011,37045,Cleveland,North Carolina,NC
+571,7140,Jack McDonough,299.2,Conventional Steam Coal,1964,2011,13067,Cobb,Georgia,GA
+572,3046,W H Weatherspoon,46,Conventional Steam Coal,1949,2011,37155,Robeson,North Carolina,NC
+573,3046,W H Weatherspoon,46,Conventional Steam Coal,1950,2011,37155,Robeson,North Carolina,NC
+574,3046,W H Weatherspoon,73.5,Conventional Steam Coal,1952,2011,37155,Robeson,North Carolina,NC
+575,5416,Buck,80,Conventional Steam Coal,1941,2011,37159,Rowan,North Carolina,NC
+576,5416,Buck,40,Conventional Steam Coal,1942,2011,37159,Rowan,North Carolina,NC
+577,6035,Cromby Generating Station,187.5,Conventional Steam Coal,1954,2011,42029,Chester,Pennsylvania,PA
+578,6035,Eddystone Generating Station,353.6,Conventional Steam Coal,1960,2011,42045,Delaware,Pennsylvania,PA
+579,56327,Ashland Inc,8.6,Conventional Steam Coal,1943,2011,29163,Pike,Missouri,MO
+580,56327,Ashland Inc,8.6,Conventional Steam Coal,1943,2011,29163,Pike,Missouri,MO
+581,15470,Edwardsport,40.2,Conventional Steam Coal,1949,2011,18083,Knox,Indiana,IN
+582,15470,Edwardsport,69,Conventional Steam Coal,1951,2011,18083,Knox,Indiana,IN
+583,22146,GMMM Westover,75,Conventional Steam Coal,1951,2011,36007,Broome,New York,NY
+584,29878,Somerset Station,100,Conventional Steam Coal,1959,2011,25005,Bristol,Massachusetts,MA
+585,15466,Cameo,25,Conventional Steam Coal,1957,2010,8077,Mesa,Colorado,CO
+586,15466,Cameo,50,Conventional Steam Coal,1960,2010,8077,Mesa,Colorado,CO
+587,12384,Will County,187.5,Conventional Steam Coal,1955,2010,17197,Will,Illinois,IL
+588,12384,Will County,183.7,Conventional Steam Coal,1955,2010,17197,Will,Illinois,IL
+589,6526,FirstEnergy R E Burger,156.2,Conventional Steam Coal,1955,2010,39013,Belmont,Ohio,OH
+590,6526,FirstEnergy R E Burger,156.2,Conventional Steam Coal,1955,2010,39013,Belmont,Ohio,OH
+591,50006,Waynesboro Virginia Plant,3,Conventional Steam Coal,1929,2010,51820,Augusta,Virginia,VA
+592,50006,Waynesboro Virginia Plant,3,Conventional Steam Coal,1929,2010,51820,Augusta,Virginia,VA
+593,50006,Waynesboro Virginia Plant,3.4,Conventional Steam Coal,1947,2010,51820,Augusta,Virginia,VA
+594,9417,Dubuque,15,Conventional Steam Coal,1929,2010,19061,Dubuque,Iowa,IA
+595,9417,Lansing,11.5,Conventional Steam Coal,1949,2010,19005,Allamakee,Iowa,IA
+596,9417,Sixth Street,10,Conventional Steam Coal,1921,2010,19113,Linn,Iowa,IA
+597,9417,Sixth Street,6,Conventional Steam Coal,1930,2010,19113,Linn,Iowa,IA
+598,9417,Sixth Street,15,Conventional Steam Coal,1942,2010,19113,Linn,Iowa,IA
+599,9417,Sixth Street,10,Conventional Steam Coal,1925,2010,19113,Linn,Iowa,IA
+600,9417,Sixth Street,15,Conventional Steam Coal,1945,2010,19113,Linn,Iowa,IA
+601,9417,Sixth Street,28.7,Conventional Steam Coal,1950,2010,19113,Linn,Iowa,IA
+602,9417,Prairie Creek,23,Conventional Steam Coal,1951,2010,19113,Linn,Iowa,IA
+603,9417,Sutherland,37.5,Conventional Steam Coal,1955,2010,19127,Marshall,Iowa,IA
+604,40577,Richard Gorsuch,50,Conventional Steam Coal,1988,2010,39167,Washington,Ohio,OH
+605,40577,Richard Gorsuch,50,Conventional Steam Coal,1988,2010,39167,Washington,Ohio,OH
+606,40577,Richard Gorsuch,50,Conventional Steam Coal,1988,2010,39167,Washington,Ohio,OH
+607,40577,Richard Gorsuch,50,Conventional Steam Coal,1988,2010,39167,Washington,Ohio,OH
+608,9765,John Deere Dubuque Works,3.5,Conventional Steam Coal,1949,2010,19061,Dubuque,Iowa,IA
+609,9765,John Deere Dubuque Works,7.5,Conventional Steam Coal,1964,2010,19061,Dubuque,Iowa,IA
+610,13756,Dean H Mitchell,127.5,Conventional Steam Coal,1970,2010,18089,Lake,Indiana,IN
+611,13756,Dean H Mitchell,128,Conventional Steam Coal,1959,2010,18089,Lake,Indiana,IN
+612,13756,Dean H Mitchell,128,Conventional Steam Coal,1959,2010,18089,Lake,Indiana,IN
+613,16719,S D Warren Muskegon,3.5,Conventional Steam Coal,1938,2010,26081,MUSKEGON,Michigan,MI
+614,16719,S D Warren Muskegon,19.1,Conventional Steam Coal,1968,2010,26081,MUSKEGON,Michigan,MI
+615,16719,S D Warren Muskegon,28.3,Conventional Steam Coal,1989,2010,26081,MUSKEGON,Michigan,MI
+616,2512,Bunge Milling Cogen,20,Conventional Steam Coal,1989,2010,18011,Vermilion,Indiana,IN
+617,29820,Stone Container Ontonagon Mill,15.6,Conventional Steam Coal,1966,2010,26061,Ontonagon,Michigan,MI
+618,15698,Raton,7.5,Conventional Steam Coal,1961,2010,35007,Colfax,New Mexico,NM
+619,22146,GMMM Westover,43.8,Conventional Steam Coal,1943,2009,36007,Broome,New York,NY
+620,25,Greenidge Generation LLC,50,Conventional Steam Coal,1950,2009,36123,Yates,New York,NY
+621,56389,Utility Plants Section,2.5,Conventional Steam Coal,1945,2009,2090,Fairbanks North Star,Alaska,AK
+622,17828,Lakeside,37.5,Conventional Steam Coal,1961,2009,17167,Sangamon,Illinois,IL
+623,17828,Lakeside,37.5,Conventional Steam Coal,1965,2009,17167,Sangamon,Illinois,IL
+624,20847,Presque Isle,54.4,Conventional Steam Coal,1964,2009,26103,Marquette,Michigan,MI
+625,20847,Presque Isle,57.8,Conventional Steam Coal,1966,2009,26103,Marquette,Michigan,MI
+626,9765,John Deere Dubuque Works,3,Conventional Steam Coal,1989,2009,19061,Dubuque,Iowa,IA
+627,986,Aurora Energy LLC Chena,1.5,Conventional Steam Coal,1952,2009,2090,Fairbanks North Star,Alaska,AK
+628,56398,DTE Pontiac North LLC,28.9,Conventional Steam Coal,1987,2009,26125,Oakland,Michigan,MI
+629,50006,Seaford Delaware Plant,10,Conventional Steam Coal,1939,2009,10005,Sussex,Delaware,DE
+630,56208,Smart Papers LLC,1.5,Conventional Steam Coal,1927,2009,39017,Butler,Ohio,OH
+631,13781,Riverside (MN),238.8,Conventional Steam Coal,1964,2009,27053,Hennepin,Minnesota,MN
+632,14060,Ohio University Facilities Management,1,Conventional Steam Coal,1994,2009,39009,Athens,Ohio,OH
+633,2053,U S Alliance Coosa Pines,5,Conventional Steam Coal,1942,2008,1121,Talladega,Alabama,AL
+634,2053,U S Alliance Coosa Pines,5,Conventional Steam Coal,1942,2008,1121,Talladega,Alabama,AL
+635,2053,U S Alliance Coosa Pines,5,Conventional Steam Coal,1942,2008,1121,Talladega,Alabama,AL
+636,2053,U S Alliance Coosa Pines,5,Conventional Steam Coal,1942,2008,1121,Talladega,Alabama,AL
+637,772,Archer Daniels Midland Clinton,7.5,Conventional Steam Coal,1954,2008,19045,Clinton,Iowa,IA
+638,772,Archer Daniels Midland Clinton,3.5,Conventional Steam Coal,1940,2008,19045,Clinton,Iowa,IA
+639,772,Archer Daniels Midland Clinton,9.4,Conventional Steam Coal,1965,2008,19045,Clinton,Iowa,IA
+640,772,Archer Daniels Midland Clinton,4,Conventional Steam Coal,1974,2008,19045,Clinton,Iowa,IA
+641,772,Archer Daniels Midland Clinton,7,Conventional Steam Coal,1991,2008,19045,Clinton,Iowa,IA
+642,8449,Henderson I,11.5,Conventional Steam Coal,1956,2008,21101,Henderson,Kentucky,KY
+643,8449,Henderson I,32.3,Conventional Steam Coal,1968,2008,21101,Henderson,Kentucky,KY
+644,5543,Unifi Kinston LLC,7.5,Conventional Steam Coal,1952,2008,37107,Lenoir,North Carolina,NC
+645,5543,Unifi Kinston LLC,7.5,Conventional Steam Coal,1952,2008,37107,Lenoir,North Carolina,NC
+646,55965,Niagara Mill,2.5,Conventional Steam Coal,1940,2008,55075,Marinette,Wisconsin,WI
+647,55965,Niagara Mill,9.3,Conventional Steam Coal,1964,2008,55075,Marinette,Wisconsin,WI
+648,39,AES Hickling LLC,30,Conventional Steam Coal,1948,2008,36101,Steuben,New York,NY
+649,39,AES Hickling LLC,40,Conventional Steam Coal,1952,2008,36101,Steuben,New York,NY
+650,12792,Lovett,200.6,Conventional Steam Coal,1969,2008,36087,Rockland,New York,NY
+651,16183,Rochester 7,62.5,Conventional Steam Coal,1953,2008,36055,Monroe,New York,NY
+652,16183,Rochester 7,62.5,Conventional Steam Coal,1950,2008,36055,Monroe,New York,NY
+653,16183,Rochester 7,81.6,Conventional Steam Coal,1957,2008,36055,Monroe,New York,NY
+654,26940,TXI Riverside Cement Power House,12,Conventional Steam Coal,1954,2008,6071,San Bernardino,California,CA
+655,26940,TXI Riverside Cement Power House,12,Conventional Steam Coal,1954,2008,6071,San Bernardino,California,CA
+656,16183,Rochester 7,46,Conventional Steam Coal,1948,2008,36055,Monroe,New York,NY
+657,22122,AES Jennison LLC,30,Conventional Steam Coal,1945,2008,36017,Chenango,New York,NY
+658,22122,AES Jennison LLC,30,Conventional Steam Coal,1950,2008,36017,Chenango,New York,NY
+659,59919,Miami Fort,100,Conventional Steam Coal,1949,2008,39061,Hamilton,Ohio,OH
+660,50006,Waynesboro Virginia Plant,3,Conventional Steam Coal,1935,2008,51820,Augusta,Virginia,VA
+661,35120,Norit Americas Marshall Plant,2,Conventional Steam Coal,1921,2008,48203,Harrison,Texas,TX
+662,12384,Waukegan,121,Conventional Steam Coal,1952,2007,17097,Lake,Illinois,IL
+663,13781,High Bridge,113.6,Conventional Steam Coal,1956,2007,27123,Ramsey,Minnesota,MN
+664,13781,High Bridge,163.2,Conventional Steam Coal,1959,2007,27123,Ramsey,Minnesota,MN
+665,15095,Piqua Power Plant,0.8,Conventional Steam Coal,1987,2007,39109,Miami,Ohio,OH
+666,15095,Piqua Power Plant,4,Conventional Steam Coal,1940,2007,39109,Miami,Ohio,OH
+667,15095,Piqua Power Plant,7.5,Conventional Steam Coal,1947,2007,39109,Miami,Ohio,OH
+668,15095,Piqua Power Plant,12.5,Conventional Steam Coal,1951,2007,39109,Miami,Ohio,OH
+669,15095,Piqua Power Plant,20,Conventional Steam Coal,1961,2007,39109,Miami,Ohio,OH
+670,17891,St Marys,6,Conventional Steam Coal,1957,2007,39011,Auglaize,Ohio,OH
+671,17891,St Marys,10,Conventional Steam Coal,1967,2007,39011,Auglaize,Ohio,OH
+672,20860,Pulliam,30,Conventional Steam Coal,1943,2007,55009,Brown,Wisconsin,WI
+673,20860,Pulliam,30,Conventional Steam Coal,1947,2007,55009,Brown,Wisconsin,WI
+674,5137,Desert Power LP,43,Conventional Steam Coal,1999,2007,49045,Tooele,Utah,UT
+675,17594,Southeast Missouri State University,6.2,Conventional Steam Coal,1972,2007,29031,Cape Girardeau,Missouri,MO
+676,15276,TalenEnergy Martins Creek,156.2,Conventional Steam Coal,1954,2007,42095,Northampton,Pennsylvania,PA
+677,15276,TalenEnergy Martins Creek,156.2,Conventional Steam Coal,1956,2007,42095,Northampton,Pennsylvania,PA
+678,13168,C R Huntley Generating Station,100,Conventional Steam Coal,1953,2007,36029,Erie,New York,NY
+679,13168,C R Huntley Generating Station,100,Conventional Steam Coal,1954,2007,36029,Erie,New York,NY
+680,5336,Dover,4,Conventional Steam Coal,1944,2007,39157,Tuscarawas,Ohio,OH
+681,12792,Lovett,179.5,Conventional Steam Coal,1966,2007,36087,Rockland,New York,NY
+682,5624,"RED-Rochester, LLC",6.3,Conventional Steam Coal,1937,2007,36055,Monroe,New York,NY
+683,5624,"RED-Rochester, LLC",10.4,Conventional Steam Coal,1948,2007,36055,Monroe,New York,NY
+684,5624,"RED-Rochester, LLC",10.4,Conventional Steam Coal,1948,2007,36055,Monroe,New York,NY
+685,5624,"RED-Rochester, LLC",17.5,Conventional Steam Coal,1956,2007,36055,Monroe,New York,NY
+686,13458,Deferiet New York,8.1,Conventional Steam Coal,1946,2007,36045,Jefferson,New York,NY
+687,17633,F B Culley,46,Conventional Steam Coal,1955,2006,18173,Warrick,Indiana,IN
+688,20847,Presque Isle,25,Conventional Steam Coal,1955,2006,26103,Marquette,Michigan,MI
+689,20847,Presque Isle,37.5,Conventional Steam Coal,1962,2006,26103,Marquette,Michigan,MI
+690,20737,Willmar,4,Conventional Steam Coal,1949,2006,27067,Kandiyohi,Minnesota,MN
+691,7392,Goodyear Power Plant,7.5,Conventional Steam Coal,1975,2006,39151,Summit,Ohio,OH
+692,7392,Goodyear Power Plant,12.5,Conventional Steam Coal,1977,2006,39151,Summit,Ohio,OH
+693,7392,Goodyear Power Plant,7.5,Conventional Steam Coal,1984,2006,39151,Summit,Ohio,OH
+694,7392,Goodyear Power Plant,12.5,Conventional Steam Coal,1953,2006,39151,Summit,Ohio,OH
+695,55983,Sandow No 5,121,Conventional Steam Coal,1953,2006,48331,Milam,Texas,TX
+696,55983,Sandow No 5,121,Conventional Steam Coal,1954,2006,48331,Milam,Texas,TX
+697,55983,Sandow No 5,121,Conventional Steam Coal,1954,2006,48331,Milam,Texas,TX
+698,55783,Brown Williamson Tobacco,1.5,Conventional Steam Coal,1987,2006,,Bibb,,
+699,5473,Durango Georgia Paper,4,Conventional Steam Coal,1941,2006,13039,Camden,Georgia,GA
+700,5473,Durango Georgia Paper,6.7,Conventional Steam Coal,1947,2006,13039,Camden,Georgia,GA
+701,5473,Durango Georgia Paper,18.7,Conventional Steam Coal,1955,2006,13039,Camden,Georgia,GA
+702,19883,Virginia,4,Conventional Steam Coal,1992,2006,27137,St Louis,Minnesota,MN
+703,55903,Domtar Paper Co LLC Plymouth NC,7.5,Conventional Steam Coal,1956,2006,37117,Martin,North Carolina,NC
+704,13168,C R Huntley Generating Station,80,Conventional Steam Coal,1942,2006,36029,Erie,New York,NY
+705,13168,C R Huntley Generating Station,100,Conventional Steam Coal,1948,2006,36029,Erie,New York,NY
+706,55702,Dan River Power Plant,3,Conventional Steam Coal,1947,2006,51590,Pittsylvania,Virginia,VA
+707,55702,Dan River Power Plant,6,Conventional Steam Coal,1952,2006,51590,Pittsylvania,Virginia,VA
+708,9417,Lansing,15,Conventional Steam Coal,1948,2006,19005,Allamakee,Iowa,IA
+709,11479,Blount Street,10,Conventional Steam Coal,1925,2006,55025,Dane,Wisconsin,WI
+710,14232,Hoot Lake,7.5,Conventional Steam Coal,1948,2005,27111,Otter Tail,Minnesota,MN
+711,58620,Conesville,148,Conventional Steam Coal,1959,2005,39031,Coshocton,Ohio,OH
+712,58620,Conesville,136,Conventional Steam Coal,1957,2005,39031,Coshocton,Ohio,OH
+713,10911,Lowland,5,Conventional Steam Coal,1947,2005,47063,Hamblen,Tennessee,TN
+714,10911,Lowland,5,Conventional Steam Coal,1947,2005,47063,Hamblen,Tennessee,TN
+715,10911,Lowland,5,Conventional Steam Coal,1951,2005,47063,Hamblen,Tennessee,TN
+716,10911,Lowland,0.3,Conventional Steam Coal,1985,2005,47063,Hamblen,Tennessee,TN
+717,10911,Lowland,5,Conventional Steam Coal,1951,2005,47063,Hamblen,Tennessee,TN
+718,22040,Washington State University,2,Conventional Steam Coal,1963,2005,53075,Whitman,Washington,WA
+719,17542,Sonoco Products,2.5,Conventional Steam Coal,1952,2005,42029,Chester,Pennsylvania,PA
+720,358,Amalgamated Sugar LLC Nyssa,12,Conventional Steam Coal,1987,2005,41045,Malheur,Oregon,OR
+721,358,Amalgamated Sugar LLC Nyssa,1.5,Conventional Steam Coal,1942,2005,41045,Malheur,Oregon,OR
+722,358,Amalgamated Sugar LLC Nyssa,0.5,Conventional Steam Coal,1942,2005,41045,Malheur,Oregon,OR

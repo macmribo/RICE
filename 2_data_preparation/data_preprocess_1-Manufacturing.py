@@ -17,7 +17,7 @@
 
 # ## 0. Load necessary libraries
 
-# In[66]:
+# In[ ]:
 
 
 import numpy as np
@@ -25,6 +25,7 @@ import pandas as pd
 import os,sys
 import matplotlib.pyplot as plt
 from pathlib import Path
+import random
 
 from geopy.geocoders import Nominatim
 from geopy.point import Point
@@ -39,7 +40,7 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 # Load the GIS file.
 
-# In[67]:
+# In[ ]:
 
 
 GIS = pd.read_excel('Geo_data/gis_centroid_n.xlsx') # Read the GIS excel file.
@@ -48,7 +49,7 @@ GIS # Prints first five rows.
 
 # The generated file has four columns, with longitude, latitude PCA id and country. This does not tell us much about their actual location so we can use the following gunction to create additional columns to the GIS file with the actual location names.
 
-# In[68]:
+# In[ ]:
 
 
 def city_state_country(row):
@@ -73,7 +74,7 @@ def city_state_country(row):
 
 # #### 1.1.1 Generaye GIS file — ONLY RUN ONCE! Skip to section 1.1.2. if you already generated the file
 
-# In[69]:
+# In[ ]:
 
 
 get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. Apply the previous function to obtain the names of the locations.\nGIS = GIS.apply(city_state_country, axis=1)\nGIS.head()')
@@ -81,7 +82,7 @@ get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. A
 
 # There is one county in California that shows empty. Let's add the corresponding county. Doing a quick maps  search, I saw that the [35.120104, -117.159039](https://www.google.com/maps/place/35%C2%B007'12.4%22N+117%C2%B009'32.5%22W/@35.6668582,-117.0465162,8.1z/data=!4m5!3m4!1s0x0:0xf02b1d027b57f1cb!8m2!3d35.120104!4d-117.159039) overlaps with [San Bernardino County](https://www.google.com/maps/place/San+Bernardino+County,+CA/@34.9743906,-117.1874339,10.12z/data=!4m5!3m4!1s0x80c52a8ae8311be5:0xa438bdbc918edca!8m2!3d34.9592083!4d-116.419389). The are in [33.031747, -116.717606](https://www.google.com/maps/place/33%C2%B001'54.3%22N+116%C2%B043'03.4%22W/@33.0171076,-116.9113049,9.82z/data=!4m5!3m4!1s0x0:0xb56a6fffc57eaadd!8m2!3d33.031747!4d-116.717606) corresponds to [San Diego County](https://www.google.com/maps/place/San+Diego+County,+CA/@33.016828,-117.4064529,9z/data=!3m1!4b1!4m5!3m4!1s0x80dbeb3023ff601d:0x350dfd2beb800728!8m2!3d33.0933809!4d-116.6081653). Let's add thesevalues to the empty county fields.
 
-# In[70]:
+# In[ ]:
 
 
 GIS[(GIS.county == '') & (GIS.country == 'United States')] # Select the rows we need.
@@ -89,14 +90,14 @@ GIS[(GIS.county == '') & (GIS.country == 'United States')] # Select the rows we 
 
 # Now let's use the `id` column to spot the right item and add the corresponding counties.
 
-# In[71]:
+# In[ ]:
 
 
 GIS.loc[GIS.id == 'p10', 'county'] = 'San Bernardino'
 GIS.loc[GIS.id == 'p11', 'county'] = 'San Diego'
 
 
-# In[72]:
+# In[ ]:
 
 
 GIS.head()
@@ -104,7 +105,7 @@ GIS.head()
 
 # Let's now save the file, so we don't have to do this ever again. Hooray!
 
-# In[73]:
+# In[ ]:
 
 
 GIS.to_csv('Geo_data/gis_region_names.csv')
@@ -116,7 +117,7 @@ GIS.to_csv('Geo_data/gis_region_names.csv')
 
 # We no filter the GIS data so there's only USA.
 
-# In[74]:
+# In[ ]:
 
 
 GIS = pd.read_csv('Geo_data/gis_region_names.csv')
@@ -128,7 +129,7 @@ GIS_us.to_csv('Geo_data/GIS_us_collection_centers_only.csv')
 
 # Now that we have the data we need, I am going to separate the `long` and `lat`, and the `id` into their own dataframes for easier handling.
 
-# In[75]:
+# In[ ]:
 
 
 GIS_us_long_lat = GIS_us[['long', 'lat']]
@@ -141,7 +142,7 @@ GIS_us_id = GIS_us[['id']]
 
 # #### 1.2.1. Obtain GIS data with FIPS codes
 
-# In[76]:
+# In[ ]:
 
 
 fips_county_codes = []
@@ -150,26 +151,26 @@ fips_state_codes = []
 
 # **NOTE:** Run only once and skip to section 1.2.2, to just load this data.
 
-# In[77]:
+# In[ ]:
 
 
 get_ipython().run_cell_magic('time', '', "# Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes\nimport requests\nimport urllib\n\n#Encode parameters \nfor lon, lat in GIS_us_long_lat.itertuples(index=False):\n    params = urllib.parse.urlencode({'latitude': lat, 'longitude':lon, 'format':'json'})\n    #Contruct request URL\n    url = 'https://geo.fcc.gov/api/census/block/find?' + params\n\n    #Get response from API\n    response = requests.get(url)\n\n    #Parse json in response\n    data = response.json()\n    fips_county_codes.append(data['County']['FIPS'])\n    fips_state_codes.append(data['State']['FIPS'])\n    #Print FIPS code")
 
 
-# In[78]:
+# In[ ]:
 
 
 GIS_us_long_lat.loc[:, 'fips_county'] = fips_county_codes
 GIS_us_long_lat.loc[:, 'fips_state'] = fips_state_codes
 
 
-# In[79]:
+# In[ ]:
 
 
 GIS_us_long_lat.head()
 
 
-# In[80]:
+# In[ ]:
 
 
 GIS_us_long_lat.to_csv('Geo_data/GIS_us_long_lat.csv') # Save file
@@ -177,7 +178,7 @@ GIS_us_long_lat.to_csv('Geo_data/GIS_us_long_lat.csv') # Save file
 
 # #### 1.2.2. Load GIS with FIPS data
 
-# In[81]:
+# In[ ]:
 
 
 GIS_us_long_lat = pd.read_csv('Geo_data/GIS_us_long_lat.csv') # Load file
@@ -197,7 +198,7 @@ GIS_us_long_lat = pd.read_csv('Geo_data/GIS_us_long_lat.csv') # Load file
 
 # This is a list of all the possible scenarios that we can select.
 
-# In[82]:
+# In[ ]:
 
 
 pv_ice_simulations = ['Method1', 'Method2','Method3']
@@ -208,7 +209,7 @@ while pv_ice_simulations not in {"Method1", "Method2", "Method3"}:
 print('You have chosen {}.'.format(pv_ice_simulations))
 
 
-# In[83]:
+# In[ ]:
 
 
 previous_folder = os.path.normpath(os.getcwd() + os.sep + os.pardir) # Get previous folder from current directory
@@ -219,14 +220,14 @@ pvice_TEMP_folder = os.path.join(previous_folder, '1_PV_ICE_waste_calculations',
 
 # This is to make the output file.
 
-# In[84]:
+# In[ ]:
 
 
 cwd = os.getcwd()
 pvice_output_folder = os.path.join(cwd, 'PV_ICE_clean_outputs','Manufacturing', pv_ice_simulations)
 
 
-# In[85]:
+# In[ ]:
 
 
 #python program to check if a directory exists
@@ -244,20 +245,20 @@ if not isExist:
 
 # Read the cSi and CdTe waste files, respectively.
 
-# In[86]:
+# In[ ]:
 
 
 pvice_output_folder
 
 
-# In[87]:
+# In[ ]:
 
 
 csi_virgin = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_cSi_VirginStock_{pv_ice_simulations}.csv'), index_col='year')
 cdte_virgin = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_CdTe_VirginStock_{pv_ice_simulations}.csv'), index_col='year')
 
 
-# In[88]:
+# In[ ]:
 
 
 print('We have %s collection centers.' % len(GIS_us))
@@ -265,14 +266,14 @@ print('We have %s collection centers.' % len(GIS_us))
 
 # Now I need to select the columns and separate them by material, then add a column identifying the locations. Ideally, I need to populate a table for each material.
 
-# In[89]:
+# In[ ]:
 
 
 material_list_csi = ['glass', 'silicon', 'silver', 'copper', 'aluminium_frames', 'encapsulant', 'backsheet', 'Module']
 material_list_cdte = ['cadmium', 'tellurium', 'glass_cdte', 'aluminium_frames_cdte', 'Module', 'copper_cdte', 'encapsulant_cdte']
 
 
-# In[90]:
+# In[ ]:
 
 
 nums = np.arange(1,42)
@@ -280,7 +281,7 @@ years = np.arange(2010,2051)
 years_dict = {nums[i]: years[i] for i in range(len(nums))}
 
 
-# In[91]:
+# In[ ]:
 
 
 mats = ['csi', 'cdte']
@@ -288,7 +289,7 @@ mats = ['csi', 'cdte']
 
 # #### 1.3.2. Generate waste files separated by technology and material.
 
-# In[92]:
+# In[ ]:
 
 
 for y in mats:
@@ -339,13 +340,13 @@ for y in mats:
 # 
 # **LOAD OPTION 2:** If you haven't run Section 1.3.2 cells, use function load_csv with the corresponding file name. To use this option set the following cell to `load = True`.
 
-# In[93]:
+# In[ ]:
 
 
 load = False #If you have not run Section 1 cells
 
 
-# In[94]:
+# In[ ]:
 
 
 if load == True:
@@ -391,19 +392,19 @@ else:
 
 # Drop columns: 0, 2010 (there is no waste here), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows
 
-# In[95]:
+# In[ ]:
 
 
 columns_to_erase = [0, 2010, 'FIPS', 45, 46, 'total waste', 'latitude', 'longitude']
 
 
-# In[96]:
+# In[ ]:
 
 
 csi_Module_ia
 
 
-# In[97]:
+# In[ ]:
 
 
 csi_Module_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -416,7 +417,7 @@ csi_encapsulant_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one 
 csi_backsheet_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
 
 
-# In[98]:
+# In[ ]:
 
 
 cdte_Module_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -428,7 +429,7 @@ cdte_copper_cdte_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one
 cdte_encapsulant_cdte_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
 
 
-# In[99]:
+# In[ ]:
 
 
 csi_Module_ia.head()
@@ -438,7 +439,7 @@ csi_Module_ia.head()
 
 # I take the location file from GIS.
 
-# In[100]:
+# In[ ]:
 
 
 GIS_usa = GIS[GIS.country == 'United States']
@@ -448,19 +449,19 @@ GIS_usa = GIS_usa.iloc[0:134] # I slice it until 142 because the next locations 
 
 # This line makes a new column with County, State so I make unique names for the RELOG "Initial Amounts" input file.
 
-# In[101]:
+# In[ ]:
 
 
 GIS_usa['name'] = GIS_usa['county'] + ', ' + GIS_usa['state']
 
 
-# In[102]:
+# In[ ]:
 
 
 len(GIS_usa['name'].unique()) 
 
 
-# In[103]:
+# In[ ]:
 
 
 csi_Module_ia.insert(0, 'name', GIS_usa[['name']]) # Run this one only once or it will throw an error.
@@ -496,7 +497,7 @@ csi_backsheet_ia.insert(1, 'latitude (deg)', GIS_usa[['lat']])
 csi_backsheet_ia.insert(2, 'longitude (deg)', GIS_usa[['long']]) 
 
 
-# In[104]:
+# In[ ]:
 
 
 cdte_Module_ia.insert(0, 'name', GIS_usa[['name']]) # Run this one only once or it will throw an error.
@@ -532,7 +533,7 @@ cdte_encapsulant_cdte_ia.insert(2, 'longitude (deg)', GIS_usa[['long']])
 
 # Since I am studying from 2025 onward with RELOG (because there is no significant amount of waste for RELOG to process in the recycling plants), I add the waste generated from 2011 until 2023. 
 
-# In[105]:
+# In[ ]:
 
 
 csi_Module_ia_sumyears = csi_Module_ia.loc[:, 2011:2025].sum(axis=1)
@@ -556,7 +557,7 @@ cdte_encapsulant_cdte_ia_sumyears = cdte_encapsulant_cdte_ia.loc[:, 2011:2025].s
 
 # Drop columns 2011 to 2025.
 
-# In[106]:
+# In[ ]:
 
 
 csi_Module_ia.drop(csi_Module_ia.loc[:, 2011:2025], inplace=True, axis=1)
@@ -577,7 +578,7 @@ cdte_copper_cdte_ia.drop(cdte_copper_cdte_ia.loc[:, 2011:2025], inplace=True, ax
 cdte_encapsulant_cdte_ia.drop(cdte_encapsulant_cdte_ia.loc[:, 2011:2025], inplace=True, axis=1)
 
 
-# In[107]:
+# In[ ]:
 
 
 cdte_Module_ia.head()
@@ -585,7 +586,7 @@ cdte_Module_ia.head()
 
 # Insert the 2025 column that summed the waste between 2011 to 2025.
 
-# In[108]:
+# In[ ]:
 
 
 csi_Module_ia.insert(3, 2025, csi_Module_ia_sumyears)
@@ -606,7 +607,7 @@ cdte_copper_cdte_ia.insert(3, 2025, cdte_copper_cdte_ia_sumyears)
 cdte_encapsulant_cdte_ia.insert(3, 2025, cdte_encapsulant_cdte_ia_sumyears) 
 
 
-# In[109]:
+# In[ ]:
 
 
 csi_Module_ia.head()
@@ -617,20 +618,20 @@ csi_Module_ia.head()
 # Change the column names as 'amount 1', 'amount 2', etc. I am not sure if it matters, but I am going to do it just in case!
 # From 2023 to 2050, we have a total of 28 amounts.
 
-# In[110]:
+# In[ ]:
 
 
 num_years = len(csi_Module_ia.columns) - 3 # simulation years
 num_years
 
 
-# In[111]:
+# In[ ]:
 
 
 column_names = ['name', 'latitude (deg)', 'longitude (deg)']
 
 
-# In[112]:
+# In[ ]:
 
 
 for year in range(num_years):
@@ -638,7 +639,7 @@ for year in range(num_years):
     column_names.append(amounts)
 
 
-# In[113]:
+# In[ ]:
 
 
 csi_Module_ia.set_axis(column_names, axis=1, inplace=True)
@@ -663,7 +664,7 @@ cdte_encapsulant_cdte_ia.set_axis(column_names, axis=1, inplace=True)
 
 # Here I add cSi and CdTe modules as one, and common materials as one.
 
-# In[114]:
+# In[ ]:
 
 
 pv_Modules_ia = pd.DataFrame(columns = column_names)
@@ -675,7 +676,7 @@ pv_encapsulant_ia = pd.DataFrame(columns = column_names)
 
 # Fill the data of name, latitude and longitude.
 
-# In[115]:
+# In[ ]:
 
 
 pv_Modules_ia['name'], pv_Modules_ia['latitude (deg)'],pv_Modules_ia['longitude (deg)'] = csi_Module_ia[['name']], csi_Module_ia[['latitude (deg)']],csi_Module_ia[['longitude (deg)']] 
@@ -687,7 +688,7 @@ pv_encapsulant_ia['name'], pv_encapsulant_ia['latitude (deg)'],pv_encapsulant_ia
 
 # Add amounts.
 
-# In[116]:
+# In[ ]:
 
 
 pv_Modules_ia.iloc[:,3::] = cdte_Module_ia.iloc[:,3::] + csi_Module_ia.iloc[:,3::] 
@@ -701,14 +702,14 @@ pv_encapsulant_ia.iloc[:,3::] = csi_encapsulant_ia.iloc[:,33::] + cdte_encapsula
 
 # ### 2.5. Export the 'Ininital amounts' files
 
-# In[117]:
+# In[ ]:
 
 
 cwd = os.getcwd()
 RELOG_PV_ICE_import_data = os.path.join(cwd, 'RELOG_import_data', 'Manufacturing', pv_ice_simulations)
 
 
-# In[118]:
+# In[ ]:
 
 
 #python program to check if a directory exists
@@ -724,7 +725,7 @@ if not isExist:
     print("The new directory is created!")
 
 
-# In[119]:
+# In[ ]:
 
 
 pv_Modules_ia.to_csv(os.path.join(RELOG_PV_ICE_import_data, 'pv_Modules_ia.csv'), index=False)
@@ -780,7 +781,25 @@ cdte_encapsulant_cdte_ia.to_csv(os.path.join(RELOG_PV_ICE_import_data,'cdte_enca
 # 2. Since this file does not contain state, it might be useful to change the `name` column as "nwike's name, city, county, state name". This is not strictly necessary though, it is just helpful to use for better user experience so the user knows which county belongs to which state.
 # 3. Change the area cost factors to the area we are basing our plant cost model. In this case the manufacturing plant is in Ohio.
 
-# In[120]:
+# In[1]:
+
+
+import numpy as np
+import pandas as pd
+import os,sys
+import matplotlib.pyplot as plt
+from pathlib import Path
+import random
+import re
+import seaborn as sns
+
+from geopy.geocoders import Nominatim
+from geopy.point import Point
+# initialize Nominatim API
+geolocator = Nominatim(user_agent="geoapiExercises")
+
+
+# In[ ]:
 
 
 cwd = os.getcwd()
@@ -789,7 +808,7 @@ cl_nwike_battery = pd.read_csv(os.path.join(cwd, 'RELOG_import_data', 'Candidate
 
 # To get the county, I need to apply the function `city_state_country()` to the `cl_nwike_battery` dataframe.
 
-# In[121]:
+# In[ ]:
 
 
 def city_state_country(row):
@@ -810,7 +829,7 @@ def city_state_country(row):
     return row
 
 
-# In[122]:
+# In[ ]:
 
 
 cl_nwike_battery_rename = cl_nwike_battery.copy()
@@ -818,25 +837,25 @@ cl_nwike_battery_rename = cl_nwike_battery.copy()
 
 # This next line takes around two minutes!
 
-# In[123]:
+# In[ ]:
 
 
 cl_nwike_battery_rename = cl_nwike_battery_rename.apply(city_state_country, axis=1)
 
 
-# In[124]:
+# In[ ]:
 
 
 cl_nwike_battery_rename['name'] = cl_nwike_battery_rename['name'] + ', ' + cl_nwike_battery_rename['county'] + ', ' +cl_nwike_battery_rename['state']
 
 
-# In[125]:
+# In[ ]:
 
 
 cl_nwike_battery_rename.head()
 
 
-# In[132]:
+# In[ ]:
 
 
 cl_nwike_battery_rename[cl_nwike_battery_rename['state'] == 'Ohio']['area cost factor']
@@ -844,25 +863,25 @@ cl_nwike_battery_rename[cl_nwike_battery_rename['state'] == 'Ohio']['area cost f
 
 # There is only one area cost factor different than the set, so I take the value most common from the list: 0.877358.
 
-# In[127]:
+# In[ ]:
 
 
 cl_nwike_battery_rename[cl_nwike_battery_rename['state'] == 'Ohio']
 
 
-# In[134]:
+# In[ ]:
 
 
 cl_nwike_battery_rename.drop(['county', 'state', 'country'], inplace=True, axis=1)
 
 
-# In[135]:
+# In[ ]:
 
 
 cl_nwike_battery_rename['area cost factor'] = cl_nwike_battery_rename['area cost factor']/0.877358
 
 
-# In[136]:
+# In[ ]:
 
 
 cwd = os.getcwd()
@@ -879,7 +898,7 @@ cl_nwike_battery_rename.to_csv(os.path.join(cwd, 'RELOG_import_data', 'Candidate
 # Although this file is technically already with the right format, the area cost factor is set for Georgia with 96 locations (conservative) and New Mexico with 109 locations(optimistic), so we have to choose one of these files, and set it for California, because it is where we made the Manufacturing Plant's calculations. I choose the New Mexico file because it has more candidate locations to choose from.
 # 
 
-# In[117]:
+# In[ ]:
 
 
 from itertools import chain
@@ -888,7 +907,7 @@ from itertools import chain
 # Here I selected US regions based on relative labor rate and productivity indexes in the chemical and allied products industries for the United States (1989). Source: *PLANT DESIGN AND ECONOMICS FOR CHEMICAL ENGINEERS, Peter M. S.*
 # 
 
-# In[211]:
+# In[147]:
 
 
 us_regions = {'New England' : set(['Connecticut', 'Maine', 'Massachusetts', 'New Hampshire', 'Rhode Island', 'Vermont']),
@@ -903,14 +922,14 @@ us_regions = {'New England' : set(['Connecticut', 'Maine', 'Massachusetts', 'New
 
 # Map the cost indices with relative labor rates and productivity factors.
 
-# In[212]:
+# In[148]:
 
 
 cost_index = {'Geographical area': ['New England', 'Middle Atlantic', 'South Atlantic', 'Midwest', 'Gulf', 'Southwest', 'Mountain', 'Pacific Coast'], 'Relative labor rate': [1.14, 1.06, 0.84, 1.03, 0.95, 0.88, 0.88, 1.22], 'Relative productivity factor': [0.95, 0.96, 0.91, 1.06, 1.22, 1.04, 0.97, 0.89]}
 index_df = pd.DataFrame(data=cost_index)                                 
 
 
-# In[213]:
+# In[149]:
 
 
 index_df
@@ -920,14 +939,14 @@ index_df
 # 
 # **NOTE:** I have to calculate the price for CdTe in California as well,  this might be a problem if we estimate the price based on FS's which are based in Ohio.
 
-# In[214]:
+# In[ ]:
 
 
 pc_labor_rate = index_df.loc[index_df['Geographical area'] == 'Pacific Coast']['Relative labor rate'].values 
 pc_prod_factor = index_df.loc[index_df['Geographical area'] == 'Pacific Coast']['Relative productivity factor'].values 
 
 
-# In[215]:
+# In[ ]:
 
 
 index_df['Relative labor rate CA'], index_df['Relative productivity factor CA'] = index_df['Relative labor rate']/pc_labor_rate, index_df_peters['Relative productivity factor']/pc_prod_factor
@@ -935,13 +954,13 @@ index_df['Relative labor rate CA'], index_df['Relative productivity factor CA'] 
 
 # Now let's calculate the "Construction cost" or area factor:
 
-# In[216]:
+# In[151]:
 
 
 index_df['Area factor'] = index_df['Relative labor rate CA']/ index_df['Relative productivity factor CA']
 
 
-# In[217]:
+# In[ ]:
 
 
 index_df
@@ -955,13 +974,13 @@ index_df
 
 # #### 3.2.2. Version 1: When we have the state in the column 'name'
 
-# In[218]:
+# In[ ]:
 
 
 cadidate_loc = pd.read_csv(os.path.join('RELOG_import_data', 'CandidateLocations', 'Manufacturing' 'CandidateLocations_op_NM.csv'))
 
 
-# In[219]:
+# In[ ]:
 
 
 cadidate_loc.head()
@@ -969,13 +988,13 @@ cadidate_loc.head()
 
 # Let's create a new column with states so we can map the area cost factor with the right area.
 
-# In[220]:
+# In[ ]:
 
 
 cadidate_loc['State'] = cadidate_loc['name'].str.rsplit(', ').str[-1] 
 
 
-# In[221]:
+# In[ ]:
 
 
 cadidate_loc.head()
@@ -987,38 +1006,38 @@ cadidate_loc.head()
 
 # Make a dictionary of Geographical area (or regions) and area factors.
 
-# In[223]:
+# In[ ]:
 
 
 index_dict = dict(zip(index_df['Geographical area'], index_df['Area factor']))
 
 
-# In[224]:
+# In[ ]:
 
 
 index_dict
 
 
-# In[225]:
+# In[ ]:
 
 
 us_regions.keys()
 
 
-# In[226]:
+# In[ ]:
 
 
 for key in us_regions:
     cadidate_loc.loc[cadidate_loc['State'].isin(us_regions[key]), 'Region'] = key
 
 
-# In[227]:
+# In[ ]:
 
 
 cadidate_loc.head()
 
 
-# In[228]:
+# In[ ]:
 
 
 cadidate_loc["area cost factor"] = cadidate_loc["Region"].apply(lambda x: index_dict.get(x))
@@ -1026,13 +1045,13 @@ cadidate_loc["area cost factor"] = cadidate_loc["Region"].apply(lambda x: index_
 
 # Now we drop the state and Region columns:
 
-# In[229]:
+# In[ ]:
 
 
 candidate_loc_clean = cadidate_loc.drop(['State', 'Region'], axis=1)
 
 
-# In[230]:
+# In[ ]:
 
 
 candidate_loc_clean.head()
@@ -1040,7 +1059,7 @@ candidate_loc_clean.head()
 
 # Now let's round the numbers to reasonable amounts.
 
-# In[231]:
+# In[ ]:
 
 
 candidate_loc_clean['latitude (deg)'] = candidate_loc_clean['latitude (deg)'].round(decimals=4)
@@ -1048,13 +1067,13 @@ candidate_loc_clean['longitude (deg)'] = candidate_loc_clean['longitude (deg)'].
 candidate_loc_clean['area cost factor'] = candidate_loc_clean['area cost factor'].round(decimals=2)
 
 
-# In[232]:
+# In[ ]:
 
 
 candidate_loc_clean.head()
 
 
-# In[233]:
+# In[ ]:
 
 
 candidate_loc_clean.to_csv(os.path.join('RELOG_import_data', 'Manufacturing','CandidateLocations_CA.csv'), index=False)
@@ -1110,7 +1129,7 @@ cadidate_loc_2 = cadidate_loc_2.apply(city_state_country_2, axis=1)
 
 # Setup the template for the collection center file.
 
-# In[ ]:
+# In[77]:
 
 
 candidate_locations = pd.DataFrame(columns=['name', 'latitude (deg)', 'longitude (deg)', 'initial capacity (tonne)','area cost factor'])                
@@ -1122,6 +1141,260 @@ candidate_locations = pd.DataFrame(columns=['name', 'latitude (deg)', 'longitude
 
 
 candidate_locations['name'], candidate_locations['state'], candidate_locations['latitude (deg)'], candidate_locations['longitude (deg)'] = GIS_usa['location'], GIS_usa['state'], GIS_usa['long'], GIS_usa['lat']
+
+
+# ### 3.4. IGate-e Candidate Locations
+
+# These candidate locations are protected data, they can be found locally in `/2_data_preparation/CandidateLocations_RAW`. There are a lot of locations here (>200K). So I am going to filter them.
+
+# In[192]:
+
+
+cwd = os.getcwd()
+igate_cl_raw = pd.read_csv(os.path.join(cwd, 'CandidateLocations_RAW', 'ManufacturingPlants_Locations.csv'), low_memory=False)
+
+
+# In[193]:
+
+
+igate_cl = igate_cl_raw.copy()
+
+
+# In[194]:
+
+
+print('There are {} rows.'.format(len(igate_cl)))
+
+
+# #### Preliminary cleanup
+
+# Remove duplicates, I will get rid of locations with same Latitude and Longitude.
+
+# In[195]:
+
+
+igate_cl['latlong'] = igate_cl['Latitude'].astype('str') + ', ' + igate_cl['Longitude'].astype('str')
+
+
+# In[196]:
+
+
+print('There are {} unique locations.'.format(len(igate_cl['latlong'].unique())))
+
+
+# In[197]:
+
+
+igate_cl.drop_duplicates(subset='latlong', inplace=True)
+
+
+# In[198]:
+
+
+print('There are {} locations after the filter.'.format(len(igate_cl)))
+
+
+# #### Check for NaN rows
+
+# In[199]:
+
+
+igate_cl.isna().sum()
+
+
+# In[200]:
+
+
+igate_cl=igate_cl.drop(labels=igate_cl[igate_cl['Naics_3digit'].isna()].index)
+
+
+# In[201]:
+
+
+print('There are {} locations after the NaN filter.'.format(len(igate_cl)))
+
+
+# In[202]:
+
+
+sns.scatterplot(x='Longitude', y='Latitude', data=igate_cl, alpha=1)
+
+
+# In[203]:
+
+
+import fiona
+import geopandas as gp
+import matplotlib.pyplot as plt
+import pandas as pd
+from matplotlib import collections
+from shapely.geometry import LineString, Point
+
+
+# In[204]:
+
+
+# Plot base map
+world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
+ax.set_ylim([23, 50])
+ax.set_xlim([-128, -65])
+
+# Draw destination points
+points = gp.points_from_xy(
+    igate_cl["Longitude"],
+    igate_cl["Latitude"],
+)
+gp.GeoDataFrame(igate_cl, geometry=points).plot(ax=ax, color="red", markersize=50, alpha=1)
+plt.savefig(f"candidate_locations_sites.pdf", dpi=300);
+plt.savefig(f"candidate_locations_sites.png", dpi=300);
+
+
+# #### First filter: By NAICS
+
+# In[205]:
+
+
+naics_selection = ['325_', '317_', '331_','332_', '334_', '335_', '339_']
+
+
+# In[206]:
+
+
+mask1=igate_cl['Naics_3digit'].str.contains('|'.join(naics_selection),regex=True)
+
+
+# In[207]:
+
+
+igate_cl_naics_filtered = igate_cl.loc[mask1]
+
+
+# In[208]:
+
+
+print('There are now {} locations'.format(len(igate_cl_naics_filtered)))
+
+
+# In[209]:
+
+
+sns.scatterplot(x='Longitude', y='Latitude', data=igate_cl_naics_filtered, alpha=1)
+
+
+# In[ ]:
+
+
+
+
+
+# In[210]:
+
+
+# Plot base map
+world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
+ax.set_ylim([23, 50])
+ax.set_xlim([-128, -65])
+
+# Draw destination points
+points = gp.points_from_xy(
+    igate_cl_naics_filtered["Longitude"],
+    igate_cl_naics_filtered["Latitude"],
+)
+gp.GeoDataFrame(igate_cl_naics_filtered, geometry=points).plot(ax=ax, color="red", markersize=50, alpha=1)
+plt.savefig(f"candidate_locations_sites.pdf", dpi=300);
+plt.savefig(f"candidate_locations_sites.png", dpi=300);
+
+
+# #### Convert into RELOG Candidate Locations formats and save
+
+# Let's clean both datasets `igate_cl_naics` and `igate_cl_naics_filtered` and make the unique names column, with the `initial capacity (tonne)`, `area cost factor` columns.
+
+# In[211]:
+
+
+igate_cl_output = igate_cl.drop(['Address', 'Naics_3digit', 'latlong', 'geometry'], axis=1)
+igate_cl_naics_filtered_output = igate_cl_naics_filtered.drop(['Address', 'Naics_3digit', 'latlong', 'geometry'], axis=1)
+
+
+# In[212]:
+
+
+igate_cl_output = igate_cl_output.rename(columns={'Latitude': 'latitude (deg)', 'Longitude': 'longitude (deg)', 'Name':'name'})
+igate_cl_naics_filtered_output = igate_cl_naics_filtered_output.rename(columns={'Latitude': 'latitude (deg)', 'Longitude': 'longitude (deg)', 'Name':'name'})
+
+
+# In[213]:
+
+
+igate_cl_output['name'] = igate_cl_output['name'] + ', ' + igate_cl_output['State']
+igate_cl_naics_filtered_output['name'] = igate_cl_naics_filtered_output['name']+ ', ' + igate_cl_naics_filtered_output['State']
+
+
+# In[214]:
+
+
+print('There are {} unique names in the duplicates filtered data.'.format(len(igate_cl_output['name'])))
+print('There are {} unique names in the duplicates and naics filtered data.'.format(len(igate_cl_naics_filtered_output['name'])))
+
+
+# In[215]:
+
+
+igate_cl_output = igate_cl_output.reindex(columns=['name', 'latitude (deg)', 'longitude (deg)', 'State','initial capacity (tonne)','area cost factor'], fill_value=0)
+igate_cl_naics_filtered_output = igate_cl_naics_filtered_output.reindex(columns=['name', 'latitude (deg)', 'longitude (deg)', 'State','initial capacity (tonne)','area cost factor'], fill_value=0)
+
+
+# Map Area cost factors with the DOD csv.
+
+# In[216]:
+
+
+cwd = os.getcwd()
+area_cost_factors = pd.read_csv(os.path.join(cwd, 'miscellaneous', 'dod_area_cost_factors.csv'))
+
+
+# In[217]:
+
+
+area_cost_dict = dict(zip(area_cost_factors['State Code'], area_cost_factors['ACF Official']))
+
+
+# In[218]:
+
+
+igate_cl_output["area cost factor"] = igate_cl_output["State"].apply(lambda x: area_cost_dict.get(x))
+igate_cl_naics_filtered_output["area cost factor"] = igate_cl_naics_filtered_output["State"].apply(lambda x: area_cost_dict.get(x))
+
+
+# Now let's set it so it is relative to Ohio!
+
+# In[219]:
+
+
+igate_cl_output['area cost factor'] = igate_cl_output['area cost factor']/area_cost_dict['OH']
+igate_cl_naics_filtered_output['area cost factor'] = igate_cl_naics_filtered_output['area cost factor']/area_cost_dict['OH']
+
+
+# In[221]:
+
+
+igate_cl_output = igate_cl_output.drop('State', axis=1)
+igate_cl_naics_filtered_output = igate_cl_naics_filtered_output.drop('State', axis=1)
+
+
+# In[226]:
+
+
+igate_cl_output.to_csv(os.path.join(cwd, 'RELOG_import_data', 'CandidateLocations', 'cl_igate_single_loc.csv'), index=False)
+igate_cl_naics_filtered_output.to_csv(os.path.join(cwd, 'RELOG_import_data', 'CandidateLocations', 'cl_igate_single_loc_filter_naics.csv'), index=False)
+
+
+# In[ ]:
+
+
+
 
 
 # ## 4. Go to RELOG case-builder

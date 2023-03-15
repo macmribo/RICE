@@ -6,7 +6,7 @@
 
 # Python Dependencies: Pandas, Seaborn
 
-# In[1]:
+# In[14]:
 
 
 import matplotlib.pyplot as plt
@@ -16,17 +16,17 @@ import os
 sns.set_style("white")
 
 
-# In[2]:
+# In[120]:
 
 
-simulation = "20230309_storage-only-plant-example"
+simulation = "20230314_Recycling_max_v5"
 
 
 # ### Plant Costs
 
 # #### Total Costs
 
-# In[3]:
+# In[121]:
 
 
 data = pd.read_csv(f"output/{simulation}/plants.csv")
@@ -39,20 +39,20 @@ sns.barplot(
 plt.savefig(f"figures/{simulation}/plant_costs.pdf", dpi=300);
 
 
-# In[4]:
+# In[122]:
 
 
 data.columns
 
 
-# In[5]:
+# In[123]:
 
 
 locations = sns.FacetGrid(data, row="location name")
 locations.map(sns.barplot, "year", "total cost ($)", errorbar = None, order = None)
 
 
-# In[6]:
+# In[124]:
 
 
 data
@@ -64,7 +64,7 @@ data
 
 
 
-# In[7]:
+# In[125]:
 
 
 columns = [
@@ -88,7 +88,7 @@ columns = [
 
 
 
-# In[8]:
+# In[126]:
 
 
 data.columns
@@ -102,7 +102,7 @@ data.columns
 
 # #### Cost Breakdown
 
-# In[9]:
+# In[127]:
 
 
 columns = [
@@ -144,7 +144,7 @@ plt.savefig(f"figures/{simulation}/plant_costs_breakdown.pdf", dpi=300);
 # 
 # *Note: This is most likely an error for M1 apple users.*
 
-# In[10]:
+# In[128]:
 
 
 import fiona
@@ -155,7 +155,7 @@ from matplotlib import collections
 from shapely.geometry import LineString, Point
 
 
-# In[11]:
+# In[129]:
 
 
 # Plot base map
@@ -206,17 +206,17 @@ plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
 plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
 
 
-# In[12]:
+# In[130]:
 
 
 gp.datasets.available
 
 
-# In[13]:
+# In[132]:
 
 
 # Plot base map
-world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+world = gp.read_file(gp.datasets.get_path("naturalearth_cities"))
 ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
 ax.set_ylim([23, 50])
 ax.set_xlim([-128, -65])
@@ -261,6 +261,12 @@ points = gp.points_from_xy(
 gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
 # plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
 # plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
