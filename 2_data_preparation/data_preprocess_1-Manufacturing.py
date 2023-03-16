@@ -77,7 +77,7 @@ def city_state_country(row):
 # In[ ]:
 
 
-get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. Apply the previous function to obtain the names of the locations.\nGIS = GIS.apply(city_state_country, axis=1)\nGIS.head()')
+get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. Apply the previous function to obtain the names of the locations.\nGIS = GIS.apply(city_state_country, axis=1)\nGIS.head()\n')
 
 
 # There is one county in California that shows empty. Let's add the corresponding county. Doing a quick maps  search, I saw that the [35.120104, -117.159039](https://www.google.com/maps/place/35%C2%B007'12.4%22N+117%C2%B009'32.5%22W/@35.6668582,-117.0465162,8.1z/data=!4m5!3m4!1s0x0:0xf02b1d027b57f1cb!8m2!3d35.120104!4d-117.159039) overlaps with [San Bernardino County](https://www.google.com/maps/place/San+Bernardino+County,+CA/@34.9743906,-117.1874339,10.12z/data=!4m5!3m4!1s0x80c52a8ae8311be5:0xa438bdbc918edca!8m2!3d34.9592083!4d-116.419389). The are in [33.031747, -116.717606](https://www.google.com/maps/place/33%C2%B001'54.3%22N+116%C2%B043'03.4%22W/@33.0171076,-116.9113049,9.82z/data=!4m5!3m4!1s0x0:0xb56a6fffc57eaadd!8m2!3d33.031747!4d-116.717606) corresponds to [San Diego County](https://www.google.com/maps/place/San+Diego+County,+CA/@33.016828,-117.4064529,9z/data=!3m1!4b1!4m5!3m4!1s0x80dbeb3023ff601d:0x350dfd2beb800728!8m2!3d33.0933809!4d-116.6081653). Let's add thesevalues to the empty county fields.
@@ -154,7 +154,7 @@ fips_state_codes = []
 # In[ ]:
 
 
-get_ipython().run_cell_magic('time', '', "# Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes\nimport requests\nimport urllib\n\n#Encode parameters \nfor lon, lat in GIS_us_long_lat.itertuples(index=False):\n    params = urllib.parse.urlencode({'latitude': lat, 'longitude':lon, 'format':'json'})\n    #Contruct request URL\n    url = 'https://geo.fcc.gov/api/census/block/find?' + params\n\n    #Get response from API\n    response = requests.get(url)\n\n    #Parse json in response\n    data = response.json()\n    fips_county_codes.append(data['County']['FIPS'])\n    fips_state_codes.append(data['State']['FIPS'])\n    #Print FIPS code")
+get_ipython().run_cell_magic('time', '', "# Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes\nimport requests\nimport urllib\n\n#Encode parameters \nfor lon, lat in GIS_us_long_lat.itertuples(index=False):\n    params = urllib.parse.urlencode({'latitude': lat, 'longitude':lon, 'format':'json'})\n    #Contruct request URL\n    url = 'https://geo.fcc.gov/api/census/block/find?' + params\n\n    #Get response from API\n    response = requests.get(url)\n\n    #Parse json in response\n    data = response.json()\n    fips_county_codes.append(data['County']['FIPS'])\n    fips_state_codes.append(data['State']['FIPS'])\n    #Print FIPS code\n")
 
 
 # In[ ]:
@@ -700,6 +700,7 @@ pv_encapsulant_ia.iloc[:,3::] = csi_encapsulant_ia.iloc[:,33::] + cdte_encapsula
 
 
 
+
 # ### 2.5. Export the 'Ininital amounts' files
 
 # In[ ]:
@@ -762,6 +763,7 @@ cdte_encapsulant_cdte_ia.to_csv(os.path.join(RELOG_PV_ICE_import_data,'cdte_enca
 # RELOG requires a file with the recycling plant candidates locations. This dataframe requirtes a column with:
 # * Unique location names
 # * Longitude and latitudes
+# * Initial capacity (tonne)
 # * Area cost factors (relative to the place where the cost analysis was made).
 # 
 # Here I propose three approaches:
@@ -770,16 +772,6 @@ cdte_encapsulant_cdte_ia.to_csv(os.path.join(RELOG_PV_ICE_import_data,'cdte_enca
 #     - Version 1: When we have the state in the column name.
 #     - Version 2: When we don't have the state defined in the name.
 # 3. Create an empty template — see section 3.3.
-
-# ### 3.1. DOD cost indices
-
-# Nwike's paper uses the [DOD](https://www.usace.army.mil/Cost-Engineering/Area-Cost-Factors/) area cost factors to set up the location-based costs, with the following Candidate Locations file: file 'Candidate locations - Battery Project' found in the shared Box.
-# 
-# These numbers seem more updated, and mine are from the 90's there might be caveats. So I will consider using these instead. For this, I need to:
-# 
-# 1. Upload the "Candidate Locations - Battery" file. 
-# 2. Since this file does not contain state, it might be useful to change the `name` column as "nwike's name, city, county, state name". This is not strictly necessary though, it is just helpful to use for better user experience so the user knows which county belongs to which state.
-# 3. Change the area cost factors to the area we are basing our plant cost model. In this case the manufacturing plant is in Ohio.
 
 # In[1]:
 
@@ -798,6 +790,16 @@ from geopy.point import Point
 # initialize Nominatim API
 geolocator = Nominatim(user_agent="geoapiExercises")
 
+
+# ### 3.1. DOD cost indices
+
+# Nwike's paper uses the [DOD](https://www.usace.army.mil/Cost-Engineering/Area-Cost-Factors/) area cost factors to set up the location-based costs, with the following Candidate Locations file: file 'Candidate locations - Battery Project' found in the shared Box.
+# 
+# These numbers seem more updated, and mine are from the 90's there might be caveats. So I will consider using these instead. For this, I need to:
+# 
+# 1. Upload the "Candidate Locations - Battery" file. 
+# 2. Since this file does not contain state, it might be useful to change the `name` column as "nwike's name, city, county, state name". This is not strictly necessary though, it is just helpful to use for better user experience so the user knows which county belongs to which state.
+# 3. Change the area cost factors to the area we are basing our plant cost model. In this case the manufacturing plant is in Ohio.
 
 # In[ ]:
 
@@ -1142,6 +1144,9 @@ candidate_locations = pd.DataFrame(columns=['name', 'latitude (deg)', 'longitude
 
 candidate_locations['name'], candidate_locations['state'], candidate_locations['latitude (deg)'], candidate_locations['longitude (deg)'] = GIS_usa['location'], GIS_usa['state'], GIS_usa['long'], GIS_usa['lat']
 
+
+# scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230315_Recycling_super_v5 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+# 
 
 # ### 3.4. IGate-e Candidate Locations
 
@@ -1496,7 +1501,6 @@ csi_waste = {'Modules' : csi_Module['total waste'].sum(),
 
 
 # In[ ]:
-
 
 
 csi_waste_2050 = {'Modules' : csi_Module['2050'].sum(),

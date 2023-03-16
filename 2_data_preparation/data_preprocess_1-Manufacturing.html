@@ -36,6 +36,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .m { color: var(--jp-mirror-editor-number-color) } /* Literal.Number */
 .highlight .s { color: var(--jp-mirror-editor-string-color) } /* Literal.String */
 .highlight .ow { color: var(--jp-mirror-editor-operator-color); font-weight: bold } /* Operator.Word */
+.highlight .pm { color: var(--jp-mirror-editor-punctuation-color) } /* Punctuation.Marker */
 .highlight .w { color: var(--jp-mirror-editor-variable-color) } /* Text.Whitespace */
 .highlight .mb { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Bin */
 .highlight .mf { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Float */
@@ -14464,10 +14465,6 @@ a.anchor-link {
   display: none;
 }
 
-.highlight  {
-  margin: 0.4em;
-}
-
 /* Input area styling */
 .jp-InputArea {
   overflow: hidden;
@@ -14477,9 +14474,26 @@ a.anchor-link {
   overflow: hidden;
 }
 
-.CodeMirror pre {
+.CodeMirror.cm-s-jupyter .highlight pre {
+/* weird, but --jp-code-padding defined to be 5px but 4px horizontal padding is hardcoded for pre.CodeMirror-line */
+  padding: var(--jp-code-padding) 4px;
   margin: 0;
-  padding: 0;
+
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+
+}
+
+.jp-OutputArea-output pre {
+  line-height: inherit;
+  font-family: inherit;
+}
+
+.jp-RenderedText pre {
+  color: var(--jp-content-font-color1);
+  font-size: var(--jp-code-font-size);
 }
 
 /* Using table instead of flexbox so that we can use break-inside property */
@@ -14525,6 +14539,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   display: none;
 }
 
+@page {
+    margin: 0.5in; /* Margin for each printed piece of paper */
+}
+
 @media print {
   .jp-Cell-inputWrapper,
   .jp-Cell-outputWrapper {
@@ -14559,12 +14577,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
                 },
                 displayAlign: 'center',
                 CommonHTML: {
-                    linebreaks: { 
-                    automatic: true 
+                    linebreaks: {
+                    automatic: true
                     }
                 }
             });
-        
+
             MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
         }
     }
@@ -14593,14 +14611,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p>This journal describes how to prepare the data to run the RELOG scenarios. He we will cover:</p>
 <ol>
 <li>Waste files generation. Correlates latitude and longitude with a region and state. Takes PV ICE-generated data file and creates individual waste files based on the type of waste.</li>
-<li>Make initial amounts file. Using the previously generated files, we show how to make an 'Initial amounts file' so it is in RELOG input data format. </li>
+<li>Make initial amounts file. Using the previously generated files, we show how to make an 'Initial amounts file' so it is in RELOG input data format.</li>
 <li>Make recycling candidates files. Generate the PV recycling plant candidates files using the correct area cost factor.</li>
 <li>Continue to RELOG case-builder.</li>
 <li>Make a sankey diagram from section 1.</li>
 <li>Render a cloropeth map from section 2 (not finished!)</li>
 </ol>
 <p>A continuation of this journal can be found in <a href="./data_preprocess_2.ipynb">Data Preprocess 2</a>.</p>
-<p><strong>*NOTE:</strong> All quantities are given in <strong>metric tonnes</strong>.*</p>
+<p>*<strong>NOTE:</strong> All quantities are given in <strong>metric tonnes</strong>.*</p>
 
 </div>
 </div>
@@ -14649,7 +14667,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
+<hr />
 <h2 id="1.-Waste-files-generation">1. Waste files generation<a class="anchor-link" href="#1.-Waste-files-generation">&#182;</a></h2>
 </div>
 </div>
@@ -14786,7 +14804,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>There is one county in California that shows empty. Let's add the corresponding county. Doing a quick maps  search, I saw that the <a href="https://www.google.com/maps/place/35%C2%B007&#39;12.4%22N+117%C2%B009&#39;32.5%22W/@35.6668582,-117.0465162,8.1z/data=!4m5!3m4!1s0x0:0xf02b1d027b57f1cb!8m2!3d35.120104!4d-117.159039">35.120104, -117.159039</a> overlaps with <a href="https://www.google.com/maps/place/San+Bernardino+County,+CA/@34.9743906,-117.1874339,10.12z/data=!4m5!3m4!1s0x80c52a8ae8311be5:0xa438bdbc918edca!8m2!3d34.9592083!4d-116.419389">San Bernardino County</a>. The are in <a href="https://www.google.com/maps/place/33%C2%B001&#39;54.3%22N+116%C2%B043&#39;03.4%22W/@33.0171076,-116.9113049,9.82z/data=!4m5!3m4!1s0x0:0xb56a6fffc57eaadd!8m2!3d33.031747!4d-116.717606">33.031747, -116.717606</a> corresponds to <a href="https://www.google.com/maps/place/San+Diego+County,+CA/@33.016828,-117.4064529,9z/data=!3m1!4b1!4m5!3m4!1s0x80dbeb3023ff601d:0x350dfd2beb800728!8m2!3d33.0933809!4d-116.6081653">San Diego County</a>. Let's add thesevalues to the empty county fields.</p>
+<p>There is one county in California that shows empty. Let's add the corresponding county. Doing a quick maps  search, I saw that the <a href="https://www.google.com/maps/place/35%C2%B007%2712.4%22N+117%C2%B009%2732.5%22W/@35.6668582,-117.0465162,8.1z/data=!4m5!3m4!1s0x0:0xf02b1d027b57f1cb!8m2!3d35.120104!4d-117.159039">35.120104, -117.159039</a> overlaps with <a href="https://www.google.com/maps/place/San+Bernardino+County,+CA/@34.9743906,-117.1874339,10.12z/data=!4m5!3m4!1s0x80c52a8ae8311be5:0xa438bdbc918edca!8m2!3d34.9592083!4d-116.419389">San Bernardino County</a>. The are in <a href="https://www.google.com/maps/place/33%C2%B001%2754.3%22N+116%C2%B043%2703.4%22W/@33.0171076,-116.9113049,9.82z/data=!4m5!3m4!1s0x0:0xb56a6fffc57eaadd!8m2!3d33.031747!4d-116.717606">33.031747, -116.717606</a> corresponds to <a href="https://www.google.com/maps/place/San+Diego+County,+CA/@33.016828,-117.4064529,9z/data=!3m1!4b1!4m5!3m4!1s0x80dbeb3023ff601d:0x350dfd2beb800728!8m2!3d33.0933809!4d-116.6081653">San Diego County</a>. Let's add thesevalues to the empty county fields.</p>
 
 </div>
 </div>
@@ -15490,10 +15508,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Here I will be generating the file that has the waste initial amounts according to RELOG's template (Initial amounts - Template.csv).
-<img src="images/Initial_amounts_temp.png" alt="image.png"></p>
-<p>I have two options:
-1) Add at the wastes and then do the processing to create ONE template of initial amounts.
-2) Create THREE templates, two with CdTe and cSi separated, and then create another one summing the previous two.</p>
+<img src="images/Initial_amounts_temp.png" alt="image.png" /></p>
+<p>I have two options:</p>
+<ol>
+<li>Add at the wastes and then do the processing to create ONE template of initial amounts.</li>
+<li>Create THREE templates, two with CdTe and cSi separated, and then create another one summing the previous two.</li>
+</ol>
 <p>I am going to do option 2, that way if we decide to generate a separate RELOG scenario with one or the other technology, we have already separate files. I am also  going to create the files for individual materials in case they update the software so we also have material timeseries.</p>
 <p><strong>IMPORTANT:</strong> I need to make unique names for this file, so I will add the state next to the county.</p>
 
@@ -15756,7 +15776,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>This line makes a new column with County, State so I make unique names for the RELOG "Initial Amounts" input file.</p>
+<p>This line makes a new column with County, State so I make unique names for the RELOG &quot;Initial Amounts&quot; input file.</p>
 
 </div>
 </div>
@@ -16388,7 +16408,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
+<hr />
 <h2 id="3.-Manufacturing-candidate-file-generation">3. Manufacturing candidate file generation<a class="anchor-link" href="#3.-Manufacturing-candidate-file-generation">&#182;</a></h2>
 </div>
 </div>
@@ -16404,6 +16424,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <ul>
 <li>Unique location names</li>
 <li>Longitude and latitudes</li>
+<li>Initial capacity (tonne)</li>
 <li>Area cost factors (relative to the place where the cost analysis was made).</li>
 </ul>
 <p>Here I propose three approaches:</p>
@@ -16415,35 +16436,6 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 </ul>
 </li>
 <li>Create an empty template — see section 3.3.</li>
-</ol>
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="3.1.-DOD-cost-indices">3.1. DOD cost indices<a class="anchor-link" href="#3.1.-DOD-cost-indices">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Nwike's paper uses the <a href="https://www.usace.army.mil/Cost-Engineering/Area-Cost-Factors/">DOD</a> area cost factors to set up the location-based costs, with the following Candidate Locations file: file 'Candidate locations - Battery Project' found in the shared Box.</p>
-<p>These numbers seem more updated, and mine are from the 90's there might be caveats. So I will consider using these instead. For this, I need to:</p>
-<ol>
-<li>Upload the "Candidate Locations - Battery" file. </li>
-<li>Since this file does not contain state, it might be useful to change the <code>name</code> column as "nwike's name, city, county, state name". This is not strictly necessary though, it is just helpful to use for better user experience so the user knows which county belongs to which state.</li>
-<li>Change the area cost factors to the area we are basing our plant cost model. In this case the manufacturing plant is in Ohio.</li>
 </ol>
 
 </div>
@@ -16477,6 +16469,35 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="3.1.-DOD-cost-indices">3.1. DOD cost indices<a class="anchor-link" href="#3.1.-DOD-cost-indices">&#182;</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Nwike's paper uses the <a href="https://www.usace.army.mil/Cost-Engineering/Area-Cost-Factors/">DOD</a> area cost factors to set up the location-based costs, with the following Candidate Locations file: file 'Candidate locations - Battery Project' found in the shared Box.</p>
+<p>These numbers seem more updated, and mine are from the 90's there might be caveats. So I will consider using these instead. For this, I need to:</p>
+<ol>
+<li>Upload the &quot;Candidate Locations - Battery&quot; file.</li>
+<li>Since this file does not contain state, it might be useful to change the <code>name</code> column as &quot;nwike's name, city, county, state name&quot;. This is not strictly necessary though, it is just helpful to use for better user experience so the user knows which county belongs to which state.</li>
+<li>Change the area cost factors to the area we are basing our plant cost model. In this case the manufacturing plant is in Ohio.</li>
+</ol>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -16844,9 +16865,7 @@ Although this file is technically already with the right format, the area cost f
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[149]:</div>
 
@@ -16943,7 +16962,7 @@ Although this file is technically already with the right format, the area cost f
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Now I need to get the factor normalize these factors for California (Pacific Coast), I get this calculation also from the book "Plant design and economics for..."</p>
+<p>Now I need to get the factor normalize these factors for California (Pacific Coast), I get this calculation also from the book &quot;Plant design and economics for...&quot;</p>
 <p><strong>NOTE:</strong> I have to calculate the price for CdTe in California as well,  this might be a problem if we estimate the price based on FS's which are based in Ohio.</p>
 
 </div>
@@ -16989,7 +17008,7 @@ Although this file is technically already with the right format, the area cost f
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Now let's calculate the "Construction cost" or area factor:</p>
+<p>Now let's calculate the &quot;Construction cost&quot; or area factor:</p>
 
 </div>
 </div>
@@ -17016,9 +17035,7 @@ Although this file is technically already with the right format, the area cost f
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -17257,9 +17274,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-pac
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -17642,7 +17657,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-pac
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
+<hr />
 <h3 id="3.3.-If-no-file-is-given,-these-cells-shows-how-to-set-up-the-dataframe-in-RELOG-format">3.3. If no file is given, these cells shows how to set up the dataframe in RELOG format<a class="anchor-link" href="#3.3.-If-no-file-is-given,-these-cells-shows-how-to-set-up-the-dataframe-in-RELOG-format">&#182;</a></h3>
 </div>
 </div>
@@ -17703,6 +17718,18 @@ File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-pac
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230315_Recycling_super_v5 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG</p>
+
+</div>
+</div>
+</div>
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -17781,9 +17808,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-pac
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -17859,9 +17884,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-pac
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -17914,9 +17937,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-pac
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -17964,9 +17985,7 @@ File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-pac
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[199]:</div>
 
@@ -18028,9 +18047,7 @@ dtype: int64</pre>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -18067,9 +18084,7 @@ dtype: int64</pre>
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[202]:</div>
 
@@ -18081,9 +18096,7 @@ dtype: int64</pre>
 </div>
 
 </div>
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -18160,9 +18173,7 @@ class="
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -18264,9 +18275,7 @@ class="
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -18303,9 +18312,7 @@ class="
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[209]:</div>
 
@@ -18317,9 +18324,7 @@ class="
 </div>
 
 </div>
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -18391,9 +18396,7 @@ class="
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -18511,9 +18514,7 @@ class="
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
 <div class="jp-OutputArea-child">
-
     
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
@@ -18723,7 +18724,7 @@ There are 240 unique names in the duplicates and naics filtered data.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
+<hr />
 <h2 id="5.-Sankey-Diagram">5. Sankey Diagram<a class="anchor-link" href="#5.-Sankey-Diagram">&#182;</a></h2>
 </div>
 </div>
@@ -18735,15 +18736,17 @@ There are 240 unique names in the duplicates and naics filtered data.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>For the Sankey Diagram, I need:
-1) Get the waste (cSi + CdTe).</p>
-
-<pre><code>* Get the cSi waste and CdTe waste.
-* Get the amount of each material in cSi and CdTe.
-</code></pre>
-<p>2) Add all those materials into material bins.
-3) Pass them by an intermediate bin with the recycling process an d  their recycling yield.
-4) Add all those materials and check how much of each could contribute to revenue based on their value.</p>
+<p>For the Sankey Diagram, I need:</p>
+<ol>
+<li>Get the waste (cSi + CdTe).<ul>
+<li>Get the cSi waste and CdTe waste.</li>
+<li>Get the amount of each material in cSi and CdTe.</li>
+</ul>
+</li>
+<li>Add all those materials into material bins.</li>
+<li>Pass them by an intermediate bin with the recycling process an d  their recycling yield.</li>
+<li>Add all those materials and check how much of each could contribute to revenue based on their value.</li>
+</ol>
 <p><strong>Note:</strong> To visualize the Sankey diagram in Jupyter, you may need to add the plotly extension, you can install it by running this line in the terminal: <code>jupyter labextension install plotlywidget</code>. <a href="">Source</a>.</p>
 
 </div>
@@ -19561,7 +19564,7 @@ There are 240 unique names in the duplicates and naics filtered data.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<hr>
+<hr />
 <h2 id="6.-Cloropeth-map-option-1-(still-under-construction)">6. Cloropeth map option 1 (still under construction)<a class="anchor-link" href="#6.-Cloropeth-map-option-1-(still-under-construction)">&#182;</a></h2>
 </div>
 </div>

@@ -144,7 +144,7 @@ plt.savefig(f"figures/{simulation}/plant_costs_breakdown.pdf", dpi=300);
 # 
 # *Note: This is most likely an error for M1 apple users.*
 
-# In[128]:
+# In[133]:
 
 
 import fiona
@@ -152,7 +152,10 @@ import geopandas as gp
 import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib import collections
-from shapely.geometry import LineString, Point
+import matplotlib.pyplot as plt
+from shapely.geometry import LineString, Point, Polygon
+
+get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[129]:
@@ -212,61 +215,34 @@ plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
 gp.datasets.available
 
 
-# In[132]:
+# In[134]:
 
 
-# Plot base map
-world = gp.read_file(gp.datasets.get_path("naturalearth_cities"))
-ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
-ax.set_ylim([23, 50])
-ax.set_xlim([-128, -65])
-
-# Draw transportation lines
-data = pd.read_csv(f"output/{simulation}/transportation.csv")
-lines = [
-    [
-        (
-            row["source longitude (deg)"],
-            row["source latitude (deg)"],
-        ),
-        (
-            row["destination longitude (deg)"],
-            row["destination latitude (deg)"],
-        ),
-    ]
-    for (index, row) in data.iterrows()
-]
-ax.add_collection(
-    collections.LineCollection(
-        lines,
-        linewidths=0.01,
-        zorder=1,
-        alpha=0.5,
-        color="0.7",
-    )
-)
-
-# Draw source points
-points = gp.points_from_xy(
-    data["source longitude (deg)"],
-    data["source latitude (deg)"],
-)
-gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="0.5", markersize=1)
-
-# Draw destination points
-points = gp.points_from_xy(
-    data["destination longitude (deg)"],
-    data["destination latitude (deg)"],
-)
-gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
-# plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
-# plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
+cwd = os.getcwd()
 
 
-# In[ ]:
+# In[135]:
 
 
+cwd
 
+
+# In[136]:
+
+
+usa = gp.read_file(os.path.join(cwd, 'figures', 'resources', 'cb_2018_us_state_500k', 'cb_2018_us_state_500k.shp'))
+
+
+# In[144]:
+
+
+len([state for state in usa['STUSPS']])
+
+
+# In[139]:
+
+
+usa.tail(5)
 
 
 # In[ ]:
