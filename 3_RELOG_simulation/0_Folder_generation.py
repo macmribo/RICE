@@ -24,23 +24,23 @@ import shutil
 from distutils.dir_util import copy_tree
 
 
-# In[8]:
+# In[59]:
 
 
 date = datetime.today().strftime('%Y%m%d')
-simulation_name = f'{date}_Recycling_super_v5' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
+simulation_name = f'{date}_Recycling_super_v6' # This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version
 simulation_whatif = 'what-if_' + simulation_name
 
 
 # ## Folder generation:
 
-# In[9]:
+# In[60]:
 
 
 cwd = os.getcwd()
 
 
-# In[10]:
+# In[61]:
 
 
 input_file = os.path.join(cwd, 'input', simulation_name)
@@ -51,19 +51,19 @@ figures_file = os.path.join(cwd, 'figures', simulation_name)
 figures_file_whatif = os.path.join(cwd, 'figures', simulation_whatif)
 
 
-# In[11]:
+# In[62]:
 
 
 files_to_create = [input_file, input_file_whatif, output_file, output_file_whatif, figures_file, figures_file_whatif]
 
 
-# In[12]:
+# In[63]:
 
 
 files_to_create[5]
 
 
-# In[13]:
+# In[64]:
 
 
 for files in range(len(files_to_create)):
@@ -81,19 +81,19 @@ for files in range(len(files_to_create)):
 
 # Only use this one when you have your input files ready for simulation, this means that the `input` folder has the `case.json` (i.e. the saved file made in the [RELOG case builder](https://relog.axavier.org/casebuilder)), and the `what-if_blablabla` has been also generated.
 
-# In[14]:
+# In[8]:
 
 
 cwd = os.getcwd()
 
 
-# In[15]:
+# In[9]:
 
 
 test = False
 
 
-# In[31]:
+# In[10]:
 
 
 if test:

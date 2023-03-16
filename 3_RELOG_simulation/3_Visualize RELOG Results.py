@@ -6,7 +6,7 @@
 
 # Python Dependencies: Pandas, Seaborn
 
-# In[14]:
+# In[1]:
 
 
 import matplotlib.pyplot as plt
@@ -16,17 +16,17 @@ import os
 sns.set_style("white")
 
 
-# In[120]:
+# In[106]:
 
 
-simulation = "20230314_Recycling_max_v5"
+simulation = "20230315_Recycling_super_v5"
 
 
 # ### Plant Costs
 
 # #### Total Costs
 
-# In[121]:
+# In[107]:
 
 
 data = pd.read_csv(f"output/{simulation}/plants.csv")
@@ -39,20 +39,20 @@ sns.barplot(
 plt.savefig(f"figures/{simulation}/plant_costs.pdf", dpi=300);
 
 
-# In[122]:
+# In[108]:
 
 
 data.columns
 
 
-# In[123]:
+# In[109]:
 
 
 locations = sns.FacetGrid(data, row="location name")
 locations.map(sns.barplot, "year", "total cost ($)", errorbar = None, order = None)
 
 
-# In[124]:
+# In[110]:
 
 
 data
@@ -64,7 +64,7 @@ data
 
 
 
-# In[125]:
+# In[111]:
 
 
 columns = [
@@ -88,7 +88,7 @@ columns = [
 
 
 
-# In[126]:
+# In[112]:
 
 
 data.columns
@@ -102,7 +102,7 @@ data.columns
 
 # #### Cost Breakdown
 
-# In[127]:
+# In[113]:
 
 
 columns = [
@@ -144,7 +144,7 @@ plt.savefig(f"figures/{simulation}/plant_costs_breakdown.pdf", dpi=300);
 # 
 # *Note: This is most likely an error for M1 apple users.*
 
-# In[133]:
+# In[114]:
 
 
 import fiona
@@ -158,7 +158,7 @@ from shapely.geometry import LineString, Point, Polygon
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
-# In[129]:
+# In[115]:
 
 
 # Plot base map
@@ -209,40 +209,112 @@ plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
 plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
 
 
-# In[130]:
+# In[116]:
 
 
 gp.datasets.available
 
 
-# In[134]:
+# In[117]:
 
 
 cwd = os.getcwd()
 
 
-# In[135]:
+# In[118]:
 
 
 cwd
 
 
-# In[136]:
+# In[119]:
 
 
 usa = gp.read_file(os.path.join(cwd, 'figures', 'resources', 'cb_2018_us_state_500k', 'cb_2018_us_state_500k.shp'))
 
 
-# In[144]:
+# In[120]:
 
 
 len([state for state in usa['STUSPS']])
 
 
-# In[139]:
+# In[121]:
 
 
 usa.tail(5)
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:
