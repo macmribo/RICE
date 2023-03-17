@@ -81,31 +81,31 @@ for files in range(len(files_to_create)):
 
 # Only use this one when you have your input files ready for simulation, this means that the `input` folder has the `case.json` (i.e. the saved file made in the [RELOG case builder](https://relog.axavier.org/casebuilder)), and the `what-if_blablabla` has been also generated.
 
-# In[8]:
+# In[12]:
 
 
 cwd = os.getcwd()
 
 
-# In[9]:
+# In[13]:
 
 
 test = False
 
 
-# In[10]:
+# In[119]:
 
 
 if test:
     simulation_name = 'bleh'  #test to see the error
 else:
     #simulation_name = f'{date}_CASE0_v1' # This line is to generte  file the same day, use the following line if you want to manually specify the simulation folder
-    simulation_name = '20230315_Recycling_super_v5'
+    simulation_name = '20230316_Recycling_super_v6'
 
 
 # 1. Make sure that the simulation folder exists in the main folders, that it has a `case.json` file inside and that it also has the what-if scenarios generated. If these are not created it will throw an error asking you to do those steps first.
 
-# In[32]:
+# In[120]:
 
 
 input_solver_folder_location = os.path.join(cwd, 'input', simulation_name)
@@ -121,7 +121,7 @@ simulation_folders = [input_solver_folder_location, input_whatif_folder_location
 
 # ### Check if the paths exists.
 
-# In[33]:
+# In[121]:
 
 
 for files in range(len(simulation_folders)):
@@ -134,7 +134,7 @@ for files in range(len(simulation_folders)):
 
 # ### Check if the files are inside.
 
-# In[34]:
+# In[122]:
 
 
 if os.listdir(simulation_folders[0]) == ['case.json']:
@@ -147,7 +147,7 @@ else:
     print('The what-if files exist, you may continue!')
 
 
-# In[35]:
+# In[123]:
 
 
 hpc_input_solver_folder = os.path.join(cwd, 'hpc_simulation_folders', simulation_name, 'input', 'solver') 
@@ -157,7 +157,7 @@ hpc_output_whatif_folder = os.path.join(cwd, 'hpc_simulation_folders', simulatio
 check_list = [hpc_input_solver_folder, hpc_input_whatif_folder, hpc_output_solver_folder, hpc_output_whatif_folder]
 
 
-# In[36]:
+# In[124]:
 
 
 for files in range(len(check_list)):
@@ -173,7 +173,7 @@ for files in range(len(check_list)):
 
 # ### Copy the files from the template codes into the simulation folder:
 
-# In[37]:
+# In[125]:
 
 
 cwd = os.getcwd()
@@ -181,7 +181,7 @@ template_files = os.path.join(cwd, 'hpc_simulation_folders', 'template_codes')
 input_files = os.path.join(cwd, 'hpc_simulation_folders', simulation_name)
 
 
-# In[38]:
+# In[126]:
 
 
 copy_tree(template_files, input_files)
@@ -189,13 +189,13 @@ copy_tree(template_files, input_files)
 
 # ### Change the word 'scenario' for the folder scenario name in the solver.jl and the what-if.jl files:
 
-# In[39]:
+# In[127]:
 
 
 copy_tree(template_files, input_files)
 
 
-# In[40]:
+# In[128]:
 
 
 # Read in the file
@@ -210,7 +210,7 @@ with open(os.path.join(input_files, 'solver.jl'), 'w') as file:
     file.write(filedata)
 
 
-# In[41]:
+# In[129]:
 
 
 # Read in the file
@@ -227,7 +227,7 @@ with open(os.path.join(input_files, 'what-if.jl'), 'w') as file:
 
 # ### Copy the solver and whatif files to the hpc scenario folders
 
-# In[42]:
+# In[130]:
 
 
 copy_tree(input_solver_folder_location, hpc_input_solver_folder)
@@ -251,13 +251,13 @@ copy_tree(input_whatif_folder_location, hpc_input_whatif_folder)
 
 # Local machine to HPC (copy and paste it into your terminal):
 
-# In[43]:
+# In[131]:
 
 
 cwd = os.getcwd()
 
 
-# In[44]:
+# In[132]:
 
 
 local_path = os.path.join(cwd, 'hpc_simulation_folders', simulation_name) #change the last entry for the specific name of your simulation
@@ -266,11 +266,17 @@ print('scp -r', local_path, 'mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG')
 
 # HPC to local machine (copy and paste it into your terminal), this path only works me, but if you have access to the same project folder, use it).
 
-# In[30]:
+# In[133]:
 
 
 hpc_path = os.path.join(f'mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/{simulation_name}/output', ) #change the last entry for the specific name of your simulation
 print('scp -r', hpc_path, local_path)
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

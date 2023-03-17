@@ -9,6 +9,8 @@ using RELOG
 using TickTock
 
 
+RELOG
+
 problem = "20230314_Recycling_min_v4"
 
 tick()
