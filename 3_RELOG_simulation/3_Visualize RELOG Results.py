@@ -16,10 +16,10 @@ import os
 sns.set_style("white")
 
 
-# In[106]:
+# In[1]:
 
 
-simulation = "20230315_Recycling_super_v5"
+simulation = "20230316_Recycling_min_v6"
 
 
 # ### Plant Costs
@@ -144,7 +144,7 @@ plt.savefig(f"figures/{simulation}/plant_costs_breakdown.pdf", dpi=300);
 # 
 # *Note: This is most likely an error for M1 apple users.*
 
-# In[114]:
+# In[2]:
 
 
 import fiona
@@ -158,7 +158,7 @@ from shapely.geometry import LineString, Point, Polygon
 get_ipython().run_line_magic('matplotlib', 'inline')
 
 
-# In[115]:
+# In[3]:
 
 
 # Plot base map
@@ -209,42 +209,6 @@ plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
 plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
 
 
-# In[116]:
-
-
-gp.datasets.available
-
-
-# In[117]:
-
-
-cwd = os.getcwd()
-
-
-# In[118]:
-
-
-cwd
-
-
-# In[119]:
-
-
-usa = gp.read_file(os.path.join(cwd, 'figures', 'resources', 'cb_2018_us_state_500k', 'cb_2018_us_state_500k.shp'))
-
-
-# In[120]:
-
-
-len([state for state in usa['STUSPS']])
-
-
-# In[121]:
-
-
-usa.tail(5)
-
-
 # In[ ]:
 
 
@@ -257,76 +221,258 @@ usa.tail(5)
 
 
 
+# In[4]:
+
+
+simulation = "20230316_Recycling_med_v6"
+
+
+# In[5]:
+
+
+# Plot base map
+world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
+ax.set_ylim([23, 50])
+ax.set_xlim([-128, -65])
+
+# Draw transportation lines
+data = pd.read_csv(f"output/{simulation}/transportation.csv")
+lines = [
+    [
+        (
+            row["source longitude (deg)"],
+            row["source latitude (deg)"],
+        ),
+        (
+            row["destination longitude (deg)"],
+            row["destination latitude (deg)"],
+        ),
+    ]
+    for (index, row) in data.iterrows()
+]
+ax.add_collection(
+    collections.LineCollection(
+        lines,
+        linewidths=0.01,
+        zorder=1,
+        alpha=0.5,
+        color="0.7",
+    )
+)
+
+# Draw source points
+points = gp.points_from_xy(
+    data["source longitude (deg)"],
+    data["source latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="0.5", markersize=1)
+
+# Draw destination points
+points = gp.points_from_xy(
+    data["destination longitude (deg)"],
+    data["destination latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
+plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
+plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
+
+
+# In[6]:
+
+
+simulation = "20230316_Recycling_max_v6"
+
+
+# In[7]:
+
+
+# Plot base map
+world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
+ax.set_ylim([23, 50])
+ax.set_xlim([-128, -65])
+
+# Draw transportation lines
+data = pd.read_csv(f"output/{simulation}/transportation.csv")
+lines = [
+    [
+        (
+            row["source longitude (deg)"],
+            row["source latitude (deg)"],
+        ),
+        (
+            row["destination longitude (deg)"],
+            row["destination latitude (deg)"],
+        ),
+    ]
+    for (index, row) in data.iterrows()
+]
+ax.add_collection(
+    collections.LineCollection(
+        lines,
+        linewidths=0.01,
+        zorder=1,
+        alpha=0.5,
+        color="0.7",
+    )
+)
+
+# Draw source points
+points = gp.points_from_xy(
+    data["source longitude (deg)"],
+    data["source latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="0.5", markersize=1)
+
+# Draw destination points
+points = gp.points_from_xy(
+    data["destination longitude (deg)"],
+    data["destination latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
+plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
+plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
+
+
+# In[8]:
+
+
+simulation = "20230316_Recycling_midsuper_v6"
+
+
+# In[9]:
+
+
+# Plot base map
+world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
+ax.set_ylim([23, 50])
+ax.set_xlim([-128, -65])
+
+# Draw transportation lines
+data = pd.read_csv(f"output/{simulation}/transportation.csv")
+lines = [
+    [
+        (
+            row["source longitude (deg)"],
+            row["source latitude (deg)"],
+        ),
+        (
+            row["destination longitude (deg)"],
+            row["destination latitude (deg)"],
+        ),
+    ]
+    for (index, row) in data.iterrows()
+]
+ax.add_collection(
+    collections.LineCollection(
+        lines,
+        linewidths=0.01,
+        zorder=1,
+        alpha=0.5,
+        color="0.7",
+    )
+)
+
+# Draw source points
+points = gp.points_from_xy(
+    data["source longitude (deg)"],
+    data["source latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="0.5", markersize=1)
+
+# Draw destination points
+points = gp.points_from_xy(
+    data["destination longitude (deg)"],
+    data["destination latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
+plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
+plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
+
+
 # In[ ]:
 
 
 
 
 
-# In[ ]:
+# In[10]:
 
 
+simulation = "20230316_Recycling_super_v6"
 
 
-
-# In[ ]:
-
+# In[11]:
 
 
+# Plot base map
+world = gp.read_file(gp.datasets.get_path("naturalearth_lowres"))
+ax = world.plot(color="white", edgecolor="0.5", figsize=(14, 7))
+ax.set_ylim([23, 50])
+ax.set_xlim([-128, -65])
+
+# Draw transportation lines
+data = pd.read_csv(f"output/{simulation}/transportation.csv")
+lines = [
+    [
+        (
+            row["source longitude (deg)"],
+            row["source latitude (deg)"],
+        ),
+        (
+            row["destination longitude (deg)"],
+            row["destination latitude (deg)"],
+        ),
+    ]
+    for (index, row) in data.iterrows()
+]
+ax.add_collection(
+    collections.LineCollection(
+        lines,
+        linewidths=0.01,
+        zorder=1,
+        alpha=0.5,
+        color="0.7",
+    )
+)
+
+# Draw source points
+points = gp.points_from_xy(
+    data["source longitude (deg)"],
+    data["source latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="0.5", markersize=1)
+
+# Draw destination points
+points = gp.points_from_xy(
+    data["destination longitude (deg)"],
+    data["destination latitude (deg)"],
+)
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, color="red", markersize=50)
+plt.savefig(f"figures/{simulation}/recycling_logistics.pdf", dpi=300);
+plt.savefig(f"figures/{simulation}/recycling_logistics.png", dpi=300);
 
 
-# In[ ]:
+# In[44]:
 
 
+data_min = pd.read_csv("output/20230315_Recycling_min_v5/plants.csv")
+data_med = pd.read_csv("output/20230315_Recycling_med_v5/plants.csv")
+data_max = pd.read_csv("output/20230315_Recycling_max_v5/plants.csv")
 
 
-
-# In[ ]:
-
+# In[45]:
 
 
+len(data_test['destination location name'].unique())
 
 
-# In[ ]:
+# In[46]:
 
 
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
+data_test
 
 
 # In[ ]:
