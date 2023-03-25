@@ -1,7 +1,0 @@
-source type,source location name,source latitude (deg),source longitude (deg),destination type,destination location name,destination latitude (deg),destination longitude (deg),product,year,distance (km),amount (tonne),amount-distance (tonne-km),transportation cost ($),transportation energy (GJ)
-Origin,Washakie County,43.8356,-107.6602,Storage Plant,Washakie County,43.8356,-107.6602,Material,1,0.0,1000.0,0.0,0.0,0.0
-Origin,Washakie County,43.8356,-107.6602,Storage Plant,Washakie County,43.8356,-107.6602,Material,2,0.0,0.0,0.0,0.0,0.0
-Origin,Washakie County,43.8356,-107.6602,Processing Plant,Washakie County,43.8356,-107.6602,Material,1,0.0,-0.0,-0.0,-0.0,-0.0
-Origin,Washakie County,43.8356,-107.6602,Processing Plant,Washakie County,43.8356,-107.6602,Material,2,0.0,1000.0,0.0,0.0,0.0
-Storage Plant,Washakie County,43.8356,-107.6602,Processing Plant,Washakie County,43.8356,-107.6602,Material,1,0.0,0.0,0.0,0.0,0.0
-Storage Plant,Washakie County,43.8356,-107.6602,Processing Plant,Washakie County,43.8356,-107.6602,Material,2,0.0,1000.0,0.0,0.0,0.0

@@ -1,0 +1,1067 @@
+plant type,location name,year,emission type,emission amount (tonne)
+PV Recycling Plant,"Helen Of Troy L. P., TX",1,CO2,0.71
+PV Recycling Plant,"Helen Of Troy L. P., TX",2,CO2,0.49
+PV Recycling Plant,"Helen Of Troy L. P., TX",3,CO2,0.77
+PV Recycling Plant,"Helen Of Troy L. P., TX",4,CO2,1.17
+PV Recycling Plant,"Helen Of Troy L. P., TX",5,CO2,1.74
+PV Recycling Plant,"Helen Of Troy L. P., TX",6,CO2,2.52
+PV Recycling Plant,"Helen Of Troy L. P., TX",7,CO2,3.57
+PV Recycling Plant,"Helen Of Troy L. P., TX",8,CO2,8.84
+PV Recycling Plant,"Helen Of Troy L. P., TX",9,CO2,6.36
+PV Recycling Plant,"Helen Of Troy L. P., TX",10,CO2,15.84
+PV Recycling Plant,"Helen Of Troy L. P., TX",11,CO2,17.62
+PV Recycling Plant,"Helen Of Troy L. P., TX",12,CO2,13.0
+PV Recycling Plant,"Helen Of Troy L. P., TX",13,CO2,8633.42
+PV Recycling Plant,"Helen Of Troy L. P., TX",14,CO2,1370.45
+PV Recycling Plant,"Helen Of Troy L. P., TX",15,CO2,1727.77
+PV Recycling Plant,"Helen Of Troy L. P., TX",16,CO2,8349.39
+PV Recycling Plant,"Helen Of Troy L. P., TX",17,CO2,1545.8
+PV Recycling Plant,"Helen Of Troy L. P., TX",18,CO2,1836.45
+PV Recycling Plant,"Helen Of Troy L. P., TX",19,CO2,13198.29
+PV Recycling Plant,"Helen Of Troy L. P., TX",20,CO2,5465.68
+PV Recycling Plant,"Helen Of Troy L. P., TX",21,CO2,444.95
+PV Recycling Plant,"Helen Of Troy L. P., TX",22,CO2,4535.75
+PV Recycling Plant,"Helen Of Troy L. P., TX",23,CO2,922.3
+PV Recycling Plant,"Helen Of Troy L. P., TX",24,CO2,1005.22
+PV Recycling Plant,"Helen Of Troy L. P., TX",25,CO2,3943.27
+PV Recycling Plant,"Helen Of Troy L. P., TX",26,CO2,1768.91
+PV Recycling Plant,"Kuykendall Cement Corp., AR",1,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",2,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",3,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",4,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",5,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",6,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",7,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",8,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",9,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",10,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",11,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",12,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",13,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",14,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",15,CO2,0.0
+PV Recycling Plant,"Kuykendall Cement Corp., AR",16,CO2,4984.44
+PV Recycling Plant,"Kuykendall Cement Corp., AR",17,CO2,2836.65
+PV Recycling Plant,"Kuykendall Cement Corp., AR",18,CO2,3910.55
+PV Recycling Plant,"Kuykendall Cement Corp., AR",19,CO2,3910.55
+PV Recycling Plant,"Kuykendall Cement Corp., AR",20,CO2,5274.99
+PV Recycling Plant,"Kuykendall Cement Corp., AR",21,CO2,2546.1
+PV Recycling Plant,"Kuykendall Cement Corp., AR",22,CO2,6699.01
+PV Recycling Plant,"Kuykendall Cement Corp., AR",23,CO2,1644.33
+PV Recycling Plant,"Kuykendall Cement Corp., AR",24,CO2,3388.3
+PV Recycling Plant,"Kuykendall Cement Corp., AR",25,CO2,3910.55
+PV Recycling Plant,"Kuykendall Cement Corp., AR",26,CO2,3910.55
+PV Recycling Plant,"Baldor Electric Co., AR",1,CO2,27.17
+PV Recycling Plant,"Baldor Electric Co., AR",2,CO2,18.72
+PV Recycling Plant,"Baldor Electric Co., AR",3,CO2,29.59
+PV Recycling Plant,"Baldor Electric Co., AR",4,CO2,45.75
+PV Recycling Plant,"Baldor Electric Co., AR",5,CO2,69.25
+PV Recycling Plant,"Baldor Electric Co., AR",6,CO2,102.72
+PV Recycling Plant,"Baldor Electric Co., AR",7,CO2,149.46
+PV Recycling Plant,"Baldor Electric Co., AR",8,CO2,216.56
+PV Recycling Plant,"Baldor Electric Co., AR",9,CO2,299.5
+PV Recycling Plant,"Baldor Electric Co., AR",10,CO2,989.47
+PV Recycling Plant,"Baldor Electric Co., AR",11,CO2,1058.55
+PV Recycling Plant,"Baldor Electric Co., AR",12,CO2,610.64
+PV Recycling Plant,"Baldor Electric Co., AR",13,CO2,5409.68
+PV Recycling Plant,"Baldor Electric Co., AR",14,CO2,1740.44
+PV Recycling Plant,"Baldor Electric Co., AR",15,CO2,2318.54
+PV Recycling Plant,"Baldor Electric Co., AR",16,CO2,3910.55
+PV Recycling Plant,"Baldor Electric Co., AR",17,CO2,3910.55
+PV Recycling Plant,"Baldor Electric Co., AR",18,CO2,3910.55
+PV Recycling Plant,"Baldor Electric Co., AR",19,CO2,3910.55
+PV Recycling Plant,"Baldor Electric Co., AR",20,CO2,4198.79
+PV Recycling Plant,"Baldor Electric Co., AR",21,CO2,3622.31
+PV Recycling Plant,"Baldor Electric Co., AR",22,CO2,4106.38
+PV Recycling Plant,"Baldor Electric Co., AR",23,CO2,3714.72
+PV Recycling Plant,"Baldor Electric Co., AR",24,CO2,3910.55
+PV Recycling Plant,"Baldor Electric Co., AR",25,CO2,3910.55
+PV Recycling Plant,"Baldor Electric Co., AR",26,CO2,3910.55
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",1,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",2,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",3,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",4,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",5,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",6,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",7,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",8,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",9,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",10,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",11,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",12,CO2,0.0
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",13,CO2,125.09
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",14,CO2,14.04
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",15,CO2,18.76
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",16,CO2,10468.78
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",17,CO2,255.87
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",18,CO2,1006.99
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",19,CO2,3910.55
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",20,CO2,7632.22
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",21,CO2,188.87
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",22,CO2,3910.55
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",23,CO2,3910.55
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",24,CO2,3910.55
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",25,CO2,5101.99
+PV Recycling Plant,"Heath Transit Mix Concrete Co., TX",26,CO2,2719.1
+PV Recycling Plant,"AGC Automotive Americas, KY",1,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",2,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",3,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",4,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",5,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",6,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",7,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",8,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",9,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",10,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",11,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",12,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",13,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",14,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",15,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",16,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",17,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",18,CO2,0.0
+PV Recycling Plant,"AGC Automotive Americas, KY",19,CO2,4414.48
+PV Recycling Plant,"AGC Automotive Americas, KY",20,CO2,4001.25
+PV Recycling Plant,"AGC Automotive Americas, KY",21,CO2,1164.31
+PV Recycling Plant,"AGC Automotive Americas, KY",22,CO2,5848.47
+PV Recycling Plant,"AGC Automotive Americas, KY",23,CO2,1972.62
+PV Recycling Plant,"AGC Automotive Americas, KY",24,CO2,3910.55
+PV Recycling Plant,"AGC Automotive Americas, KY",25,CO2,3910.55
+PV Recycling Plant,"AGC Automotive Americas, KY",26,CO2,3910.55
+PV Recycling Plant,"Noahs Ark Repair Service, FL",1,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",2,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",3,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",4,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",5,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",6,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",7,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",8,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",9,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",10,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",11,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",12,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",13,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",14,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",15,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",16,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",17,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",18,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",19,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",20,CO2,2146.21
+PV Recycling Plant,"Noahs Ark Repair Service, FL",21,CO2,0.0
+PV Recycling Plant,"Noahs Ark Repair Service, FL",22,CO2,3938.47
+PV Recycling Plant,"Noahs Ark Repair Service, FL",23,CO2,200.79
+PV Recycling Plant,"Noahs Ark Repair Service, FL",24,CO2,724.81
+PV Recycling Plant,"Noahs Ark Repair Service, FL",25,CO2,4777.62
+PV Recycling Plant,"Noahs Ark Repair Service, FL",26,CO2,3043.47
+PV Recycling Plant,"Columbia Block & Brick, MS",1,CO2,90.43
+PV Recycling Plant,"Columbia Block & Brick, MS",2,CO2,56.73
+PV Recycling Plant,"Columbia Block & Brick, MS",3,CO2,86.77
+PV Recycling Plant,"Columbia Block & Brick, MS",4,CO2,130.19
+PV Recycling Plant,"Columbia Block & Brick, MS",5,CO2,191.75
+PV Recycling Plant,"Columbia Block & Brick, MS",6,CO2,277.44
+PV Recycling Plant,"Columbia Block & Brick, MS",7,CO2,394.57
+PV Recycling Plant,"Columbia Block & Brick, MS",8,CO2,1676.71
+PV Recycling Plant,"Columbia Block & Brick, MS",9,CO2,651.15
+PV Recycling Plant,"Columbia Block & Brick, MS",10,CO2,2075.93
+PV Recycling Plant,"Columbia Block & Brick, MS",11,CO2,2249.46
+PV Recycling Plant,"Columbia Block & Brick, MS",12,CO2,1385.0
+PV Recycling Plant,"Columbia Block & Brick, MS",13,CO2,3622.69
+PV Recycling Plant,"Columbia Block & Brick, MS",14,CO2,2493.39
+PV Recycling Plant,"Columbia Block & Brick, MS",15,CO2,3358.32
+PV Recycling Plant,"Columbia Block & Brick, MS",16,CO2,3968.73
+PV Recycling Plant,"Columbia Block & Brick, MS",17,CO2,3852.36
+PV Recycling Plant,"Columbia Block & Brick, MS",18,CO2,3910.55
+PV Recycling Plant,"Columbia Block & Brick, MS",19,CO2,3910.55
+PV Recycling Plant,"Columbia Block & Brick, MS",20,CO2,3910.55
+PV Recycling Plant,"Columbia Block & Brick, MS",21,CO2,3910.55
+PV Recycling Plant,"Columbia Block & Brick, MS",22,CO2,4220.21
+PV Recycling Plant,"Columbia Block & Brick, MS",23,CO2,3600.88
+PV Recycling Plant,"Columbia Block & Brick, MS",24,CO2,3910.55
+PV Recycling Plant,"Columbia Block & Brick, MS",25,CO2,3910.55
+PV Recycling Plant,"Columbia Block & Brick, MS",26,CO2,3910.55
+PV Recycling Plant,"BeccaLee Mfg., OK",1,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",2,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",3,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",4,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",5,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",6,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",7,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",8,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",9,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",10,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",11,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",12,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",13,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",14,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",15,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",16,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",17,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",18,CO2,0.0
+PV Recycling Plant,"BeccaLee Mfg., OK",19,CO2,3910.55
+PV Recycling Plant,"BeccaLee Mfg., OK",20,CO2,4270.14
+PV Recycling Plant,"BeccaLee Mfg., OK",21,CO2,3550.95
+PV Recycling Plant,"BeccaLee Mfg., OK",22,CO2,4358.68
+PV Recycling Plant,"BeccaLee Mfg., OK",23,CO2,3462.41
+PV Recycling Plant,"BeccaLee Mfg., OK",24,CO2,3910.55
+PV Recycling Plant,"BeccaLee Mfg., OK",25,CO2,3910.55
+PV Recycling Plant,"BeccaLee Mfg., OK",26,CO2,3910.55
+PV Recycling Plant,"Cooling Tower Supply, AZ",1,CO2,33.65
+PV Recycling Plant,"Cooling Tower Supply, AZ",2,CO2,20.88
+PV Recycling Plant,"Cooling Tower Supply, AZ",3,CO2,31.14
+PV Recycling Plant,"Cooling Tower Supply, AZ",4,CO2,45.23
+PV Recycling Plant,"Cooling Tower Supply, AZ",5,CO2,64.08
+PV Recycling Plant,"Cooling Tower Supply, AZ",6,CO2,88.66
+PV Recycling Plant,"Cooling Tower Supply, AZ",7,CO2,119.88
+PV Recycling Plant,"Cooling Tower Supply, AZ",8,CO2,247.31
+PV Recycling Plant,"Cooling Tower Supply, AZ",9,CO2,196.09
+PV Recycling Plant,"Cooling Tower Supply, AZ",10,CO2,8407.84
+PV Recycling Plant,"Cooling Tower Supply, AZ",11,CO2,3135.4
+PV Recycling Plant,"Cooling Tower Supply, AZ",12,CO2,188.39
+PV Recycling Plant,"Cooling Tower Supply, AZ",13,CO2,11731.64
+PV Recycling Plant,"Cooling Tower Supply, AZ",14,CO2,0.0
+PV Recycling Plant,"Cooling Tower Supply, AZ",15,CO2,0.0
+PV Recycling Plant,"Cooling Tower Supply, AZ",16,CO2,7821.09
+PV Recycling Plant,"Cooling Tower Supply, AZ",17,CO2,0.0
+PV Recycling Plant,"Cooling Tower Supply, AZ",18,CO2,3910.55
+PV Recycling Plant,"Cooling Tower Supply, AZ",19,CO2,7821.09
+PV Recycling Plant,"Cooling Tower Supply, AZ",20,CO2,0.0
+PV Recycling Plant,"Cooling Tower Supply, AZ",21,CO2,7963.3
+PV Recycling Plant,"Cooling Tower Supply, AZ",22,CO2,0.0
+PV Recycling Plant,"Cooling Tower Supply, AZ",23,CO2,3768.33
+PV Recycling Plant,"Cooling Tower Supply, AZ",24,CO2,3910.55
+PV Recycling Plant,"Cooling Tower Supply, AZ",25,CO2,5074.56
+PV Recycling Plant,"Cooling Tower Supply, AZ",26,CO2,2746.53
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",1,CO2,72.06
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",2,CO2,40.1
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",3,CO2,57.84
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",4,CO2,81.52
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",5,CO2,112.34
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",6,CO2,151.49
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",7,CO2,931.8
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",8,CO2,7821.09
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",9,CO2,0.0
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",10,CO2,3910.55
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",11,CO2,3910.55
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",12,CO2,3910.55
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",13,CO2,8667.53
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",14,CO2,0.0
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",15,CO2,3064.1
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",16,CO2,3910.55
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",17,CO2,6714.35
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",18,CO2,1106.74
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",19,CO2,3910.55
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",20,CO2,7821.09
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",21,CO2,0.0
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",22,CO2,12802.03
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",23,CO2,400.59
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",24,CO2,1408.89
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",25,CO2,1030.67
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",26,CO2,3910.55
+PV Recycling Plant,"Arkansas Concrete, AR",1,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",2,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",3,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",4,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",5,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",6,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",7,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",8,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",9,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",10,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",11,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",12,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",13,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",14,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",15,CO2,0.0
+PV Recycling Plant,"Arkansas Concrete, AR",16,CO2,1701.51
+PV Recycling Plant,"Arkansas Concrete, AR",17,CO2,1319.44
+PV Recycling Plant,"Arkansas Concrete, AR",18,CO2,2179.81
+PV Recycling Plant,"Arkansas Concrete, AR",19,CO2,4074.76
+PV Recycling Plant,"Arkansas Concrete, AR",20,CO2,3746.33
+PV Recycling Plant,"Arkansas Concrete, AR",21,CO2,3910.55
+PV Recycling Plant,"Arkansas Concrete, AR",22,CO2,3910.55
+PV Recycling Plant,"Arkansas Concrete, AR",23,CO2,3910.55
+PV Recycling Plant,"Arkansas Concrete, AR",24,CO2,3910.55
+PV Recycling Plant,"Arkansas Concrete, AR",25,CO2,3910.55
+PV Recycling Plant,"Arkansas Concrete, AR",26,CO2,3910.55
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",1,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",2,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",3,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",4,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",5,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",6,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",7,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",8,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",9,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",10,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",11,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",12,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",13,CO2,3910.55
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",14,CO2,3910.55
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",15,CO2,3910.55
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",16,CO2,8414.09
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",17,CO2,5.9
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",18,CO2,3311.65
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",19,CO2,11731.64
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",20,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",21,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",22,CO2,7821.09
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",23,CO2,0.0
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",24,CO2,3910.55
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",25,CO2,5811.64
+PV Recycling Plant,"Merrill Fence Co., LLC, NM",26,CO2,2009.45
+PV Recycling Plant,"Marlin Marble Co., FL",1,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",2,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",3,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",4,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",5,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",6,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",7,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",8,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",9,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",10,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",11,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",12,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",13,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",14,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",15,CO2,0.0
+PV Recycling Plant,"Marlin Marble Co., FL",16,CO2,649.34
+PV Recycling Plant,"Marlin Marble Co., FL",17,CO2,762.62
+PV Recycling Plant,"Marlin Marble Co., FL",18,CO2,1012.55
+PV Recycling Plant,"Marlin Marble Co., FL",19,CO2,1426.28
+PV Recycling Plant,"Marlin Marble Co., FL",20,CO2,1782.25
+PV Recycling Plant,"Marlin Marble Co., FL",21,CO2,2121.13
+PV Recycling Plant,"Marlin Marble Co., FL",22,CO2,4348.52
+PV Recycling Plant,"Marlin Marble Co., FL",23,CO2,2931.76
+PV Recycling Plant,"Marlin Marble Co., FL",24,CO2,3714.68
+PV Recycling Plant,"Marlin Marble Co., FL",25,CO2,3910.55
+PV Recycling Plant,"Marlin Marble Co., FL",26,CO2,3910.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",1,CO2,147.47
+PV Recycling Plant,"Standard Enterprises, Inc., VA",2,CO2,94.67
+PV Recycling Plant,"Standard Enterprises, Inc., VA",3,CO2,144.78
+PV Recycling Plant,"Standard Enterprises, Inc., VA",4,CO2,216.66
+PV Recycling Plant,"Standard Enterprises, Inc., VA",5,CO2,317.72
+PV Recycling Plant,"Standard Enterprises, Inc., VA",6,CO2,457.07
+PV Recycling Plant,"Standard Enterprises, Inc., VA",7,CO2,645.49
+PV Recycling Plant,"Standard Enterprises, Inc., VA",8,CO2,1130.03
+PV Recycling Plant,"Standard Enterprises, Inc., VA",9,CO2,1197.52
+PV Recycling Plant,"Standard Enterprises, Inc., VA",10,CO2,6669.41
+PV Recycling Plant,"Standard Enterprises, Inc., VA",11,CO2,3434.8
+PV Recycling Plant,"Standard Enterprises, Inc., VA",12,CO2,1627.43
+PV Recycling Plant,"Standard Enterprises, Inc., VA",13,CO2,6316.26
+PV Recycling Plant,"Standard Enterprises, Inc., VA",14,CO2,2310.5
+PV Recycling Plant,"Standard Enterprises, Inc., VA",15,CO2,3104.87
+PV Recycling Plant,"Standard Enterprises, Inc., VA",16,CO2,3910.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",17,CO2,4672.67
+PV Recycling Plant,"Standard Enterprises, Inc., VA",18,CO2,3148.42
+PV Recycling Plant,"Standard Enterprises, Inc., VA",19,CO2,3910.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",20,CO2,3910.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",21,CO2,3910.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",22,CO2,3910.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",23,CO2,4935.7
+PV Recycling Plant,"Standard Enterprises, Inc., VA",24,CO2,2885.39
+PV Recycling Plant,"Standard Enterprises, Inc., VA",25,CO2,3910.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",26,CO2,3910.55
+PV Recycling Plant,"Prospect Machine, Inc., AZ",1,CO2,291.39
+PV Recycling Plant,"Prospect Machine, Inc., AZ",2,CO2,177.41
+PV Recycling Plant,"Prospect Machine, Inc., AZ",3,CO2,262.03
+PV Recycling Plant,"Prospect Machine, Inc., AZ",4,CO2,376.64
+PV Recycling Plant,"Prospect Machine, Inc., AZ",5,CO2,527.79
+PV Recycling Plant,"Prospect Machine, Inc., AZ",6,CO2,721.8
+PV Recycling Plant,"Prospect Machine, Inc., AZ",7,CO2,963.84
+PV Recycling Plant,"Prospect Machine, Inc., AZ",8,CO2,1471.52
+PV Recycling Plant,"Prospect Machine, Inc., AZ",9,CO2,3744.27
+PV Recycling Plant,"Prospect Machine, Inc., AZ",10,CO2,3910.55
+PV Recycling Plant,"Prospect Machine, Inc., AZ",11,CO2,5196.63
+PV Recycling Plant,"Prospect Machine, Inc., AZ",12,CO2,2624.46
+PV Recycling Plant,"Prospect Machine, Inc., AZ",13,CO2,11731.64
+PV Recycling Plant,"Prospect Machine, Inc., AZ",14,CO2,0.0
+PV Recycling Plant,"Prospect Machine, Inc., AZ",15,CO2,0.0
+PV Recycling Plant,"Prospect Machine, Inc., AZ",16,CO2,3910.55
+PV Recycling Plant,"Prospect Machine, Inc., AZ",17,CO2,3910.55
+PV Recycling Plant,"Prospect Machine, Inc., AZ",18,CO2,3910.55
+PV Recycling Plant,"Prospect Machine, Inc., AZ",19,CO2,15434.43
+PV Recycling Plant,"Prospect Machine, Inc., AZ",20,CO2,8028.84
+PV Recycling Plant,"Prospect Machine, Inc., AZ",21,CO2,0.0
+PV Recycling Plant,"Prospect Machine, Inc., AZ",22,CO2,0.0
+PV Recycling Plant,"Prospect Machine, Inc., AZ",23,CO2,0.0
+PV Recycling Plant,"Prospect Machine, Inc., AZ",24,CO2,0.0
+PV Recycling Plant,"Prospect Machine, Inc., AZ",25,CO2,7821.09
+PV Recycling Plant,"Prospect Machine, Inc., AZ",26,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",1,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",2,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",3,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",4,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",5,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",6,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",7,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",8,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",9,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",10,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",11,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",12,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",13,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",14,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",15,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",16,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",17,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",18,CO2,0.0
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",19,CO2,3910.55
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",20,CO2,6667.42
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",21,CO2,1153.67
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",22,CO2,5021.64
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",23,CO2,3028.94
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",24,CO2,3681.05
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",25,CO2,3910.55
+PV Recycling Plant,"Doral Steel Of Tennessee, Inc., TN",26,CO2,3910.55
+PV Recycling Plant,"Martinrea Fabco, TN",1,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",2,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",3,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",4,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",5,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",6,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",7,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",8,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",9,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",10,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",11,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",12,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",13,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",14,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",15,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",16,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",17,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",18,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",19,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",20,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",21,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",22,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",23,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",24,CO2,0.0
+PV Recycling Plant,"Martinrea Fabco, TN",25,CO2,3910.55
+PV Recycling Plant,"Martinrea Fabco, TN",26,CO2,3910.55
+PV Recycling Plant,"Unimin Corp., GA",1,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",2,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",3,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",4,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",5,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",6,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",7,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",8,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",9,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",10,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",11,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",12,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",13,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",14,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",15,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",16,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",17,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",18,CO2,0.0
+PV Recycling Plant,"Unimin Corp., GA",19,CO2,2281.88
+PV Recycling Plant,"Unimin Corp., GA",20,CO2,2696.14
+PV Recycling Plant,"Unimin Corp., GA",21,CO2,2923.45
+PV Recycling Plant,"Unimin Corp., GA",22,CO2,4627.27
+PV Recycling Plant,"Unimin Corp., GA",23,CO2,3560.48
+PV Recycling Plant,"Unimin Corp., GA",24,CO2,3543.89
+PV Recycling Plant,"Unimin Corp., GA",25,CO2,3910.55
+PV Recycling Plant,"Unimin Corp., GA",26,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",1,CO2,0.67
+PV Recycling Plant,"Winoa USA, Inc., VA",2,CO2,0.59
+PV Recycling Plant,"Winoa USA, Inc., VA",3,CO2,0.99
+PV Recycling Plant,"Winoa USA, Inc., VA",4,CO2,1.62
+PV Recycling Plant,"Winoa USA, Inc., VA",5,CO2,2.56
+PV Recycling Plant,"Winoa USA, Inc., VA",6,CO2,3.92
+PV Recycling Plant,"Winoa USA, Inc., VA",7,CO2,5.84
+PV Recycling Plant,"Winoa USA, Inc., VA",8,CO2,8.49
+PV Recycling Plant,"Winoa USA, Inc., VA",9,CO2,12.06
+PV Recycling Plant,"Winoa USA, Inc., VA",10,CO2,4067.28
+PV Recycling Plant,"Winoa USA, Inc., VA",11,CO2,5343.19
+PV Recycling Plant,"Winoa USA, Inc., VA",12,CO2,2321.17
+PV Recycling Plant,"Winoa USA, Inc., VA",13,CO2,6474.12
+PV Recycling Plant,"Winoa USA, Inc., VA",14,CO2,3232.82
+PV Recycling Plant,"Winoa USA, Inc., VA",15,CO2,2024.69
+PV Recycling Plant,"Winoa USA, Inc., VA",16,CO2,4022.26
+PV Recycling Plant,"Winoa USA, Inc., VA",17,CO2,3798.83
+PV Recycling Plant,"Winoa USA, Inc., VA",18,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",19,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",20,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",21,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",22,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",23,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",24,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",25,CO2,3910.55
+PV Recycling Plant,"Winoa USA, Inc., VA",26,CO2,3910.55
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",1,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",2,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",3,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",4,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",5,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",6,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",7,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",8,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",9,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",10,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",11,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",12,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",13,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",14,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",15,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",16,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",17,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",18,CO2,0.0
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",19,CO2,8332.76
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",20,CO2,1060.51
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",21,CO2,2338.37
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",22,CO2,8107.44
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",23,CO2,1998.31
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",24,CO2,1625.89
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",25,CO2,6385.96
+PV Recycling Plant,"Hockmeyer Equipment Corp., NC",26,CO2,1435.13
+PV Recycling Plant,"MMC Materials, Inc., MS",1,CO2,20.0
+PV Recycling Plant,"MMC Materials, Inc., MS",2,CO2,15.87
+PV Recycling Plant,"MMC Materials, Inc., MS",3,CO2,26.49
+PV Recycling Plant,"MMC Materials, Inc., MS",4,CO2,42.94
+PV Recycling Plant,"MMC Materials, Inc., MS",5,CO2,67.68
+PV Recycling Plant,"MMC Materials, Inc., MS",6,CO2,103.93
+PV Recycling Plant,"MMC Materials, Inc., MS",7,CO2,155.76
+PV Recycling Plant,"MMC Materials, Inc., MS",8,CO2,258.35
+PV Recycling Plant,"MMC Materials, Inc., MS",9,CO2,324.07
+PV Recycling Plant,"MMC Materials, Inc., MS",10,CO2,718.3
+PV Recycling Plant,"MMC Materials, Inc., MS",11,CO2,854.2
+PV Recycling Plant,"MMC Materials, Inc., MS",12,CO2,783.17
+PV Recycling Plant,"MMC Materials, Inc., MS",13,CO2,2463.55
+PV Recycling Plant,"MMC Materials, Inc., MS",14,CO2,1932.65
+PV Recycling Plant,"MMC Materials, Inc., MS",15,CO2,2542.11
+PV Recycling Plant,"MMC Materials, Inc., MS",16,CO2,7171.27
+PV Recycling Plant,"MMC Materials, Inc., MS",17,CO2,649.83
+PV Recycling Plant,"MMC Materials, Inc., MS",18,CO2,3910.55
+PV Recycling Plant,"MMC Materials, Inc., MS",19,CO2,6334.07
+PV Recycling Plant,"MMC Materials, Inc., MS",20,CO2,2562.35
+PV Recycling Plant,"MMC Materials, Inc., MS",21,CO2,2835.22
+PV Recycling Plant,"MMC Materials, Inc., MS",22,CO2,3910.55
+PV Recycling Plant,"MMC Materials, Inc., MS",23,CO2,4208.36
+PV Recycling Plant,"MMC Materials, Inc., MS",24,CO2,3612.73
+PV Recycling Plant,"MMC Materials, Inc., MS",25,CO2,3910.55
+PV Recycling Plant,"MMC Materials, Inc., MS",26,CO2,3910.55
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",1,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",2,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",3,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",4,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",5,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",6,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",7,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",8,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",9,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",10,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",11,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",12,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",13,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",14,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",15,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",16,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",17,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",18,CO2,0.0
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",19,CO2,4957.16
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",20,CO2,3018.55
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",21,CO2,3755.92
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",22,CO2,3910.55
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",23,CO2,3910.55
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",24,CO2,3910.55
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",25,CO2,3910.55
+PV Recycling Plant,"Elster AMCO Water, LLC, FL",26,CO2,3910.55
+PV Recycling Plant,"Electro-Mechanical Corp., VA",1,CO2,0.06
+PV Recycling Plant,"Electro-Mechanical Corp., VA",2,CO2,0.05
+PV Recycling Plant,"Electro-Mechanical Corp., VA",3,CO2,0.09
+PV Recycling Plant,"Electro-Mechanical Corp., VA",4,CO2,0.14
+PV Recycling Plant,"Electro-Mechanical Corp., VA",5,CO2,0.22
+PV Recycling Plant,"Electro-Mechanical Corp., VA",6,CO2,0.33
+PV Recycling Plant,"Electro-Mechanical Corp., VA",7,CO2,0.49
+PV Recycling Plant,"Electro-Mechanical Corp., VA",8,CO2,0.7
+PV Recycling Plant,"Electro-Mechanical Corp., VA",9,CO2,0.98
+PV Recycling Plant,"Electro-Mechanical Corp., VA",10,CO2,18.1
+PV Recycling Plant,"Electro-Mechanical Corp., VA",11,CO2,24.59
+PV Recycling Plant,"Electro-Mechanical Corp., VA",12,CO2,32.69
+PV Recycling Plant,"Electro-Mechanical Corp., VA",13,CO2,2891.73
+PV Recycling Plant,"Electro-Mechanical Corp., VA",14,CO2,150.11
+PV Recycling Plant,"Electro-Mechanical Corp., VA",15,CO2,257.97
+PV Recycling Plant,"Electro-Mechanical Corp., VA",16,CO2,4814.83
+PV Recycling Plant,"Electro-Mechanical Corp., VA",17,CO2,4366.84
+PV Recycling Plant,"Electro-Mechanical Corp., VA",18,CO2,2549.97
+PV Recycling Plant,"Electro-Mechanical Corp., VA",19,CO2,3910.55
+PV Recycling Plant,"Electro-Mechanical Corp., VA",20,CO2,6141.93
+PV Recycling Plant,"Electro-Mechanical Corp., VA",21,CO2,1679.16
+PV Recycling Plant,"Electro-Mechanical Corp., VA",22,CO2,5801.32
+PV Recycling Plant,"Electro-Mechanical Corp., VA",23,CO2,2019.77
+PV Recycling Plant,"Electro-Mechanical Corp., VA",24,CO2,3910.55
+PV Recycling Plant,"Electro-Mechanical Corp., VA",25,CO2,5073.72
+PV Recycling Plant,"Electro-Mechanical Corp., VA",26,CO2,2747.37
+PV Recycling Plant,"Boye Knives, AZ",1,CO2,1280.07
+PV Recycling Plant,"Boye Knives, AZ",2,CO2,781.11
+PV Recycling Plant,"Boye Knives, AZ",3,CO2,1167.96
+PV Recycling Plant,"Boye Knives, AZ",4,CO2,1704.84
+PV Recycling Plant,"Boye Knives, AZ",5,CO2,2432.62
+PV Recycling Plant,"Boye Knives, AZ",6,CO2,3396.46
+PV Recycling Plant,"Boye Knives, AZ",7,CO2,3910.55
+PV Recycling Plant,"Boye Knives, AZ",8,CO2,5107.28
+PV Recycling Plant,"Boye Knives, AZ",9,CO2,2713.82
+PV Recycling Plant,"Boye Knives, AZ",10,CO2,4728.28
+PV Recycling Plant,"Boye Knives, AZ",11,CO2,3092.81
+PV Recycling Plant,"Boye Knives, AZ",12,CO2,3910.55
+PV Recycling Plant,"Boye Knives, AZ",13,CO2,4232.46
+PV Recycling Plant,"Boye Knives, AZ",14,CO2,3588.63
+PV Recycling Plant,"Boye Knives, AZ",15,CO2,3910.55
+PV Recycling Plant,"Boye Knives, AZ",16,CO2,7366.51
+PV Recycling Plant,"Boye Knives, AZ",17,CO2,1998.07
+PV Recycling Plant,"Boye Knives, AZ",18,CO2,2367.05
+PV Recycling Plant,"Boye Knives, AZ",19,CO2,8503.69
+PV Recycling Plant,"Boye Knives, AZ",20,CO2,7504.96
+PV Recycling Plant,"Boye Knives, AZ",21,CO2,1159.95
+PV Recycling Plant,"Boye Knives, AZ",22,CO2,4891.42
+PV Recycling Plant,"Boye Knives, AZ",23,CO2,1168.13
+PV Recycling Plant,"Boye Knives, AZ",24,CO2,1321.15
+PV Recycling Plant,"Boye Knives, AZ",25,CO2,2824.52
+PV Recycling Plant,"Boye Knives, AZ",26,CO2,3910.55
+PV Recycling Plant,"Screen Tight, SC",1,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",2,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",3,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",4,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",5,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",6,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",7,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",8,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",9,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",10,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",11,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",12,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",13,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",14,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",15,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",16,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",17,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",18,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",19,CO2,10082.79
+PV Recycling Plant,"Screen Tight, SC",20,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",21,CO2,1648.85
+PV Recycling Plant,"Screen Tight, SC",22,CO2,9304.46
+PV Recycling Plant,"Screen Tight, SC",23,CO2,2427.17
+PV Recycling Plant,"Screen Tight, SC",24,CO2,0.0
+PV Recycling Plant,"Screen Tight, SC",25,CO2,5951.29
+PV Recycling Plant,"Screen Tight, SC",26,CO2,1869.8
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",1,CO2,475.57
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",2,CO2,294.25
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",3,CO2,438.81
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",4,CO2,637.56
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",5,CO2,904.08
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",6,CO2,1252.67
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",7,CO2,1697.09
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",8,CO2,3054.1
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",9,CO2,2836.37
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",10,CO2,5448.34
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",11,CO2,4472.32
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",12,CO2,1810.97
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",13,CO2,7212.01
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",14,CO2,1988.34
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",15,CO2,2531.29
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",16,CO2,7365.57
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",17,CO2,750.01
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",18,CO2,3616.06
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",19,CO2,4542.3
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",20,CO2,5182.89
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",21,CO2,2006.45
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",22,CO2,6261.1
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",23,CO2,1654.56
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",24,CO2,3815.98
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",25,CO2,4863.63
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",26,CO2,2957.46
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",1,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",2,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",3,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",4,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",5,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",6,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",7,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",8,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",9,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",10,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",11,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",12,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",13,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",14,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",15,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",16,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",17,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",18,CO2,0.0
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",19,CO2,0.27
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",20,CO2,3716.45
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",21,CO2,0.34
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",22,CO2,6233.45
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",23,CO2,1587.65
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",24,CO2,3910.55
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",25,CO2,3910.55
+PV Recycling Plant,"McAlester Army Ammunition Plant (MCAAP), OK",26,CO2,3910.55
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",1,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",2,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",3,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",4,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",5,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",6,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",7,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",8,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",9,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",10,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",11,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",12,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",13,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",14,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",15,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",16,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",17,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",18,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",19,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",20,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",21,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",22,CO2,525.88
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",23,CO2,0.0
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",24,CO2,3121.84
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",25,CO2,3910.54
+PV Recycling Plant,"Zschimmer & Schwarz, Inc., GA",26,CO2,3910.54
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",1,CO2,102.05
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",2,CO2,67.98
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",3,CO2,105.86
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",4,CO2,161.15
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",5,CO2,240.14
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",6,CO2,350.66
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",7,CO2,502.28
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",8,CO2,1139.06
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",9,CO2,934.68
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",10,CO2,4662.31
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",11,CO2,3664.75
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",12,CO2,2007.69
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",13,CO2,5925.69
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",14,CO2,2457.92
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",15,CO2,3348.02
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",16,CO2,5564.31
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",17,CO2,2256.78
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",18,CO2,3910.55
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",19,CO2,3910.55
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",20,CO2,3910.55
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",21,CO2,3910.55
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",22,CO2,3967.35
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",23,CO2,3853.74
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",24,CO2,3910.55
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",25,CO2,3910.55
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",26,CO2,3910.55
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",1,CO2,91.88
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",2,CO2,55.32
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",3,CO2,81.71
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",4,CO2,117.65
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",5,CO2,165.37
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",6,CO2,227.17
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",7,CO2,305.14
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",8,CO2,904.08
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",9,CO2,466.36
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",10,CO2,2521.13
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",11,CO2,2395.17
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",12,CO2,407.05
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",13,CO2,7381.57
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",14,CO2,1440.67
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",15,CO2,2909.4
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",16,CO2,5827.26
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",17,CO2,2697.78
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",18,CO2,3206.6
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",19,CO2,10573.82
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",20,CO2,4980.84
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",21,CO2,997.64
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",22,CO2,3405.41
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",23,CO2,1305.75
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",24,CO2,2199.82
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",25,CO2,3910.55
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",26,CO2,3910.55
+PV Recycling Plant,"Duke Outdoor Advertising, TX",1,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",2,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",3,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",4,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",5,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",6,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",7,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",8,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",9,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",10,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",11,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",12,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",13,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",14,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",15,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",16,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",17,CO2,0.0
+PV Recycling Plant,"Duke Outdoor Advertising, TX",18,CO2,886.13
+PV Recycling Plant,"Duke Outdoor Advertising, TX",19,CO2,3910.55
+PV Recycling Plant,"Duke Outdoor Advertising, TX",20,CO2,3989.13
+PV Recycling Plant,"Duke Outdoor Advertising, TX",21,CO2,3831.96
+PV Recycling Plant,"Duke Outdoor Advertising, TX",22,CO2,6400.65
+PV Recycling Plant,"Duke Outdoor Advertising, TX",23,CO2,1420.44
+PV Recycling Plant,"Duke Outdoor Advertising, TX",24,CO2,3910.55
+PV Recycling Plant,"Duke Outdoor Advertising, TX",25,CO2,3910.55
+PV Recycling Plant,"Duke Outdoor Advertising, TX",26,CO2,3910.55
+PV Recycling Plant,"Cambridge Metal Works, ID",1,CO2,0.69
+PV Recycling Plant,"Cambridge Metal Works, ID",2,CO2,0.49
+PV Recycling Plant,"Cambridge Metal Works, ID",3,CO2,0.77
+PV Recycling Plant,"Cambridge Metal Works, ID",4,CO2,1.2
+PV Recycling Plant,"Cambridge Metal Works, ID",5,CO2,1.82
+PV Recycling Plant,"Cambridge Metal Works, ID",6,CO2,2.7
+PV Recycling Plant,"Cambridge Metal Works, ID",7,CO2,4.68
+PV Recycling Plant,"Cambridge Metal Works, ID",8,CO2,34.52
+PV Recycling Plant,"Cambridge Metal Works, ID",9,CO2,41.17
+PV Recycling Plant,"Cambridge Metal Works, ID",10,CO2,578.82
+PV Recycling Plant,"Cambridge Metal Works, ID",11,CO2,563.1
+PV Recycling Plant,"Cambridge Metal Works, ID",12,CO2,143.61
+PV Recycling Plant,"Cambridge Metal Works, ID",13,CO2,960.54
+PV Recycling Plant,"Cambridge Metal Works, ID",14,CO2,552.47
+PV Recycling Plant,"Cambridge Metal Works, ID",15,CO2,721.58
+PV Recycling Plant,"Cambridge Metal Works, ID",16,CO2,7388.4
+PV Recycling Plant,"Cambridge Metal Works, ID",17,CO2,2989.27
+PV Recycling Plant,"Cambridge Metal Works, ID",18,CO2,1353.97
+PV Recycling Plant,"Cambridge Metal Works, ID",19,CO2,3910.55
+PV Recycling Plant,"Cambridge Metal Works, ID",20,CO2,6279.7
+PV Recycling Plant,"Cambridge Metal Works, ID",21,CO2,1541.4
+PV Recycling Plant,"Cambridge Metal Works, ID",22,CO2,3910.55
+PV Recycling Plant,"Cambridge Metal Works, ID",23,CO2,6266.29
+PV Recycling Plant,"Cambridge Metal Works, ID",24,CO2,2145.98
+PV Recycling Plant,"Cambridge Metal Works, ID",25,CO2,4166.33
+PV Recycling Plant,"Cambridge Metal Works, ID",26,CO2,3063.58
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",1,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",2,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",3,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",4,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",5,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",6,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",7,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",8,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",9,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",10,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",11,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",12,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",13,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",14,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",15,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",16,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",17,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",18,CO2,0.0
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",19,CO2,3910.55
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",20,CO2,3910.55
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",21,CO2,3910.55
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",22,CO2,3910.55
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",23,CO2,5508.8
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",24,CO2,2312.29
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",25,CO2,3910.55
+PV Recycling Plant,"Gamco, Div. of Bobrick, OK",26,CO2,3910.55
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",1,CO2,0.0
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",2,CO2,0.0
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",3,CO2,0.0
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",4,CO2,0.0
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",5,CO2,0.0
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",6,CO2,0.0
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",7,CO2,0.0
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",8,CO2,6497.63
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",9,CO2,1323.47
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",10,CO2,3910.55
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",11,CO2,6750.33
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",12,CO2,1070.76
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",13,CO2,7403.03
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",14,CO2,418.07
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",15,CO2,3910.55
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",16,CO2,7115.64
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",17,CO2,705.45
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",18,CO2,3910.55
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",19,CO2,3910.55
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",20,CO2,14310.43
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",21,CO2,899.9
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",22,CO2,2132.76
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",23,CO2,1005.89
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",24,CO2,1203.74
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",25,CO2,3910.55
+PV Recycling Plant,"Murco Wall Products, Inc., AZ",26,CO2,3910.55
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",1,CO2,0.35
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",2,CO2,0.49
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",3,CO2,1.0
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",4,CO2,1.91
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",5,CO2,3.45
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",6,CO2,5.92
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",7,CO2,9.74
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",8,CO2,15.47
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",9,CO2,23.81
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",10,CO2,35.64
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",11,CO2,52.05
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",12,CO2,74.31
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",13,CO2,114.8
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",14,CO2,141.46
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",15,CO2,190.12
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",16,CO2,4288.64
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",17,CO2,3532.45
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",18,CO2,3910.55
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",19,CO2,3910.55
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",20,CO2,7299.01
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",21,CO2,522.08
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",22,CO2,3910.55
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",23,CO2,3910.55
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",24,CO2,3910.55
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",25,CO2,3910.55
+PV Recycling Plant,"Headrick Outdoor Media, Inc., MS",26,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",1,CO2,61.6
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",2,CO2,45.36
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",3,CO2,73.12
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",4,CO2,114.6
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",5,CO2,174.97
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",6,CO2,260.66
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",7,CO2,379.41
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",8,CO2,585.21
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",9,CO2,748.78
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",10,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",11,CO2,7626.19
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",12,CO2,194.9
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",13,CO2,6346.99
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",14,CO2,1474.1
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",15,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",16,CO2,6100.83
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",17,CO2,2526.19
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",18,CO2,3104.61
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",19,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",20,CO2,5335.81
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",21,CO2,2485.29
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",22,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",23,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",24,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",25,CO2,3910.55
+PV Recycling Plant,"Felton Bros. Transit Mix, Inc., VA",26,CO2,3910.55
+PV Recycling Plant,"Hantz & Son, LA",1,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",2,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",3,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",4,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",5,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",6,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",7,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",8,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",9,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",10,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",11,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",12,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",13,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",14,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",15,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",16,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",17,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",18,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",19,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",20,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",21,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",22,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",23,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",24,CO2,0.0
+PV Recycling Plant,"Hantz & Son, LA",25,CO2,3910.55
+PV Recycling Plant,"Hantz & Son, LA",26,CO2,3910.55
+PV Recycling Plant,"SteelFab, Inc., SC",1,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",2,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",3,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",4,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",5,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",6,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",7,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",8,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",9,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",10,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",11,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",12,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",13,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",14,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",15,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",16,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",17,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",18,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",19,CO2,3910.55
+PV Recycling Plant,"SteelFab, Inc., SC",20,CO2,12672.05
+PV Recycling Plant,"SteelFab, Inc., SC",21,CO2,1649.09
+PV Recycling Plant,"SteelFab, Inc., SC",22,CO2,1321.04
+PV Recycling Plant,"SteelFab, Inc., SC",23,CO2,0.0
+PV Recycling Plant,"SteelFab, Inc., SC",24,CO2,3910.55
+PV Recycling Plant,"SteelFab, Inc., SC",25,CO2,3910.55
+PV Recycling Plant,"SteelFab, Inc., SC",26,CO2,3910.55
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",1,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",2,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",3,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",4,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",5,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",6,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",7,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",8,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",9,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",10,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",11,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",12,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",13,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",14,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",15,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",16,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",17,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",18,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",19,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",20,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",21,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",22,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",23,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",24,CO2,0.0
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",25,CO2,3910.55
+PV Recycling Plant,"Scoggins Co., Inc., John, OK",26,CO2,3910.55
+PV Recycling Plant,"Lhoist North America, AZ",1,CO2,7.59
+PV Recycling Plant,"Lhoist North America, AZ",2,CO2,7.84
+PV Recycling Plant,"Lhoist North America, AZ",3,CO2,14.18
+PV Recycling Plant,"Lhoist North America, AZ",4,CO2,24.45
+PV Recycling Plant,"Lhoist North America, AZ",5,CO2,40.45
+PV Recycling Plant,"Lhoist North America, AZ",6,CO2,64.57
+PV Recycling Plant,"Lhoist North America, AZ",7,CO2,100.04
+PV Recycling Plant,"Lhoist North America, AZ",8,CO2,7298.66
+PV Recycling Plant,"Lhoist North America, AZ",9,CO2,522.43
+PV Recycling Plant,"Lhoist North America, AZ",10,CO2,4051.21
+PV Recycling Plant,"Lhoist North America, AZ",11,CO2,7645.51
+PV Recycling Plant,"Lhoist North America, AZ",12,CO2,34.91
+PV Recycling Plant,"Lhoist North America, AZ",13,CO2,10403.7
+PV Recycling Plant,"Lhoist North America, AZ",14,CO2,100.07
+PV Recycling Plant,"Lhoist North America, AZ",15,CO2,1227.87
+PV Recycling Plant,"Lhoist North America, AZ",16,CO2,3910.55
+PV Recycling Plant,"Lhoist North America, AZ",17,CO2,3910.55
+PV Recycling Plant,"Lhoist North America, AZ",18,CO2,3910.55
+PV Recycling Plant,"Lhoist North America, AZ",19,CO2,6537.58
+PV Recycling Plant,"Lhoist North America, AZ",20,CO2,14620.08
+PV Recycling Plant,"Lhoist North America, AZ",21,CO2,0.0
+PV Recycling Plant,"Lhoist North America, AZ",22,CO2,1303.55
+PV Recycling Plant,"Lhoist North America, AZ",23,CO2,0.0
+PV Recycling Plant,"Lhoist North America, AZ",24,CO2,1002.06
+PV Recycling Plant,"Lhoist North America, AZ",25,CO2,6696.33
+PV Recycling Plant,"Lhoist North America, AZ",26,CO2,1124.76
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",1,CO2,60.8
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",2,CO2,35.49
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",3,CO2,51.76
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",4,CO2,73.57
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",5,CO2,102.03
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",6,CO2,138.18
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",7,CO2,182.79
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",8,CO2,921.09
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",9,CO2,235.36
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",10,CO2,4530.03
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",11,CO2,3887.8
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",12,CO2,1106.41
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",13,CO2,6284.52
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",14,CO2,5447.12
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",15,CO2,0.0
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",16,CO2,11731.64
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",17,CO2,0.0
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",18,CO2,0.0
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",19,CO2,3910.55
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",20,CO2,3910.55
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",21,CO2,3910.55
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",22,CO2,8139.47
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",23,CO2,1790.7
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",24,CO2,2359.57
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",25,CO2,3352.44
+PV Recycling Plant,"Gray's Petrified Wood Co., Jim, AZ",26,CO2,3910.55

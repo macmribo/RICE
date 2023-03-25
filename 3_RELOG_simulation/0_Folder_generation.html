@@ -14602,29 +14602,6 @@ There are three main folders in which we need to create new folders:</p>
 </div>
 </div>
 </div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Folder-name-convention:">Folder name convention:<a class="anchor-link" href="#Folder-name-convention:">&#182;</a></h2>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>I like naming my scenarios with the date I created them in ISO format (i.e. YYYYMMDD) and a name that helps me identify my scenario. I like putting an identifying name, and a version, in case I make small changes on the simulation I want to create.</p>
-
-</div>
-</div>
-</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -14644,17 +14621,54 @@ There are three main folders in which we need to create new folders:</p>
 </div>
 </div>
 
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Fill out with the combination to generate</p>
+
+</div>
+</div>
+</div>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[493]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">date</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">today</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y%m</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span>
-<span class="n">simulation_name</span> <span class="o">=</span> <span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">date</span><span class="si">}</span><span class="s1">_Recycling_super_v6&#39;</span> <span class="c1"># This line is the only one that needs to be changed. CASE0 is gthe name and v1 is the version</span>
-<span class="n">simulation_whatif</span> <span class="o">=</span> <span class="s1">&#39;what-if_&#39;</span> <span class="o">+</span> <span class="n">simulation_name</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">facility_label</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Manufacturing&#39;</span><span class="p">,</span> <span class="s1">&#39;Recycling&#39;</span><span class="p">,</span><span class="s1">&#39;Manufacturing_cap&#39;</span><span class="p">,</span> <span class="s1">&#39;Recycling_cap&#39;</span><span class="p">]</span>
+<span class="n">location_label</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;NAICS&#39;</span><span class="p">,</span> <span class="s1">&#39;40209&#39;</span><span class="p">]</span>
+<span class="n">factor_label_rec</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;05&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="s1">&#39;10&#39;</span><span class="p">]</span>
+<span class="n">factor_label_man</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0001&#39;</span><span class="p">,</span><span class="s1">&#39;05&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">]</span> <span class="c1"># 0 is 0,5</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[494]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files_list</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">fac</span> <span class="ow">in</span> <span class="n">facility_label</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">loc</span> <span class="ow">in</span> <span class="n">location_label</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">fac</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;Manufacturing&#39;</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">fac_man</span> <span class="ow">in</span> <span class="n">factor_label_man</span><span class="p">:</span>
+                <span class="n">files_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fac</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">loc</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">fac_man</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">fac_rec</span> <span class="ow">in</span> <span class="n">factor_label_rec</span><span class="p">:</span>
+                <span class="n">files_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fac</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">loc</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">fac_rec</span><span class="p">)</span> 
 </pre></div>
 
      </div>
@@ -14678,7 +14692,23 @@ There are three main folders in which we need to create new folders:</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[495]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">whatif</span> <span class="o">=</span> <span class="kc">False</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[496]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
@@ -14689,101 +14719,37 @@ There are three main folders in which we need to create new folders:</p>
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
-<span class="n">input_file_whatif</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="n">simulation_whatif</span><span class="p">)</span>
-<span class="n">output_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
-<span class="n">output_file_whatif</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">simulation_whatif</span><span class="p">)</span>
-<span class="n">figures_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;figures&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
-<span class="n">figures_file_whatif</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;figures&#39;</span><span class="p">,</span> <span class="n">simulation_whatif</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files_to_create</span> <span class="o">=</span> <span class="p">[</span><span class="n">input_file</span><span class="p">,</span> <span class="n">input_file_whatif</span><span class="p">,</span> <span class="n">output_file</span><span class="p">,</span> <span class="n">output_file_whatif</span><span class="p">,</span> <span class="n">figures_file</span><span class="p">,</span> <span class="n">figures_file_whatif</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[497]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files_to_create</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>&#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/what-if_20230316_Recycling_super_v6&#39;</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[64]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">files</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">files_to_create</span><span class="p">)):</span>
-    <span class="c1"># Check whether the specified path exists or not</span>
-    <span class="n">isExist</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
-    <span class="k">if</span> <span class="n">isExist</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The path for </span><span class="si">{</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> already exists!&quot;</span><span class="p">)</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">isExist</span><span class="p">:</span>
-        <span class="c1"># Create a new directory because it does not exist</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The new directory for </span><span class="si">{</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> has been created!&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">simulation_name</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">whatif</span><span class="p">:</span>
+        <span class="n">input_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">input_file_whatif</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if_&#39;</span><span class="o">+</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">output_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">output_file_whatif</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if_&#39;</span><span class="o">+</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">figures_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;figures&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">figures_file_whatif</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;figures&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if_&#39;</span><span class="o">+</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">files_to_create</span> <span class="o">=</span> <span class="p">[</span><span class="n">input_file</span><span class="p">,</span> <span class="n">input_file_whatif</span><span class="p">,</span> <span class="n">output_file</span><span class="p">,</span> <span class="n">output_file_whatif</span><span class="p">,</span> <span class="n">figures_file</span><span class="p">,</span> <span class="n">figures_file_whatif</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">input_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">output_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">figures_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;figures&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">files_to_create</span> <span class="o">=</span> <span class="p">[</span><span class="n">input_file</span><span class="p">,</span> <span class="n">output_file</span><span class="p">,</span> <span class="n">figures_file</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">files</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">files_to_create</span><span class="p">)):</span>
+        <span class="c1"># Check whether the specified path exists or not</span>
+        <span class="n">isExist</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">isExist</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The path for </span><span class="si">{</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> already exists!&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">isExist</span><span class="p">:</span>
+            <span class="c1"># Create a new directory because it does not exist</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The new directory for </span><span class="si">{</span><span class="n">files_to_create</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> has been created!&quot;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14805,12 +14771,60 @@ There are three main folders in which we need to create new folders:</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/20230316_Recycling_super_v6 has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/what-if_20230316_Recycling_super_v6 has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/20230316_Recycling_super_v6 has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/what-if_20230316_Recycling_super_v6 has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/20230316_Recycling_super_v6 has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/what-if_20230316_Recycling_super_v6 has been created!
+<pre>The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_0001 has been created!
+The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_0001 has been created!
+The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_NAICS_0001 has been created!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_NAICS_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_NAICS_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_NAICS_2 already exists!
+The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_0001 has been created!
+The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_0001 has been created!
+The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_40209_0001 has been created!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_40209_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_40209_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Manufacturing_cap_40209_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_NAICS_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_NAICS_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_NAICS_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_5 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_5 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_NAICS_5 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_10 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_10 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_NAICS_10 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_40209_05 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_40209_1 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_40209_2 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_5 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_5 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_40209_5 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_10 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_10 already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/figures/Recycling_cap_40209_10 already exists!
 </pre>
 </div>
 </div>
@@ -14826,7 +14840,7 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="HPC-case-generation">HPC case generation<a class="anchor-link" href="#HPC-case-generation">&#182;</a></h2>
+<h1 id="HPC-case-generation">HPC case generation<a class="anchor-link" href="#HPC-case-generation">&#182;</a></h1>
 </div>
 </div>
 </div>
@@ -14847,7 +14861,7 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[498]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
@@ -14863,10 +14877,14 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[511]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">test</span> <span class="o">=</span> <span class="kc">False</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#facility_label = [&#39;Manufacturing&#39;, &#39;Recycling&#39;,&#39;Manufacturing_cap&#39;, &#39;Recycling_cap&#39;]</span>
+<span class="n">facility_label</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Manufacturing_cap&#39;</span><span class="p">,</span> <span class="s1">&#39;Recycling_cap&#39;</span><span class="p">]</span>
+<span class="n">location_label</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;NAICS&#39;</span><span class="p">,</span> <span class="s1">&#39;40209&#39;</span><span class="p">]</span>
+<span class="n">factor_label_rec</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;05&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">,</span> <span class="s1">&#39;5&#39;</span><span class="p">,</span> <span class="s1">&#39;10&#39;</span><span class="p">]</span>
+<span class="n">factor_label_man</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0001&#39;</span><span class="p">,</span><span class="s1">&#39;05&#39;</span><span class="p">,</span> <span class="s1">&#39;1&#39;</span><span class="p">,</span> <span class="s1">&#39;2&#39;</span><span class="p">]</span> <span class="c1"># 0 is 0,5</span>
 </pre></div>
 
      </div>
@@ -14879,14 +14897,18 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[119]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[512]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">test</span><span class="p">:</span>
-    <span class="n">simulation_name</span> <span class="o">=</span> <span class="s1">&#39;bleh&#39;</span>  <span class="c1">#test to see the error</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="c1">#simulation_name = f&#39;{date}_CASE0_v1&#39; # This line is to generte  file the same day, use the following line if you want to manually specify the simulation folder</span>
-    <span class="n">simulation_name</span> <span class="o">=</span> <span class="s1">&#39;20230316_Recycling_super_v6&#39;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">files_list</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">fac</span> <span class="ow">in</span> <span class="n">facility_label</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">loc</span> <span class="ow">in</span> <span class="n">location_label</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">fac</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;Manufacturing&#39;</span><span class="p">):</span>
+            <span class="k">for</span> <span class="n">fac_man</span> <span class="ow">in</span> <span class="n">factor_label_man</span><span class="p">:</span>
+                <span class="n">files_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fac</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">loc</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">fac_man</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">fac_rec</span> <span class="ow">in</span> <span class="n">factor_label_rec</span><span class="p">:</span>
+                <span class="n">files_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fac</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">loc</span><span class="o">+</span><span class="s1">&#39;_&#39;</span><span class="o">+</span><span class="n">fac_rec</span><span class="p">)</span> 
 </pre></div>
 
      </div>
@@ -14901,47 +14923,10 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<ol>
-<li>Make sure that the simulation folder exists in the main folders, that it has a <code>case.json</code> file inside and that it also has the what-if scenarios generated. If these are not created it will throw an error asking you to do those steps first.</li>
-</ol>
-
+<h2 id="HPC-folder-generation">HPC folder generation<a class="anchor-link" href="#HPC-folder-generation">&#182;</a></h2>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[120]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">input_solver_folder_location</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
-<span class="n">input_whatif_folder_location</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if_&#39;</span><span class="o">+</span><span class="n">simulation_name</span><span class="p">)</span>
-<span class="n">simulation_folders</span> <span class="o">=</span> <span class="p">[</span><span class="n">input_solver_folder_location</span><span class="p">,</span> <span class="n">input_whatif_folder_location</span> <span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -14949,7 +14934,8 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Check-if-the-paths-exists.">Check if the paths exists.<a class="anchor-link" href="#Check-if-the-paths-exists.">&#182;</a></h3>
+<p>Make sure that the simulation folder exists in the main folders, that it has a <code>case.json</code> file inside and that it also has the what-if scenarios generated. If these are not created it will throw an error asking you to do those steps first.</p>
+
 </div>
 </div>
 </div>
@@ -14958,15 +14944,95 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[121]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[515]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">files</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">simulation_folders</span><span class="p">)):</span>
-    <span class="n">isExist</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">simulation_folders</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
-    <span class="k">if</span> <span class="n">isExist</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The path for </span><span class="si">{</span><span class="n">simulation_folders</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> exists! You may continue to the next step.&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">simulation_name</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span>   
+<span class="c1"># Check that the path exists</span>
+    <span class="k">if</span> <span class="n">whatif</span><span class="p">:</span>
+        <span class="n">input_solver_folder_location</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">input_whatif_folder_location</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if_&#39;</span><span class="o">+</span><span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">simulation_folders</span> <span class="o">=</span> <span class="p">[</span><span class="n">input_solver_folder_location</span><span class="p">,</span> <span class="n">input_whatif_folder_location</span> <span class="p">]</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="n">PathNotFoundError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;The path </span><span class="si">{</span><span class="n">input_solver_file_location</span><span class="si">}</span><span class="s1"> does not exist, please generate the necessary folders using the 0_Folder_generation.ipynb found in 3_RELOG_simulation.&#39;</span><span class="p">)</span>
+        <span class="n">input_solver_folder_location</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+        <span class="n">simulation_folders</span> <span class="o">=</span> <span class="p">[</span><span class="n">input_solver_folder_location</span><span class="p">]</span>
+    <span class="k">for</span> <span class="n">files</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">simulation_folders</span><span class="p">)):</span>
+        <span class="n">isExist</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">simulation_folders</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">isExist</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The path for </span><span class="si">{</span><span class="n">simulation_folders</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> exists! You may continue to the next step.&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">PathNotFoundError</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;The path </span><span class="si">{</span><span class="n">input_solver_file_location</span><span class="si">}</span><span class="s1"> does not exist, please generate the necessary folders using the 0_Folder_generation.ipynb found in 3_RELOG_simulation.&#39;</span><span class="p">)</span>
+<span class="c1"># Check that the files are inside</span>
+    <span class="k">if</span> <span class="n">whatif</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">simulation_folders</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="p">[</span><span class="s1">&#39;case.json&#39;</span><span class="p">]:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Case.json exists!&#39;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s1">&#39;The file &#39;&#39;case.json&#39;&#39; does not exist, please generate the the file using RELOG</span><span class="se">\&#39;</span><span class="s1">s case builder.&#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">input_whatif_folder_location</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s1">&#39;The what-if files have not been generated, please go to 3_RELOG_simulation/input/Generate What-If Scenarios.ipynb and generate the scenario files.&#39;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The what-if files exist, you may continue!&#39;</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">simulation_folders</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="p">[</span><span class="s1">&#39;case.json&#39;</span><span class="p">]:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Case.json exists!&#39;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s1">&#39;The file &#39;&#39;case.json&#39;&#39; does not exist, please generate the the file using RELOG</span><span class="se">\&#39;</span><span class="s1">s case builder.&#39;</span><span class="p">)</span>
+<span class="c1"># Create paths for the hpc</span>
+    <span class="k">if</span> <span class="n">whatif</span><span class="p">:</span>
+        <span class="n">hpc_input_solver_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;solver&#39;</span><span class="p">)</span> 
+        <span class="n">hpc_input_whatif_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if&#39;</span><span class="p">)</span> 
+        <span class="n">hpc_output_solver_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="s1">&#39;solver&#39;</span><span class="p">)</span> 
+        <span class="n">hpc_output_whatif_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if&#39;</span><span class="p">)</span> 
+        <span class="n">check_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">hpc_input_solver_folder</span><span class="p">,</span> <span class="n">hpc_input_whatif_folder</span><span class="p">,</span> <span class="n">hpc_output_solver_folder</span><span class="p">,</span> <span class="n">hpc_output_whatif_folder</span><span class="p">]</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">hpc_input_solver_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;solver&#39;</span><span class="p">)</span> 
+        <span class="n">hpc_output_solver_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="s1">&#39;solver&#39;</span><span class="p">)</span> 
+        <span class="n">check_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">hpc_input_solver_folder</span><span class="p">,</span> <span class="n">hpc_output_solver_folder</span><span class="p">]</span>   
+<span class="c1"># Create files if they don&#39;t already exist    </span>
+    <span class="k">for</span> <span class="n">files</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">check_list</span><span class="p">)):</span>
+        <span class="c1"># Check whether the specified path exists or not</span>
+        <span class="n">isExist</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
+        <span class="k">if</span> <span class="n">isExist</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The path for </span><span class="si">{</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> already exists!&quot;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">isExist</span><span class="p">:</span>
+            <span class="c1"># Create a new directory because it does not exist</span>
+            <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The new directory for </span><span class="si">{</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> has been created!&quot;</span><span class="p">)</span>
+
+
+<span class="c1"># Copy the files from the template codes into the simulation folder:</span>
+    <span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+    <span class="n">template_files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="s1">&#39;template_codes&#39;</span><span class="p">)</span>
+    <span class="n">input_files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+    <span class="n">copy_tree</span><span class="p">(</span><span class="n">template_files</span><span class="p">,</span> <span class="n">input_files</span><span class="p">)</span>
+
+    <span class="c1"># Read in the file</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;solver.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span> <span class="p">:</span>
+        <span class="n">filedata</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<span class="c1"># Change the word &#39;scenario&#39; for the folder scenario name in the solver.jl and the what-if.jl files:</span>
+    <span class="c1"># Replace the target string</span>
+    <span class="n">filedata</span> <span class="o">=</span> <span class="n">filedata</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;scenario&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+
+    <span class="c1"># Write the file out again</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;solver.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">filedata</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">whatif</span><span class="p">:</span>
+        <span class="c1"># Read in the file</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;what-if.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span> <span class="p">:</span>
+            <span class="n">filedata</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+
+        <span class="c1"># Replace the target string</span>
+        <span class="n">filedata</span> <span class="o">=</span> <span class="n">filedata</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;scenario&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
+
+        <span class="c1"># Write the file out again</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;what-if.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">filedata</span><span class="p">)</span>
+<span class="c1"># Copy the solver and whatif files to the hpc scenario folders</span>
+    <span class="k">if</span> <span class="n">whatif</span><span class="p">:</span>
+        <span class="n">copy_tree</span><span class="p">(</span><span class="n">input_solver_folder_location</span><span class="p">,</span> <span class="n">hpc_input_solver_folder</span><span class="p">)</span>
+        <span class="n">copy_tree</span><span class="p">(</span><span class="n">input_whatif_folder_location</span><span class="p">,</span> <span class="n">hpc_input_whatif_folder</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">copy_tree</span><span class="p">(</span><span class="n">input_solver_folder_location</span><span class="p">,</span> <span class="n">hpc_input_solver_folder</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14988,371 +15054,80 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/20230316_Recycling_super_v6 exists! You may continue to the next step.
-The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/what-if_20230316_Recycling_super_v6 exists! You may continue to the next step.
+<pre>The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_0001 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_0001/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_0001/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_05 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_05/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_05/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_1 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_1/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_1/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_2 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_2/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_2/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_0001 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_0001/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_0001/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_05 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_05/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_05/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_1 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_1/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_1/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_2 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_2/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_2/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_05 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_05/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_05/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_1 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_1/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_1/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_2 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_2/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_2/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_5 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_5/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_5/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_NAICS_10 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_10/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_10/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_05 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_05/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_05/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_1 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_1/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_1/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_2 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_2/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_2/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_5 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_5/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_5/output/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_cap_40209_10 exists! You may continue to the next step.
+Case.json exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_10/input/solver already exists!
+The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_10/output/solver already exists!
 </pre>
 </div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Check-if-the-files-are-inside.">Check if the files are inside.<a class="anchor-link" href="#Check-if-the-files-are-inside.">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[122]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">simulation_folders</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="p">[</span><span class="s1">&#39;case.json&#39;</span><span class="p">]:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Case.json exists!&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s1">&#39;The file &#39;&#39;case.json&#39;&#39; does not exist, please generate the the file using RELOG</span><span class="se">\&#39;</span><span class="s1">s case builder.&#39;</span><span class="p">)</span>
-<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">input_whatif_folder_location</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-    <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s1">&#39;The what-if files have not been generated, please go to 3_RELOG_simulation/input/Generate What-If Scenarios.ipynb and generate the scenario files.&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;The what-if files exist, you may continue!&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Case.json exists!
-The what-if files exist, you may continue!
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[123]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hpc_input_solver_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;solver&#39;</span><span class="p">)</span> 
-<span class="n">hpc_input_whatif_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;input&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if&#39;</span><span class="p">)</span> 
-<span class="n">hpc_output_solver_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="s1">&#39;solver&#39;</span><span class="p">)</span> 
-<span class="n">hpc_output_whatif_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="s1">&#39;what-if&#39;</span><span class="p">)</span> 
-<span class="n">check_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">hpc_input_solver_folder</span><span class="p">,</span> <span class="n">hpc_input_whatif_folder</span><span class="p">,</span> <span class="n">hpc_output_solver_folder</span><span class="p">,</span> <span class="n">hpc_output_whatif_folder</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[124]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">files</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">check_list</span><span class="p">)):</span>
-    <span class="c1"># Check whether the specified path exists or not</span>
-    <span class="n">isExist</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
-    <span class="k">if</span> <span class="n">isExist</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The path for </span><span class="si">{</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> already exists!&quot;</span><span class="p">)</span>
-    <span class="k">if</span> <span class="ow">not</span> <span class="n">isExist</span><span class="p">:</span>
-        <span class="c1"># Create a new directory because it does not exist</span>
-        <span class="n">os</span><span class="o">.</span><span class="n">makedirs</span><span class="p">(</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">])</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The new directory for </span><span class="si">{</span><span class="n">check_list</span><span class="p">[</span><span class="n">files</span><span class="p">]</span><span class="si">}</span><span class="s2"> has been created!&quot;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/input/solver has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/input/what-if has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/output/solver has been created!
-The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/output/what-if has been created!
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Copy-the-files-from-the-template-codes-into-the-simulation-folder:">Copy the files from the template codes into the simulation folder:<a class="anchor-link" href="#Copy-the-files-from-the-template-codes-into-the-simulation-folder:">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[125]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
-<span class="n">template_files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="s1">&#39;template_codes&#39;</span><span class="p">)</span>
-<span class="n">input_files</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[126]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">copy_tree</span><span class="p">(</span><span class="n">template_files</span><span class="p">,</span> <span class="n">input_files</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[126]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/what-if.jl&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/file_batch.sbatch&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/.ipynb_checkpoints/what-if-checkpoint.jl&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/.ipynb_checkpoints/solver-checkpoint.jl&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/solver.jl&#39;]</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Change-the-word-'scenario'-for-the-folder-scenario-name-in-the-solver.jl-and-the-what-if.jl-files:">Change the word 'scenario' for the folder scenario name in the solver.jl and the what-if.jl files:<a class="anchor-link" href="#Change-the-word-'scenario'-for-the-folder-scenario-name-in-the-solver.jl-and-the-what-if.jl-files:">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[127]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">copy_tree</span><span class="p">(</span><span class="n">template_files</span><span class="p">,</span> <span class="n">input_files</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[127]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[&#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/what-if.jl&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/file_batch.sbatch&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/.ipynb_checkpoints/what-if-checkpoint.jl&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/.ipynb_checkpoints/solver-checkpoint.jl&#39;,
- &#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6/solver.jl&#39;]</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[128]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read in the file</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;solver.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span> <span class="p">:</span>
-    <span class="n">filedata</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-
-<span class="c1"># Replace the target string</span>
-<span class="n">filedata</span> <span class="o">=</span> <span class="n">filedata</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;scenario&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
-
-<span class="c1"># Write the file out again</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;solver.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-    <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">filedata</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[129]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read in the file</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;what-if.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span> <span class="p">:</span>
-    <span class="n">filedata</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-
-<span class="c1"># Replace the target string</span>
-<span class="n">filedata</span> <span class="o">=</span> <span class="n">filedata</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;scenario&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span>
-
-<span class="c1"># Write the file out again</span>
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">input_files</span><span class="p">,</span> <span class="s1">&#39;what-if.jl&#39;</span><span class="p">),</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-    <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">filedata</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Copy-the-solver-and-whatif-files-to-the-hpc-scenario-folders">Copy the solver and whatif files to the hpc scenario folders<a class="anchor-link" href="#Copy-the-solver-and-whatif-files-to-the-hpc-scenario-folders">&#182;</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[130]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">copy_tree</span><span class="p">(</span><span class="n">input_solver_folder_location</span><span class="p">,</span> <span class="n">hpc_input_solver_folder</span><span class="p">)</span>
-<span class="n">copy_tree</span><span class="p">(</span><span class="n">input_whatif_folder_location</span><span class="p">,</span> <span class="n">hpc_input_whatif_folder</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[130]:</div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>[]</pre>
-</div>
-
 </div>
 
 </div>
@@ -15383,7 +15158,7 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Little-bonus-code-for-the-lazy">Little bonus code for the lazy<a class="anchor-link" href="#Little-bonus-code-for-the-lazy">&#182;</a></h3><p>Just run this cell and copy the line you need to either copy from local machine to HPC, of from HPC to local machine:</p>
+<h2 id="Little-bonus-code-for-the-lazy">Little bonus code for the lazy<a class="anchor-link" href="#Little-bonus-code-for-the-lazy">&#182;</a></h2><p>Just run this cell and copy the line you need to either copy from local machine to HPC, of from HPC to local machine:</p>
 
 </div>
 </div>
@@ -15405,7 +15180,7 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[131]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[516]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
@@ -15421,11 +15196,13 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[132]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[517]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">local_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span> <span class="c1">#change the last entry for the specific name of your simulation</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;scp -r&#39;</span><span class="p">,</span> <span class="n">local_path</span><span class="p">,</span> <span class="s1">&#39;mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;LOCAL TO HPC:&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">simulation_name</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span>
+    <span class="n">local_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span> <span class="c1">#change the last entry for the specific name of your simulation</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;scp -r&#39;</span><span class="p">,</span> <span class="n">local_path</span><span class="p">,</span> <span class="s1">&#39;mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15447,7 +15224,25 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+<pre>LOCAL TO HPC:
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_0001 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_05 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_1 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_2 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_0001 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_05 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_1 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_2 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_05 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_1 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_2 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_5 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_10 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_05 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_1 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_2 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_5 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_10 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
 </pre>
 </div>
 </div>
@@ -15473,11 +15268,14 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[133]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[519]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">hpc_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/</span><span class="si">{</span><span class="n">simulation_name</span><span class="si">}</span><span class="s1">/output&#39;</span><span class="p">,</span> <span class="p">)</span> <span class="c1">#change the last entry for the specific name of your simulation</span>
-<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;scp -r&#39;</span><span class="p">,</span> <span class="n">hpc_path</span><span class="p">,</span> <span class="n">local_path</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;HPC TO LOCAL:&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">simulation_name</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span>
+    <span class="n">local_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span> 
+    <span class="n">hpc_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/</span><span class="si">{</span><span class="n">simulation_name</span><span class="si">}</span><span class="s1">/output&#39;</span><span class="p">,</span> <span class="p">)</span> <span class="c1">#change the last entry for the specific name of your simulation</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;scp -r&#39;</span><span class="p">,</span> <span class="n">hpc_path</span><span class="p">,</span> <span class="n">local_path</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15499,13 +15297,47 @@ The new directory for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/20230316_Recycling_super_v6/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/20230316_Recycling_super_v6
+<pre>HPC TO LOCAL:
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_NAICS_0001/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_0001
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_NAICS_05/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_05
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_NAICS_1/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_1
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_NAICS_2/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_2
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_40209_0001/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_0001
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_40209_05/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_05
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_40209_1/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_1
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_cap_40209_2/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_2
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_NAICS_05/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_05
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_NAICS_1/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_1
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_NAICS_2/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_2
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_NAICS_5/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_5
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_NAICS_10/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_10
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_40209_05/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_05
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_40209_1/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_1
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_40209_2/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_2
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_40209_5/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_5
+scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_40209_10/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_10
 </pre>
 </div>
 </div>
 
 </div>
 
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">

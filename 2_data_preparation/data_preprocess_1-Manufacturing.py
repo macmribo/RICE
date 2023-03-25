@@ -77,7 +77,7 @@ def city_state_country(row):
 # In[ ]:
 
 
-get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. Apply the previous function to obtain the names of the locations.\nGIS = GIS.apply(city_state_country, axis=1)\nGIS.head()\n')
+get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. Apply the previous function to obtain the names of the locations.\nGIS = GIS.apply(city_state_country, axis=1)\nGIS.head()')
 
 
 # There is one county in California that shows empty. Let's add the corresponding county. Doing a quick maps  search, I saw that the [35.120104, -117.159039](https://www.google.com/maps/place/35%C2%B007'12.4%22N+117%C2%B009'32.5%22W/@35.6668582,-117.0465162,8.1z/data=!4m5!3m4!1s0x0:0xf02b1d027b57f1cb!8m2!3d35.120104!4d-117.159039) overlaps with [San Bernardino County](https://www.google.com/maps/place/San+Bernardino+County,+CA/@34.9743906,-117.1874339,10.12z/data=!4m5!3m4!1s0x80c52a8ae8311be5:0xa438bdbc918edca!8m2!3d34.9592083!4d-116.419389). The are in [33.031747, -116.717606](https://www.google.com/maps/place/33%C2%B001'54.3%22N+116%C2%B043'03.4%22W/@33.0171076,-116.9113049,9.82z/data=!4m5!3m4!1s0x0:0xb56a6fffc57eaadd!8m2!3d33.031747!4d-116.717606) corresponds to [San Diego County](https://www.google.com/maps/place/San+Diego+County,+CA/@33.016828,-117.4064529,9z/data=!3m1!4b1!4m5!3m4!1s0x80dbeb3023ff601d:0x350dfd2beb800728!8m2!3d33.0933809!4d-116.6081653). Let's add thesevalues to the empty county fields.
@@ -154,7 +154,7 @@ fips_state_codes = []
 # In[ ]:
 
 
-get_ipython().run_cell_magic('time', '', "# Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes\nimport requests\nimport urllib\n\n#Encode parameters \nfor lon, lat in GIS_us_long_lat.itertuples(index=False):\n    params = urllib.parse.urlencode({'latitude': lat, 'longitude':lon, 'format':'json'})\n    #Contruct request URL\n    url = 'https://geo.fcc.gov/api/census/block/find?' + params\n\n    #Get response from API\n    response = requests.get(url)\n\n    #Parse json in response\n    data = response.json()\n    fips_county_codes.append(data['County']['FIPS'])\n    fips_state_codes.append(data['State']['FIPS'])\n    #Print FIPS code\n")
+get_ipython().run_cell_magic('time', '', "# Code from https://gis.stackexchange.com/questions/294641/python-code-for-transforming-lat-long-into-fips-codes\nimport requests\nimport urllib\n\n#Encode parameters \nfor lon, lat in GIS_us_long_lat.itertuples(index=False):\n    params = urllib.parse.urlencode({'latitude': lat, 'longitude':lon, 'format':'json'})\n    #Contruct request URL\n    url = 'https://geo.fcc.gov/api/census/block/find?' + params\n\n    #Get response from API\n    response = requests.get(url)\n\n    #Parse json in response\n    data = response.json()\n    fips_county_codes.append(data['County']['FIPS'])\n    fips_state_codes.append(data['State']['FIPS'])\n    #Print FIPS code")
 
 
 # In[ ]:
@@ -696,7 +696,6 @@ pv_glass_ia.iloc[:,3::] = csi_glass_ia.iloc[:,3::] + cdte_glass_cdte_ia.iloc[:,3
 pv_copper_ia.iloc[:,33::] = csi_copper_ia.iloc[:,3::] + cdte_copper_cdte_ia.iloc[:,3::] 
 pv_aluminium_frames_ia.iloc[:,3::] = csi_aluminium_frames_ia.iloc[:,3::] + cdte_aluminium_frames_cdte_ia.iloc[:,3::] 
 pv_encapsulant_ia.iloc[:,3::] = csi_encapsulant_ia.iloc[:,33::] + cdte_encapsulant_cdte_ia.iloc[:,3::] 
-
 
 
 
@@ -1402,6 +1401,278 @@ igate_cl_naics_filtered_output.to_csv(os.path.join(cwd, 'RELOG_import_data', 'Ca
 
 
 
+# ### 3.5 Energy Communities
+
+# These candidate locations can be downloaded from [Datasets for IWG Report on Energy Communities](https://edx.netl.doe.gov/dataset/datasets-for-iwg-report-on-energy-communities) based on the Initial Report to the
+# President on Empowering Workers Through Revitalizing Energy Communities. These locations are communities that fall under the BIL 40209, from the Infrastructure Investment and Jobs Act, Public Law 117-58. Provides technical assistance and grants to small- and medium-sized manufacturers in coal communities, the program is called [Advanced Energy Manufacturing and Recycling Grant Program](https://www.energy.gov/mesc/advanced-energy-manufacturing-and-recycling-grants).
+# 
+# The file I use is inside `iwg_energycommunitiesdatasets_csv_april2021.zip` and it is the file `RETIREDPowerPlants_wCoalGen_btwn2005_2020.csv`.
+
+# #### 3.5.1. Load and preliminary cleanup
+
+# In[192]:
+
+
+cwd = os.getcwd()
+
+
+# In[193]:
+
+
+ret_plants_40209 = pd.read_csv(os.path.join('CandidateLocations_RAW', 'RETIREDPowerPlants_wCoalGen_btwn2005_2020.csv'))
+
+
+# In[194]:
+
+
+ret_plants_40209_cl = ret_plants_40209.copy()
+
+
+# In[195]:
+
+
+print('There are {} locations.'.format(len(ret_plants_40209_cl)))
+
+
+# Let's get rid of the columns we don't need:
+
+# In[196]:
+
+
+ret_plants_40209_cl.columns
+
+
+# In[197]:
+
+
+columns_to_drop = ['OID_', 'Entity_ID', 'Nameplate_Capacity__MW_', 'Technology', 'Operating_Year', 'Retirement_Year', 'County Name', 'State code']
+
+
+# In[198]:
+
+
+ret_plants_40209_cl.drop(columns_to_drop, axis=1, inplace= True)
+
+
+# In[199]:
+
+
+ret_plants_40209_cl['State'].unique()
+
+
+# Let's remove Alaska:
+
+# In[200]:
+
+
+ret_plants_40209_cl = ret_plants_40209_cl[ret_plants_40209_cl['State'] != 'Alaska']
+
+
+# Now let's get rid of NaN values:
+
+# In[201]:
+
+
+ret_plants_40209_cl.isna().sum()
+
+
+# In[202]:
+
+
+print('There are {} locations.'.format(len(ret_plants_40209_cl)))
+
+
+# In[203]:
+
+
+ret_plants_40209_cl = ret_plants_40209_cl.drop(labels=ret_plants_40209_cl[ret_plants_40209_cl['County_GEOID'].isna()].index)
+
+
+# In[204]:
+
+
+ret_plants_40209_cl.isna().sum()
+
+
+# Make the GEOID's as int.
+
+# In[205]:
+
+
+ret_plants_40209_cl['County_GEOID']=ret_plants_40209_cl['County_GEOID'].astype('int')
+
+
+# Drop duplicates.
+
+# In[206]:
+
+
+ret_plants_40209_cl.drop_duplicates(subset='County_GEOID', inplace=True)
+
+
+# In[207]:
+
+
+print('There are {} locations.'.format(len(ret_plants_40209_cl)))
+
+
+# #### 3.5.2. Setup the dataframe with the collection center format and map to get lat and long
+
+# Rename the columns and create new ones so they are in the RELOG Candidate Locations format. I will leave the `County_GEOID` and `State` columns because I need them for the mapping to get latitudes and longitudes, and the cost area factors, respectively. I will drop these two afterwards before saving the dataframe.
+
+# In[208]:
+
+
+ret_plants_40209_cl.rename(columns = {'Plant_Name':'name'}, inplace=True)
+
+
+# In[209]:
+
+
+ret_plants_40209_cl['name'] = ret_plants_40209_cl['name'] + ', ' + ret_plants_40209_cl['State']
+
+
+# In[210]:
+
+
+ret_plants_40209_cl.head()
+
+
+# In[211]:
+
+
+ret_plants_40209_cl = ret_plants_40209_cl.reindex(columns=['name', 'County_GEOID', 'State', 'latitude (deg)', 'longitude (deg)','initial capacity (tonne)','area cost factor'], fill_value=0)
+ret_plants_40209_cl.head()
+
+
+# Now let's correlate the GEOID's/FIPS with latitude and longitude. This is more tricky, I have done it the other way around (get FIPS from latitude and longitude values). The following data come from [this](https://github.com/josh-byster/fips_lat_long) repository, `counties.txt` contains GEOID's or FIPS codes and their corresponding latitude and longitude, which I can map with my dataframe. Original data provided by the [U.S. Census Gazetteer Files](https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html). 
+
+# In[212]:
+
+
+counties = pd.read_csv(os.path.join(cwd, 'miscellaneous', 'counties.txt'), sep="\t")
+
+
+# In[213]:
+
+
+counties.head()
+
+
+# In[214]:
+
+
+counties.keys()
+
+
+# The column `INTPLONG` has a lot of white spaces so it does not recognize it as a key. I fix it:
+
+# In[215]:
+
+
+counties.rename(columns = {'INTPTLONG                                                                                                               ':'INTPTLONG'}, inplace=True)
+
+
+# In[216]:
+
+
+counties.keys()
+
+
+# In[219]:
+
+
+ret_plants_40209_cl['latitude (deg)'] = ret_plants_40209_cl['County_GEOID'].map(counties.set_index('GEOID')['INTPTLAT'])
+ret_plants_40209_cl['longitude (deg)'] = ret_plants_40209_cl['County_GEOID'].map(counties.set_index('GEOID')['INTPTLONG'])
+
+
+# In[220]:
+
+
+ret_plants_40209_cl
+
+
+# #### 3.5.3. Map area factors and save!
+
+# In[221]:
+
+
+cwd = os.getcwd()
+area_cost_factors = pd.read_csv(os.path.join(cwd, 'miscellaneous', 'dod_area_cost_factors.csv'))
+
+
+# In[222]:
+
+
+ret_plants_40209_cl['area cost factor'] = ret_plants_40209_cl['State'].map(area_cost_factors.set_index('State')['ACF Official'])
+
+
+# In[223]:
+
+
+ret_plants_40209_cl.head()
+
+
+# Now let's set it so it is relative to Ohio!
+
+# In[224]:
+
+
+area_cost_factors[area_cost_factors['State'] == 'Ohio']['ACF Official'][35] # this is the index where Ohio is found
+
+
+# In[225]:
+
+
+ret_plants_40209_cl['area cost factor'] = ret_plants_40209_cl['area cost factor']/area_cost_factors[area_cost_factors['State'] == 'Ohio']['ACF Official'][35]
+
+
+# In[226]:
+
+
+ret_plants_40209_cl
+
+
+# Let's drop the unnecessary columns, i.e. `County_GEOID` and `State`.
+
+# In[228]:
+
+
+ret_plants_40209_cl = ret_plants_40209_cl.drop(['County_GEOID', 'State'], axis=1)
+
+
+# In[230]:
+
+
+ret_plants_40209_cl.head()
+
+
+# Save and done!
+
+# In[231]:
+
+
+ret_plants_40209_cl.to_csv(os.path.join(cwd, 'RELOG_import_data', 'CandidateLocations', 'cl_40209_retired_plants.csv'), index=False)
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
 # ## 4. Go to RELOG case-builder
 
 # Now you know how to generate the two files needed as inputs for RELOG. Go to RELOG web-based [case builder](https://relog.axavier.org/casebuilder) to setup the .json simulation file. For this baseline scenario I have used the files [pv_Modules_ia.csv](2_data_preparation/RELOG_import_data/Method1/pv_Modules_ia.csv) as **collection center inputs** and [CandidateLocations_CA](2_data_preparation/RELOG_import_data/CandidateLocations/_CA.csv) and **candidate locations**.
@@ -1501,6 +1772,7 @@ csi_waste = {'Modules' : csi_Module['total waste'].sum(),
 
 
 # In[ ]:
+
 
 
 csi_waste_2050 = {'Modules' : csi_Module['2050'].sum(),
