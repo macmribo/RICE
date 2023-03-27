@@ -264,10 +264,10 @@ for simulation_name in files_list:
 cwd = os.getcwd()
 
 
-# In[6]:
+# In[21]:
 
 
-print('LOCAL TO HPC:')
+print('LOCAL-HPC TO HPC:')
 for simulation_name in files_list:
     local_path = os.path.join(cwd, 'hpc_simulation_folders', simulation_name) #change the last entry for the specific name of your simulation
     print('scp -r', local_path, 'mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG')
@@ -281,26 +281,30 @@ for simulation_name in files_list:
 len(files_list)
 
 
-# In[7]:
+# In[22]:
 
 
-print('HPC TO LOCAL:')
+print('HPC TO LOCAL-HPC:')
 for simulation_name in files_list:
     local_path = os.path.join(cwd, 'hpc_simulation_folders', simulation_name) 
     hpc_path = os.path.join(f'mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/{simulation_name}/output', ) #change the last entry for the specific name of your simulation
     print('scp -r', hpc_path, local_path)
 
 
-# In[ ]:
+# In[23]:
 
 
+cwd
 
 
-
-# In[ ]:
-
+# In[27]:
 
 
+print('LOCAL-HPC TO LOCAL:')
+for simulation_name in files_list:
+    local_path = os.path.join(cwd, 'hpc_simulation_folders', simulation_name, 'output', 'solver') 
+    local_local_path = os.path.join(cwd, 'output', simulation_name ) #change the last entry for the specific name of your simulation
+    print('scp -r', local_path, local_local_path)
 
 
 # In[ ]:

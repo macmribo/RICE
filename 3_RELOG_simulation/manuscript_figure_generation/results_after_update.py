@@ -156,41 +156,6 @@ for files in manufacturing_files_cap:
     print('{}: {} locations'.format(files, len(globals()['%s_plants' % (files)]['location name'].unique())))    
 
 
-# ##### Overlapping locations
-
-# In[13]:
-
-
-def intersection(lst1, lst2):
-    lst3 = [value for value in lst1 if value in lst2]
-    return lst3
-
-
-# In[14]:
-
-
-print('40209 overlap x0.5 cost:', len(intersection(Recycling_40209_05_plants['location name'].unique(), 
-                                              Manufacturing_40209_05_plants['location name'].unique())))
-print('40209 overlap x1 cost:', len(intersection(Recycling_40209_1_plants['location name'].unique(), 
-                                              Manufacturing_40209_1_plants['location name'].unique())))
-print('40209 overlap x2 cost:', len(intersection(Recycling_40209_2_plants['location name'].unique(), 
-                                              Manufacturing_40209_2_plants['location name'].unique())))
-print('NAICS overlap x0.5 cost:', len(intersection(Recycling_NAICS_05_plants['location name'].unique(), 
-                                              Manufacturing_NAICS_05_plants['location name'].unique())))
-print('NAICS overlap x1 cost:', len(intersection(Recycling_NAICS_1_plants['location name'].unique(), 
-                                              Manufacturing_NAICS_1_plants['location name'].unique())))
-print('NAICS overlap x2 cost:', len(intersection(Recycling_NAICS_2_plants['location name'].unique(), 
-                                              Manufacturing_NAICS_2_plants['location name'].unique())))
-print('40209 overlap x1 capacity:', len(intersection(Recycling_cap_40209_1_plants['location name'].unique(), 
-                                              Manufacturing_cap_40209_1_plants['location name'].unique())))
-print('40209 overlap x2 capacity:', len(intersection(Recycling_cap_40209_2_plants['location name'].unique(), 
-                                              Manufacturing_cap_40209_2_plants['location name'].unique())))
-print('NAICS overlap x1 capacity:', len(intersection(Recycling_cap_NAICS_1_plants['location name'].unique(), 
-                                              Manufacturing_cap_NAICS_1_plants['location name'].unique()))),
-print('NAICS overlap x2 capacity:', len(intersection(Recycling_cap_NAICS_2_plants['location name'].unique(), 
-                                              Manufacturing_cap_NAICS_2_plants['location name'].unique())))
-
-
 # ### Selected locations plot
 
 # In[15]:
@@ -324,7 +289,7 @@ for files in recycling_files_cap:
 
 # #### Recycling Cost Utilization Factor
 
-# In[ ]:
+# In[48]:
 
 
 for files in recycling_files_cost:
@@ -393,7 +358,7 @@ for files in recycling_files_cost:
 
 # #### Manufacturing Capacity Utilization Factor
 
-# In[ ]:
+# In[49]:
 
 
 for files in manufacturing_files_cap:
@@ -421,7 +386,7 @@ for files in manufacturing_files_cap:
 
 # #### Manufacturing Capacity Total Cost
 
-# In[ ]:
+# In[50]:
 
 
 for files in manufacturing_files_cap:
@@ -456,7 +421,7 @@ for files in manufacturing_files_cap:
 
 # #### Manufacturing Cost Utilization Factor
 
-# In[ ]:
+# In[51]:
 
 
 for files in manufacturing_files_cost:
@@ -492,7 +457,7 @@ for files in manufacturing_files_cost:
 
 # #### Manufacturing Cost Total Cost
 
-# In[ ]:
+# In[52]:
 
 
 for files in manufacturing_files_cost:
@@ -597,7 +562,7 @@ for files in manufacturing_files_cap:
 
 # #### Recycling cost maps
 
-# In[ ]:
+# In[53]:
 
 
 for files in recycling_files_cost:    
@@ -654,7 +619,7 @@ for files in recycling_files_cost:
 
 # #### Recycling capacity maps
 
-# In[ ]:
+# In[54]:
 
 
 for files in recycling_files_cap:    
@@ -711,7 +676,7 @@ for files in recycling_files_cap:
 
 # #### Manufacturing cost maps
 
-# In[ ]:
+# In[55]:
 
 
 for files in manufacturing_files_cost:    
@@ -768,7 +733,7 @@ for files in manufacturing_files_cost:
 
 # #### Manufacturing capacity maps
 
-# In[ ]:
+# In[56]:
 
 
 for files in manufacturing_files_cap:    
@@ -823,7 +788,9 @@ for files in manufacturing_files_cap:
     plt.savefig(os.path.join("maps_after_update",f"map_{files}_cap.pdf"), dpi=300);
 
 
-# In[ ]:
+# ### Testing plots
+
+# In[67]:
 
 
 # Plot base map
@@ -833,9 +800,9 @@ ax = world.plot(color="gold", edgecolor="1", figsize=(14, 7))
 ax.set_ylim([23, 50])
 ax.set_xlim([-128, -65])
 plt.axis('off')
-ax.set(title=f'{files}')
+ax.set(title=f'Recycling_40209_1_transportation')
 # Draw transportation lines
-data = globals()['%s_transportation' % (files)]
+data = Recycling_40209_1_transportation
 lines = [
     [
         (
@@ -871,17 +838,15 @@ points = gp.points_from_xy(
     data["destination longitude (deg)"],
     data["destination latitude (deg)"],
 )
-gp.GeoDataFrame(data, geometry=points).plot(ax=ax, markersize=50, color="palevioletred", edgecolor='white')
+gp.GeoDataFrame(data, geometry=points).plot(ax=ax, markersize=50, color="mediumpurple", edgecolor='white')
 
 
-# ### Testing plots
-
-# In[ ]:
+# In[68]:
 
 
 world = gp.read_file(os.path.join(f'resources','USA_States_(Generalized)', 'USA_States_Generalized.shp'))
 world = world.to_crs("EPSG:4326")
-ax = world.plot(color="gold", edgecolor="1", figsize=(14, 7))
+ax = world.plot(color="gold", edgecolor="1")
 ax.set_ylim([23, 50])
 ax.set_xlim([-128, -65])
 plt.axis('off')
@@ -929,10 +894,200 @@ grid.fig.suptitle(f"Title")
 #plt.savefig(os.path.join(cwd, f"grid_after_update/grid_{files}_cap_uf.png"), transparent=True);
 
 
+# In[58]:
+
+
+usa.plot()
+
+
 # In[22]:
 
 
 Recycling_40209_1_plants
+
+
+# In[ ]:
+
+
+
+
+
+# ## Overlapping locations
+
+# In[69]:
+
+
+def intersection(lst1, lst2):
+    lst3 = [value for value in lst1 if value in lst2]
+    return lst3
+
+
+# ### Overlap between manufacturing and recycling
+
+# In[70]:
+
+
+print('40209 overlap x0.5 cost:', len(intersection(Recycling_40209_05_plants['location name'].unique(), 
+                                              Manufacturing_40209_05_plants['location name'].unique())))
+print('40209 overlap x1 cost:', len(intersection(Recycling_40209_1_plants['location name'].unique(), 
+                                              Manufacturing_40209_1_plants['location name'].unique())))
+print('40209 overlap x2 cost:', len(intersection(Recycling_40209_2_plants['location name'].unique(), 
+                                              Manufacturing_40209_2_plants['location name'].unique())))
+print('NAICS overlap x0.5 cost:', len(intersection(Recycling_NAICS_05_plants['location name'].unique(), 
+                                              Manufacturing_NAICS_05_plants['location name'].unique())))
+print('NAICS overlap x1 cost:', len(intersection(Recycling_NAICS_1_plants['location name'].unique(), 
+                                              Manufacturing_NAICS_1_plants['location name'].unique())))
+print('NAICS overlap x2 cost:', len(intersection(Recycling_NAICS_2_plants['location name'].unique(), 
+                                              Manufacturing_NAICS_2_plants['location name'].unique())))
+print('40209 overlap x1 capacity:', len(intersection(Recycling_cap_40209_1_plants['location name'].unique(), 
+                                              Manufacturing_cap_40209_1_plants['location name'].unique())))
+print('40209 overlap x2 capacity:', len(intersection(Recycling_cap_40209_2_plants['location name'].unique(), 
+                                              Manufacturing_cap_40209_2_plants['location name'].unique())))
+print('NAICS overlap x1 capacity:', len(intersection(Recycling_cap_NAICS_1_plants['location name'].unique(), 
+                                              Manufacturing_cap_NAICS_1_plants['location name'].unique()))),
+print('NAICS overlap x2 capacity:', len(intersection(Recycling_cap_NAICS_2_plants['location name'].unique(), 
+                                              Manufacturing_cap_NAICS_2_plants['location name'].unique())))
+
+
+# ### Common locations to select specific cities
+
+# In[71]:
+
+
+Recycling_40209_1_plants.keys()
+
+
+# #### 40209 common locations
+
+# In[80]:
+
+
+common_rec_40209 = intersection(
+                       intersection(
+                           intersection(
+                               intersection(
+                                   Recycling_40209_1_plants['location name'].unique(), 
+                                   Recycling_40209_05_plants['location name'].unique()), 
+                                   Recycling_40209_2_plants['location name'].unique()),
+                                   Recycling_40209_5_plants['location name'].unique()),
+                                   Recycling_40209_10_plants['location name'].unique())
+        
+
+
+# In[86]:
+
+
+common_rec_cap_40209 = intersection(
+                       intersection(
+                           intersection(
+                               intersection(
+                                   Recycling_cap_40209_1_plants['location name'].unique(), 
+                                   Recycling_cap_40209_05_plants['location name'].unique()), 
+                                   Recycling_cap_40209_2_plants['location name'].unique()),
+                                   Recycling_cap_40209_5_plants['location name'].unique()),
+                                   Recycling_cap_40209_10_plants['location name'].unique())
+
+
+# In[87]:
+
+
+common_rec_cap_NAICS = intersection(
+                       intersection(
+                           intersection(
+                               intersection(
+                                   Recycling_cap_NAICS_1_plants['location name'].unique(), 
+                                   Recycling_cap_NAICS_05_plants['location name'].unique()), 
+                                   Recycling_cap_NAICS_2_plants['location name'].unique()),
+                                   Recycling_cap_NAICS_5_plants['location name'].unique()),
+                                   Recycling_cap_NAICS_10_plants['location name'].unique())
+
+
+# In[84]:
+
+
+common_man_40209 = intersection(
+                        intersection(
+                            intersection(
+                                Manufacturing_40209_0001_plants['location name'].unique(), 
+                                Manufacturing_40209_05_plants['location name'].unique()), 
+                                Manufacturing_40209_1_plants['location name'].unique()),
+                                Manufacturing_40209_2_plants['location name'].unique())
+
+
+# In[81]:
+
+
+common_rec_NAICS = intersection(
+                       intersection(
+                           intersection(
+                               intersection(
+                                   Recycling_NAICS_1_plants['location name'].unique(), 
+                                   Recycling_NAICS_05_plants['location name'].unique()), 
+                                   Recycling_NAICS_2_plants['location name'].unique()),
+                                   Recycling_NAICS_5_plants['location name'].unique()),
+                                   Recycling_NAICS_10_plants['location name'].unique())
+
+
+# In[93]:
+
+
+common_man_cap_40209 = intersection( 
+                                Manufacturing_cap_40209_1_plants['location name'].unique(),
+                                Manufacturing_cap_40209_2_plants['location name'].unique())
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# Cost manufacturing
+
+# In[83]:
+
+
+common_man_NAICS = intersection(
+                        intersection(
+                            intersection(
+                                Manufacturing_NAICS_0001_plants['location name'].unique(), 
+                                Manufacturing_NAICS_05_plants['location name'].unique()), 
+                                Manufacturing_NAICS_1_plants['location name'].unique()),
+                                Manufacturing_NAICS_2_plants['location name'].unique())
+
+
+# Capacity manufacturing
+
+# In[92]:
+
+
+common_man_cap_NAICS = intersection( 
+                                Manufacturing_cap_NAICS_1_plants['location name'].unique(),
+                                Manufacturing_cap_NAICS_2_plants['location name'].unique())
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
+
+
+# In[ ]:
+
+
+
 
 
 # In[ ]:

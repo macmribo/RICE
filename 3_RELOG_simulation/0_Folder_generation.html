@@ -15472,10 +15472,10 @@ The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulati
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;LOCAL TO HPC:&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;LOCAL-HPC TO HPC:&#39;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">simulation_name</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span>
     <span class="n">local_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span> <span class="c1">#change the last entry for the specific name of your simulation</span>
     <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;scp -r&#39;</span><span class="p">,</span> <span class="n">local_path</span><span class="p">,</span> <span class="s1">&#39;mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG&#39;</span><span class="p">)</span>
@@ -15500,7 +15500,7 @@ The path for /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulati
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>LOCAL TO HPC:
+<pre>LOCAL-HPC TO HPC:
 scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_0001 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
 scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_05 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
 scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_1 mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG
@@ -15603,10 +15603,10 @@ scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;HPC TO LOCAL:&#39;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;HPC TO LOCAL-HPC:&#39;</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">simulation_name</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span>
     <span class="n">local_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">)</span> 
     <span class="n">hpc_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/</span><span class="si">{</span><span class="n">simulation_name</span><span class="si">}</span><span class="s1">/output&#39;</span><span class="p">,</span> <span class="p">)</span> <span class="c1">#change the last entry for the specific name of your simulation</span>
@@ -15632,7 +15632,7 @@ scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>HPC TO LOCAL:
+<pre>HPC TO LOCAL-HPC:
 scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_NAICS_0001/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_0001
 scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_05
 scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Manufacturing_NAICS_1/output /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_1
@@ -15677,15 +15677,15 @@ scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_40209_10/o
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span>
 </pre></div>
 
      </div>
@@ -15693,20 +15693,108 @@ scp -r mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/Recycling_cap_40209_10/o
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation&#39;</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;LOCAL-HPC TO LOCAL:&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">simulation_name</span> <span class="ow">in</span> <span class="n">files_list</span><span class="p">:</span>
+    <span class="n">local_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;hpc_simulation_folders&#39;</span><span class="p">,</span> <span class="n">simulation_name</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="s1">&#39;solver&#39;</span><span class="p">)</span> 
+    <span class="n">local_local_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">cwd</span><span class="p">,</span> <span class="s1">&#39;output&#39;</span><span class="p">,</span> <span class="n">simulation_name</span> <span class="p">)</span> <span class="c1">#change the last entry for the specific name of your simulation</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;scp -r&#39;</span><span class="p">,</span> <span class="n">local_path</span><span class="p">,</span> <span class="n">local_local_path</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>LOCAL-HPC TO LOCAL:
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_0001/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_NAICS_0001
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_NAICS_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_NAICS_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_NAICS_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_NAICS_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_40209_0001/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_40209_0001
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_40209_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_40209_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_40209_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_40209_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_40209_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_40209_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_NAICS_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_NAICS_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_NAICS_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_NAICS_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_NAICS_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_NAICS_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_NAICS_5/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_NAICS_5
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_NAICS_10/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_NAICS_10
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_40209_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_40209_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_40209_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_40209_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_40209_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_40209_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_40209_5/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_40209_5
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_40209_10/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_40209_10
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_0001/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_0001
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_NAICS_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_NAICS_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_0001/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_0001
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Manufacturing_cap_40209_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Manufacturing_cap_40209_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_5/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_5
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_NAICS_10/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_NAICS_10
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_05/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_05
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_1/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_1
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_2/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_2
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_5/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_5
+scp -r /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/hpc_simulation_folders/Recycling_cap_40209_10/output/solver /Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/output/Recycling_cap_40209_10
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">

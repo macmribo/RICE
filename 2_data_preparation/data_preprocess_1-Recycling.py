@@ -792,7 +792,7 @@ from geopy.point import Point
 geolocator = Nominatim(user_agent="geoapiExercises")
 
 
-# ### 3.1. DOD cost indices
+# ### 3.1. DOD Nwike's cost indices
 
 # Nwike's paper uses the [DOD](https://www.usace.army.mil/Cost-Engineering/Area-Cost-Factors/) area cost factors to set up the location-based costs, with the following Candidate Locations file: file 'Candidate locations - Battery Project' found in the shared Box.
 # 
@@ -898,8 +898,6 @@ cl_nwike_battery_rename['area cost factor'] = cl_nwike_battery_rename['area cost
 cwd = os.getcwd()
 cl_nwike_battery_rename.to_csv(os.path.join(cwd, 'RELOG_import_data', 'Recycling','CandidateLocations_CA_CASE0.csv'), index = False)
 
-
-# #### The Candidate Locations file I used for the baseline RELOG scenario, aka. 'CASE 0', is `CandidateLocations_CA_CASE0.csv`.
 
 # ### 3.2. Cost indexes based on Peters book
 
@@ -1417,7 +1415,7 @@ igate_cl_naics_filtered_output.to_csv(os.path.join(cwd, 'RELOG_import_data', 'Ca
 
 
 
-# ### 3.5 Energy Communities
+# ### 3.5. Energy Communities
 
 # These candidate locations can be downloaded from [Datasets for IWG Report on Energy Communities](https://edx.netl.doe.gov/dataset/datasets-for-iwg-report-on-energy-communities) based on the Initial Report to the
 # President on Empowering Workers Through Revitalizing Energy Communities. These locations are communities that fall under the BIL 40209, from the Infrastructure Investment and Jobs Act, Public Law 117-58. Provides technical assistance and grants to small- and medium-sized manufacturers in coal communities, the program is called [Advanced Energy Manufacturing and Recycling Grant Program](https://www.energy.gov/mesc/advanced-energy-manufacturing-and-recycling-grants).
@@ -1426,17 +1424,19 @@ igate_cl_naics_filtered_output.to_csv(os.path.join(cwd, 'RELOG_import_data', 'Ca
 
 # #### 3.5.1. Load and preliminary cleanup
 
-# In[192]:
+# In[2]:
 
 
 cwd = os.getcwd()
 
 
-# In[193]:
+# In[3]:
 
 
 ret_plants_40209 = pd.read_csv(os.path.join('CandidateLocations_RAW', 'RETIREDPowerPlants_wCoalGen_btwn2005_2020.csv'))
 
+
+# NOTE: `CandidateLocations_RAW` is not a public folder, if you wish to get access to the contents of this file, please contact hope.wikoff@nrel.gov.
 
 # In[194]:
 
@@ -1610,7 +1610,7 @@ ret_plants_40209_cl
 
 # #### 3.5.3. Map area factors and save!
 
-# In[221]:
+# In[5]:
 
 
 cwd = os.getcwd()
@@ -1629,7 +1629,15 @@ ret_plants_40209_cl['area cost factor'] = ret_plants_40209_cl['State'].map(area_
 ret_plants_40209_cl.head()
 
 
-# Now let's set it so it is relative to Ohio!
+# Now let's set it so it is relative to Ohio! To change it to a different state just type the name of the state of interest and change the pertinent index.
+
+# In[10]:
+
+
+area_cost_factors[area_cost_factors['State'] == 'Ohio'].index # Check the index where Ohio is found, there is probably a smarter way...
+
+
+# For Ohio is 35, so I write that number, now it will be a different one for other cases so remember to change the state name and INDEX NUMBER in the following **two** cells.
 
 # In[224]:
 
