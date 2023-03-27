@@ -14,28 +14,28 @@ using TickTock
 
 tick()
 # Solve optimization problem
-solution = RELOG.solve("/projects/pvsoiling/RELOG/Manufacturing_NAICS_0.5/input/solver/case.json", optimizer=gurobi)
+solution = RELOG.solve("/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/input/solver/case.json", optimizer=gurobi)
 
 # Write CSV report showing plant costs, capacities, energy expenditure and
 # utilization factors
 
-RELOG.write_plants_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_0.5/output/solver/plants.csv")
+RELOG.write_plants_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/output/solver/plants.csv")
 
 # Write CSV report showing amount of product sent from initial locations to plants,
 # and from one plant to another. Includes the distance between each pair of
 # locations, amount-distance shipped, transportation costs and energy expenditure
 
-RELOG.write_transportation_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_0.5/output/solver/transportation.csv")
+RELOG.write_transportation_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/output/solver/transportation.csv")
 
 # Write CSV report showing primary product amounts, locations and marginal costs
 
-RELOG.write_products_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_0.5/output/solver/products.csv")
+RELOG.write_products_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/output/solver/products.csv")
 
-RELOG.write_plant_emissions_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_0.5/output/solver/plant_emissions.csv")
+RELOG.write_plant_emissions_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/output/solver/plant_emissions.csv")
 
-RELOG.write_plant_outputs_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_0.5/output/solver/plant_oputputs.csv")
+RELOG.write_plant_outputs_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/output/solver/plant_oputputs.csv")
 
-RELOG.write_transportation_emissions_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_0.5/output/solver/transportation_emissions.csv")
+RELOG.write_transportation_emissions_report(solution, "/projects/pvsoiling/RELOG/Manufacturing_NAICS_05/output/solver/transportation_emissions.csv")
 tock()
 
 

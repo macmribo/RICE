@@ -36,7 +36,7 @@ simulation_list = ["20230313_Manufacturing_min_v3", "20230313_Manufacturing_med_
 # In[51]:
 
 
-simulation = simulation_list[1]
+simulation = simulation_list[1] # select file here
 
 
 # In[52]:

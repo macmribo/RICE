@@ -11,7 +11,7 @@
 # 
 # Lastly, I will generate a special folder that include the necessary files to make an hpc simulation in the case that the simulation takes too long.
 
-# In[1]:
+# In[4]:
 
 
 import os
@@ -22,7 +22,7 @@ from distutils.dir_util import copy_tree
 
 # Fill out with the combination to generate 
 
-# In[493]:
+# In[1]:
 
 
 facility_label = ['Manufacturing', 'Recycling','Manufacturing_cap', 'Recycling_cap']
@@ -31,7 +31,7 @@ factor_label_rec = ['05', '1', '2', '5', '10']
 factor_label_man = ['0001','05', '1', '2'] # 0 is 0,5
 
 
-# In[494]:
+# In[2]:
 
 
 files_list = []
@@ -47,19 +47,19 @@ for fac in facility_label:
 
 # ## Folder generation:
 
-# In[495]:
+# In[8]:
 
 
 whatif = False
 
 
-# In[496]:
+# In[6]:
 
 
 cwd = os.getcwd()
 
 
-# In[497]:
+# In[14]:
 
 
 for simulation_name in files_list:
@@ -125,7 +125,31 @@ for fac in facility_label:
 
 # Make sure that the simulation folder exists in the main folders, that it has a `case.json` file inside and that it also has the what-if scenarios generated. If these are not created it will throw an error asking you to do those steps first.
 
-# In[515]:
+# In[10]:
+
+
+files_list
+
+
+# In[ ]:
+
+
+simulation_folders[0]
+
+
+# In[18]:
+
+
+os.remove('/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_40209_05/.DS_Store')
+
+
+# In[19]:
+
+
+os.listdir('/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_40209_05')
+
+
+# In[20]:
 
 
 for simulation_name in files_list:   
@@ -148,7 +172,7 @@ for simulation_name in files_list:
             if os.listdir(simulation_folders[0]) == ['case.json']:
                 print('Case.json exists!')
             else:
-                raise FileNotFoundError('The file ''case.json'' does not exist, please generate the the file using RELOG\'s case builder.')
+                raise FileNotFoundError('The file ''case.json'' does not exist in please generate the the file using RELOG\'s case builder.')
             if len(input_whatif_folder_location) == 0:
                 raise FileNotFoundError('The what-if files have not been generated, please go to 3_RELOG_simulation/input/Generate What-If Scenarios.ipynb and generate the scenario files.')
             else:
@@ -157,7 +181,8 @@ for simulation_name in files_list:
             if os.listdir(simulation_folders[0]) == ['case.json']:
                 print('Case.json exists!')
             else:
-                raise FileNotFoundError('The file ''case.json'' does not exist, please generate the the file using RELOG\'s case builder.')
+                print(f'File {simulation_folders[0]}')
+                raise FileNotFoundError(f'The file ''case.json'' does not exist, please generate the the file using RELOG\'s case builder.')
 # Create paths for the hpc
     if whatif:
         hpc_input_solver_folder = os.path.join(cwd, 'hpc_simulation_folders', simulation_name, 'input', 'solver') 
@@ -233,13 +258,13 @@ for simulation_name in files_list:
 
 # Local machine to HPC (copy and paste it into your terminal):
 
-# In[516]:
+# In[5]:
 
 
 cwd = os.getcwd()
 
 
-# In[517]:
+# In[6]:
 
 
 print('LOCAL TO HPC:')
@@ -250,7 +275,13 @@ for simulation_name in files_list:
 
 # HPC to local machine (copy and paste it into your terminal), this path only works me, but if you have access to the same project folder, use it).
 
-# In[519]:
+# In[8]:
+
+
+len(files_list)
+
+
+# In[7]:
 
 
 print('HPC TO LOCAL:')

@@ -9,7 +9,10 @@ using RELOG
 using TickTock
 
 
-RELOG
+using Pkg
+Pkg.update()
+Pkg.status()
+Pkg.rm("RELOG")
 
 problem = "20230314_Recycling_min_v4"
 

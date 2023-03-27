@@ -1,0 +1,261 @@
+plant type,location name,year,emission type,emission amount (tonne)
+PV Recycling Plant,"Baldor Electric Co., AR",1,CO2,179.1
+PV Recycling Plant,"Baldor Electric Co., AR",2,CO2,109.0
+PV Recycling Plant,"Baldor Electric Co., AR",3,CO2,162.21
+PV Recycling Plant,"Baldor Electric Co., AR",4,CO2,235.62
+PV Recycling Plant,"Baldor Electric Co., AR",5,CO2,334.54
+PV Recycling Plant,"Baldor Electric Co., AR",6,CO2,464.87
+PV Recycling Plant,"Baldor Electric Co., AR",7,CO2,632.59
+PV Recycling Plant,"Baldor Electric Co., AR",8,CO2,2035.76
+PV Recycling Plant,"Baldor Electric Co., AR",9,CO2,987.38
+PV Recycling Plant,"Baldor Electric Co., AR",10,CO2,4731.87
+PV Recycling Plant,"Baldor Electric Co., AR",11,CO2,4603.82
+PV Recycling Plant,"Baldor Electric Co., AR",12,CO2,1179.82
+PV Recycling Plant,"Baldor Electric Co., AR",13,CO2,4952.73
+PV Recycling Plant,"Baldor Electric Co., AR",14,CO2,1878.39
+PV Recycling Plant,"Baldor Electric Co., AR",15,CO2,2488.54
+PV Recycling Plant,"Baldor Electric Co., AR",16,CO2,6377.57
+PV Recycling Plant,"Baldor Electric Co., AR",17,CO2,3864.57
+PV Recycling Plant,"Baldor Electric Co., AR",18,CO2,4906.5
+PV Recycling Plant,"Baldor Electric Co., AR",19,CO2,11073.94
+PV Recycling Plant,"Baldor Electric Co., AR",20,CO2,11346.3
+PV Recycling Plant,"Baldor Electric Co., AR",21,CO2,7286.36
+PV Recycling Plant,"Baldor Electric Co., AR",22,CO2,15489.99
+PV Recycling Plant,"Baldor Electric Co., AR",23,CO2,10225.77
+PV Recycling Plant,"Baldor Electric Co., AR",24,CO2,12792.41
+PV Recycling Plant,"Baldor Electric Co., AR",25,CO2,19552.73
+PV Recycling Plant,"Baldor Electric Co., AR",26,CO2,19552.73
+PV Recycling Plant,"Columbia Block & Brick, MS",1,CO2,90.43
+PV Recycling Plant,"Columbia Block & Brick, MS",2,CO2,56.73
+PV Recycling Plant,"Columbia Block & Brick, MS",3,CO2,86.77
+PV Recycling Plant,"Columbia Block & Brick, MS",4,CO2,130.19
+PV Recycling Plant,"Columbia Block & Brick, MS",5,CO2,191.75
+PV Recycling Plant,"Columbia Block & Brick, MS",6,CO2,277.44
+PV Recycling Plant,"Columbia Block & Brick, MS",7,CO2,394.57
+PV Recycling Plant,"Columbia Block & Brick, MS",8,CO2,1676.71
+PV Recycling Plant,"Columbia Block & Brick, MS",9,CO2,651.15
+PV Recycling Plant,"Columbia Block & Brick, MS",10,CO2,2075.93
+PV Recycling Plant,"Columbia Block & Brick, MS",11,CO2,2249.46
+PV Recycling Plant,"Columbia Block & Brick, MS",12,CO2,1385.0
+PV Recycling Plant,"Columbia Block & Brick, MS",13,CO2,3622.69
+PV Recycling Plant,"Columbia Block & Brick, MS",14,CO2,2493.39
+PV Recycling Plant,"Columbia Block & Brick, MS",15,CO2,3358.32
+PV Recycling Plant,"Columbia Block & Brick, MS",16,CO2,5994.92
+PV Recycling Plant,"Columbia Block & Brick, MS",17,CO2,5583.07
+PV Recycling Plant,"Columbia Block & Brick, MS",18,CO2,7154.59
+PV Recycling Plant,"Columbia Block & Brick, MS",19,CO2,13255.97
+PV Recycling Plant,"Columbia Block & Brick, MS",20,CO2,14424.02
+PV Recycling Plant,"Columbia Block & Brick, MS",21,CO2,11992.22
+PV Recycling Plant,"Columbia Block & Brick, MS",22,CO2,23923.52
+PV Recycling Plant,"Columbia Block & Brick, MS",23,CO2,15556.21
+PV Recycling Plant,"Columbia Block & Brick, MS",24,CO2,19178.46
+PV Recycling Plant,"Columbia Block & Brick, MS",25,CO2,19552.73
+PV Recycling Plant,"Columbia Block & Brick, MS",26,CO2,19552.73
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",1,CO2,72.06
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",2,CO2,40.1
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",3,CO2,57.84
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",4,CO2,81.52
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",5,CO2,112.34
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",6,CO2,151.49
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",7,CO2,199.92
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",8,CO2,2105.34
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",9,CO2,148.02
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",10,CO2,420.05
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",11,CO2,456.72
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",12,CO2,296.24
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",13,CO2,30472.23
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",14,CO2,8221.77
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",15,CO2,10404.12
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",16,CO2,33791.88
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",17,CO2,11330.35
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",18,CO2,13535.95
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",19,CO2,38168.69
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",20,CO2,40024.77
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",21,CO2,8863.2
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",22,CO2,22072.87
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",23,CO2,8805.3
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",24,CO2,10082.51
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",25,CO2,17836.87
+PV Recycling Plant,"Gold Star Engraving & Awards, AZ",26,CO2,10567.62
+PV Recycling Plant,"Standard Enterprises, Inc., VA",1,CO2,148.07
+PV Recycling Plant,"Standard Enterprises, Inc., VA",2,CO2,95.19
+PV Recycling Plant,"Standard Enterprises, Inc., VA",3,CO2,145.66
+PV Recycling Plant,"Standard Enterprises, Inc., VA",4,CO2,218.08
+PV Recycling Plant,"Standard Enterprises, Inc., VA",5,CO2,319.96
+PV Recycling Plant,"Standard Enterprises, Inc., VA",6,CO2,460.48
+PV Recycling Plant,"Standard Enterprises, Inc., VA",7,CO2,650.55
+PV Recycling Plant,"Standard Enterprises, Inc., VA",8,CO2,1137.36
+PV Recycling Plant,"Standard Enterprises, Inc., VA",9,CO2,1207.89
+PV Recycling Plant,"Standard Enterprises, Inc., VA",10,CO2,4956.29
+PV Recycling Plant,"Standard Enterprises, Inc., VA",11,CO2,5014.07
+PV Recycling Plant,"Standard Enterprises, Inc., VA",12,CO2,1951.74
+PV Recycling Plant,"Standard Enterprises, Inc., VA",13,CO2,6518.92
+PV Recycling Plant,"Standard Enterprises, Inc., VA",14,CO2,3323.05
+PV Recycling Plant,"Standard Enterprises, Inc., VA",15,CO2,4423.78
+PV Recycling Plant,"Standard Enterprises, Inc., VA",16,CO2,9271.7
+PV Recycling Plant,"Standard Enterprises, Inc., VA",17,CO2,6935.18
+PV Recycling Plant,"Standard Enterprises, Inc., VA",18,CO2,8715.98
+PV Recycling Plant,"Standard Enterprises, Inc., VA",19,CO2,16852.86
+PV Recycling Plant,"Standard Enterprises, Inc., VA",20,CO2,17584.77
+PV Recycling Plant,"Standard Enterprises, Inc., VA",21,CO2,12744.23
+PV Recycling Plant,"Standard Enterprises, Inc., VA",22,CO2,21210.56
+PV Recycling Plant,"Standard Enterprises, Inc., VA",23,CO2,15388.0
+PV Recycling Plant,"Standard Enterprises, Inc., VA",24,CO2,17153.99
+PV Recycling Plant,"Standard Enterprises, Inc., VA",25,CO2,20996.75
+PV Recycling Plant,"Standard Enterprises, Inc., VA",26,CO2,18108.71
+PV Recycling Plant,"Prospect Machine, Inc., AZ",1,CO2,326.37
+PV Recycling Plant,"Prospect Machine, Inc., AZ",2,CO2,199.14
+PV Recycling Plant,"Prospect Machine, Inc., AZ",3,CO2,294.46
+PV Recycling Plant,"Prospect Machine, Inc., AZ",4,CO2,423.76
+PV Recycling Plant,"Prospect Machine, Inc., AZ",5,CO2,594.57
+PV Recycling Plant,"Prospect Machine, Inc., AZ",6,CO2,814.24
+PV Recycling Plant,"Prospect Machine, Inc., AZ",7,CO2,1088.87
+PV Recycling Plant,"Prospect Machine, Inc., AZ",8,CO2,1726.27
+PV Recycling Plant,"Prospect Machine, Inc., AZ",9,CO2,1783.24
+PV Recycling Plant,"Prospect Machine, Inc., AZ",10,CO2,10275.42
+PV Recycling Plant,"Prospect Machine, Inc., AZ",11,CO2,9627.11
+PV Recycling Plant,"Prospect Machine, Inc., AZ",12,CO2,1156.09
+PV Recycling Plant,"Prospect Machine, Inc., AZ",13,CO2,8493.05
+PV Recycling Plant,"Prospect Machine, Inc., AZ",14,CO2,1379.59
+PV Recycling Plant,"Prospect Machine, Inc., AZ",15,CO2,1739.08
+PV Recycling Plant,"Prospect Machine, Inc., AZ",16,CO2,13877.75
+PV Recycling Plant,"Prospect Machine, Inc., AZ",17,CO2,3687.24
+PV Recycling Plant,"Prospect Machine, Inc., AZ",18,CO2,4362.88
+PV Recycling Plant,"Prospect Machine, Inc., AZ",19,CO2,21265.62
+PV Recycling Plant,"Prospect Machine, Inc., AZ",20,CO2,13729.17
+PV Recycling Plant,"Prospect Machine, Inc., AZ",21,CO2,2120.34
+PV Recycling Plant,"Prospect Machine, Inc., AZ",22,CO2,5130.94
+PV Recycling Plant,"Prospect Machine, Inc., AZ",23,CO2,2003.79
+PV Recycling Plant,"Prospect Machine, Inc., AZ",24,CO2,2189.5
+PV Recycling Plant,"Prospect Machine, Inc., AZ",25,CO2,10049.81
+PV Recycling Plant,"Prospect Machine, Inc., AZ",26,CO2,6282.06
+PV Recycling Plant,"MMC Materials, Inc., MS",1,CO2,20.35
+PV Recycling Plant,"MMC Materials, Inc., MS",2,CO2,16.36
+PV Recycling Plant,"MMC Materials, Inc., MS",3,CO2,27.5
+PV Recycling Plant,"MMC Materials, Inc., MS",4,CO2,44.85
+PV Recycling Plant,"MMC Materials, Inc., MS",5,CO2,71.13
+PV Recycling Plant,"MMC Materials, Inc., MS",6,CO2,109.85
+PV Recycling Plant,"MMC Materials, Inc., MS",7,CO2,165.51
+PV Recycling Plant,"MMC Materials, Inc., MS",8,CO2,273.82
+PV Recycling Plant,"MMC Materials, Inc., MS",9,CO2,347.87
+PV Recycling Plant,"MMC Materials, Inc., MS",10,CO2,753.94
+PV Recycling Plant,"MMC Materials, Inc., MS",11,CO2,906.25
+PV Recycling Plant,"MMC Materials, Inc., MS",12,CO2,857.47
+PV Recycling Plant,"MMC Materials, Inc., MS",13,CO2,2094.33
+PV Recycling Plant,"MMC Materials, Inc., MS",14,CO2,1465.3
+PV Recycling Plant,"MMC Materials, Inc., MS",15,CO2,1907.57
+PV Recycling Plant,"MMC Materials, Inc., MS",16,CO2,3282.97
+PV Recycling Plant,"MMC Materials, Inc., MS",17,CO2,2919.48
+PV Recycling Plant,"MMC Materials, Inc., MS",18,CO2,3556.91
+PV Recycling Plant,"MMC Materials, Inc., MS",19,CO2,10206.6
+PV Recycling Plant,"MMC Materials, Inc., MS",20,CO2,9521.16
+PV Recycling Plant,"MMC Materials, Inc., MS",21,CO2,3343.93
+PV Recycling Plant,"MMC Materials, Inc., MS",22,CO2,12972.07
+PV Recycling Plant,"MMC Materials, Inc., MS",23,CO2,7670.56
+PV Recycling Plant,"MMC Materials, Inc., MS",24,CO2,10538.89
+PV Recycling Plant,"MMC Materials, Inc., MS",25,CO2,19552.73
+PV Recycling Plant,"MMC Materials, Inc., MS",26,CO2,19552.73
+PV Recycling Plant,"Boye Knives, AZ",1,CO2,1288.47
+PV Recycling Plant,"Boye Knives, AZ",2,CO2,789.6
+PV Recycling Plant,"Boye Knives, AZ",3,CO2,1183.24
+PV Recycling Plant,"Boye Knives, AZ",4,CO2,1731.12
+PV Recycling Plant,"Boye Knives, AZ",5,CO2,2476.03
+PV Recycling Plant,"Boye Knives, AZ",6,CO2,3465.67
+PV Recycling Plant,"Boye Knives, AZ",7,CO2,4750.34
+PV Recycling Plant,"Boye Knives, AZ",8,CO2,24661.2
+PV Recycling Plant,"Boye Knives, AZ",9,CO2,6630.19
+PV Recycling Plant,"Boye Knives, AZ",10,CO2,22126.91
+PV Recycling Plant,"Boye Knives, AZ",11,CO2,22965.8
+PV Recycling Plant,"Boye Knives, AZ",12,CO2,11388.17
+PV Recycling Plant,"Boye Knives, AZ",13,CO2,42595.98
+PV Recycling Plant,"Boye Knives, AZ",14,CO2,7046.0
+PV Recycling Plant,"Boye Knives, AZ",15,CO2,9016.2
+PV Recycling Plant,"Boye Knives, AZ",16,CO2,37660.55
+PV Recycling Plant,"Boye Knives, AZ",17,CO2,9502.88
+PV Recycling Plant,"Boye Knives, AZ",18,CO2,11494.75
+PV Recycling Plant,"Boye Knives, AZ",19,CO2,33931.77
+PV Recycling Plant,"Boye Knives, AZ",20,CO2,30776.84
+PV Recycling Plant,"Boye Knives, AZ",21,CO2,10139.05
+PV Recycling Plant,"Boye Knives, AZ",22,CO2,25414.61
+PV Recycling Plant,"Boye Knives, AZ",23,CO2,10228.6
+PV Recycling Plant,"Boye Knives, AZ",24,CO2,11859.42
+PV Recycling Plant,"Boye Knives, AZ",25,CO2,21087.55
+PV Recycling Plant,"Boye Knives, AZ",26,CO2,12983.98
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",1,CO2,537.17
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",2,CO2,339.61
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",3,CO2,511.93
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",4,CO2,752.17
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",5,CO2,1079.05
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",6,CO2,1513.33
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",7,CO2,2076.5
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",8,CO2,3639.31
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",9,CO2,3585.15
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",10,CO2,16689.94
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",11,CO2,16231.31
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",12,CO2,4205.46
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",13,CO2,22880.21
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",14,CO2,5855.64
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",15,CO2,7488.21
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",16,CO2,25181.64
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",17,CO2,9465.9
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",18,CO2,11364.71
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",19,CO2,32415.97
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",20,CO2,29811.54
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",21,CO2,9409.3
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",22,CO2,26201.77
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",23,CO2,7650.93
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",24,CO2,8204.65
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",25,CO2,26367.36
+PV Recycling Plant,"Atlantic Fabrication & Boiler, VA",26,CO2,12738.1
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",1,CO2,102.18
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",2,CO2,68.1
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",3,CO2,106.06
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",4,CO2,161.49
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",5,CO2,240.68
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",6,CO2,351.5
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",7,CO2,503.55
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",8,CO2,1140.92
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",9,CO2,937.35
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",10,CO2,3129.76
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",11,CO2,3320.46
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",12,CO2,1837.65
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",13,CO2,6613.04
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",14,CO2,3100.67
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",15,CO2,4161.78
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",16,CO2,9228.27
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",17,CO2,6680.11
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",18,CO2,8610.72
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",19,CO2,17376.23
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",20,CO2,18650.73
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",21,CO2,14505.82
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",22,CO2,22811.94
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",23,CO2,16293.51
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",24,CO2,19552.73
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",25,CO2,19552.73
+PV Recycling Plant,"Bain Mfg. Co., Inc., MS",26,CO2,19552.73
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",1,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",2,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",3,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",4,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",5,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",6,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",7,CO2,0.02
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",8,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",9,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",10,CO2,0.02
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",11,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",12,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",13,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",14,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",15,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",16,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",17,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",18,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",19,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",20,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",21,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",22,CO2,0.0
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",23,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",24,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",25,CO2,0.01
+PV Recycling Plant,"Midstream Energy Services, LLC, OK",26,CO2,0.0
