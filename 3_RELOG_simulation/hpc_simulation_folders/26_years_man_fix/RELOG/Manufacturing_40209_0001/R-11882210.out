@@ -1,0 +1,118 @@
+Set parameter TokenServer to value "license-1.hpc.nrel.gov"
+Set parameter TimeLimit to value 3600
+Set parameter MIPGap to value 0.001
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Thread count: 36 physical cores, 36 logical processors, using up to 32 threads
+Optimize a model with 79596 rows, 989456 columns and 2026080 nonzeros
+Model fingerprint: 0x28934106
+Variable types: 975520 continuous, 13936 integer (13936 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [2e-01, 8e+05]
+  Bounds range     [1e+05, 1e+08]
+  RHS range        [8e-01, 2e+06]
+Presolve removed 69146 rows and 56012 columns
+Presolve time: 3.62s
+Presolved: 10450 rows, 933444 columns, 1873320 nonzeros
+Variable types: 933176 continuous, 268 integer (268 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+Concurrent spin time: 0.10s
+
+Solved with dual simplex
+
+Root relaxation: objective 3.151455e+09, 3825 iterations, 1.55 seconds (0.86 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 3.1515e+09    0   46          - 3.1515e+09      -     -    7s
+H    0     0                    3.192753e+09 3.1515e+09  1.29%     -    7s
+H    0     0                    3.180125e+09 3.1515e+09  0.90%     -    8s
+H    0     0                    3.166124e+09 3.1515e+09  0.46%     -    9s
+     0     0 3.1544e+09    0   48 3.1661e+09 3.1544e+09  0.37%     -   11s
+H    0     0                    3.158779e+09 3.1544e+09  0.14%     -   12s
+     0     0 3.1546e+09    0   48 3.1588e+09 3.1546e+09  0.13%     -   13s
+     0     0 3.1546e+09    0   47 3.1588e+09 3.1546e+09  0.13%     -   14s
+     0     0 3.1559e+09    0   41 3.1588e+09 3.1559e+09  0.09%     -   15s
+
+Cutting planes:
+  Implied bound: 745
+  MIR: 72
+  Flow cover: 170
+  Relax-and-lift: 15
+
+Explored 1 nodes (5361 simplex iterations) in 15.50 seconds (11.30 work units)
+Thread count was 32 (of 36 available processors)
+
+Solution count 4: 3.15878e+09 3.16612e+09 3.18013e+09 3.19275e+09 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 3.158779357376e+09, best bound 3.155856110933e+09, gap 0.0925%
+
+User-callback calls 1598, time in user-callback 0.01 sec
+Set parameter TokenServer to value "license-1.hpc.nrel.gov"
+Set parameter TimeLimit to value 3600
+Set parameter MIPGap to value 0.001
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Thread count: 36 physical cores, 36 logical processors, using up to 32 threads
+Optimize a model with 79596 rows, 989456 columns and 2026080 nonzeros
+Model fingerprint: 0x785b0db3
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+05]
+  Objective range  [2e-01, 8e+05]
+  Bounds range     [1e+00, 1e+08]
+  RHS range        [8e-01, 2e+06]
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 71668 rows and 389588 columns
+Presolve time: 1.16s
+Presolved: 7928 rows, 599868 columns, 1195290 nonzeros
+
+Ordering time: 0.01s
+
+Barrier statistics:
+ AA' NZ     : 5.954e+05
+ Factor NZ  : 1.082e+06 (roughly 250 MB of memory)
+ Factor Ops : 1.903e+08 (less than 1 second per iteration)
+ Threads    : 30
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.14322288e+12 -4.13472101e+10  2.26e+06 1.33e-14  2.88e+06     1s
+   1   1.02773650e+11 -2.49244852e+10  2.11e+05 4.52e+01  3.10e+05     2s
+   2   4.19439023e+10 -8.20386060e+09  7.32e+04 1.79e+01  1.15e+05     2s
+   3   1.94349185e+10 -3.26946378e+09  2.55e+04 1.11e+01  4.90e+04     2s
+
+Barrier performed 3 iterations in 1.69 seconds (0.99 work units)
+Barrier solve interrupted - model solved by another algorithm
+
+
+Solved with dual simplex
+Solved in 6638 iterations and 1.78 seconds (0.87 work units)
+Optimal objective  3.158779357e+09
+
+User-callback calls 109, time in user-callback 0.00 sec
+[ Info:  started timer at: 2023-03-24T10:39:37.255
+[ Info: Reading /projects/pvsoiling/RELOG/Manufacturing_40209_0001/input/solver/case.json...
+[ Info:          134 collection centers
+[ Info:          268 candidate plant locations
+[ Info: Building graph...
+[ Info:               26 time periods
+[ Info:              268 process nodes
+[ Info:              268 shipping nodes (plant)
+[ Info:              134 shipping nodes (collection)
+[ Info:            36180 arcs
+[ Info: Building optimization model...
+[ Info: Optimizing MILP...
+[ Info: Re-optimizing with integer variables fixed...
+[ Info: Extracting solution...
+[ Info:         58.259941158s: 58 seconds, 259 milliseconds

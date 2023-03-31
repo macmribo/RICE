@@ -11,7 +11,7 @@
 # 
 # Lastly, I will generate a special folder that include the necessary files to make an hpc simulation in the case that the simulation takes too long.
 
-# In[4]:
+# In[37]:
 
 
 import os
@@ -22,7 +22,7 @@ from distutils.dir_util import copy_tree
 
 # Fill out with the combination to generate 
 
-# In[1]:
+# In[38]:
 
 
 facility_label = ['Manufacturing', 'Recycling','Manufacturing_cap', 'Recycling_cap']
@@ -31,7 +31,7 @@ factor_label_rec = ['05', '1', '2', '5', '10']
 factor_label_man = ['0001','05', '1', '2'] # 0 is 0,5
 
 
-# In[2]:
+# In[39]:
 
 
 files_list = []
@@ -91,23 +91,23 @@ for simulation_name in files_list:
 
 # Only use this one when you have your input files ready for simulation, this means that the `input` folder has the `case.json` (i.e. the saved file made in the [RELOG case builder](https://relog.axavier.org/casebuilder)), and the `what-if_blablabla` has been also generated.
 
-# In[498]:
+# In[40]:
 
 
 cwd = os.getcwd()
 
 
-# In[511]:
+# In[66]:
 
 
-#facility_label = ['Manufacturing', 'Recycling','Manufacturing_cap', 'Recycling_cap']
-facility_label = ['Manufacturing_cap', 'Recycling_cap']
+facility_label = ['Manufacturing', 'Recycling','Manufacturing_cap', 'Recycling_cap']
+#facility_label = ['Manufacturing_cap', 'Recycling_cap']
 location_label = ['NAICS', '40209']
 factor_label_rec = ['05', '1', '2', '5', '10']
 factor_label_man = ['0001','05', '1', '2'] # 0 is 0,5
 
 
-# In[512]:
+# In[67]:
 
 
 files_list = []
@@ -116,40 +116,49 @@ for fac in facility_label:
         if fac.startswith('Manufacturing'):
             for fac_man in factor_label_man:
                 files_list.append(fac+'_'+loc+'_'+fac_man)
-        else:
-            for fac_rec in factor_label_rec:
-                files_list.append(fac+'_'+loc+'_'+fac_rec) 
+        # else:
+        #     for fac_rec in factor_label_rec:
+        #         files_list.append(fac+'_'+loc+'_'+fac_rec) 
+
+
+# In[68]:
+
+
+files_list
 
 
 # ## HPC folder generation
 
 # Make sure that the simulation folder exists in the main folders, that it has a `case.json` file inside and that it also has the what-if scenarios generated. If these are not created it will throw an error asking you to do those steps first.
 
-# In[10]:
+# In[49]:
 
 
 files_list
 
 
-# In[ ]:
+# In[50]:
 
 
 simulation_folders[0]
 
 
-# In[18]:
+# These two lines are in case the third cell down yells at you in case there is a .DS_Store file.
+
+# In[56]:
 
 
-os.remove('/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_40209_05/.DS_Store')
+os.listdir(
+    '/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_NAICS_0001')
 
 
-# In[19]:
+# In[63]:
 
 
-os.listdir('/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Recycling_40209_05')
+os.remove('/Users/mmendez/Documents/Postdoc/Software_dev/RICE/3_RELOG_simulation/input/Manufacturing_cap_40209_05/.DS_Store')
 
 
-# In[20]:
+# In[64]:
 
 
 for simulation_name in files_list:   
@@ -264,45 +273,46 @@ for simulation_name in files_list:
 cwd = os.getcwd()
 
 
-# In[21]:
+# In[69]:
 
 
 print('LOCAL-HPC TO HPC:')
 for simulation_name in files_list:
-    local_path = os.path.join(cwd, 'hpc_simulation_folders', simulation_name) #change the last entry for the specific name of your simulation
+    local_path = os.path.join(cwd, 'hpc_simulation_folders',simulation_name) #change the last entry for the specific name of your simulation
+    hpc_path = os.path.join('mmendez@eagle.nrel.gov:', 'projects', 'pvsoiling', 'RELOG', simulation_name, 'output' )
     print('scp -r', local_path, 'mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG')
 
 
 # HPC to local machine (copy and paste it into your terminal), this path only works me, but if you have access to the same project folder, use it).
 
-# In[8]:
+# In[33]:
 
 
 len(files_list)
 
 
-# In[22]:
+# In[34]:
 
 
 print('HPC TO LOCAL-HPC:')
 for simulation_name in files_list:
     local_path = os.path.join(cwd, 'hpc_simulation_folders', simulation_name) 
-    hpc_path = os.path.join(f'mmendez@eagle.nrel.gov:/projects/pvsoiling/RELOG/{simulation_name}/output', ) #change the last entry for the specific name of your simulation
+    hpc_path = os.path.join('mmendez@eagle.nrel.gov:', 'projects', 'pvsoiling', 'RELOG', simulation_name, 'output' ) #change the last entry for the specific name of your simulation
     print('scp -r', hpc_path, local_path)
 
 
-# In[23]:
+# In[35]:
 
 
 cwd
 
 
-# In[27]:
+# In[71]:
 
 
 print('LOCAL-HPC TO LOCAL:')
 for simulation_name in files_list:
-    local_path = os.path.join(cwd, 'hpc_simulation_folders', simulation_name, 'output', 'solver') 
+    local_path = os.path.join(cwd, 'hpc_simulation_folders','26_years_man_fix', simulation_name, 'output', 'solver') 
     local_local_path = os.path.join(cwd, 'output', simulation_name ) #change the last entry for the specific name of your simulation
     print('scp -r', local_path, local_local_path)
 

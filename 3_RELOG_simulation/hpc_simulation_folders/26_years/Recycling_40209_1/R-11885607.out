@@ -1,0 +1,12 @@
+Set parameter TokenServer to value "license-1.hpc.nrel.gov"
+[ Info:  started timer at: 2023-03-25T11:35:43.320
+[ Info: Reading /projects/pvsoiling/RELOG/Recycling_40209_1/input/solver/case.json...
+[ Info:          134 collection centers
+[ Info:          268 candidate plant locations
+[ Info: Building graph...
+[ Info:           26 time periods
+[ Info:          268 process nodes
+[ Info:         4288 shipping nodes (plant)
+[ Info:          134 shipping nodes (collection)
+[ Info:        40200 arcs
+[ Info: Building optimization model...

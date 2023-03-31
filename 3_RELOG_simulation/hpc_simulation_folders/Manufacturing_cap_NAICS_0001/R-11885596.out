@@ -1,0 +1,42 @@
+Set parameter TokenServer to value "license-1.hpc.nrel.gov"
+Set parameter TimeLimit to value 3600
+Set parameter MIPGap to value 0.001
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Thread count: 36 physical cores, 36 logical processors, using up to 32 threads
+Optimize a model with 96828 rows, 1144312 columns and 2348570 nonzeros
+Model fingerprint: 0xf6b5b76e
+Variable types: 1128244 continuous, 16068 integer (16068 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [3e-01, 1e+09]
+  Bounds range     [1e+02, 1e+08]
+  RHS range        [8e-01, 2e+06]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 50704 rows and 46435 columns
+Presolve time: 0.44s
+
+Explored 0 nodes (0 simplex iterations) in 0.85 seconds (0.76 work units)
+Thread count was 1 (of 36 available processors)
+
+Solution count 0
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+
+User-callback calls 362, time in user-callback 0.00 sec
+[ Info:  started timer at: 2023-03-25T11:19:26.969
+[ Info: Reading /projects/pvsoiling/RELOG/Manufacturing_cap_NAICS_0001/input/solver/case.json...
+[ Info:          134 collection centers
+[ Info:          309 candidate plant locations
+[ Info: Building graph...
+[ Info:           26 time periods
+[ Info:          309 process nodes
+[ Info:          309 shipping nodes (plant)
+[ Info:          134 shipping nodes (collection)
+[ Info:        41715 arcs
+[ Info: Building optimization model...
+[ Info: Optimizing MILP...

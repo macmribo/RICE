@@ -17,7 +17,7 @@
 
 # ## 0. Load necessary libraries
 
-# In[ ]:
+# In[1]:
 
 
 import numpy as np
@@ -33,6 +33,12 @@ from geopy.point import Point
 geolocator = Nominatim(user_agent="geoapiExercises")
 
 
+# In[ ]:
+
+
+
+
+
 # ---
 # ## 1. Waste files generation
 
@@ -40,7 +46,7 @@ geolocator = Nominatim(user_agent="geoapiExercises")
 
 # Load the GIS file.
 
-# In[ ]:
+# In[23]:
 
 
 GIS = pd.read_excel('Geo_data/gis_centroid_n.xlsx') # Read the GIS excel file.
@@ -49,7 +55,7 @@ GIS # Prints first five rows.
 
 # The generated file has four columns, with longitude, latitude PCA id and country. This does not tell us much about their actual location so we can use the following gunction to create additional columns to the GIS file with the actual location names.
 
-# In[ ]:
+# In[25]:
 
 
 def city_state_country(row):
@@ -74,7 +80,7 @@ def city_state_country(row):
 
 # #### 1.1.1 Generaye GIS file — ONLY RUN ONCE! Skip to section 1.1.2. if you already generated the file
 
-# In[ ]:
+# In[26]:
 
 
 get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. Apply the previous function to obtain the names of the locations.\nGIS = GIS.apply(city_state_country, axis=1)\nGIS.head()')
@@ -82,7 +88,7 @@ get_ipython().run_cell_magic('time', '', '# This one takes around two minutes. A
 
 # There is one county in California that shows empty. Let's add the corresponding county. Doing a quick maps  search, I saw that the [35.120104, -117.159039](https://www.google.com/maps/place/35%C2%B007'12.4%22N+117%C2%B009'32.5%22W/@35.6668582,-117.0465162,8.1z/data=!4m5!3m4!1s0x0:0xf02b1d027b57f1cb!8m2!3d35.120104!4d-117.159039) overlaps with [San Bernardino County](https://www.google.com/maps/place/San+Bernardino+County,+CA/@34.9743906,-117.1874339,10.12z/data=!4m5!3m4!1s0x80c52a8ae8311be5:0xa438bdbc918edca!8m2!3d34.9592083!4d-116.419389). The are in [33.031747, -116.717606](https://www.google.com/maps/place/33%C2%B001'54.3%22N+116%C2%B043'03.4%22W/@33.0171076,-116.9113049,9.82z/data=!4m5!3m4!1s0x0:0xb56a6fffc57eaadd!8m2!3d33.031747!4d-116.717606) corresponds to [San Diego County](https://www.google.com/maps/place/San+Diego+County,+CA/@33.016828,-117.4064529,9z/data=!3m1!4b1!4m5!3m4!1s0x80dbeb3023ff601d:0x350dfd2beb800728!8m2!3d33.0933809!4d-116.6081653). Let's add thesevalues to the empty county fields.
 
-# In[ ]:
+# In[27]:
 
 
 GIS[(GIS.county == '') & (GIS.country == 'United States')] # Select the rows we need.
@@ -117,7 +123,7 @@ GIS.to_csv('Geo_data/gis_region_names.csv')
 
 # We no filter the GIS data so there's only USA.
 
-# In[ ]:
+# In[29]:
 
 
 GIS = pd.read_csv('Geo_data/gis_region_names.csv')
@@ -129,7 +135,7 @@ GIS_us.to_csv('Geo_data/GIS_us_collection_centers_only.csv')
 
 # Now that we have the data we need, I am going to separate the `long` and `lat`, and the `id` into their own dataframes for easier handling.
 
-# In[ ]:
+# In[30]:
 
 
 GIS_us_long_lat = GIS_us[['long', 'lat']]
@@ -142,7 +148,7 @@ GIS_us_id = GIS_us[['id']]
 
 # #### 1.2.1. Obtain GIS data with FIPS codes
 
-# In[ ]:
+# In[28]:
 
 
 fips_county_codes = []
@@ -178,7 +184,7 @@ GIS_us_long_lat.to_csv('Geo_data/GIS_us_long_lat.csv') # Save file
 
 # #### 1.2.2. Load GIS with FIPS data
 
-# In[ ]:
+# In[31]:
 
 
 GIS_us_long_lat = pd.read_csv('Geo_data/GIS_us_long_lat.csv') # Load file
@@ -198,7 +204,7 @@ GIS_us_long_lat = pd.read_csv('Geo_data/GIS_us_long_lat.csv') # Load file
 
 # This is a list of all the possible scenarios that we can select.
 
-# In[ ]:
+# In[3]:
 
 
 pv_ice_simulations = ['Method1', 'Method2','Method3']
@@ -209,7 +215,7 @@ while pv_ice_simulations not in {"Method1", "Method2", "Method3"}:
 print('You have chosen {}.'.format(pv_ice_simulations))
 
 
-# In[ ]:
+# In[4]:
 
 
 previous_folder = os.path.normpath(os.getcwd() + os.sep + os.pardir) # Get previous folder from current directory
@@ -220,14 +226,14 @@ pvice_TEMP_folder = os.path.join(previous_folder, '1_PV_ICE_waste_calculations',
 
 # This is to make the output file.
 
-# In[ ]:
+# In[5]:
 
 
 cwd = os.getcwd()
 pvice_output_folder = os.path.join(cwd, 'PV_ICE_clean_outputs','Manufacturing', pv_ice_simulations)
 
 
-# In[ ]:
+# In[6]:
 
 
 #python program to check if a directory exists
@@ -245,20 +251,20 @@ if not isExist:
 
 # Read the cSi and CdTe waste files, respectively.
 
-# In[ ]:
+# In[7]:
 
 
 pvice_output_folder
 
 
-# In[ ]:
+# In[8]:
 
 
 csi_virgin = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_cSi_VirginStock_{pv_ice_simulations}.csv'), index_col='year')
 cdte_virgin = pd.read_csv(os.path.join(pvice_TEMP_folder, f'PVICE_RELOG_PCA_CdTe_VirginStock_{pv_ice_simulations}.csv'), index_col='year')
 
 
-# In[ ]:
+# In[9]:
 
 
 print('We have %s collection centers.' % len(GIS_us))
@@ -266,7 +272,7 @@ print('We have %s collection centers.' % len(GIS_us))
 
 # Now I need to select the columns and separate them by material, then add a column identifying the locations. Ideally, I need to populate a table for each material.
 
-# In[ ]:
+# In[10]:
 
 
 material_list_csi = ['glass', 'silicon', 'silver', 'copper', 'aluminium_frames', 'encapsulant', 'backsheet', 'Module']
@@ -340,13 +346,13 @@ for y in mats:
 # 
 # **LOAD OPTION 2:** If you haven't run Section 1.3.2 cells, use function load_csv with the corresponding file name. To use this option set the following cell to `load = True`.
 
-# In[ ]:
+# In[11]:
 
 
-load = False #If you have not run Section 1 cells
+load = True #If you have not run Section 1 cells
 
 
-# In[ ]:
+# In[12]:
 
 
 if load == True:
@@ -390,21 +396,27 @@ else:
 
 # ### 2.2. Drop unnecessary columns
 
-# Drop columns: 0, 2010 (there is no waste here), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows
+# Drop columns: 0, 2010 to 2024 (we account from the 2025 demand onwards), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows
 
-# In[ ]:
+# NOTE: when you load the files, the column years are strings, whereas if you have created them in section one, they will be integers. I am aware of the inconvenience and this will be fixed soon. For now, I made a fix, just load the corresponding list in 'columns_to_erase' (uncomment/comment the one you need)
 
-
-columns_to_erase = [0, 2010, 'FIPS', 45, 46, 'total waste', 'latitude', 'longitude']
-
-
-# In[ ]:
+# In[17]:
 
 
-csi_Module_ia
+csi_Module_ia.keys()
 
 
-# In[ ]:
+# In[18]:
+
+
+# When section 1 was loaded
+#columns_to_erase = [0, 2010,2011, 2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,
+#                    'FIPS', 45, 46, 'total waste', 'latitude', 'longitude']
+columns_to_erase = ['0', '2010','2011', '2012','2013','2014','2015','2016','2017','2018','2019','2020','2021','2022','2023','2024',
+                    'FIPS', '45', '46', 'total waste', 'latitude', 'longitude']
+
+
+# In[19]:
 
 
 csi_Module_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -417,7 +429,7 @@ csi_encapsulant_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one 
 csi_backsheet_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
 
 
-# In[ ]:
+# In[20]:
 
 
 cdte_Module_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
@@ -429,7 +441,7 @@ cdte_copper_cdte_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one
 cdte_encapsulant_cdte_ia.drop(columns_to_erase, axis=1, inplace= True) # Run this one only once or it will throw an error.
 
 
-# In[ ]:
+# In[21]:
 
 
 csi_Module_ia.head()
@@ -439,7 +451,7 @@ csi_Module_ia.head()
 
 # I take the location file from GIS.
 
-# In[ ]:
+# In[32]:
 
 
 GIS_usa = GIS[GIS.country == 'United States']
@@ -449,19 +461,19 @@ GIS_usa = GIS_usa.iloc[0:134] # I slice it until 142 because the next locations 
 
 # This line makes a new column with County, State so I make unique names for the RELOG "Initial Amounts" input file.
 
-# In[ ]:
+# In[33]:
 
 
 GIS_usa['name'] = GIS_usa['county'] + ', ' + GIS_usa['state']
 
 
-# In[ ]:
+# In[34]:
 
 
 len(GIS_usa['name'].unique()) 
 
 
-# In[ ]:
+# In[35]:
 
 
 csi_Module_ia.insert(0, 'name', GIS_usa[['name']]) # Run this one only once or it will throw an error.
@@ -497,7 +509,7 @@ csi_backsheet_ia.insert(1, 'latitude (deg)', GIS_usa[['lat']])
 csi_backsheet_ia.insert(2, 'longitude (deg)', GIS_usa[['long']]) 
 
 
-# In[ ]:
+# In[36]:
 
 
 cdte_Module_ia.insert(0, 'name', GIS_usa[['name']]) # Run this one only once or it will throw an error.
@@ -529,109 +541,25 @@ cdte_encapsulant_cdte_ia.insert(1, 'latitude (deg)', GIS_usa[['lat']])
 cdte_encapsulant_cdte_ia.insert(2, 'longitude (deg)', GIS_usa[['long']]) 
 
 
-# #### 2.3.1 Add accumulated waste until year 2025
-
-# Since I am studying from 2025 onward with RELOG (because there is no significant amount of waste for RELOG to process in the recycling plants), I add the waste generated from 2011 until 2023. 
-
-# In[ ]:
-
-
-csi_Module_ia_sumyears = csi_Module_ia.loc[:, 2011:2025].sum(axis=1)
-csi_glass_ia_sumyears = csi_glass_ia.loc[:, 2011:2025].sum(axis=1)
-csi_silicon_ia_sumyears = csi_silicon_ia.loc[:, 2011:2025].sum(axis=1)
-csi_silver_ia_sumyears = csi_silver_ia.loc[:, 2011:2025].sum(axis=1)
-csi_copper_ia_sumyears = csi_copper_ia.loc[:, 2011:2025].sum(axis=1)
-csi_aluminium_frames_ia_sumyears = csi_aluminium_frames_ia.loc[:, 2011:2025].sum(axis=1)
-csi_encapsulant_ia_sumyears = csi_encapsulant_ia.loc[:, 2011:2025].sum(axis=1)
-csi_backsheet_ia_sumyears = csi_backsheet_ia.loc[:, 2011:2025].sum(axis=1)
-
-
-cdte_Module_ia_sumyears = cdte_Module_ia.loc[:, 2011:2025].sum(axis=1)
-cdte_cadmium_ia_sumyears = cdte_cadmium_ia.loc[:, 2011:2025].sum(axis=1)
-cdte_tellurium_ia_sumyears = cdte_tellurium_ia.loc[:, 2011:2025].sum(axis=1)
-cdte_glass_cdte_ia_sumyears = cdte_glass_cdte_ia.loc[:, 2011:2025].sum(axis=1)
-cdte_aluminium_frames_cdte_ia_sumyears = cdte_aluminium_frames_cdte_ia.loc[:, 2011:2025].sum(axis=1)
-cdte_copper_cdte_ia_sumyears = cdte_copper_cdte_ia.loc[:, 2011:2025].sum(axis=1)
-cdte_encapsulant_cdte_ia_sumyears = cdte_encapsulant_cdte_ia.loc[:, 2011:2025].sum(axis=1)
-
-
-# Drop columns 2011 to 2025.
-
-# In[ ]:
-
-
-csi_Module_ia.drop(csi_Module_ia.loc[:, 2011:2025], inplace=True, axis=1)
-csi_glass_ia.drop(csi_glass_ia.loc[:, 2011:2025], inplace=True, axis=1)
-csi_silicon_ia.drop(csi_silicon_ia.loc[:, 2011:2025], inplace=True, axis=1)
-csi_silver_ia.drop(csi_silver_ia.loc[:, 2011:2025], inplace=True, axis=1)
-csi_copper_ia.drop(csi_copper_ia.loc[:, 2011:2025], inplace=True, axis=1)
-csi_aluminium_frames_ia.drop(csi_aluminium_frames_ia.loc[:, 2011:2025], inplace=True, axis=1)
-csi_encapsulant_ia.drop(csi_encapsulant_ia.loc[:, 2011:2025], inplace=True, axis=1)
-csi_backsheet_ia.drop(csi_backsheet_ia.loc[:, 2011:2025], inplace=True, axis=1)
-
-cdte_Module_ia.drop(cdte_Module_ia.loc[:, 2011:2025], inplace=True, axis=1)
-cdte_cadmium_ia.drop(cdte_cadmium_ia.loc[:, 2011:2025], inplace=True, axis=1)
-cdte_tellurium_ia.drop(cdte_tellurium_ia.loc[:, 2011:2025], inplace=True, axis=1)
-cdte_glass_cdte_ia.drop(cdte_glass_cdte_ia.loc[:, 2011:2025], inplace=True, axis=1)
-cdte_aluminium_frames_cdte_ia.drop(cdte_aluminium_frames_cdte_ia.loc[:, 2011:2025], inplace=True, axis=1)
-cdte_copper_cdte_ia.drop(cdte_copper_cdte_ia.loc[:, 2011:2025], inplace=True, axis=1)
-cdte_encapsulant_cdte_ia.drop(cdte_encapsulant_cdte_ia.loc[:, 2011:2025], inplace=True, axis=1)
-
-
-# In[ ]:
-
-
-cdte_Module_ia.head()
-
-
-# Insert the 2025 column that summed the waste between 2011 to 2025.
-
-# In[ ]:
-
-
-csi_Module_ia.insert(3, 2025, csi_Module_ia_sumyears)
-csi_glass_ia.insert(3, 2025, csi_glass_ia_sumyears)
-csi_silicon_ia.insert(3, 2025, csi_silicon_ia_sumyears)
-csi_silver_ia.insert(3, 2025, csi_silver_ia_sumyears)
-csi_copper_ia.insert(3, 2025, csi_copper_ia_sumyears)
-csi_aluminium_frames_ia.insert(3, 2025, csi_aluminium_frames_ia_sumyears)
-csi_encapsulant_ia.insert(3, 2025, csi_encapsulant_ia_sumyears)
-csi_backsheet_ia.insert(3, 2025, csi_backsheet_ia_sumyears)
-
-cdte_Module_ia.insert(3, 2025, cdte_Module_ia_sumyears) 
-cdte_cadmium_ia.insert(3, 2025, cdte_cadmium_ia_sumyears) 
-cdte_tellurium_ia.insert(3, 2025, cdte_tellurium_ia_sumyears) 
-cdte_glass_cdte_ia.insert(3, 2025, cdte_glass_cdte_ia_sumyears) 
-cdte_aluminium_frames_cdte_ia.insert(3, 2025, cdte_aluminium_frames_cdte_ia_sumyears) 
-cdte_copper_cdte_ia.insert(3, 2025, cdte_copper_cdte_ia_sumyears) 
-cdte_encapsulant_cdte_ia.insert(3, 2025, cdte_encapsulant_cdte_ia_sumyears) 
-
-
-# In[ ]:
-
-
-csi_Module_ia.head()
-
-
 # #### 2.3.2. Change years for amounts
 
 # Change the column names as 'amount 1', 'amount 2', etc. I am not sure if it matters, but I am going to do it just in case!
 # From 2023 to 2050, we have a total of 28 amounts.
 
-# In[ ]:
+# In[38]:
 
 
 num_years = len(csi_Module_ia.columns) - 3 # simulation years
 num_years
 
 
-# In[ ]:
+# In[39]:
 
 
 column_names = ['name', 'latitude (deg)', 'longitude (deg)']
 
 
-# In[ ]:
+# In[40]:
 
 
 for year in range(num_years):
@@ -639,7 +567,7 @@ for year in range(num_years):
     column_names.append(amounts)
 
 
-# In[ ]:
+# In[41]:
 
 
 csi_Module_ia.set_axis(column_names, axis=1, inplace=True)
@@ -664,7 +592,7 @@ cdte_encapsulant_cdte_ia.set_axis(column_names, axis=1, inplace=True)
 
 # Here I add cSi and CdTe modules as one, and common materials as one.
 
-# In[ ]:
+# In[42]:
 
 
 pv_Modules_ia = pd.DataFrame(columns = column_names)
@@ -676,7 +604,7 @@ pv_encapsulant_ia = pd.DataFrame(columns = column_names)
 
 # Fill the data of name, latitude and longitude.
 
-# In[ ]:
+# In[43]:
 
 
 pv_Modules_ia['name'], pv_Modules_ia['latitude (deg)'],pv_Modules_ia['longitude (deg)'] = csi_Module_ia[['name']], csi_Module_ia[['latitude (deg)']],csi_Module_ia[['longitude (deg)']] 
@@ -688,7 +616,7 @@ pv_encapsulant_ia['name'], pv_encapsulant_ia['latitude (deg)'],pv_encapsulant_ia
 
 # Add amounts.
 
-# In[ ]:
+# In[45]:
 
 
 pv_Modules_ia.iloc[:,3::] = cdte_Module_ia.iloc[:,3::] + csi_Module_ia.iloc[:,3::] 
@@ -700,16 +628,22 @@ pv_encapsulant_ia.iloc[:,3::] = csi_encapsulant_ia.iloc[:,33::] + cdte_encapsula
 
 
 
+# In[46]:
+
+
+pv_Modules_ia
+
+
 # ### 2.5. Export the 'Ininital amounts' files
 
-# In[ ]:
+# In[49]:
 
 
 cwd = os.getcwd()
 RELOG_PV_ICE_import_data = os.path.join(cwd, 'RELOG_import_data', 'Manufacturing', pv_ice_simulations)
 
 
-# In[ ]:
+# In[50]:
 
 
 #python program to check if a directory exists
@@ -725,7 +659,7 @@ if not isExist:
     print("The new directory is created!")
 
 
-# In[ ]:
+# In[51]:
 
 
 pv_Modules_ia.to_csv(os.path.join(RELOG_PV_ICE_import_data, 'pv_Modules_ia.csv'), index=False)

@@ -1,108 +1,4 @@
 plant type,location name,year,product name,amount produced (tonne),amount sent (tonne),amount disposed (tonne),disposal cost ($)
-PV Manufacturing Plant,"Sandvik, Inc., FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Sandvik, Inc., FL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Flex-Tec, Inc., GA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Helen Of Troy L. P., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Quest Medical, Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kuykendall Cement Corp., AR",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Kuykendall Cement Corp., AR",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Kuykendall Cement Corp., AR",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -129,32 +25,6 @@ PV Manufacturing Plant,"Kuykendall Cement Corp., AR",23,PV Modules,207909.6085,0
 PV Manufacturing Plant,"Kuykendall Cement Corp., AR",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Kuykendall Cement Corp., AR",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Kuykendall Cement Corp., AR",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Boss Game Systems, LLC, TX",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Baldor Electric Co., AR",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Baldor Electric Co., AR",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Baldor Electric Co., AR",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -181,163 +51,7 @@ PV Manufacturing Plant,"Baldor Electric Co., AR",23,PV Modules,207909.6085,0.0,2
 PV Manufacturing Plant,"Baldor Electric Co., AR",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Baldor Electric Co., AR",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Baldor Electric Co., AR",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Carolina Graphics, SC",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"C & F Steel Co., Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"American Plant Food Corp., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Heath Transit Mix Concrete Co., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",9,PV Modules,85760.314765,0.0,85760.314765,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",10,PV Modules,82265.059301,0.0,82265.059301,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"MicroLumen, Inc., FL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"TPC Group, Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AGC Automotive Americas, KY",1,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"AGC Automotive Americas, KY",1,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"AGC Automotive Americas, KY",2,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"AGC Automotive Americas, KY",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"AGC Automotive Americas, KY",4,PV Modules,0.0,0.0,0.0,0.0
@@ -363,7 +77,7 @@ PV Manufacturing Plant,"AGC Automotive Americas, KY",23,PV Modules,0.0,0.0,0.0,0
 PV Manufacturing Plant,"AGC Automotive Americas, KY",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"AGC Automotive Americas, KY",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"AGC Automotive Americas, KY",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",1,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",2,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",4,PV Modules,0.0,0.0,0.0,0.0
@@ -389,59 +103,7 @@ PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",23,PV Modules
 PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Baker Hughes Oilfield Operations, LLC, LA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Genesys-Aerosystems, TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Consolidated Nuclear Security, TN",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Lakeshore Signs, LA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Lakeshore Signs, LA",1,PV Modules,188046.760712,0.0,188046.760712,0.0
 PV Manufacturing Plant,"Lakeshore Signs, LA",2,PV Modules,173383.813807,0.0,173383.813807,0.0
 PV Manufacturing Plant,"Lakeshore Signs, LA",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lakeshore Signs, LA",4,PV Modules,0.0,0.0,0.0,0.0
@@ -467,58 +129,6 @@ PV Manufacturing Plant,"Lakeshore Signs, LA",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lakeshore Signs, LA",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lakeshore Signs, LA",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lakeshore Signs, LA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Noahs Ark Repair Service, FL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Big Bend Rebar, Inc., FL",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Columbia Block & Brick, MS",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Columbia Block & Brick, MS",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Columbia Block & Brick, MS",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -545,58 +155,6 @@ PV Manufacturing Plant,"Columbia Block & Brick, MS",23,PV Modules,207909.6085,0.
 PV Manufacturing Plant,"Columbia Block & Brick, MS",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Columbia Block & Brick, MS",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Columbia Block & Brick, MS",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"San Jose Custom Manufacturing, LLC, TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Koenig Brothers, Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Newpark Drilling Fluids, LLC, LA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Newpark Drilling Fluids, LLC, LA",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Newpark Drilling Fluids, LLC, LA",3,PV Modules,84739.13853,0.0,84739.13853,0.0
@@ -650,17 +208,17 @@ PV Manufacturing Plant,"BeccaLee Mfg., OK",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"BeccaLee Mfg., OK",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"BeccaLee Mfg., OK",26,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",2,PV Modules,4817.932473,0.0,4817.932473,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",3,PV Modules,65146.75717,0.0,65146.75717,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",4,PV Modules,64519.815862,0.0,64519.815862,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",5,PV Modules,103519.578308,0.0,103519.578308,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",6,PV Modules,102278.07039,0.0,102278.07039,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",2,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",3,PV Modules,70967.065097,0.0,70967.065097,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",4,PV Modules,70284.111923,0.0,70284.111923,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",5,PV Modules,197987.8383,0.0,197987.8383,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",6,PV Modules,133276.996101,0.0,133276.996101,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",7,PV Modules,157803.755735,0.0,157803.755735,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",8,PV Modules,132462.502552,0.0,132462.502552,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",9,PV Modules,852.328604,0.0,852.328604,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",10,PV Modules,848.129659,0.0,848.129659,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",11,PV Modules,97553.075494,0.0,97553.075494,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",12,PV Modules,97169.414207,0.0,97169.414207,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",9,PV Modules,163095.528924,0.0,163095.528924,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",10,PV Modules,131564.424183,0.0,131564.424183,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",11,PV Modules,114347.152667,0.0,114347.152667,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",12,PV Modules,113897.442849,0.0,113897.442849,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",13,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",14,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",15,PV Modules,0.0,0.0,0.0,0.0
@@ -669,18 +227,18 @@ PV Manufacturing Plant,"Cooling Tower Supply, AZ",17,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",18,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",19,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",21,PV Modules,576.27885,0.0,576.27885,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",22,PV Modules,574.8669,0.0,574.8669,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",21,PV Modules,15637.359521,0.0,15637.359521,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",22,PV Modules,15599.046194,0.0,15599.046194,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Cooling Tower Supply, AZ",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",25,PV Modules,630.680785,0.0,630.680785,0.0
-PV Manufacturing Plant,"Cooling Tower Supply, AZ",26,PV Modules,629.338023,0.0,629.338023,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",25,PV Modules,67828.163242,0.0,67828.163242,0.0
+PV Manufacturing Plant,"Cooling Tower Supply, AZ",26,PV Modules,58830.675657,0.0,58830.675657,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",3,PV Modules,124256.730426,0.0,124256.730426,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",4,PV Modules,121060.120065,0.0,121060.120065,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",5,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",6,PV Modules,206269.103069,0.0,206269.103069,0.0
+PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",6,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",7,PV Modules,104012.265569,0.0,104012.265569,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",8,PV Modules,101249.064852,0.0,101249.064852,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",9,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -699,63 +257,11 @@ PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",21,PV Modules,189898.9
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",22,PV Modules,189433.683735,0.0,189433.683735,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",25,PV Modules,121564.387608,0.0,121564.387608,0.0
-PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",26,PV Modules,121305.568676,0.0,121305.568676,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"United States Gypsum Co., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Fancher Fabrication, Inc., AL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"CenturyLink, Inc., LA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"CenturyLink, Inc., LA",2,PV Modules,854.985459,0.0,854.985459,0.0
-PV Manufacturing Plant,"CenturyLink, Inc., LA",3,PV Modules,78853.740004,0.0,78853.740004,0.0
+PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",25,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Gold Star Engraving & Awards, AZ",26,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"CenturyLink, Inc., LA",1,PV Modules,136726.672009,0.0,136726.672009,0.0
+PV Manufacturing Plant,"CenturyLink, Inc., LA",2,PV Modules,84988.485758,0.0,84988.485758,0.0
+PV Manufacturing Plant,"CenturyLink, Inc., LA",3,PV Modules,79195.174782,0.0,79195.174782,0.0
 PV Manufacturing Plant,"CenturyLink, Inc., LA",4,PV Modules,55289.363328,0.0,55289.363328,0.0
 PV Manufacturing Plant,"CenturyLink, Inc., LA",5,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"CenturyLink, Inc., LA",6,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -779,58 +285,6 @@ PV Manufacturing Plant,"CenturyLink, Inc., LA",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"CenturyLink, Inc., LA",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"CenturyLink, Inc., LA",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"CenturyLink, Inc., LA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"EnerSys, Inc., KS",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Metalcraft Of Pensacola, Inc., FL",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Arkansas Concrete, AR",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Arkansas Concrete, AR",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Arkansas Concrete, AR",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -857,70 +311,18 @@ PV Manufacturing Plant,"Arkansas Concrete, AR",23,PV Modules,207909.6085,0.0,207
 PV Manufacturing Plant,"Arkansas Concrete, AR",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Arkansas Concrete, AR",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Arkansas Concrete, AR",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Signtech, AL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Signtech, AL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Signtech, AL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mitchell, Inc., Billy C., AL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Marlin Marble Co., FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Marlin Marble Co., FL",1,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",2,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Marlin Marble Co., FL",5,PV Modules,3181.35233,0.0,3181.35233,0.0
+PV Manufacturing Plant,"Marlin Marble Co., FL",5,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",6,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",7,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Marlin Marble Co., FL",9,PV Modules,14652.971463,0.0,14652.971463,0.0
-PV Manufacturing Plant,"Marlin Marble Co., FL",10,PV Modules,14580.784482,0.0,14580.784482,0.0
+PV Manufacturing Plant,"Marlin Marble Co., FL",9,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Marlin Marble Co., FL",10,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",11,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Marlin Marble Co., FL",12,PV Modules,192795.916137,0.0,192795.916137,0.0
+PV Manufacturing Plant,"Marlin Marble Co., FL",12,PV Modules,192831.257256,0.0,192831.257256,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",13,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",14,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Marlin Marble Co., FL",15,PV Modules,0.0,0.0,0.0,0.0
@@ -961,12 +363,12 @@ PV Manufacturing Plant,"Standard Enterprises, Inc., VA",23,PV Modules,207909.608
 PV Manufacturing Plant,"Standard Enterprises, Inc., VA",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Standard Enterprises, Inc., VA",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Standard Enterprises, Inc., VA",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Descant Awning and Sign Co., LA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Descant Awning and Sign Co., LA",2,PV Modules,106469.632997,0.0,106469.632997,0.0
+PV Manufacturing Plant,"Descant Awning and Sign Co., LA",1,PV Modules,167506.821801,0.0,167506.821801,0.0
+PV Manufacturing Plant,"Descant Awning and Sign Co., LA",2,PV Modules,142396.499567,0.0,142396.499567,0.0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Descant Awning and Sign Co., LA",5,PV Modules,75968.297004,0.0,75968.297004,0.0
-PV Manufacturing Plant,"Descant Awning and Sign Co., LA",6,PV Modules,58012.891836,0.0,58012.891836,0.0
+PV Manufacturing Plant,"Descant Awning and Sign Co., LA",5,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Descant Awning and Sign Co., LA",6,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",7,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",8,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",9,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -987,137 +389,7 @@ PV Manufacturing Plant,"Descant Awning and Sign Co., LA",23,PV Modules,0.0,0.0,0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Descant Awning and Sign Co., LA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Himes Signs Corp., FL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",2,PV Modules,3348.168558,0.0,3348.168558,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",3,PV Modules,5820.307927,0.0,5820.307927,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",4,PV Modules,5764.296061,0.0,5764.296061,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",5,PV Modules,9407.863198,0.0,9407.863198,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",6,PV Modules,9295.034911,0.0,9295.034911,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",9,PV Modules,4953.02606,0.0,4953.02606,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",10,PV Modules,4928.625275,0.0,4928.625275,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",11,PV Modules,16794.077173,0.0,16794.077173,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",12,PV Modules,16728.028642,0.0,16728.028642,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",21,PV Modules,15061.080672,0.0,15061.080672,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",22,PV Modules,15024.179294,0.0,15024.179294,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",25,PV Modules,2818.396526,0.0,2818.396526,0.0
-PV Manufacturing Plant,"Prospect Machine, Inc., AZ",26,PV Modules,2812.395967,0.0,2812.395967,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Access Chemicals & Services, LLC, TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gate Precast Co., TN",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Pegasus Steel, SC",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",1,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",1,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",2,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",4,PV Modules,0.0,0.0,0.0,0.0
@@ -1143,38 +415,12 @@ PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",23,PV Modules,0.0,0.
 PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Doral Steel Of Tennessee, Inc., TN",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",9,PV Modules,29279.801938,0.0,29279.801938,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",10,PV Modules,5577.711346,0.0,5577.711346,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martinrea Fabco, TN",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Kencoil, Inc., LA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Kencoil, Inc., LA",1,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",2,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Kencoil, Inc., LA",5,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Kencoil, Inc., LA",6,PV Modules,173241.112895,0.0,173241.112895,0.0
+PV Manufacturing Plant,"Kencoil, Inc., LA",5,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Kencoil, Inc., LA",6,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",7,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",8,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",9,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1195,110 +441,6 @@ PV Manufacturing Plant,"Kencoil, Inc., LA",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Kencoil, Inc., LA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Unimin Corp., GA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"U. S. Shell, Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Panasonic Energy Corp. Of America, GA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",1,PV Modules,143085.47965,0.0,143085.47965,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AF Global Corp., Texas Metal Works Div., TX",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Winoa USA, Inc., VA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Winoa USA, Inc., VA",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Winoa USA, Inc., VA",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1325,58 +467,6 @@ PV Manufacturing Plant,"Winoa USA, Inc., VA",23,PV Modules,207909.6085,0.0,20790
 PV Manufacturing Plant,"Winoa USA, Inc., VA",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Winoa USA, Inc., VA",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Winoa USA, Inc., VA",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Cardinal Glass Company, Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Hexion Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"MMC Materials, Inc., MS",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"MMC Materials, Inc., MS",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"MMC Materials, Inc., MS",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1403,58 +493,6 @@ PV Manufacturing Plant,"MMC Materials, Inc., MS",23,PV Modules,207909.6085,0.0,2
 PV Manufacturing Plant,"MMC Materials, Inc., MS",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"MMC Materials, Inc., MS",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"MMC Materials, Inc., MS",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Michelin North America, Inc., SC",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",9,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",10,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Elster AMCO Water, LLC, FL",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Electro-Mechanical Corp., VA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Electro-Mechanical Corp., VA",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Electro-Mechanical Corp., VA",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1507,32 +545,6 @@ PV Manufacturing Plant,"Boye Knives, AZ",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Boye Knives, AZ",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Boye Knives, AZ",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Boye Knives, AZ",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Screen Tight, SC",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Screen Tight, SC",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Screen Tight, SC",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Atlantic Fabrication & Boiler, VA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Atlantic Fabrication & Boiler, VA",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Atlantic Fabrication & Boiler, VA",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1585,110 +597,6 @@ PV Manufacturing Plant,"McAlester Army Ammunition Plant (MCAAP), OK",23,PV Modul
 PV Manufacturing Plant,"McAlester Army Ammunition Plant (MCAAP), OK",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"McAlester Army Ammunition Plant (MCAAP), OK",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"McAlester Army Ammunition Plant (MCAAP), OK",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Zschimmer & Schwarz, Inc., GA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Martin's Sheetmetal, Inc., TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"AngioDynamics, Inc., GA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Riviera Lapidary Center, TX",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Bain Mfg. Co., Inc., MS",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Bain Mfg. Co., Inc., MS",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Bain Mfg. Co., Inc., MS",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1715,32 +623,6 @@ PV Manufacturing Plant,"Bain Mfg. Co., Inc., MS",23,PV Modules,207909.6085,0.0,2
 PV Manufacturing Plant,"Bain Mfg. Co., Inc., MS",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Bain Mfg. Co., Inc., MS",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Bain Mfg. Co., Inc., MS",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Agrium, Inc., AL",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Midstream Energy Services, LLC, OK",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Midstream Energy Services, LLC, OK",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Midstream Energy Services, LLC, OK",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1767,58 +649,6 @@ PV Manufacturing Plant,"Midstream Energy Services, LLC, OK",23,PV Modules,122668
 PV Manufacturing Plant,"Midstream Energy Services, LLC, OK",24,PV Modules,119073.69212,0.0,119073.69212,0.0
 PV Manufacturing Plant,"Midstream Energy Services, LLC, OK",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Midstream Energy Services, LLC, OK",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Duke Outdoor Advertising, TX",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Parman Bros. Ltd., KS",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Gamco, Div. of Bobrick, OK",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Gamco, Div. of Bobrick, OK",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Gamco, Div. of Bobrick, OK",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1845,58 +675,6 @@ PV Manufacturing Plant,"Gamco, Div. of Bobrick, OK",23,PV Modules,0.0,0.0,0.0,0.
 PV Manufacturing Plant,"Gamco, Div. of Bobrick, OK",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Gamco, Div. of Bobrick, OK",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Gamco, Div. of Bobrick, OK",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",2,PV Modules,111870.476172,0.0,111870.476172,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",9,PV Modules,2823.534199,0.0,2823.534199,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",10,PV Modules,2809.624228,0.0,2809.624228,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Murco Wall Products, Inc., AZ",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Graco Fertilizer Company, GA",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Headrick Outdoor Media, Inc., MS",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Headrick Outdoor Media, Inc., MS",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Headrick Outdoor Media, Inc., MS",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -1949,36 +727,10 @@ PV Manufacturing Plant,"Felton Bros. Transit Mix, Inc., VA",23,PV Modules,207909
 PV Manufacturing Plant,"Felton Bros. Transit Mix, Inc., VA",24,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Felton Bros. Transit Mix, Inc., VA",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Felton Bros. Transit Mix, Inc., VA",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Mobile Computer Service, TX",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",3,PV Modules,63555.9664,0.0,63555.9664,0.0
-PV Manufacturing Plant,"Hantz & Son, LA",4,PV Modules,53736.69404,0.0,53736.69404,0.0
+PV Manufacturing Plant,"Hantz & Son, LA",4,PV Modules,54074.843012,0.0,54074.843012,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",5,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",6,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",7,PV Modules,0.0,0.0,0.0,0.0
@@ -2001,58 +753,6 @@ PV Manufacturing Plant,"Hantz & Son, LA",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",25,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Hantz & Son, LA",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"SteelFab, Inc., SC",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Thomas & Betts/Homac Products, FL",26,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Scoggins Co., Inc., John, OK",1,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Scoggins Co., Inc., John, OK",2,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Scoggins Co., Inc., John, OK",3,PV Modules,207909.6085,0.0,207909.6085,0.0
@@ -2079,17 +779,17 @@ PV Manufacturing Plant,"Scoggins Co., Inc., John, OK",23,PV Modules,0.0,0.0,0.0,
 PV Manufacturing Plant,"Scoggins Co., Inc., John, OK",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Scoggins Co., Inc., John, OK",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Scoggins Co., Inc., John, OK",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Lhoist North America, AZ",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Lhoist North America, AZ",2,PV Modules,207909.6085,0.0,207909.6085,0.0
+PV Manufacturing Plant,"Lhoist North America, AZ",1,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Lhoist North America, AZ",2,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",3,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Lhoist North America, AZ",5,PV Modules,5761.608188,0.0,5761.608188,0.0
+PV Manufacturing Plant,"Lhoist North America, AZ",5,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",6,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",7,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",8,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",9,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",10,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Lhoist North America, AZ",11,PV Modules,25506.805241,0.0,25506.805241,0.0
+PV Manufacturing Plant,"Lhoist North America, AZ",11,PV Modules,25542.285899,0.0,25542.285899,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",12,PV Modules,19260.591388,0.0,19260.591388,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",13,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",14,PV Modules,0.0,0.0,0.0,0.0
@@ -2105,55 +805,3 @@ PV Manufacturing Plant,"Lhoist North America, AZ",23,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",24,PV Modules,0.0,0.0,0.0,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",25,PV Modules,207909.6085,0.0,207909.6085,0.0
 PV Manufacturing Plant,"Lhoist North America, AZ",26,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",2,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",3,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",4,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",5,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",9,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",10,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",11,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",12,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",25,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Alabama Steel Supply, Inc., AL",26,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",1,PV Modules,207909.6085,0.0,207909.6085,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",2,PV Modules,23.789666,0.0,23.789666,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",3,PV Modules,341.434778,0.0,341.434778,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",4,PV Modules,338.148973,0.0,338.148973,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",5,PV Modules,149.139273,0.0,149.139273,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",6,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",7,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",8,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",9,PV Modules,24773.551895,0.0,24773.551895,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",10,PV Modules,20554.489891,0.0,20554.489891,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",11,PV Modules,35.480658,0.0,35.480658,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",12,PV Modules,35.341118,0.0,35.341118,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",13,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",14,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",15,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",16,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",17,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",18,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",19,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",20,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",21,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",22,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",23,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",24,PV Modules,0.0,0.0,0.0,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",25,PV Modules,150724.306822,0.0,150724.306822,0.0
-PV Manufacturing Plant,"Gray's Petrified Wood Co., Jim, AZ",26,PV Modules,141992.981492,0.0,141992.981492,0.0

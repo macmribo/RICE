@@ -1,0 +1,2 @@
+/var/spool/slurmd/job11885589/slurm_script: line 17: 160557 Killed                  julia solver.jl
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=11885589.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.

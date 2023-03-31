@@ -14621,7 +14621,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -14635,6 +14635,22 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <span class="kn">from</span> <span class="nn">geopy.point</span> <span class="kn">import</span> <span class="n">Point</span>
 <span class="c1"># initialize Nominatim API</span>
 <span class="n">geolocator</span> <span class="o">=</span> <span class="n">Nominatim</span><span class="p">(</span><span class="n">user_agent</span><span class="o">=</span><span class="s2">&quot;geoapiExercises&quot;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
      </div>
@@ -14677,12 +14693,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="s1">&#39;Geo_data/gis_centroid_n.xlsx&#39;</span><span class="p">)</span> <span class="c1"># Read the GIS excel file.</span>
@@ -14692,6 +14708,135 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>long</th>
+      <th>lat</th>
+      <th>id</th>
+      <th>country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-121.452252</td>
+      <td>47.820991</td>
+      <td>p1</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>-117.159039</td>
+      <td>35.120104</td>
+      <td>p10</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-78.257714</td>
+      <td>38.791108</td>
+      <td>p100</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-82.192477</td>
+      <td>28.708695</td>
+      <td>p101</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>-80.563731</td>
+      <td>26.677092</td>
+      <td>p102</td>
+      <td>USA</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>200</th>
+      <td>-116.933572</td>
+      <td>32.485742</td>
+      <td>p201</td>
+      <td>MEX</td>
+    </tr>
+    <tr>
+      <th>201</th>
+      <td>-116.345053</td>
+      <td>31.558623</td>
+      <td>p202</td>
+      <td>MEX</td>
+    </tr>
+    <tr>
+      <th>202</th>
+      <td>-115.418298</td>
+      <td>32.607552</td>
+      <td>p203</td>
+      <td>MEX</td>
+    </tr>
+    <tr>
+      <th>203</th>
+      <td>-114.836778</td>
+      <td>32.379719</td>
+      <td>p204</td>
+      <td>MEX</td>
+    </tr>
+    <tr>
+      <th>204</th>
+      <td>-110.589268</td>
+      <td>24.163894</td>
+      <td>p205</td>
+      <td>MEX</td>
+    </tr>
+  </tbody>
+</table>
+<p>205 rows × 4 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14711,7 +14856,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">city_state_country</span><span class="p">(</span><span class="n">row</span><span class="p">):</span>
@@ -14760,12 +14905,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%time</span>
@@ -14777,6 +14922,226 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
+File <span class="ansi-green-fg">&lt;timed exec&gt;:2</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/pandas/core/frame.py:8848</span>, in <span class="ansi-cyan-fg">DataFrame.apply</span><span class="ansi-blue-fg">(self, func, axis, raw, result_type, args, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">   8837</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span> <span class="ansi-bold" style="color: rgb(0,0,255)">pandas</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">core</span><span class="ansi-bold" style="color: rgb(0,0,255)">.</span><span class="ansi-bold" style="color: rgb(0,0,255)">apply</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span> frame_apply
+<span class="ansi-green-intense-fg ansi-bold">   8839</span> op <span style="color: rgb(98,98,98)">=</span> frame_apply(
+<span class="ansi-green-intense-fg ansi-bold">   8840</span>     <span style="color: rgb(0,135,0)">self</span>,
+<span class="ansi-green-intense-fg ansi-bold">   8841</span>     func<span style="color: rgb(98,98,98)">=</span>func,
+<span class="ansi-green-fg">   (...)</span>
+<span class="ansi-green-intense-fg ansi-bold">   8846</span>     kwargs<span style="color: rgb(98,98,98)">=</span>kwargs,
+<span class="ansi-green-intense-fg ansi-bold">   8847</span> )
+<span class="ansi-green-fg">-&gt; 8848</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">op</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">apply</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span><span style="color: rgb(98,98,98)">.</span>__finalize__(<span style="color: rgb(0,135,0)">self</span>, method<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">apply</span><span style="color: rgb(175,0,0)">&#34;</span>)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/pandas/core/apply.py:733</span>, in <span class="ansi-cyan-fg">FrameApply.apply</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    730</span> <span class="ansi-bold" style="color: rgb(0,135,0)">elif</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>raw:
+<span class="ansi-green-intense-fg ansi-bold">    731</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>apply_raw()
+<span class="ansi-green-fg">--&gt; 733</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">apply_standard</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/pandas/core/apply.py:857</span>, in <span class="ansi-cyan-fg">FrameApply.apply_standard</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    856</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">apply_standard</span>(<span style="color: rgb(0,135,0)">self</span>):
+<span class="ansi-green-fg">--&gt; 857</span>     results, res_index <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">apply_series_generator</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    859</span>     <span style="color: rgb(95,135,135)"># wrap results</span>
+<span class="ansi-green-intense-fg ansi-bold">    860</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>wrap_results(results, res_index)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/pandas/core/apply.py:873</span>, in <span class="ansi-cyan-fg">FrameApply.apply_series_generator</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    870</span> <span class="ansi-bold" style="color: rgb(0,135,0)">with</span> option_context(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">mode.chained_assignment</span><span style="color: rgb(175,0,0)">&#34;</span>, <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>):
+<span class="ansi-green-intense-fg ansi-bold">    871</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">for</span> i, v <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">enumerate</span>(series_gen):
+<span class="ansi-green-intense-fg ansi-bold">    872</span>         <span style="color: rgb(95,135,135)"># ignore SettingWithCopy here in case the user mutates</span>
+<span class="ansi-green-fg">--&gt; 873</span>         results[i] <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">f</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">v</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    874</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">isinstance</span>(results[i], ABCSeries):
+<span class="ansi-green-intense-fg ansi-bold">    875</span>             <span style="color: rgb(95,135,135)"># If we have a view on v, we need to make a copy because</span>
+<span class="ansi-green-intense-fg ansi-bold">    876</span>             <span style="color: rgb(95,135,135)">#  series_generator will swap out the underlying data</span>
+<span class="ansi-green-intense-fg ansi-bold">    877</span>             results[i] <span style="color: rgb(98,98,98)">=</span> results[i]<span style="color: rgb(98,98,98)">.</span>copy(deep<span style="color: rgb(98,98,98)">=</span><span class="ansi-bold" style="color: rgb(0,135,0)">False</span>)
+
+Cell <span class="ansi-green-fg">In [25], line 4</span>, in <span class="ansi-cyan-fg">city_state_country</span><span class="ansi-blue-fg">(row)</span>
+<span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">city_state_country</span>(row):
+<span class="ansi-green-intense-fg ansi-bold">      2</span>     <span style="color: rgb(95,135,135)"># I map latitude and longitude with actual names of those places.</span>
+<span class="ansi-green-intense-fg ansi-bold">      3</span>     coord <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(175,0,0)">f</span><span style="color: rgb(175,0,0)">&#34;</span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>row[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">lat</span><span style="color: rgb(175,0,0)">&#39;</span>]<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)">, </span><span class="ansi-bold" style="color: rgb(175,95,135)">{</span>row[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">long</span><span style="color: rgb(175,0,0)">&#39;</span>]<span class="ansi-bold" style="color: rgb(175,95,135)">}</span><span style="color: rgb(175,0,0)">&#34;</span>
+<span class="ansi-green-fg">----&gt; 4</span>     location <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">geolocator</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">reverse</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">coord</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">exactly_one</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">True</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">      5</span>     address <span style="color: rgb(98,98,98)">=</span> location<span style="color: rgb(98,98,98)">.</span>raw[<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">address</span><span style="color: rgb(175,0,0)">&#39;</span>]
+<span class="ansi-green-intense-fg ansi-bold">      6</span>     city <span style="color: rgb(98,98,98)">=</span> address<span style="color: rgb(98,98,98)">.</span>get(<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">city</span><span style="color: rgb(175,0,0)">&#39;</span>, <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">&#39;</span>)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/geopy/geocoders/nominatim.py:372</span>, in <span class="ansi-cyan-fg">Nominatim.reverse</span><span class="ansi-blue-fg">(self, query, exactly_one, timeout, language, addressdetails, zoom, namedetails)</span>
+<span class="ansi-green-intense-fg ansi-bold">    370</span> logger<span style="color: rgb(98,98,98)">.</span>debug(<span style="color: rgb(175,0,0)">&#34;</span><span class="ansi-bold" style="color: rgb(175,95,135)">%s</span><span style="color: rgb(175,0,0)">.reverse: </span><span class="ansi-bold" style="color: rgb(175,95,135)">%s</span><span style="color: rgb(175,0,0)">&#34;</span>, <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span><span style="color: rgb(0,0,135)">__class__</span><span style="color: rgb(98,98,98)">.</span><span style="color: rgb(0,0,135)">__name__</span>, url)
+<span class="ansi-green-intense-fg ansi-bold">    371</span> callback <span style="color: rgb(98,98,98)">=</span> partial(<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_parse_json, exactly_one<span style="color: rgb(98,98,98)">=</span>exactly_one)
+<span class="ansi-green-fg">--&gt; 372</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_call_geocoder</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">callback</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/geopy/geocoders/base.py:368</span>, in <span class="ansi-cyan-fg">Geocoder._call_geocoder</span><span class="ansi-blue-fg">(self, url, callback, timeout, is_json, headers)</span>
+<span class="ansi-green-intense-fg ansi-bold">    366</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-intense-fg ansi-bold">    367</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> is_json:
+<span class="ansi-green-fg">--&gt; 368</span>         result <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">adapter</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">get_json</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">req_headers</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    369</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
+<span class="ansi-green-intense-fg ansi-bold">    370</span>         result <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>adapter<span style="color: rgb(98,98,98)">.</span>get_text(url, timeout<span style="color: rgb(98,98,98)">=</span>timeout, headers<span style="color: rgb(98,98,98)">=</span>req_headers)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/geopy/adapters.py:447</span>, in <span class="ansi-cyan-fg">RequestsAdapter.get_json</span><span class="ansi-blue-fg">(self, url, timeout, headers)</span>
+<span class="ansi-green-intense-fg ansi-bold">    446</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">get_json</span>(<span style="color: rgb(0,135,0)">self</span>, url, <span style="color: rgb(98,98,98)">*</span>, timeout, headers):
+<span class="ansi-green-fg">--&gt; 447</span>     resp <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_request</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    448</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-intense-fg ansi-bold">    449</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> resp<span style="color: rgb(98,98,98)">.</span>json()
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/geopy/adapters.py:457</span>, in <span class="ansi-cyan-fg">RequestsAdapter._request</span><span class="ansi-blue-fg">(self, url, timeout, headers)</span>
+<span class="ansi-green-intense-fg ansi-bold">    455</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">_request</span>(<span style="color: rgb(0,135,0)">self</span>, url, <span style="color: rgb(98,98,98)">*</span>, timeout, headers):
+<span class="ansi-green-intense-fg ansi-bold">    456</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">--&gt; 457</span>         resp <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">session</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">get</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    458</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">Exception</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> error:
+<span class="ansi-green-intense-fg ansi-bold">    459</span>         message <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">str</span>(error)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/requests/sessions.py:600</span>, in <span class="ansi-cyan-fg">Session.get</span><span class="ansi-blue-fg">(self, url, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    592</span> <span style="color: rgb(175,0,0)">r</span><span style="color: rgb(175,0,0)">&#34;&#34;&#34;Sends a GET request. Returns :class:`Response` object.</span>
+<span class="ansi-green-intense-fg ansi-bold">    593</span> 
+<span class="ansi-green-intense-fg ansi-bold">    594</span> <span style="color: rgb(175,0,0)">:param url: URL for the new :class:`Request` object.</span>
+<span class="ansi-green-intense-fg ansi-bold">    595</span> <span style="color: rgb(175,0,0)">:param \*\*kwargs: Optional arguments that ``request`` takes.</span>
+<span class="ansi-green-intense-fg ansi-bold">    596</span> <span style="color: rgb(175,0,0)">:rtype: requests.Response</span>
+<span class="ansi-green-intense-fg ansi-bold">    597</span> <span style="color: rgb(175,0,0)">&#34;&#34;&#34;</span>
+<span class="ansi-green-intense-fg ansi-bold">    599</span> kwargs<span style="color: rgb(98,98,98)">.</span>setdefault(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">allow_redirects</span><span style="color: rgb(175,0,0)">&#34;</span>, <span class="ansi-bold" style="color: rgb(0,135,0)">True</span>)
+<span class="ansi-green-fg">--&gt; 600</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">request</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">GET</span><span class="ansi-yellow-bg" style="color: rgb(175,0,0)">&#34;</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/requests/sessions.py:587</span>, in <span class="ansi-cyan-fg">Session.request</span><span class="ansi-blue-fg">(self, method, url, params, data, headers, cookies, files, auth, timeout, allow_redirects, proxies, hooks, stream, verify, cert, json)</span>
+<span class="ansi-green-intense-fg ansi-bold">    582</span> send_kwargs <span style="color: rgb(98,98,98)">=</span> {
+<span class="ansi-green-intense-fg ansi-bold">    583</span>     <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">timeout</span><span style="color: rgb(175,0,0)">&#34;</span>: timeout,
+<span class="ansi-green-intense-fg ansi-bold">    584</span>     <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">allow_redirects</span><span style="color: rgb(175,0,0)">&#34;</span>: allow_redirects,
+<span class="ansi-green-intense-fg ansi-bold">    585</span> }
+<span class="ansi-green-intense-fg ansi-bold">    586</span> send_kwargs<span style="color: rgb(98,98,98)">.</span>update(settings)
+<span class="ansi-green-fg">--&gt; 587</span> resp <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">send</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">prep</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">send_kwargs</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    589</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> resp
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/requests/sessions.py:701</span>, in <span class="ansi-cyan-fg">Session.send</span><span class="ansi-blue-fg">(self, request, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    698</span> start <span style="color: rgb(98,98,98)">=</span> preferred_clock()
+<span class="ansi-green-intense-fg ansi-bold">    700</span> <span style="color: rgb(95,135,135)"># Send the request</span>
+<span class="ansi-green-fg">--&gt; 701</span> r <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">adapter</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">send</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">request</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    703</span> <span style="color: rgb(95,135,135)"># Total elapsed time of the request (approximately)</span>
+<span class="ansi-green-intense-fg ansi-bold">    704</span> elapsed <span style="color: rgb(98,98,98)">=</span> preferred_clock() <span style="color: rgb(98,98,98)">-</span> start
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/requests/adapters.py:489</span>, in <span class="ansi-cyan-fg">HTTPAdapter.send</span><span class="ansi-blue-fg">(self, request, stream, timeout, verify, cert, proxies)</span>
+<span class="ansi-green-intense-fg ansi-bold">    487</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-intense-fg ansi-bold">    488</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> chunked:
+<span class="ansi-green-fg">--&gt; 489</span>         resp <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">conn</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">urlopen</span><span class="ansi-yellow-bg">(</span>
+<span class="ansi-green-intense-fg ansi-bold">    490</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">method</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">request</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">method</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    491</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    492</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">body</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">request</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">body</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    493</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">request</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    494</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">redirect</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">False</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    495</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">assert_same_host</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">False</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    496</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">preload_content</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">False</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    497</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">decode_content</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">False</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    498</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">retries</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">max_retries</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    499</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    500</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    502</span>     <span style="color: rgb(95,135,135)"># Send the request.</span>
+<span class="ansi-green-intense-fg ansi-bold">    503</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
+<span class="ansi-green-intense-fg ansi-bold">    504</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">hasattr</span>(conn, <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">proxy_pool</span><span style="color: rgb(175,0,0)">&#34;</span>):
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/urllib3/connectionpool.py:703</span>, in <span class="ansi-cyan-fg">HTTPConnectionPool.urlopen</span><span class="ansi-blue-fg">(self, method, url, body, headers, retries, redirect, assert_same_host, timeout, pool_timeout, release_conn, chunked, body_pos, **response_kw)</span>
+<span class="ansi-green-intense-fg ansi-bold">    700</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_prepare_proxy(conn)
+<span class="ansi-green-intense-fg ansi-bold">    702</span> <span style="color: rgb(95,135,135)"># Make the request on the httplib connection object.</span>
+<span class="ansi-green-fg">--&gt; 703</span> httplib_response <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_make_request</span><span class="ansi-yellow-bg">(</span>
+<span class="ansi-green-intense-fg ansi-bold">    704</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">conn</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    705</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">method</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    706</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">url</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    707</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">timeout</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">timeout_obj</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    708</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">body</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">body</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    709</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">headers</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    710</span> <span class="ansi-yellow-bg">    </span><span class="ansi-yellow-bg">chunked</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">=</span><span class="ansi-yellow-bg">chunked</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-intense-fg ansi-bold">    711</span> <span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    713</span> <span style="color: rgb(95,135,135)"># If we&#39;re going to release the connection in ``finally:``, then</span>
+<span class="ansi-green-intense-fg ansi-bold">    714</span> <span style="color: rgb(95,135,135)"># the response doesn&#39;t need to know about the connection. Otherwise</span>
+<span class="ansi-green-intense-fg ansi-bold">    715</span> <span style="color: rgb(95,135,135)"># it will also try to release it and we&#39;ll have a double-release</span>
+<span class="ansi-green-intense-fg ansi-bold">    716</span> <span style="color: rgb(95,135,135)"># mess.</span>
+<span class="ansi-green-intense-fg ansi-bold">    717</span> response_conn <span style="color: rgb(98,98,98)">=</span> conn <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> release_conn <span class="ansi-bold" style="color: rgb(0,135,0)">else</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/urllib3/connectionpool.py:449</span>, in <span class="ansi-cyan-fg">HTTPConnectionPool._make_request</span><span class="ansi-blue-fg">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="ansi-green-intense-fg ansi-bold">    444</span>             httplib_response <span style="color: rgb(98,98,98)">=</span> conn<span style="color: rgb(98,98,98)">.</span>getresponse()
+<span class="ansi-green-intense-fg ansi-bold">    445</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">BaseException</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> e:
+<span class="ansi-green-intense-fg ansi-bold">    446</span>             <span style="color: rgb(95,135,135)"># Remove the TypeError from the exception chain in</span>
+<span class="ansi-green-intense-fg ansi-bold">    447</span>             <span style="color: rgb(95,135,135)"># Python 3 (including for exceptions like SystemExit).</span>
+<span class="ansi-green-intense-fg ansi-bold">    448</span>             <span style="color: rgb(95,135,135)"># Otherwise it looks like a bug in the code.</span>
+<span class="ansi-green-fg">--&gt; 449</span>             <span class="ansi-yellow-bg">six</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">raise_from</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">e</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg ansi-bold" style="color: rgb(0,135,0)">None</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    450</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> (SocketTimeout, BaseSSLError, SocketError) <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> e:
+<span class="ansi-green-intense-fg ansi-bold">    451</span>     <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_raise_timeout(err<span style="color: rgb(98,98,98)">=</span>e, url<span style="color: rgb(98,98,98)">=</span>url, timeout_value<span style="color: rgb(98,98,98)">=</span>read_timeout)
+
+File <span class="ansi-green-fg">&lt;string&gt;:3</span>, in <span class="ansi-cyan-fg">raise_from</span><span class="ansi-blue-fg">(value, from_value)</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/urllib3/connectionpool.py:444</span>, in <span class="ansi-cyan-fg">HTTPConnectionPool._make_request</span><span class="ansi-blue-fg">(self, conn, method, url, timeout, chunked, **httplib_request_kw)</span>
+<span class="ansi-green-intense-fg ansi-bold">    441</span> <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">TypeError</span>:
+<span class="ansi-green-intense-fg ansi-bold">    442</span>     <span style="color: rgb(95,135,135)"># Python 3</span>
+<span class="ansi-green-intense-fg ansi-bold">    443</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">--&gt; 444</span>         httplib_response <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">conn</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">getresponse</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    445</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">BaseException</span> <span class="ansi-bold" style="color: rgb(0,135,0)">as</span> e:
+<span class="ansi-green-intense-fg ansi-bold">    446</span>         <span style="color: rgb(95,135,135)"># Remove the TypeError from the exception chain in</span>
+<span class="ansi-green-intense-fg ansi-bold">    447</span>         <span style="color: rgb(95,135,135)"># Python 3 (including for exceptions like SystemExit).</span>
+<span class="ansi-green-intense-fg ansi-bold">    448</span>         <span style="color: rgb(95,135,135)"># Otherwise it looks like a bug in the code.</span>
+<span class="ansi-green-intense-fg ansi-bold">    449</span>         six<span style="color: rgb(98,98,98)">.</span>raise_from(e, <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/http/client.py:1374</span>, in <span class="ansi-cyan-fg">HTTPConnection.getresponse</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1372</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-intense-fg ansi-bold">   1373</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">-&gt; 1374</span>         <span class="ansi-yellow-bg">response</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">begin</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1375</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> <span class="ansi-bold" style="color: rgb(215,95,95)">ConnectionError</span>:
+<span class="ansi-green-intense-fg ansi-bold">   1376</span>         <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>close()
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/http/client.py:318</span>, in <span class="ansi-cyan-fg">HTTPResponse.begin</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    316</span> <span style="color: rgb(95,135,135)"># read until we get a non-100 response</span>
+<span class="ansi-green-intense-fg ansi-bold">    317</span> <span class="ansi-bold" style="color: rgb(0,135,0)">while</span> <span class="ansi-bold" style="color: rgb(0,135,0)">True</span>:
+<span class="ansi-green-fg">--&gt; 318</span>     version, status, reason <span style="color: rgb(98,98,98)">=</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_read_status</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    319</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> status <span style="color: rgb(98,98,98)">!=</span> CONTINUE:
+<span class="ansi-green-intense-fg ansi-bold">    320</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">break</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/http/client.py:279</span>, in <span class="ansi-cyan-fg">HTTPResponse._read_status</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    278</span> <span class="ansi-bold" style="color: rgb(0,135,0)">def</span> <span style="color: rgb(0,0,255)">_read_status</span>(<span style="color: rgb(0,135,0)">self</span>):
+<span class="ansi-green-fg">--&gt; 279</span>     line <span style="color: rgb(98,98,98)">=</span> <span style="color: rgb(0,135,0)">str</span>(<span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">fp</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">readline</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">_MAXLINE</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">+</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">1</span><span class="ansi-yellow-bg">)</span>, <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">iso-8859-1</span><span style="color: rgb(175,0,0)">&#34;</span>)
+<span class="ansi-green-intense-fg ansi-bold">    280</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">len</span>(line) <span style="color: rgb(98,98,98)">&gt;</span> _MAXLINE:
+<span class="ansi-green-intense-fg ansi-bold">    281</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> LineTooLong(<span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">status line</span><span style="color: rgb(175,0,0)">&#34;</span>)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/socket.py:705</span>, in <span class="ansi-cyan-fg">SocketIO.readinto</span><span class="ansi-blue-fg">(self, b)</span>
+<span class="ansi-green-intense-fg ansi-bold">    703</span> <span class="ansi-bold" style="color: rgb(0,135,0)">while</span> <span class="ansi-bold" style="color: rgb(0,135,0)">True</span>:
+<span class="ansi-green-intense-fg ansi-bold">    704</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">--&gt; 705</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_sock</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">recv_into</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">b</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    706</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">except</span> timeout:
+<span class="ansi-green-intense-fg ansi-bold">    707</span>         <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_timeout_occurred <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">True</span>
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/ssl.py:1274</span>, in <span class="ansi-cyan-fg">SSLSocket.recv_into</span><span class="ansi-blue-fg">(self, buffer, nbytes, flags)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1270</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> flags <span style="color: rgb(98,98,98)">!=</span> <span style="color: rgb(98,98,98)">0</span>:
+<span class="ansi-green-intense-fg ansi-bold">   1271</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> <span class="ansi-bold" style="color: rgb(215,95,95)">ValueError</span>(
+<span class="ansi-green-intense-fg ansi-bold">   1272</span>           <span style="color: rgb(175,0,0)">&#34;</span><span style="color: rgb(175,0,0)">non-zero flags not allowed in calls to recv_into() on </span><span class="ansi-bold" style="color: rgb(175,95,135)">%s</span><span style="color: rgb(175,0,0)">&#34;</span> <span style="color: rgb(98,98,98)">%</span>
+<span class="ansi-green-intense-fg ansi-bold">   1273</span>           <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span><span style="color: rgb(0,0,135)">__class__</span>)
+<span class="ansi-green-fg">-&gt; 1274</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">read</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">nbytes</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">buffer</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1275</span> <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
+<span class="ansi-green-intense-fg ansi-bold">   1276</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">super</span>()<span style="color: rgb(98,98,98)">.</span>recv_into(buffer, nbytes, flags)
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/ssl.py:1130</span>, in <span class="ansi-cyan-fg">SSLSocket.read</span><span class="ansi-blue-fg">(self, len, buffer)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1128</span> <span class="ansi-bold" style="color: rgb(0,135,0)">try</span>:
+<span class="ansi-green-intense-fg ansi-bold">   1129</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> buffer <span class="ansi-bold" style="color: rgb(175,0,255)">is</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(0,135,0)">None</span>:
+<span class="ansi-green-fg">-&gt; 1130</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">_sslobj</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">read</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">len</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">buffer</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1131</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">else</span>:
+<span class="ansi-green-intense-fg ansi-bold">   1132</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_sslobj<span style="color: rgb(98,98,98)">.</span>read(<span style="color: rgb(0,135,0)">len</span>)
+
+<span class="ansi-red-fg">KeyboardInterrupt</span>: </pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14791,12 +15156,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS</span><span class="p">[(</span><span class="n">GIS</span><span class="o">.</span><span class="n">county</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">GIS</span><span class="o">.</span><span class="n">country</span> <span class="o">==</span> <span class="s1">&#39;United States&#39;</span><span class="p">)]</span> <span class="c1"># Select the rows we need.</span>
@@ -14805,6 +15170,44 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">AttributeError</span>                            Traceback (most recent call last)
+Cell <span class="ansi-green-fg">In [27], line 1</span>
+<span class="ansi-green-fg">----&gt; 1</span> GIS[(<span class="ansi-yellow-bg">GIS</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg">county</span> <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">&#39;</span>) <span style="color: rgb(98,98,98)">&amp;</span> (GIS<span style="color: rgb(98,98,98)">.</span>country <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">United States</span><span style="color: rgb(175,0,0)">&#39;</span>)]
+
+File <span class="ansi-green-fg">~/miniconda3/envs/RELOG/lib/python3.10/site-packages/pandas/core/generic.py:5575</span>, in <span class="ansi-cyan-fg">NDFrame.__getattr__</span><span class="ansi-blue-fg">(self, name)</span>
+<span class="ansi-green-intense-fg ansi-bold">   5568</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> (
+<span class="ansi-green-intense-fg ansi-bold">   5569</span>     name <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_internal_names_set
+<span class="ansi-green-intense-fg ansi-bold">   5570</span>     <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> name <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_metadata
+<span class="ansi-green-intense-fg ansi-bold">   5571</span>     <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> name <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span class="ansi-bold" style="color: rgb(175,0,255)">in</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_accessors
+<span class="ansi-green-intense-fg ansi-bold">   5572</span>     <span class="ansi-bold" style="color: rgb(175,0,255)">and</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_info_axis<span style="color: rgb(98,98,98)">.</span>_can_hold_identifiers_and_holds_name(name)
+<span class="ansi-green-intense-fg ansi-bold">   5573</span> ):
+<span class="ansi-green-intense-fg ansi-bold">   5574</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span style="color: rgb(0,135,0)">self</span>[name]
+<span class="ansi-green-fg">-&gt; 5575</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> <span class="ansi-yellow-bg" style="color: rgb(0,135,0)">object</span><span class="ansi-yellow-bg" style="color: rgb(98,98,98)">.</span><span class="ansi-yellow-bg" style="color: rgb(0,0,255)">__getattribute__</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg" style="color: rgb(0,135,0)">self</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">name</span><span class="ansi-yellow-bg">)</span>
+
+<span class="ansi-red-fg">AttributeError</span>: &#39;DataFrame&#39; object has no attribute &#39;county&#39;</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -14920,7 +15323,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Geo_data/gis_region_names.csv&#39;</span><span class="p">)</span>
@@ -14952,7 +15355,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS_us_long_lat</span> <span class="o">=</span> <span class="n">GIS_us</span><span class="p">[[</span><span class="s1">&#39;long&#39;</span><span class="p">,</span> <span class="s1">&#39;lat&#39;</span><span class="p">]]</span>
@@ -15003,7 +15406,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fips_county_codes</span> <span class="o">=</span> <span class="p">[]</span>
@@ -15126,7 +15529,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS_us_long_lat</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;Geo_data/GIS_us_long_lat.csv&#39;</span><span class="p">)</span> <span class="c1"># Load file</span>
@@ -15189,12 +15592,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_ice_simulations</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Method1&#39;</span><span class="p">,</span> <span class="s1">&#39;Method2&#39;</span><span class="p">,</span><span class="s1">&#39;Method3&#39;</span><span class="p">]</span>
@@ -15210,12 +15613,56 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>Choose one of the following methods: Method1, Method2 or Method3.
+</pre>
+</div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>You have chosen Method1.
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">previous_folder</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">normpath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">sep</span> <span class="o">+</span> <span class="n">os</span><span class="o">.</span><span class="n">pardir</span><span class="p">)</span> <span class="c1"># Get previous folder from current directory</span>
@@ -15256,7 +15703,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
@@ -15268,12 +15715,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#python program to check if a directory exists</span>
@@ -15294,6 +15741,29 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The path already exists!
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -15306,12 +15776,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pvice_output_folder</span>
@@ -15322,12 +15792,37 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[7]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>&#39;/Users/mmendez/Documents/Postdoc/Software_dev/RICE/2_data_preparation/PV_ICE_clean_outputs/Manufacturing/Method1&#39;</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_virgin</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">pvice_TEMP_folder</span><span class="p">,</span> <span class="sa">f</span><span class="s1">&#39;PVICE_RELOG_PCA_cSi_VirginStock_</span><span class="si">{</span><span class="n">pv_ice_simulations</span><span class="si">}</span><span class="s1">.csv&#39;</span><span class="p">),</span> <span class="n">index_col</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">)</span>
@@ -15339,12 +15834,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;We have </span><span class="si">%s</span><span class="s1"> collection centers.&#39;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">GIS_us</span><span class="p">))</span>
@@ -15353,6 +15848,34 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
+Cell <span class="ansi-green-fg">In [9], line 1</span>
+<span class="ansi-green-fg">----&gt; 1</span> <span style="color: rgb(0,135,0)">print</span>(<span style="color: rgb(175,0,0)">&#39;</span><span style="color: rgb(175,0,0)">We have </span><span class="ansi-bold" style="color: rgb(175,95,135)">%s</span><span style="color: rgb(175,0,0)"> collection centers.</span><span style="color: rgb(175,0,0)">&#39;</span> <span style="color: rgb(98,98,98)">%</span> <span style="color: rgb(0,135,0)">len</span>(<span class="ansi-yellow-bg">GIS_us</span>))
+
+<span class="ansi-red-fg">NameError</span>: name &#39;GIS_us&#39; is not defined</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15372,7 +15895,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">material_list_csi</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;glass&#39;</span><span class="p">,</span> <span class="s1">&#39;silicon&#39;</span><span class="p">,</span> <span class="s1">&#39;silver&#39;</span><span class="p">,</span> <span class="s1">&#39;copper&#39;</span><span class="p">,</span> <span class="s1">&#39;aluminium_frames&#39;</span><span class="p">,</span> <span class="s1">&#39;encapsulant&#39;</span><span class="p">,</span> <span class="s1">&#39;backsheet&#39;</span><span class="p">,</span> <span class="s1">&#39;Module&#39;</span><span class="p">]</span>
@@ -15529,10 +16052,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">load</span> <span class="o">=</span> <span class="kc">False</span> <span class="c1">#If you have not run Section 1 cells</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">load</span> <span class="o">=</span> <span class="kc">True</span> <span class="c1">#If you have not run Section 1 cells</span>
 </pre></div>
 
      </div>
@@ -15545,7 +16068,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">if</span> <span class="n">load</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
@@ -15610,20 +16133,83 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Drop columns: 0, 2010 (there is no waste here), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows</p>
+<p>Drop columns: 0, 2010 to 2024 (we account from the 2025 demand onwards), FIPS, 45, longitude, latitude and total waste columns. Then I insert the 'name' row and then move longitude and latitude rows</p>
 
 </div>
 </div>
 </div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>NOTE: when you load the files, the column years are strings, whereas if you have created them in section one, they will be integers. I am aware of the inconvenience and this will be fixed soon. For now, I made a fix, just load the corresponding list in 'columns_to_erase' (uncomment/comment the one you need)</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>Index([&#39;0&#39;, &#39;2010&#39;, &#39;2011&#39;, &#39;2012&#39;, &#39;2013&#39;, &#39;2014&#39;, &#39;2015&#39;, &#39;2016&#39;, &#39;2017&#39;,
+       &#39;2018&#39;, &#39;2019&#39;, &#39;2020&#39;, &#39;2021&#39;, &#39;2022&#39;, &#39;2023&#39;, &#39;2024&#39;, &#39;2025&#39;, &#39;2026&#39;,
+       &#39;2027&#39;, &#39;2028&#39;, &#39;2029&#39;, &#39;2030&#39;, &#39;2031&#39;, &#39;2032&#39;, &#39;2033&#39;, &#39;2034&#39;, &#39;2035&#39;,
+       &#39;2036&#39;, &#39;2037&#39;, &#39;2038&#39;, &#39;2039&#39;, &#39;2040&#39;, &#39;2041&#39;, &#39;2042&#39;, &#39;2043&#39;, &#39;2044&#39;,
+       &#39;2045&#39;, &#39;2046&#39;, &#39;2047&#39;, &#39;2048&#39;, &#39;2049&#39;, &#39;2050&#39;, &#39;longitude&#39;, &#39;latitude&#39;,
+       &#39;FIPS&#39;, &#39;45&#39;, &#39;46&#39;, &#39;total waste&#39;],
+      dtype=&#39;object&#39;)</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">columns_to_erase</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2010</span><span class="p">,</span> <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="mi">45</span><span class="p">,</span> <span class="mi">46</span><span class="p">,</span> <span class="s1">&#39;total waste&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude&#39;</span><span class="p">,</span> <span class="s1">&#39;longitude&#39;</span><span class="p">]</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># When section 1 was loaded</span>
+<span class="c1">#columns_to_erase = [0, 2010,2011, 2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2022,2023,2024,</span>
+<span class="c1">#                    &#39;FIPS&#39;, 45, 46, &#39;total waste&#39;, &#39;latitude&#39;, &#39;longitude&#39;]</span>
+<span class="n">columns_to_erase</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span> <span class="s1">&#39;2010&#39;</span><span class="p">,</span><span class="s1">&#39;2011&#39;</span><span class="p">,</span> <span class="s1">&#39;2012&#39;</span><span class="p">,</span><span class="s1">&#39;2013&#39;</span><span class="p">,</span><span class="s1">&#39;2014&#39;</span><span class="p">,</span><span class="s1">&#39;2015&#39;</span><span class="p">,</span><span class="s1">&#39;2016&#39;</span><span class="p">,</span><span class="s1">&#39;2017&#39;</span><span class="p">,</span><span class="s1">&#39;2018&#39;</span><span class="p">,</span><span class="s1">&#39;2019&#39;</span><span class="p">,</span><span class="s1">&#39;2020&#39;</span><span class="p">,</span><span class="s1">&#39;2021&#39;</span><span class="p">,</span><span class="s1">&#39;2022&#39;</span><span class="p">,</span><span class="s1">&#39;2023&#39;</span><span class="p">,</span><span class="s1">&#39;2024&#39;</span><span class="p">,</span>
+                    <span class="s1">&#39;FIPS&#39;</span><span class="p">,</span> <span class="s1">&#39;45&#39;</span><span class="p">,</span> <span class="s1">&#39;46&#39;</span><span class="p">,</span> <span class="s1">&#39;total waste&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude&#39;</span><span class="p">,</span> <span class="s1">&#39;longitude&#39;</span><span class="p">]</span>
 </pre></div>
 
      </div>
@@ -15636,23 +16222,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns_to_erase</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -15675,7 +16245,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns_to_erase</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span> <span class="kc">True</span><span class="p">)</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -15692,12 +16262,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -15706,6 +16276,195 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>2025</th>
+      <th>2026</th>
+      <th>2027</th>
+      <th>2028</th>
+      <th>2029</th>
+      <th>2030</th>
+      <th>2031</th>
+      <th>2032</th>
+      <th>2033</th>
+      <th>2034</th>
+      <th>...</th>
+      <th>2041</th>
+      <th>2042</th>
+      <th>2043</th>
+      <th>2044</th>
+      <th>2045</th>
+      <th>2046</th>
+      <th>2047</th>
+      <th>2048</th>
+      <th>2049</th>
+      <th>2050</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>46562.549601</td>
+      <td>45740.071284</td>
+      <td>2368.759569</td>
+      <td>2362.191717</td>
+      <td>4868.064836</td>
+      <td>4810.012484</td>
+      <td>3837.806805</td>
+      <td>3817.891409</td>
+      <td>16084.361326</td>
+      <td>16012.391915</td>
+      <td>...</td>
+      <td>2036.204400</td>
+      <td>2030.329554</td>
+      <td>1876.956072</td>
+      <td>1871.982303</td>
+      <td>710.037706</td>
+      <td>708.298032</td>
+      <td>2399.884795</td>
+      <td>2394.417049</td>
+      <td>3010.624931</td>
+      <td>3004.215104</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>230042.902986</td>
+      <td>225979.437791</td>
+      <td>204330.651295</td>
+      <td>203764.104346</td>
+      <td>174285.253970</td>
+      <td>172206.878021</td>
+      <td>133097.928849</td>
+      <td>132407.248445</td>
+      <td>82572.946766</td>
+      <td>82203.474443</td>
+      <td>...</td>
+      <td>31025.086038</td>
+      <td>30935.572627</td>
+      <td>18974.547359</td>
+      <td>18924.266470</td>
+      <td>153477.745188</td>
+      <td>153101.707085</td>
+      <td>99738.297420</td>
+      <td>99511.060004</td>
+      <td>36568.765856</td>
+      <td>36490.908441</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>138.206390</td>
+      <td>135.765120</td>
+      <td>43912.299555</td>
+      <td>43790.544061</td>
+      <td>608.789589</td>
+      <td>601.529688</td>
+      <td>573.745274</td>
+      <td>570.767958</td>
+      <td>487.875489</td>
+      <td>485.692492</td>
+      <td>...</td>
+      <td>269.802247</td>
+      <td>269.023815</td>
+      <td>212.088470</td>
+      <td>211.526455</td>
+      <td>456.809576</td>
+      <td>455.690340</td>
+      <td>856.717318</td>
+      <td>854.765427</td>
+      <td>84276.280642</td>
+      <td>84096.850652</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>72436.782408</td>
+      <td>71157.263065</td>
+      <td>59080.513526</td>
+      <td>58916.701174</td>
+      <td>644853.401907</td>
+      <td>637163.435197</td>
+      <td>247093.032403</td>
+      <td>245810.801215</td>
+      <td>583830.136564</td>
+      <td>581217.790927</td>
+      <td>...</td>
+      <td>71769.608432</td>
+      <td>71562.539143</td>
+      <td>329385.811403</td>
+      <td>328512.967853</td>
+      <td>385220.249505</td>
+      <td>384276.415653</td>
+      <td>10267.059008</td>
+      <td>10243.667192</td>
+      <td>35944.390389</td>
+      <td>35867.862313</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>16343.240070</td>
+      <td>16054.553976</td>
+      <td>168314.612838</td>
+      <td>167847.927444</td>
+      <td>102941.892596</td>
+      <td>101714.296176</td>
+      <td>21506.796317</td>
+      <td>21395.191855</td>
+      <td>12057.755143</td>
+      <td>12003.802765</td>
+      <td>...</td>
+      <td>4551.877525</td>
+      <td>4538.744472</td>
+      <td>2405.643127</td>
+      <td>2399.268383</td>
+      <td>1764.550206</td>
+      <td>1760.226855</td>
+      <td>1882.883590</td>
+      <td>1878.593748</td>
+      <td>17765.053364</td>
+      <td>17727.230345</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 26 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -15736,7 +16495,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS_usa</span> <span class="o">=</span> <span class="n">GIS</span><span class="p">[</span><span class="n">GIS</span><span class="o">.</span><span class="n">country</span> <span class="o">==</span> <span class="s1">&#39;United States&#39;</span><span class="p">]</span>
@@ -15766,7 +16525,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;county&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;, &#39;</span> <span class="o">+</span> <span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;state&#39;</span><span class="p">]</span>
@@ -15777,12 +16536,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">GIS_usa</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">unique</span><span class="p">())</span> 
@@ -15793,12 +16552,37 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>134</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="n">GIS_usa</span><span class="p">[[</span><span class="s1">&#39;name&#39;</span><span class="p">]])</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -15844,7 +16628,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="n">GIS_usa</span><span class="p">[[</span><span class="s1">&#39;name&#39;</span><span class="p">]])</span> <span class="c1"># Run this one only once or it will throw an error.</span>
@@ -15888,179 +16672,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h4 id="2.3.1-Add-accumulated-waste-until-year-2025">2.3.1 Add accumulated waste until year 2025<a class="anchor-link" href="#2.3.1-Add-accumulated-waste-until-year-2025">&#182;</a></h4>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Since I am studying from 2025 onward with RELOG (because there is no significant amount of waste for RELOG to process in the recycling plants), I add the waste generated from 2011 until 2023.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_glass_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_glass_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_silicon_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_silicon_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_silver_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_silver_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_copper_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_copper_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_aluminium_frames_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_aluminium_frames_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_encapsulant_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_encapsulant_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_backsheet_ia_sumyears</span> <span class="o">=</span> <span class="n">csi_backsheet_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-
-
-<span class="n">cdte_Module_ia_sumyears</span> <span class="o">=</span> <span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_cadmium_ia_sumyears</span> <span class="o">=</span> <span class="n">cdte_cadmium_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_tellurium_ia_sumyears</span> <span class="o">=</span> <span class="n">cdte_tellurium_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_glass_cdte_ia_sumyears</span> <span class="o">=</span> <span class="n">cdte_glass_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_aluminium_frames_cdte_ia_sumyears</span> <span class="o">=</span> <span class="n">cdte_aluminium_frames_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_copper_cdte_ia_sumyears</span> <span class="o">=</span> <span class="n">cdte_copper_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_encapsulant_cdte_ia_sumyears</span> <span class="o">=</span> <span class="n">cdte_encapsulant_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Drop columns 2011 to 2025.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_glass_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_glass_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_silicon_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_silicon_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_silver_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_silver_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_copper_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_copper_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_aluminium_frames_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_aluminium_frames_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_encapsulant_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_encapsulant_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">csi_backsheet_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">csi_backsheet_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-
-<span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_cadmium_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cdte_cadmium_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_tellurium_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cdte_tellurium_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_glass_cdte_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cdte_glass_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_aluminium_frames_cdte_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cdte_aluminium_frames_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_copper_cdte_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cdte_copper_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-<span class="n">cdte_encapsulant_cdte_ia</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">cdte_encapsulant_cdte_ia</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,</span> <span class="mi">2011</span><span class="p">:</span><span class="mi">2025</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Insert the 2025 column that summed the waste between 2011 to 2025.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_Module_ia_sumyears</span><span class="p">)</span>
-<span class="n">csi_glass_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_glass_ia_sumyears</span><span class="p">)</span>
-<span class="n">csi_silicon_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_silicon_ia_sumyears</span><span class="p">)</span>
-<span class="n">csi_silver_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_silver_ia_sumyears</span><span class="p">)</span>
-<span class="n">csi_copper_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_copper_ia_sumyears</span><span class="p">)</span>
-<span class="n">csi_aluminium_frames_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_aluminium_frames_ia_sumyears</span><span class="p">)</span>
-<span class="n">csi_encapsulant_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_encapsulant_ia_sumyears</span><span class="p">)</span>
-<span class="n">csi_backsheet_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">csi_backsheet_ia_sumyears</span><span class="p">)</span>
-
-<span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">cdte_Module_ia_sumyears</span><span class="p">)</span> 
-<span class="n">cdte_cadmium_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">cdte_cadmium_ia_sumyears</span><span class="p">)</span> 
-<span class="n">cdte_tellurium_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">cdte_tellurium_ia_sumyears</span><span class="p">)</span> 
-<span class="n">cdte_glass_cdte_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">cdte_glass_cdte_ia_sumyears</span><span class="p">)</span> 
-<span class="n">cdte_aluminium_frames_cdte_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">cdte_aluminium_frames_cdte_ia_sumyears</span><span class="p">)</span> 
-<span class="n">cdte_copper_cdte_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">cdte_copper_cdte_ia_sumyears</span><span class="p">)</span> 
-<span class="n">cdte_encapsulant_cdte_ia</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">2025</span><span class="p">,</span> <span class="n">cdte_encapsulant_cdte_ia_sumyears</span><span class="p">)</span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h4 id="2.3.2.-Change-years-for-amounts">2.3.2. Change years for amounts<a class="anchor-link" href="#2.3.2.-Change-years-for-amounts">&#182;</a></h4>
 </div>
 </div>
@@ -16078,12 +16689,12 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">num_years</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">columns</span><span class="p">)</span> <span class="o">-</span> <span class="mi">3</span> <span class="c1"># simulation years</span>
@@ -16095,12 +16706,37 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>26</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">column_names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;latitude (deg)&#39;</span><span class="p">,</span> <span class="s1">&#39;longitude (deg)&#39;</span><span class="p">]</span>
@@ -16116,7 +16752,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">year</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_years</span><span class="p">):</span>
@@ -16134,7 +16770,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">set_axis</span><span class="p">(</span><span class="n">column_names</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -16188,7 +16824,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="n">column_names</span><span class="p">)</span>
@@ -16220,7 +16856,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">pv_Modules_ia</span><span class="p">[</span><span class="s1">&#39;latitude (deg)&#39;</span><span class="p">],</span><span class="n">pv_Modules_ia</span><span class="p">[</span><span class="s1">&#39;longitude (deg)&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">csi_Module_ia</span><span class="p">[[</span><span class="s1">&#39;name&#39;</span><span class="p">]],</span> <span class="n">csi_Module_ia</span><span class="p">[[</span><span class="s1">&#39;latitude (deg)&#39;</span><span class="p">]],</span><span class="n">csi_Module_ia</span><span class="p">[[</span><span class="s1">&#39;longitude (deg)&#39;</span><span class="p">]]</span> 
@@ -16252,7 +16888,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">3</span><span class="p">::]</span> <span class="o">=</span> <span class="n">cdte_Module_ia</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">3</span><span class="p">::]</span> <span class="o">+</span> <span class="n">csi_Module_ia</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">3</span><span class="p">::]</span> 
@@ -16265,6 +16901,355 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
      </div>
 </div>
 </div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>latitude (deg)</th>
+      <th>longitude (deg)</th>
+      <th>amount 1</th>
+      <th>amount 2</th>
+      <th>amount 3</th>
+      <th>amount 4</th>
+      <th>amount 5</th>
+      <th>amount 6</th>
+      <th>amount 7</th>
+      <th>...</th>
+      <th>amount 17</th>
+      <th>amount 18</th>
+      <th>amount 19</th>
+      <th>amount 20</th>
+      <th>amount 21</th>
+      <th>amount 22</th>
+      <th>amount 23</th>
+      <th>amount 24</th>
+      <th>amount 25</th>
+      <th>amount 26</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Snohomish County, Washington</td>
+      <td>47.820991</td>
+      <td>-121.452252</td>
+      <td>58087.223227</td>
+      <td>57038.004842</td>
+      <td>2933.407999</td>
+      <td>2905.178280</td>
+      <td>5974.783696</td>
+      <td>5903.128253</td>
+      <td>4686.030878</td>
+      <td>...</td>
+      <td>2470.832019</td>
+      <td>2463.703187</td>
+      <td>2277.592151</td>
+      <td>2271.556732</td>
+      <td>861.595181</td>
+      <td>859.484174</td>
+      <td>2912.139956</td>
+      <td>2905.505120</td>
+      <td>3653.242511</td>
+      <td>3645.464507</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>San Bernardino, California</td>
+      <td>35.120104</td>
+      <td>-117.159039</td>
+      <td>286980.708150</td>
+      <td>281797.030594</td>
+      <td>253037.570743</td>
+      <td>250602.457893</td>
+      <td>213907.729036</td>
+      <td>211342.338570</td>
+      <td>162514.956092</td>
+      <td>...</td>
+      <td>37647.387442</td>
+      <td>37538.767402</td>
+      <td>23024.662528</td>
+      <td>22963.649190</td>
+      <td>186237.554011</td>
+      <td>185781.250616</td>
+      <td>121027.426680</td>
+      <td>120751.685462</td>
+      <td>44374.365143</td>
+      <td>44279.889071</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Warren County, Virginia</td>
+      <td>38.791108</td>
+      <td>-78.257714</td>
+      <td>172.413785</td>
+      <td>169.299508</td>
+      <td>54379.808094</td>
+      <td>53856.482767</td>
+      <td>747.193440</td>
+      <td>738.232366</td>
+      <td>700.553261</td>
+      <td>...</td>
+      <td>327.391509</td>
+      <td>326.446921</td>
+      <td>257.358732</td>
+      <td>256.676754</td>
+      <td>554.315533</td>
+      <td>552.957396</td>
+      <td>1039.583541</td>
+      <td>1037.215019</td>
+      <td>102265.044022</td>
+      <td>102047.314719</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Sumter County, Florida</td>
+      <td>28.708695</td>
+      <td>-82.192477</td>
+      <td>90365.574603</td>
+      <td>88733.318540</td>
+      <td>73163.715410</td>
+      <td>72459.622721</td>
+      <td>791456.096378</td>
+      <td>781964.181649</td>
+      <td>301705.020198</td>
+      <td>...</td>
+      <td>87088.823924</td>
+      <td>86837.555716</td>
+      <td>399693.178752</td>
+      <td>398634.026838</td>
+      <td>467445.471888</td>
+      <td>466300.176798</td>
+      <td>12458.561691</td>
+      <td>12430.176894</td>
+      <td>43616.716797</td>
+      <td>43523.853811</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Palm Beach County, Florida</td>
+      <td>26.677092</td>
+      <td>-80.563731</td>
+      <td>20388.347338</td>
+      <td>20020.076526</td>
+      <td>208436.279545</td>
+      <td>206430.388241</td>
+      <td>126344.977365</td>
+      <td>124829.724962</td>
+      <td>26260.183681</td>
+      <td>...</td>
+      <td>5523.475311</td>
+      <td>5507.539010</td>
+      <td>2919.127403</td>
+      <td>2911.391971</td>
+      <td>2141.193265</td>
+      <td>2135.947095</td>
+      <td>2284.784898</td>
+      <td>2279.579389</td>
+      <td>21557.002166</td>
+      <td>21511.105828</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>129</th>
+      <td>Laurens County, South Carolina</td>
+      <td>34.683402</td>
+      <td>-82.058502</td>
+      <td>502768.096642</td>
+      <td>493686.692826</td>
+      <td>192891.017580</td>
+      <td>191034.726461</td>
+      <td>160833.275760</td>
+      <td>158904.405990</td>
+      <td>89677.017331</td>
+      <td>...</td>
+      <td>2244.899438</td>
+      <td>2238.422466</td>
+      <td>65020.339065</td>
+      <td>64848.040862</td>
+      <td>401330.935171</td>
+      <td>400347.628288</td>
+      <td>3161.803547</td>
+      <td>3154.599894</td>
+      <td>2648.869595</td>
+      <td>2643.229970</td>
+    </tr>
+    <tr>
+      <th>130</th>
+      <td>Clarendon County, South Carolina</td>
+      <td>33.666562</td>
+      <td>-80.470185</td>
+      <td>126637.000616</td>
+      <td>124349.580734</td>
+      <td>60585.932600</td>
+      <td>60002.882492</td>
+      <td>45913.666831</td>
+      <td>45363.025282</td>
+      <td>162009.417656</td>
+      <td>...</td>
+      <td>520867.773864</td>
+      <td>519364.968959</td>
+      <td>29681.519886</td>
+      <td>29602.866458</td>
+      <td>51038.657380</td>
+      <td>50913.606808</td>
+      <td>5121.221653</td>
+      <td>5109.553786</td>
+      <td>14308.843175</td>
+      <td>14278.378665</td>
+    </tr>
+    <tr>
+      <th>131</th>
+      <td>Burke County, North Carolina</td>
+      <td>35.703545</td>
+      <td>-81.469485</td>
+      <td>5754.603115</td>
+      <td>5650.658821</td>
+      <td>250722.201615</td>
+      <td>248309.370773</td>
+      <td>30315.784370</td>
+      <td>29952.207867</td>
+      <td>472475.303152</td>
+      <td>...</td>
+      <td>15603.277071</td>
+      <td>15558.258579</td>
+      <td>14220.277192</td>
+      <td>14182.594703</td>
+      <td>118214.806356</td>
+      <td>117925.166504</td>
+      <td>18277.274100</td>
+      <td>18235.632317</td>
+      <td>9126.601330</td>
+      <td>9107.170169</td>
+    </tr>
+    <tr>
+      <th>132</th>
+      <td>Wayne County, North Carolina</td>
+      <td>35.438992</td>
+      <td>-78.063174</td>
+      <td>6954.619306</td>
+      <td>6828.999350</td>
+      <td>12094.897952</td>
+      <td>11978.502425</td>
+      <td>17395.717764</td>
+      <td>17187.091322</td>
+      <td>14239.376569</td>
+      <td>...</td>
+      <td>11246.386074</td>
+      <td>11213.938062</td>
+      <td>11605.173044</td>
+      <td>11574.420352</td>
+      <td>19926.350647</td>
+      <td>19877.528799</td>
+      <td>49295.070377</td>
+      <td>49182.759613</td>
+      <td>8569.565864</td>
+      <td>8551.320669</td>
+    </tr>
+    <tr>
+      <th>133</th>
+      <td>Powhatan County, Virginia</td>
+      <td>37.641073</td>
+      <td>-78.022226</td>
+      <td>37891.396740</td>
+      <td>37206.971700</td>
+      <td>272916.758565</td>
+      <td>270290.337896</td>
+      <td>171284.179388</td>
+      <td>169229.972171</td>
+      <td>32071.773284</td>
+      <td>...</td>
+      <td>11799.631652</td>
+      <td>11765.587418</td>
+      <td>28715.824508</td>
+      <td>28639.730088</td>
+      <td>187890.592287</td>
+      <td>187430.238757</td>
+      <td>195006.424239</td>
+      <td>194562.133962</td>
+      <td>17951.539286</td>
+      <td>17913.319226</td>
+    </tr>
+  </tbody>
+</table>
+<p>134 rows × 29 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -16283,7 +17268,7 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">cwd</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
@@ -16295,12 +17280,12 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#python program to check if a directory exists</span>
@@ -16321,12 +17306,35 @@ From 2023 to 2050, we have a total of 28 amounts.</p>
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The path already exists!
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pv_Modules_ia</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">RELOG_PV_ICE_import_data</span><span class="p">,</span> <span class="s1">&#39;pv_Modules_ia.csv&#39;</span><span class="p">),</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>

@@ -1,0 +1,33 @@
+ERROR: LoadError: Result index of attribute MathOptInterface.VariablePrimal(1) out of bounds. There are currently 0 solution(s) in the model.
+Stacktrace:
+  [1] check_result_index_bounds
+    @ ~/.julia/packages/MathOptInterface/wx5Ea/src/attributes.jl:207 [inlined]
+  [2] get(model::Gurobi.Optimizer, attr::MathOptInterface.VariablePrimal, x::MathOptInterface.VariableIndex)
+    @ Gurobi ~/.julia/packages/Gurobi/VPomg/src/MOI_wrapper/MOI_wrapper.jl:2846
+  [3] get(b::MathOptInterface.Bridges.LazyBridgeOptimizer{Gurobi.Optimizer}, attr::MathOptInterface.VariablePrimal, index::MathOptInterface.VariableIndex)
+    @ MathOptInterface.Bridges ~/.julia/packages/MathOptInterface/wx5Ea/src/Bridges/bridge_optimizer.jl:1130
+  [4] get(model::MathOptInterface.Utilities.CachingOptimizer{MathOptInterface.Bridges.LazyBridgeOptimizer{Gurobi.Optimizer}, MathOptInterface.Utilities.UniversalFallback{MathOptInterface.Utilities.Model{Float64}}}, attr::MathOptInterface.VariablePrimal, index::MathOptInterface.VariableIndex)
+    @ MathOptInterface.Utilities ~/.julia/packages/MathOptInterface/wx5Ea/src/Utilities/cachingoptimizer.jl:911
+  [5] _moi_get_result(::MathOptInterface.Utilities.CachingOptimizer{MathOptInterface.Bridges.LazyBridgeOptimizer{Gurobi.Optimizer}, MathOptInterface.Utilities.UniversalFallback{MathOptInterface.Utilities.Model{Float64}}}, ::MathOptInterface.VariablePrimal, ::Vararg{Any})
+    @ JuMP ~/.julia/packages/JuMP/9CBpS/src/optimizer_interface.jl:616
+  [6] get(model::Model, attr::MathOptInterface.VariablePrimal, v::VariableRef)
+    @ JuMP ~/.julia/packages/JuMP/9CBpS/src/optimizer_interface.jl:656
+  [7] value(v::VariableRef; result::Int64)
+    @ JuMP ~/.julia/packages/JuMP/9CBpS/src/variables.jl:1067
+  [8] value(v::VariableRef)
+    @ JuMP ~/.julia/packages/JuMP/9CBpS/src/variables.jl:1067
+  [9] (::RELOG.var"#58#77"{Model, RELOG.ShippingNode})(t::Int64)
+    @ RELOG ./none:0
+ [10] iterate
+    @ ./generator.jl:47 [inlined]
+ [11] collect(itr::Base.Generator{UnitRange{Int64}, RELOG.var"#58#77"{Model, RELOG.ShippingNode}})
+    @ Base ./array.jl:724
+ [12] get_solution(model::Model; marginal_costs::Bool)
+    @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/getsol.jl:43
+ [13] solve(instance::RELOG.Instance; optimizer::MathOptInterface.OptimizerWithAttributes, lp_optimizer::Nothing, output::Nothing, marginal_costs::Bool, return_model::Bool)
+    @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/solve.jl:82
+ [14] solve(filename::String; heuristic::Bool, kwargs::Base.Pairs{Symbol, MathOptInterface.OptimizerWithAttributes, Tuple{Symbol}, NamedTuple{(:optimizer,), Tuple{MathOptInterface.OptimizerWithAttributes}}})
+    @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/solve.jl:124
+ [15] top-level scope
+    @ /lustre/eaglefs/projects/pvsoiling/RELOG/Recycling_cap_40209_5/solver.jl:17
+in expression starting at /lustre/eaglefs/projects/pvsoiling/RELOG/Recycling_cap_40209_5/solver.jl:17

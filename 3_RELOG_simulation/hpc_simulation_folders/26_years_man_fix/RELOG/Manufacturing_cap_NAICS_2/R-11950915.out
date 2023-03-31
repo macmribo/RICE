@@ -1,0 +1,164 @@
+Set parameter TokenServer to value "license-1.hpc.nrel.gov"
+Set parameter TimeLimit to value 3600
+Set parameter MIPGap to value 0.001
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Thread count: 36 physical cores, 36 logical processors, using up to 32 threads
+Optimize a model with 91884 rows, 1144312 columns and 2343626 nonzeros
+Model fingerprint: 0xadb5f804
+Variable types: 1128244 continuous, 16068 integer (16068 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+05]
+  Objective range  [3e-01, 1e+09]
+  Bounds range     [2e+05, 1e+08]
+  RHS range        [8e-01, 8e+05]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 78516 rows and 59104 columns (presolve time = 6s) ...
+Presolve removed 78516 rows and 59104 columns
+Presolve time: 5.84s
+Presolved: 13368 rows, 1085208 columns, 2177523 nonzeros
+Variable types: 1075320 continuous, 9888 integer (9888 binary)
+
+Deterministic concurrent LP optimizer: primal and dual simplex
+Showing first log only...
+
+
+Root simplex log...
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    4.3121449e+11   3.206661e+05   2.070552e+10      9s
+  107168    4.4878923e+11   8.933377e+04   4.744703e+10     10s
+  519230   -2.4648040e+38   1.411830e+35   2.464804e+08     16s
+Concurrent spin time: 0.21s
+
+Solved with dual simplex
+
+Root relaxation: objective 5.067147e+11, 59670 iterations, 8.93 seconds (7.62 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 5.0671e+11    0   56          - 5.0671e+11      -     -   17s
+H    0     0                    5.144882e+11 5.0671e+11  1.51%     -   18s
+H    0     0                    5.130823e+11 5.0671e+11  1.24%     -   20s
+H    0     0                    5.125129e+11 5.0671e+11  1.13%     -   22s
+     0     0 5.0672e+11    0   57 5.1251e+11 5.0672e+11  1.13%     -   24s
+H    0     0                    5.121253e+11 5.0672e+11  1.06%     -   26s
+H    0     0                    5.071659e+11 5.0672e+11  0.09%     -   28s
+
+Cutting planes:
+  Implied bound: 107
+  MIR: 15
+  Flow cover: 10
+  RLT: 3
+  Relax-and-lift: 73
+
+Explored 1 nodes (60047 simplex iterations) in 28.11 seconds (21.63 work units)
+Thread count was 32 (of 36 available processors)
+
+Solution count 5: 5.07166e+11 5.12125e+11 5.12513e+11 ... 5.14488e+11
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 5.071658746678e+11, best bound 5.067216804767e+11, gap 0.0876%
+
+User-callback calls 7061, time in user-callback 0.01 sec
+Set parameter TokenServer to value "license-1.hpc.nrel.gov"
+Set parameter TimeLimit to value 3600
+Set parameter MIPGap to value 0.001
+Set parameter MIPGap to value 0.001
+Set parameter TimeLimit to value 3600
+Gurobi Optimizer version 9.5.1 build v9.5.1rc2 (linux64)
+Thread count: 36 physical cores, 36 logical processors, using up to 32 threads
+Optimize a model with 91884 rows, 1144312 columns and 2343626 nonzeros
+Model fingerprint: 0xfbce2640
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+05]
+  Objective range  [3e-01, 1e+09]
+  Bounds range     [1e+00, 1e+08]
+  RHS range        [8e-01, 8e+05]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+
+Concurrent LP optimizer: primal simplex, dual simplex, and barrier
+Showing barrier log only...
+
+Presolve removed 87642 rows and 1041542 columns
+Presolve time: 0.96s
+Presolved: 4242 rows, 102770 columns, 204778 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.020e+05
+ Factor NZ  : 1.634e+05 (roughly 40 MB of memory)
+ Factor Ops : 7.156e+06 (less than 1 second per iteration)
+ Threads    : 30
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   1.10546913e+12  2.39673998e+11  4.21e+06 2.44e+02  6.03e+07     1s
+   1   5.31757050e+11  3.86842685e+11  7.27e+04 1.82e-12  2.33e+06     1s
+   2   5.17267252e+11  4.79642027e+11  2.85e+03 2.00e+01  4.09e+05     1s
+   3   5.14066016e+11  4.96909184e+11  8.96e+02 9.23e+00  1.80e+05     1s
+   4   5.11404250e+11  5.02956431e+11  2.18e+02 4.61e+00  8.66e+04     1s
+   5   5.10054889e+11  5.05296319e+11  1.01e+02 1.68e+00  4.82e+04     1s
+   6   5.08431324e+11  5.06444359e+11  2.37e+01 1.03e+00  2.01e+04     1s
+   7   5.08043547e+11  5.06768473e+11  1.50e+01 6.37e-01  1.29e+04     1s
+   8   5.07585918e+11  5.06987206e+11  5.78e+00 3.31e-01  6.08e+03     1s
+   9   5.07443274e+11  5.07049152e+11  3.54e+00 2.13e-01  4.00e+03     1s
+  10   5.07323721e+11  5.07079521e+11  1.81e+00 1.67e-01  2.51e+03     1s
+  11   5.07254571e+11  5.07120862e+11  9.06e-01 9.38e-02  1.38e+03     1s
+  12   5.07212833e+11  5.07141826e+11  4.29e-01 5.39e-02  7.34e+02     1s
+  13   5.07194364e+11  5.07149008e+11  2.45e-01 3.79e-02  4.72e+02     1s
+  14   5.07179336e+11  5.07157192e+11  1.02e-01 2.05e-02  2.32e+02     1s
+  15   5.07171961e+11  5.07162102e+11  4.14e-02 9.34e-03  1.04e+02     1s
+  16   5.07169962e+11  5.07163095e+11  2.68e-02 7.00e-03  7.27e+01     1s
+  17   5.07167759e+11  5.07165181e+11  1.17e-02 1.72e-03  2.65e+01     1s
+  18   5.07167005e+11  5.07165622e+11  6.83e-03 6.07e-04  1.39e+01     1s
+  19   5.07166064e+11  5.07165799e+11  9.99e-04 1.82e-04  2.73e+00     1s
+  20   5.07165942e+11  5.07165857e+11  3.55e-04 4.19e-05  8.68e-01     1s
+  21   5.07165885e+11  5.07165872e+11  5.49e-05 6.08e-06  1.35e-01     1s
+  22   5.07165876e+11  5.07165874e+11  3.26e-06 2.08e-06  2.00e-02     1s
+  23   5.07165875e+11  5.07165875e+11  2.05e-07 1.82e-12  1.12e-04     1s
+  24   5.07165875e+11  5.07165875e+11  4.34e-07 1.02e-12  5.10e-10     1s
+
+Barrier solved model in 24 iterations and 1.25 seconds (0.79 work units)
+Optimal objective 5.07165875e+11
+
+Crossover log...
+
+     242 DPushes remaining with DInf 0.0000000e+00                 1s
+       0 DPushes remaining with DInf 0.0000000e+00                 1s
+
+       2 PPushes remaining with PInf 0.0000000e+00                 1s
+       0 PPushes remaining with PInf 0.0000000e+00                 1s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 4.0017767e-11      1s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+     247    5.0716587e+11   0.000000e+00   0.000000e+00      2s
+
+Solved with dual simplex
+Solved in 6445 iterations and 1.70 seconds (0.68 work units)
+Optimal objective  5.071658747e+11
+
+User-callback calls 393, time in user-callback 0.00 sec
+[ Info:  started timer at: 2023-03-29T17:48:22.981
+[ Info: Reading /projects/pvsoiling/RELOG/Manufacturing_cap_NAICS_2/input/solver/case.json...
+[ Info:          134 collection centers
+[ Info:          309 candidate plant locations
+[ Info: Building graph...
+[ Info:           26 time periods
+[ Info:          309 process nodes
+[ Info:          309 shipping nodes (plant)
+[ Info:          134 shipping nodes (collection)
+[ Info:        41715 arcs
+[ Info: Building optimization model...
+[ Info: Optimizing MILP...
+[ Info: Re-optimizing with integer variables fixed...
+[ Info: Extracting solution...
+[ Info:         79.504635475s: 1 minute, 19 seconds, 504 milliseconds

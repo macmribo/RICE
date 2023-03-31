@@ -1,0 +1,11 @@
+ERROR: LoadError: No solution available
+Stacktrace:
+ [1] error(s::String)
+   @ Base ./error.jl:33
+ [2] solve(instance::RELOG.Instance; optimizer::MathOptInterface.OptimizerWithAttributes, lp_optimizer::Nothing, output::Nothing, marginal_costs::Bool, return_model::Bool)
+   @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/solve.jl:64
+ [3] solve(filename::String; heuristic::Bool, kwargs::Base.Pairs{Symbol, MathOptInterface.OptimizerWithAttributes, Tuple{Symbol}, NamedTuple{(:optimizer,), Tuple{MathOptInterface.OptimizerWithAttributes}}})
+   @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/solve.jl:124
+ [4] top-level scope
+   @ /lustre/eaglefs/projects/pvsoiling/RELOG/Manufacturing_cap_40209_05/solver.jl:17
+in expression starting at /lustre/eaglefs/projects/pvsoiling/RELOG/Manufacturing_cap_40209_05/solver.jl:17

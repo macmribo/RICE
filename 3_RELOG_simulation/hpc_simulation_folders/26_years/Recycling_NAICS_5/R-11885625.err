@@ -1,0 +1,33 @@
+ERROR: LoadError: Gurobi Error 10009: Request denied: use limit (24) exceeded
+Stacktrace:
+  [1] _check_ret
+    @ ~/.julia/packages/Gurobi/VPomg/src/MOI_wrapper/MOI_wrapper.jl:393 [inlined]
+  [2] Gurobi.Env(; output_flag::Int64, memory_limit::Nothing, started::Bool)
+    @ Gurobi ~/.julia/packages/Gurobi/VPomg/src/MOI_wrapper/MOI_wrapper.jl:122
+  [3] Env
+    @ ~/.julia/packages/Gurobi/VPomg/src/MOI_wrapper/MOI_wrapper.jl:100 [inlined]
+  [4] Gurobi.Optimizer(env::Nothing; enable_interrupts::Bool)
+    @ Gurobi ~/.julia/packages/Gurobi/VPomg/src/MOI_wrapper/MOI_wrapper.jl:324
+  [5] Optimizer (repeats 2 times)
+    @ ~/.julia/packages/Gurobi/VPomg/src/MOI_wrapper/MOI_wrapper.jl:322 [inlined]
+  [6] _instantiate_and_check(optimizer_constructor::Any)
+    @ MathOptInterface ~/.julia/packages/MathOptInterface/wx5Ea/src/instantiate.jl:94
+  [7] _instantiate_and_check(optimizer_constructor::MathOptInterface.OptimizerWithAttributes)
+    @ MathOptInterface ~/.julia/packages/MathOptInterface/wx5Ea/src/instantiate.jl:117
+  [8] instantiate(optimizer_constructor::Any; with_bridge_type::Type{Float64}, with_cache_type::Nothing)
+    @ MathOptInterface ~/.julia/packages/MathOptInterface/wx5Ea/src/instantiate.jl:175
+  [9] set_optimizer(model::Model, optimizer_constructor::Any; add_bridges::Bool)
+    @ JuMP ~/.julia/packages/JuMP/9CBpS/src/optimizer_interface.jl:337
+ [10] Model(optimizer_factory::Any; add_bridges::Bool)
+    @ JuMP ~/.julia/packages/JuMP/9CBpS/src/JuMP.jl:166
+ [11] Model
+    @ ~/.julia/packages/JuMP/9CBpS/src/JuMP.jl:165 [inlined]
+ [12] build_model(instance::RELOG.Instance, graph::RELOG.Graph, optimizer::MathOptInterface.OptimizerWithAttributes)
+    @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/build.jl:8
+ [13] solve(instance::RELOG.Instance; optimizer::MathOptInterface.OptimizerWithAttributes, lp_optimizer::Nothing, output::Nothing, marginal_costs::Bool, return_model::Bool)
+    @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/solve.jl:58
+ [14] solve(filename::String; heuristic::Bool, kwargs::Base.Pairs{Symbol, MathOptInterface.OptimizerWithAttributes, Tuple{Symbol}, NamedTuple{(:optimizer,), Tuple{MathOptInterface.OptimizerWithAttributes}}})
+    @ RELOG ~/.julia/packages/RELOG/05GPI/src/model/solve.jl:124
+ [15] top-level scope
+    @ /lustre/eaglefs/projects/pvsoiling/RELOG/Recycling_NAICS_5/solver.jl:17
+in expression starting at /lustre/eaglefs/projects/pvsoiling/RELOG/Recycling_NAICS_5/solver.jl:17
