@@ -18,7 +18,7 @@ using Logging
 
 tick()
 # Solve reference case
-_, model = RELOG.solve("/projects/pvsoiling/RELOG/scenario/input/solver/case.json", return_model=true, optimizer=gurobi);
+_, model = RELOG.solve("/projects/rice/scenario/input/solver/case.json", return_model=true, optimizer=gurobi);
 
 # Solve what-if cases:
 for filename in glob("input/what-if/*.json")

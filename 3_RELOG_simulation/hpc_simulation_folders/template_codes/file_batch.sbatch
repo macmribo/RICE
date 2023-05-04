@@ -1,7 +1,8 @@
 #!/usr/bin/bash
 
 
-#SBATCH --mail-user=MACARENA.MENDEZRIBO@nrel.gov
+#SBATCH --mail-user=HOPE.WIKOFF@nrel.gov
+#SBATCH --mail-user=macmribo@gmail.com
 #SBATCH --mail-type=BEGIN,END,FAIL
 
 #SBATCH --output=R-%j.out
