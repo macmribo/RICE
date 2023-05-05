@@ -114565,1135 +114565,973 @@
             "latitude (deg)": 30,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "FL"
+            "area cost factor": 0.9148936170212766
           },
           "Flex-Tec, Inc., GA": {
             "latitude (deg)": 32,
             "longitude (deg)": -84,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "GA"
+            "area cost factor": 0.9255319148936171
           },
           "Helen Of Troy L. P., TX": {
             "latitude (deg)": 32,
             "longitude (deg)": -107,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "Kuykendall Cement Corp., AR": {
             "latitude (deg)": 35,
             "longitude (deg)": -92,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7872340425531915,
-            "state": "AR"
+            "area cost factor": 0.7872340425531915
           },
           "Herstead Monument Co., NE": {
             "latitude (deg)": 42,
             "longitude (deg)": -104,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NE"
+            "area cost factor": 0.9787234042553192
           },
           "Baldor Electric Co., AR": {
             "latitude (deg)": 35,
             "longitude (deg)": -93,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7872340425531915,
-            "state": "AR"
+            "area cost factor": 0.7872340425531915
           },
           "Carolina Graphics, SC": {
             "latitude (deg)": 33,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "SC"
+            "area cost factor": 0.9361702127659575
           },
           "American Plant Food Corp., TX": {
             "latitude (deg)": 32,
             "longitude (deg)": -99,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "National Water Technologies, Inc., NC": {
             "latitude (deg)": 36,
             "longitude (deg)": -77,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9680851063829788,
-            "state": "NC"
+            "area cost factor": 0.9680851063829788
           },
           "Heath Transit Mix Concrete Co., TX": {
             "latitude (deg)": 31,
             "longitude (deg)": -105,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "MicroLumen, Inc., FL": {
             "latitude (deg)": 28,
             "longitude (deg)": -83,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "FL"
+            "area cost factor": 0.9148936170212766
           },
           "AGC Automotive Americas, KY": {
             "latitude (deg)": 38,
             "longitude (deg)": -86,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "KY"
+            "area cost factor": 0.9148936170212766
           },
           "New Mexico Soap Works, Inc., NM": {
             "latitude (deg)": 37,
             "longitude (deg)": -105,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NM"
+            "area cost factor": 0.9787234042553192
           },
           "Baker Hughes Oilfield Operations, LLC, LA": {
             "latitude (deg)": 29,
             "longitude (deg)": -90,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8936170212765958,
-            "state": "LA"
+            "area cost factor": 0.8936170212765958
           },
           "Consolidated Nuclear Security, TN": {
             "latitude (deg)": 36,
             "longitude (deg)": -88,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "TN"
+            "area cost factor": 0.9148936170212766
           },
           "Lakeshore Signs, LA": {
             "latitude (deg)": 30,
             "longitude (deg)": -90,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8936170212765958,
-            "state": "LA"
+            "area cost factor": 0.8936170212765958
           },
           "Noahs Ark Repair Service, FL": {
             "latitude (deg)": 28,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "FL"
+            "area cost factor": 0.9148936170212766
           },
           "Hall China Co., The, OH": {
             "latitude (deg)": 41,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1,
-            "state": "OH"
+            "area cost factor": 1
           },
           "Big Bend Rebar, Inc., FL": {
             "latitude (deg)": 31,
             "longitude (deg)": -85,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "FL"
+            "area cost factor": 0.9148936170212766
           },
           "Columbia Block & Brick, MS": {
             "latitude (deg)": 31,
             "longitude (deg)": -90,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7553191489361702,
-            "state": "MS"
+            "area cost factor": 0.7553191489361702
           },
           "S & W Ready Mix Concrete Co., LLC, NC": {
             "latitude (deg)": 35,
             "longitude (deg)": -77,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9680851063829788,
-            "state": "NC"
+            "area cost factor": 0.9680851063829788
           },
           "Newpark Drilling Fluids, LLC, LA": {
             "latitude (deg)": 29,
             "longitude (deg)": -89,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8936170212765958,
-            "state": "LA"
+            "area cost factor": 0.8936170212765958
           },
           "BeccaLee Mfg., OK": {
             "latitude (deg)": 35,
             "longitude (deg)": -97,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8829787234042553,
-            "state": "OK"
+            "area cost factor": 0.8829787234042553
           },
           "Cooling Tower Supply, AZ": {
             "latitude (deg)": 33,
             "longitude (deg)": -111,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "AZ"
+            "area cost factor": 0.9042553191489362
           },
           "Gold Star Engraving & Awards, AZ": {
             "latitude (deg)": 34,
             "longitude (deg)": -114,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "AZ"
+            "area cost factor": 0.9042553191489362
           },
           "United States Gypsum Co., TX": {
             "latitude (deg)": 32,
             "longitude (deg)": -100,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "Water Prisms By John & Nancy, NM": {
             "latitude (deg)": 35,
             "longitude (deg)": -106,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NM"
+            "area cost factor": 0.9787234042553192
           },
           "CenturyLink, Inc., LA": {
             "latitude (deg)": 33,
             "longitude (deg)": -92,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8936170212765958,
-            "state": "LA"
+            "area cost factor": 0.8936170212765958
           },
           "EnerSys, Inc., KS": {
             "latitude (deg)": 39,
             "longitude (deg)": -99,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.946808510638298,
-            "state": "KS"
+            "area cost factor": 0.946808510638298
           },
           "Arkansas Concrete, AR": {
             "latitude (deg)": 35,
             "longitude (deg)": -91,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7872340425531915,
-            "state": "AR"
+            "area cost factor": 0.7872340425531915
           },
           "Merrill Fence Co., LLC, NM": {
             "latitude (deg)": 36,
             "longitude (deg)": -109,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NM"
+            "area cost factor": 0.9787234042553192
           },
           "Montell Fabrication & Rebuild, LLC, NM": {
             "latitude (deg)": 34,
             "longitude (deg)": -106,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NM"
+            "area cost factor": 0.9787234042553192
           },
           "Marlin Marble Co., FL": {
             "latitude (deg)": 27,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "FL"
+            "area cost factor": 0.9148936170212766
           },
           "Standard Enterprises, Inc., VA": {
             "latitude (deg)": 38,
             "longitude (deg)": -78,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "VA"
+            "area cost factor": 0.8723404255319149
           },
           "Descant Awning and Sign Co., LA": {
             "latitude (deg)": 31,
             "longitude (deg)": -93,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8936170212765958,
-            "state": "LA"
+            "area cost factor": 0.8936170212765958
           },
           "Prospect Machine, Inc., AZ": {
             "latitude (deg)": 34,
             "longitude (deg)": -112,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "AZ"
+            "area cost factor": 0.9042553191489362
           },
           "Gate Precast Co., TN": {
             "latitude (deg)": 36,
             "longitude (deg)": -87,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "TN"
+            "area cost factor": 0.9148936170212766
           },
           "Pegasus Steel, SC": {
             "latitude (deg)": 33,
             "longitude (deg)": -80,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "SC"
+            "area cost factor": 0.9361702127659575
           },
           "Doral Steel Of Tennessee, Inc., TN": {
             "latitude (deg)": 36,
             "longitude (deg)": -84,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "TN"
+            "area cost factor": 0.9148936170212766
           },
           "Oakley Valley Stone, Inc., ID": {
             "latitude (deg)": 42,
             "longitude (deg)": -114,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0638297872340425,
-            "state": "ID"
+            "area cost factor": 1.0638297872340425
           },
           "Martinrea Fabco, TN": {
             "latitude (deg)": 37,
             "longitude (deg)": -87,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "TN"
+            "area cost factor": 0.9148936170212766
           },
           "Kencoil, Inc., LA": {
             "latitude (deg)": 32,
             "longitude (deg)": -92,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8936170212765958,
-            "state": "LA"
+            "area cost factor": 0.8936170212765958
           },
           "Unimin Corp., GA": {
             "latitude (deg)": 33,
             "longitude (deg)": -82,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "GA"
+            "area cost factor": 0.9255319148936171
           },
           "Panasonic Energy Corp. Of America, GA": {
             "latitude (deg)": 32,
             "longitude (deg)": -85,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "GA"
+            "area cost factor": 0.9255319148936171
           },
           "Winoa USA, Inc., VA": {
             "latitude (deg)": 37,
             "longitude (deg)": -80,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "VA"
+            "area cost factor": 0.8723404255319149
           },
           "Rockwell Automation, Inc., OH": {
             "latitude (deg)": 42,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1,
-            "state": "OH"
+            "area cost factor": 1
           },
           "Hexion Inc., TX": {
             "latitude (deg)": 31,
             "longitude (deg)": -99,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "Hockmeyer Equipment Corp., NC": {
             "latitude (deg)": 36,
             "longitude (deg)": -76,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9680851063829788,
-            "state": "NC"
+            "area cost factor": 0.9680851063829788
           },
           "MMC Materials, Inc., MS": {
             "latitude (deg)": 33,
             "longitude (deg)": -90,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7553191489361702,
-            "state": "MS"
+            "area cost factor": 0.7553191489361702
           },
           "Michelin North America, Inc., SC": {
             "latitude (deg)": 34,
             "longitude (deg)": -83,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "SC"
+            "area cost factor": 0.9361702127659575
           },
           "Menefee Mining Corp., NM": {
             "latitude (deg)": 36,
             "longitude (deg)": -107,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NM"
+            "area cost factor": 0.9787234042553192
           },
           "Hayward Industries, Inc., NC": {
             "latitude (deg)": 36,
             "longitude (deg)": -80,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9680851063829788,
-            "state": "NC"
+            "area cost factor": 0.9680851063829788
           },
           "J & J Signs, NM": {
             "latitude (deg)": 33,
             "longitude (deg)": -108,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NM"
+            "area cost factor": 0.9787234042553192
           },
           "Elster AMCO Water, LLC, FL": {
             "latitude (deg)": 29,
             "longitude (deg)": -82,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "FL"
+            "area cost factor": 0.9148936170212766
           },
           "Electro-Mechanical Corp., VA": {
             "latitude (deg)": 37,
             "longitude (deg)": -82,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "VA"
+            "area cost factor": 0.8723404255319149
           },
           "Boye Knives, AZ": {
             "latitude (deg)": 36,
             "longitude (deg)": -114,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "AZ"
+            "area cost factor": 0.9042553191489362
           },
           "Screen Tight, SC": {
             "latitude (deg)": 33,
             "longitude (deg)": -79,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "SC"
+            "area cost factor": 0.9361702127659575
           },
           "Atlantic Fabrication & Boiler, VA": {
             "latitude (deg)": 37,
             "longitude (deg)": -76,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "VA"
+            "area cost factor": 0.8723404255319149
           },
           "McAlester Army Ammunition Plant (MCAAP), OK": {
             "latitude (deg)": 35,
             "longitude (deg)": -96,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8829787234042553,
-            "state": "OK"
+            "area cost factor": 0.8829787234042553
           },
           "Zschimmer & Schwarz, Inc., GA": {
             "latitude (deg)": 33,
             "longitude (deg)": -83,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "GA"
+            "area cost factor": 0.9255319148936171
           },
           "Martin's Sheetmetal, Inc., TX": {
             "latitude (deg)": 35,
             "longitude (deg)": -102,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "AngioDynamics, Inc., GA": {
             "latitude (deg)": 33,
             "longitude (deg)": -85,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "GA"
+            "area cost factor": 0.9255319148936171
           },
           "Bain Mfg. Co., Inc., MS": {
             "latitude (deg)": 34,
             "longitude (deg)": -90,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7553191489361702,
-            "state": "MS"
+            "area cost factor": 0.7553191489361702
           },
           "Adrienne Electronics Corp., NM": {
             "latitude (deg)": 34,
             "longitude (deg)": -108,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "NM"
+            "area cost factor": 0.9787234042553192
           },
           "Midstream Energy Services, LLC, OK": {
             "latitude (deg)": 37,
             "longitude (deg)": -102,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8829787234042553,
-            "state": "OK"
+            "area cost factor": 0.8829787234042553
           },
           "Duke Outdoor Advertising, TX": {
             "latitude (deg)": 31,
             "longitude (deg)": -104,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "Cambridge Metal Works, ID": {
             "latitude (deg)": 45,
             "longitude (deg)": -117,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0638297872340425,
-            "state": "ID"
+            "area cost factor": 1.0638297872340425
           },
           "Parman Bros. Ltd., KS": {
             "latitude (deg)": 38,
             "longitude (deg)": -102,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.946808510638298,
-            "state": "KS"
+            "area cost factor": 0.946808510638298
           },
           "Gamco, Div. of Bobrick, OK": {
             "latitude (deg)": 34,
             "longitude (deg)": -96,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8829787234042553,
-            "state": "OK"
+            "area cost factor": 0.8829787234042553
           },
           "Murco Wall Products, Inc., AZ": {
             "latitude (deg)": 33,
             "longitude (deg)": -113,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "AZ"
+            "area cost factor": 0.9042553191489362
           },
           "Headrick Outdoor Media, Inc., MS": {
             "latitude (deg)": 32,
             "longitude (deg)": -90,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7553191489361702,
-            "state": "MS"
+            "area cost factor": 0.7553191489361702
           },
           "Techni-Chem Corp., ID": {
             "latitude (deg)": 44,
             "longitude (deg)": -116,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0638297872340425,
-            "state": "ID"
+            "area cost factor": 1.0638297872340425
           },
           "Felton Bros. Transit Mix, Inc., VA": {
             "latitude (deg)": 37,
             "longitude (deg)": -79,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "VA"
+            "area cost factor": 0.8723404255319149
           },
           "Mobile Computer Service, TX": {
             "latitude (deg)": 34,
             "longitude (deg)": -102,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "TX"
+            "area cost factor": 0.9361702127659575
           },
           "Hantz & Son, LA": {
             "latitude (deg)": 30,
             "longitude (deg)": -93,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8936170212765958,
-            "state": "LA"
+            "area cost factor": 0.8936170212765958
           },
           "Southern Concrete Materials, NC": {
             "latitude (deg)": 35,
             "longitude (deg)": -76,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9680851063829788,
-            "state": "NC"
+            "area cost factor": 0.9680851063829788
           },
           "SteelFab, Inc., SC": {
             "latitude (deg)": 34,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "SC"
+            "area cost factor": 0.9361702127659575
           },
           "Thomas & Betts/Homac Products, FL": {
             "latitude (deg)": 29,
             "longitude (deg)": -81,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "FL"
+            "area cost factor": 0.9148936170212766
           },
           "Scoggins Co., Inc., John, OK": {
             "latitude (deg)": 35,
             "longitude (deg)": -95,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8829787234042553,
-            "state": "OK"
+            "area cost factor": 0.8829787234042553
           },
           "Lhoist North America, AZ": {
             "latitude (deg)": 36,
             "longitude (deg)": -113,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "AZ"
+            "area cost factor": 0.9042553191489362
           },
           "Gray's Petrified Wood Co., Jim, AZ": {
             "latitude (deg)": 35,
             "longitude (deg)": -110,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "AZ"
+            "area cost factor": 0.9042553191489362
           },
           "Glen Lyn, Virginia": {
             "latitude (deg)": 37.318072,
             "longitude (deg)": -80.698321,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "H B Robinson, South Carolina": {
             "latitude (deg)": 34.332185,
             "longitude (deg)": -79.962115,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "South Carolina"
+            "area cost factor": 0.9361702127659575
           },
           "San Juan, New Mexico": {
             "latitude (deg)": 36.511624,
             "longitude (deg)": -108.324578,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "New Mexico"
+            "area cost factor": 0.9787234042553192
           },
           "St Johns River Power Park, Florida": {
             "latitude (deg)": 30.335245,
             "longitude (deg)": -81.648113,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Florida"
+            "area cost factor": 0.9148936170212766
           },
           "Lansing Smith, Florida": {
             "latitude (deg)": 30.238218,
             "longitude (deg)": -85.63168,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Florida"
+            "area cost factor": 0.9148936170212766
           },
           "Indiantown Cogeneration LP, Florida": {
             "latitude (deg)": 27.083604,
             "longitude (deg)": -80.398201,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Florida"
+            "area cost factor": 0.9148936170212766
           },
           "James River Genco LLC, Virginia": {
             "latitude (deg)": 37.29101,
             "longitude (deg)": -77.298944,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Osage (WY), Wyoming": {
             "latitude (deg)": 43.846213,
             "longitude (deg)": -104.57002,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0638297872340425,
-            "state": "Wyoming"
+            "area cost factor": 1.0638297872340425
           },
           "Norit Americas Marshall Plant, Texas": {
             "latitude (deg)": 32.547991,
             "longitude (deg)": -94.374434,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Texas"
+            "area cost factor": 0.9361702127659575
           },
           "Paradise, Kentucky": {
             "latitude (deg)": 37.213816,
             "longitude (deg)": -87.134092,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Cholla, Arizona": {
             "latitude (deg)": 35.390785,
             "longitude (deg)": -110.321025,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "Arizona"
+            "area cost factor": 0.9042553191489362
           },
           "Waynesboro Virginia Plant, Virginia": {
             "latitude (deg)": 38.067157,
             "longitude (deg)": -78.90142,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Oklaunion, Texas": {
             "latitude (deg)": 34.08492,
             "longitude (deg)": -99.24244,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Texas"
+            "area cost factor": 0.9361702127659575
           },
           "Mitchell (GA), Georgia": {
             "latitude (deg)": 31.532588,
             "longitude (deg)": -84.20904,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Yorktown, Virginia": {
             "latitude (deg)": 37.219081,
             "longitude (deg)": -76.561648,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Desert Power LP, Utah": {
             "latitude (deg)": 40.467753,
             "longitude (deg)": -113.123979,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.1382978723404256,
-            "state": "Utah"
+            "area cost factor": 1.1382978723404256
           },
           "Yates, Georgia": {
             "latitude (deg)": 33.352897,
             "longitude (deg)": -84.762138,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Big Sandy, Kentucky": {
             "latitude (deg)": 38.074453,
             "longitude (deg)": -82.73829,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Allen, Tennessee": {
             "latitude (deg)": 35.183794,
             "longitude (deg)": -89.895397,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Tennessee"
+            "area cost factor": 0.9148936170212766
           },
           "Lamar Plant, Colorado": {
             "latitude (deg)": 37.958181,
             "longitude (deg)": -102.392161,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "W N Clark, Colorado": {
             "latitude (deg)": 38.45517,
             "longitude (deg)": -105.424958,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "Canadys Steam, South Carolina": {
             "latitude (deg)": 32.835018,
             "longitude (deg)": -80.655244,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "South Carolina"
+            "area cost factor": 0.9361702127659575
           },
           "Kennecott Power Plant, Utah": {
             "latitude (deg)": 40.667883,
             "longitude (deg)": -111.92424,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.1382978723404256,
-            "state": "Utah"
+            "area cost factor": 1.1382978723404256
           },
           "HMP&L Station Two Henderson, Kentucky": {
             "latitude (deg)": 37.51946,
             "longitude (deg)": -87.68479,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "John Sevier, Tennessee": {
             "latitude (deg)": 36.452089,
             "longitude (deg)": -82.931485,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Tennessee"
+            "area cost factor": 0.9148936170212766
           },
           "Tyrone, Kentucky": {
             "latitude (deg)": 38.043103,
             "longitude (deg)": -84.748855,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "R D Morrow, Mississippi": {
             "latitude (deg)": 31.197586,
             "longitude (deg)": -89.506369,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.7553191489361702,
-            "state": "Mississippi"
+            "area cost factor": 0.7553191489361702
           },
           "Johnsonville, Tennessee": {
             "latitude (deg)": 36.040822,
             "longitude (deg)": -87.790453,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Tennessee"
+            "area cost factor": 0.9148936170212766
           },
           "Escalante, New Mexico": {
             "latitude (deg)": 35.583878,
             "longitude (deg)": -108.253266,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "New Mexico"
+            "area cost factor": 0.9787234042553192
           },
           "Northeastern, Oklahoma": {
             "latitude (deg)": 36.377794,
             "longitude (deg)": -95.601383,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8829787234042553,
-            "state": "Oklahoma"
+            "area cost factor": 0.8829787234042553
           },
           "W S Lee, South Carolina": {
             "latitude (deg)": 34.521235,
             "longitude (deg)": -82.638603,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "South Carolina"
+            "area cost factor": 0.9361702127659575
           },
           "Harllee Branch, Georgia": {
             "latitude (deg)": 33.32106,
             "longitude (deg)": -83.37179,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Ben French, South Dakota": {
             "latitude (deg)": 44.002349,
             "longitude (deg)": -102.823801,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0319148936170213,
-            "state": "South Dakota"
+            "area cost factor": 1.0319148936170213
           },
           "Lawrence Energy Center, Kansas": {
             "latitude (deg)": 38.896417,
             "longitude (deg)": -95.290947,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.946808510638298,
-            "state": "Kansas"
+            "area cost factor": 0.946808510638298
           },
           "Elmer Smith, Kentucky": {
             "latitude (deg)": 37.731671,
             "longitude (deg)": -87.087139,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Kraft, Georgia": {
             "latitude (deg)": 31.980404,
             "longitude (deg)": -81.085184,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Valmont, Colorado": {
             "latitude (deg)": 40.09497,
             "longitude (deg)": -105.397691,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "McIntosh, Georgia": {
             "latitude (deg)": 32.36168,
             "longitude (deg)": -81.343372,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Scholz, Florida": {
             "latitude (deg)": 30.789249,
             "longitude (deg)": -85.208814,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Florida"
+            "area cost factor": 0.9148936170212766
           },
           "Monticello, Texas": {
             "latitude (deg)": 33.214599,
             "longitude (deg)": -94.966783,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Texas"
+            "area cost factor": 0.9361702127659575
           },
           "Raton, New Mexico": {
             "latitude (deg)": 36.612964,
             "longitude (deg)": -104.64011,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9787234042553192,
-            "state": "New Mexico"
+            "area cost factor": 0.9787234042553192
           },
           "Hammond, Georgia": {
             "latitude (deg)": 34.263692,
             "longitude (deg)": -85.213685,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Portsmouth Genco LLC, Virginia": {
             "latitude (deg)": 36.859339,
             "longitude (deg)": -76.356973,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Cherokee, Colorado": {
             "latitude (deg)": 39.874325,
             "longitude (deg)": -104.331872,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "Dolphus M Grainger, South Carolina": {
             "latitude (deg)": 33.909269,
             "longitude (deg)": -78.976675,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "South Carolina"
+            "area cost factor": 0.9361702127659575
           },
           "HF Lee Plant, North Carolina": {
             "latitude (deg)": 35.35419,
             "longitude (deg)": -78.00867,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9680851063829788,
-            "state": "North Carolina"
+            "area cost factor": 0.9680851063829788
           },
           "E W Brown, Kentucky": {
             "latitude (deg)": 37.812085,
             "longitude (deg)": -84.879695,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Tecumseh Energy Center, Kansas": {
             "latitude (deg)": 39.041805,
             "longitude (deg)": -95.755664,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.946808510638298,
-            "state": "Kansas"
+            "area cost factor": 0.946808510638298
           },
           "US DOE Savannah River Site (D Area), South Carolina": {
             "latitude (deg)": 33.550013,
             "longitude (deg)": -81.632983,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "South Carolina"
+            "area cost factor": 0.9361702127659575
           },
           "Covington Facility, Virginia": {
             "latitude (deg)": 37.787905,
             "longitude (deg)": -80.008669,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Arapahoe, Colorado": {
             "latitude (deg)": 39.76185,
             "longitude (deg)": -104.881105,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "Dan River Power Plant, Virginia": {
             "latitude (deg)": 36.583334,
             "longitude (deg)": -79.408071,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Gibbons Creek, Texas": {
             "latitude (deg)": 30.543231,
             "longitude (deg)": -95.988082,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Texas"
+            "area cost factor": 0.9361702127659575
           },
           "Dale, Kentucky": {
             "latitude (deg)": 37.970314,
             "longitude (deg)": -84.145115,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Shawnee, Kentucky": {
             "latitude (deg)": 37.054111,
             "longitude (deg)": -88.712454,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Lowman Energy Center, Alabama": {
             "latitude (deg)": 31.405217,
             "longitude (deg)": -88.197564,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Alabama"
+            "area cost factor": 0.9361702127659575
           },
           "Sandow No 4, Texas": {
             "latitude (deg)": 30.791242,
             "longitude (deg)": -96.984395,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Texas"
+            "area cost factor": 0.9361702127659575
           },
           "Gorgas, Alabama": {
             "latitude (deg)": 33.791558,
             "longitude (deg)": -87.301094,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Alabama"
+            "area cost factor": 0.9361702127659575
           },
           "Watts Bar Fossil, Tennessee": {
             "latitude (deg)": 35.60059,
             "longitude (deg)": -84.949548,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Tennessee"
+            "area cost factor": 0.9148936170212766
           },
           "Cane Run, Kentucky": {
             "latitude (deg)": 38.189532,
             "longitude (deg)": -85.657624,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Durango Georgia Paper, Georgia": {
             "latitude (deg)": 30.913358,
             "longitude (deg)": -81.642019,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Crystal River, Florida": {
             "latitude (deg)": 28.84364,
             "longitude (deg)": -82.52481,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Florida"
+            "area cost factor": 0.9148936170212766
           },
           "Colbert, Alabama": {
             "latitude (deg)": 34.703112,
             "longitude (deg)": -87.801457,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Alabama"
+            "area cost factor": 0.9361702127659575
           },
           "Barry, Alabama": {
             "latitude (deg)": 30.684572,
             "longitude (deg)": -88.196568,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Alabama"
+            "area cost factor": 0.9361702127659575
           },
           "Clinch River, Virginia": {
             "latitude (deg)": 36.93342,
             "longitude (deg)": -82.095934,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Lowland, Tennessee": {
             "latitude (deg)": 36.218397,
             "longitude (deg)": -83.266071,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Tennessee"
+            "area cost factor": 0.9148936170212766
           },
           "Cameo, Colorado": {
             "latitude (deg)": 39.019524,
             "longitude (deg)": -108.460571,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "Potomac River, Virginia": {
             "latitude (deg)": 38.819251,
             "longitude (deg)": -77.08367,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Jack McDonough, Georgia": {
             "latitude (deg)": 33.93993,
             "longitude (deg)": -84.574112,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9255319148936171,
-            "state": "Georgia"
+            "area cost factor": 0.9255319148936171
           },
           "Martin Drake, Colorado": {
             "latitude (deg)": 38.827383,
             "longitude (deg)": -104.527472,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "Chesapeake, Virginia": {
             "latitude (deg)": 36.679376,
             "longitude (deg)": -76.301788,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Navajo, Arizona": {
             "latitude (deg)": 35.829692,
             "longitude (deg)": -111.773728,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9042553191489362,
-            "state": "Arizona"
+            "area cost factor": 0.9042553191489362
           },
           "Nucla, Colorado": {
             "latitude (deg)": 38.407507,
             "longitude (deg)": -108.266282,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "Mecklenburg Power Station, Virginia": {
             "latitude (deg)": 36.687256,
             "longitude (deg)": -78.368959,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Big Brown, Texas": {
             "latitude (deg)": 31.701749,
             "longitude (deg)": -96.144957,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "Texas"
+            "area cost factor": 0.9361702127659575
           },
           "Trinidad (CO), Colorado": {
             "latitude (deg)": 37.318831,
             "longitude (deg)": -104.04411,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0531914893617023,
-            "state": "Colorado"
+            "area cost factor": 1.0531914893617023
           },
           "Chesterfield, Virginia": {
             "latitude (deg)": 37.378434,
             "longitude (deg)": -77.585847,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.8723404255319149,
-            "state": "Virginia"
+            "area cost factor": 0.8723404255319149
           },
           "Jefferies, South Carolina": {
             "latitude (deg)": 33.2077,
             "longitude (deg)": -79.953655,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9361702127659575,
-            "state": "South Carolina"
+            "area cost factor": 0.9361702127659575
           },
           "Neil Simpson, Wyoming": {
             "latitude (deg)": 44.191999,
             "longitude (deg)": -105.517014,
             "initial capacity (tonne)": 0,
-            "area cost factor": 1.0638297872340425,
-            "state": "Wyoming"
+            "area cost factor": 1.0638297872340425
           },
           "Henderson I, Kentucky": {
             "latitude (deg)": 37.792542,
             "longitude (deg)": -87.572577,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Kentucky"
+            "area cost factor": 0.9148936170212766
           },
           "Vanderbilt University Power Plant, Tennessee": {
             "latitude (deg)": 36.169129,
             "longitude (deg)": -86.78479,
             "initial capacity (tonne)": 0,
-            "area cost factor": 0.9148936170212766,
-            "state": "Tennessee"
+            "area cost factor": 0.9148936170212766
           }
         },
         "outputs (tonne/tonne)": {
