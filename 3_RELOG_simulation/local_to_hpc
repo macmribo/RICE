@@ -39,11 +39,11 @@
 # scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_2 hwikoff@eagle.nrel.gov:/projects/rice
 # scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_5 hwikoff@eagle.nrel.gov:/projects/rice
 # scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_10 hwikoff@eagle.nrel.gov:/projects/rice
-scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTH_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
-# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTH_D_10_1 hwikoff@eagle.nrel.gov:/projects/rice
-scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTHS_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
-# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTHS_D_10_1 hwikoff@eagle.nrel.gov:/projects/rice
-scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
-# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_D_10_1 hwikoff@eagle.nrel.gov:/projects/rice
-scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
-# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_D_10_1 hwikoff@eagle.nrel.gov:/projects/rice
+# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTH_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
+scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTH_D_30_1 hwikoff@eagle.nrel.gov:/projects/rice
+# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTHS_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
+scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTHS_D_30_1 hwikoff@eagle.nrel.gov:/projects/rice
+# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
+scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_D_30_1 hwikoff@eagle.nrel.gov:/projects/rice
+# scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_ND_1 hwikoff@eagle.nrel.gov:/projects/rice
+scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_D_30_1 hwikoff@eagle.nrel.gov:/projects/rice
