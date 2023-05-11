@@ -1,0 +1,339 @@
+plant type,location name,year,product name,amount produced (tonne),amount sent (tonne),amount disposed (tonne),disposal cost ($)
+PV Manufacturing Plant,"Glen Lyn, Virginia",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",3,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",4,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",7,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",8,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",13,PV Modules,356493.673919,0.0,356493.673919,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",14,PV Modules,352988.399342,0.0,352988.399342,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",15,PV Modules,3024.691916,0.0,3024.691916,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",16,PV Modules,3015.114722,0.0,3015.114722,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",17,PV Modules,145246.46348,0.0,145246.46348,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",18,PV Modules,141828.100732,0.0,141828.100732,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",19,PV Modules,220051.102647,0.0,220051.102647,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",20,PV Modules,218090.630871,0.0,218090.630871,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",21,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",22,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",23,PV Modules,335938.876104,0.0,335938.876104,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",24,PV Modules,332805.053889,0.0,332805.053889,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",25,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Glen Lyn, Virginia",26,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",3,PV Modules,391053.416229,0.0,391053.416229,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",4,PV Modules,358124.335506,0.0,358124.335506,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",5,PV Modules,491645.025167,0.0,491645.025167,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",6,PV Modules,435879.634829,0.0,435879.634829,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",7,PV Modules,2424.737031,0.0,2424.737031,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",8,PV Modules,2403.257181,0.0,2403.257181,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",11,PV Modules,268296.630572,0.0,268296.630572,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",12,PV Modules,254976.311917,0.0,254976.311917,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",13,PV Modules,1648.673373,0.0,1648.673373,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",14,PV Modules,1642.889495,0.0,1642.889495,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",15,PV Modules,1881.580338,0.0,1881.580338,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",16,PV Modules,1875.62262,0.0,1875.62262,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",17,PV Modules,1724.120633,0.0,1724.120633,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",18,PV Modules,1719.146209,0.0,1719.146209,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",19,PV Modules,109509.867108,0.0,109509.867108,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",20,PV Modules,109219.675552,0.0,109219.675552,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",21,PV Modules,98423.898104,0.0,98423.898104,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",22,PV Modules,98182.748251,0.0,98182.748251,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",23,PV Modules,168555.654478,0.0,168555.654478,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",24,PV Modules,168171.627958,0.0,168171.627958,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",25,PV Modules,458987.182833,0.0,458987.182833,0.0
+PV Manufacturing Plant,"Waynesboro Virginia Plant, Virginia",26,PV Modules,456903.332997,0.0,456903.332997,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",1,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",2,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",3,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",4,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",5,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",6,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",7,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",8,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",9,PV Modules,453519.787961,0.0,453519.787961,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",10,PV Modules,451285.550074,0.0,451285.550074,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",11,PV Modules,35396.060462,0.0,35396.060462,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",12,PV Modules,33212.66166,0.0,33212.66166,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",13,PV Modules,140.893397,0.0,140.893397,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",14,PV Modules,140.399114,0.0,140.399114,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",15,PV Modules,114.550929,0.0,114.550929,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",16,PV Modules,114.188222,0.0,114.188222,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",17,PV Modules,113.738682,0.0,113.738682,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",18,PV Modules,113.410524,0.0,113.410524,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",19,PV Modules,77.897551,0.0,77.897551,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",20,PV Modules,77.69113,0.0,77.69113,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",21,PV Modules,39975.643292,0.0,39975.643292,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",22,PV Modules,39877.698374,0.0,39877.698374,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",23,PV Modules,101.736742,0.0,101.736742,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",24,PV Modules,101.504951,0.0,101.504951,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",25,PV Modules,352980.967247,0.0,352980.967247,0.0
+PV Manufacturing Plant,"Yorktown, Virginia",26,PV Modules,352229.446521,0.0,352229.446521,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",3,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",4,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",7,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",8,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",13,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",14,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",15,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",16,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",17,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",18,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",19,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",20,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",21,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",22,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",23,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",24,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",25,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"R D Morrow, Mississippi",26,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",3,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",4,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",7,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",8,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",13,PV Modules,372209.139346,0.0,372209.139346,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",14,PV Modules,369079.882985,0.0,369079.882985,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",15,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",16,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",17,PV Modules,92367.259243,0.0,92367.259243,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",18,PV Modules,92100.761722,0.0,92100.761722,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",19,PV Modules,165529.538581,0.0,165529.538581,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",20,PV Modules,165090.899802,0.0,165090.899802,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",21,PV Modules,393213.317023,0.0,393213.317023,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",22,PV Modules,390976.393192,0.0,390976.393192,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",23,PV Modules,66479.722784,0.0,66479.722784,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",24,PV Modules,66328.259597,0.0,66328.259597,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",25,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Northeastern, Oklahoma",26,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",3,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",4,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",7,PV Modules,119025.590254,0.0,119025.590254,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",8,PV Modules,104157.728053,0.0,104157.728053,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",13,PV Modules,353407.49214,0.0,353407.49214,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",14,PV Modules,352167.667565,0.0,352167.667565,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",15,PV Modules,23019.252544,0.0,23019.252544,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",16,PV Modules,22946.365832,0.0,22946.365832,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",17,PV Modules,26290.827274,0.0,26290.827274,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",18,PV Modules,26214.97312,0.0,26214.97312,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",19,PV Modules,505577.014272,0.0,505577.014272,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",20,PV Modules,504237.279468,0.0,504237.279468,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",21,PV Modules,368413.636121,0.0,368413.636121,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",22,PV Modules,367510.980401,0.0,367510.980401,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",23,PV Modules,286209.418387,0.0,286209.418387,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",24,PV Modules,285557.336988,0.0,285557.336988,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",25,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Covington Facility, Virginia",26,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",3,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",4,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",7,PV Modules,489974.621535,0.0,489974.621535,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",8,PV Modules,485634.117266,0.0,485634.117266,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",13,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",14,PV Modules,518381.700504,0.0,518381.700504,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",15,PV Modules,33854.389736,0.0,33854.389736,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",16,PV Modules,33747.195328,0.0,33747.195328,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",17,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",18,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",19,PV Modules,272029.366055,0.0,272029.366055,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",20,PV Modules,269931.156433,0.0,269931.156433,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",21,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",22,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",23,PV Modules,5121.221653,0.0,5121.221653,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",24,PV Modules,5109.553786,0.0,5109.553786,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",25,PV Modules,40277.403332,0.0,40277.403332,0.0
+PV Manufacturing Plant,"Dan River Power Plant, Virginia",26,PV Modules,40191.649973,0.0,40191.649973,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",3,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",4,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",7,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",8,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",13,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",14,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",15,PV Modules,199010.001796,0.0,199010.001796,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",16,PV Modules,198379.869058,0.0,198379.869058,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",17,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",18,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",19,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",20,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",21,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",22,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",23,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",24,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",25,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Clinch River, Virginia",26,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",1,PV Modules,388325.451622,0.0,388325.451622,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",2,PV Modules,296813.996231,0.0,296813.996231,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",3,PV Modules,237450.007688,0.0,237450.007688,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",4,PV Modules,235164.902108,0.0,235164.902108,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",7,PV Modules,56756.896246,0.0,56756.896246,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",8,PV Modules,56254.107857,0.0,56254.107857,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",13,PV Modules,409562.592584,0.0,409562.592584,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",14,PV Modules,408125.76462,0.0,408125.76462,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",15,PV Modules,19668.001366,0.0,19668.001366,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",16,PV Modules,19605.725845,0.0,19605.725845,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",17,PV Modules,70673.49746,0.0,70673.49746,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",18,PV Modules,70469.590664,0.0,70469.590664,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",19,PV Modules,223488.001926,0.0,223488.001926,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",20,PV Modules,222895.778296,0.0,222895.778296,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",21,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",22,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",23,PV Modules,237314.924015,0.0,237314.924015,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",24,PV Modules,236774.240733,0.0,236774.240733,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",25,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Potomac River, Virginia",26,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",1,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",2,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",3,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",4,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",5,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",6,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",7,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",8,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",9,PV Modules,363984.466345,0.0,363984.466345,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",10,PV Modules,352293.793091,0.0,352293.793091,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",13,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",14,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",15,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",16,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",17,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",18,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",19,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",20,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",21,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",22,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",23,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",24,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",25,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesapeake, Virginia",26,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Navajo, Arizona",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",3,PV Modules,405844.579766,0.0,405844.579766,0.0
+PV Manufacturing Plant,"Navajo, Arizona",4,PV Modules,401092.351309,0.0,401092.351309,0.0
+PV Manufacturing Plant,"Navajo, Arizona",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",7,PV Modules,378961.460985,0.0,378961.460985,0.0
+PV Manufacturing Plant,"Navajo, Arizona",8,PV Modules,370999.895171,0.0,370999.895171,0.0
+PV Manufacturing Plant,"Navajo, Arizona",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",13,PV Modules,258646.482817,0.0,258646.482817,0.0
+PV Manufacturing Plant,"Navajo, Arizona",14,PV Modules,257739.098925,0.0,257739.098925,0.0
+PV Manufacturing Plant,"Navajo, Arizona",15,PV Modules,22476.719714,0.0,22476.719714,0.0
+PV Manufacturing Plant,"Navajo, Arizona",16,PV Modules,20759.771116,0.0,20759.771116,0.0
+PV Manufacturing Plant,"Navajo, Arizona",17,PV Modules,260020.893017,0.0,260020.893017,0.0
+PV Manufacturing Plant,"Navajo, Arizona",18,PV Modules,259270.682132,0.0,259270.682132,0.0
+PV Manufacturing Plant,"Navajo, Arizona",19,PV Modules,139570.812012,0.0,139570.812012,0.0
+PV Manufacturing Plant,"Navajo, Arizona",20,PV Modules,139200.961586,0.0,139200.961586,0.0
+PV Manufacturing Plant,"Navajo, Arizona",21,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",22,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Navajo, Arizona",23,PV Modules,202996.587177,0.0,202996.587177,0.0
+PV Manufacturing Plant,"Navajo, Arizona",24,PV Modules,202534.092619,0.0,202534.092619,0.0
+PV Manufacturing Plant,"Navajo, Arizona",25,PV Modules,228609.54808,0.0,228609.54808,0.0
+PV Manufacturing Plant,"Navajo, Arizona",26,PV Modules,222589.649671,0.0,222589.649671,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",1,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",2,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",3,PV Modules,12094.897952,0.0,12094.897952,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",4,PV Modules,11978.502425,0.0,11978.502425,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",5,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",6,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",7,PV Modules,14239.376569,0.0,14239.376569,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",8,PV Modules,14113.23519,0.0,14113.23519,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",9,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",10,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",11,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",12,PV Modules,519774.0211,0.0,519774.0211,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",13,PV Modules,155231.089822,0.0,155231.089822,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",14,PV Modules,154686.507932,0.0,154686.507932,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",15,PV Modules,10695.123963,0.0,10695.123963,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",16,PV Modules,10661.259596,0.0,10661.259596,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",17,PV Modules,104952.438073,0.0,104952.438073,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",18,PV Modules,103149.980647,0.0,103149.980647,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",19,PV Modules,11605.173044,0.0,11605.173044,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",20,PV Modules,11574.420352,0.0,11574.420352,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",21,PV Modules,164707.462683,0.0,164707.462683,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",22,PV Modules,159209.886301,0.0,159209.886301,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",23,PV Modules,49295.070377,0.0,49295.070377,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",24,PV Modules,49182.759613,0.0,49182.759613,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",25,PV Modules,8569.565864,0.0,8569.565864,0.0
+PV Manufacturing Plant,"Mecklenburg Power Station, Virginia",26,PV Modules,8551.320669,0.0,8551.320669,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",1,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",2,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",3,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",4,PV Modules,0.0,0.0,0.0,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",5,PV Modules,226116.835733,0.0,226116.835733,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",6,PV Modules,217171.383872,0.0,217171.383872,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",7,PV Modules,32071.773284,0.0,32071.773284,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",8,PV Modules,31787.661285,0.0,31787.661285,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",9,PV Modules,385139.318618,0.0,385139.318618,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",10,PV Modules,367533.125018,0.0,367533.125018,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",11,PV Modules,157773.633799,0.0,157773.633799,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",12,PV Modules,151020.559717,0.0,151020.559717,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",13,PV Modules,281835.776071,0.0,281835.776071,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",14,PV Modules,280847.039474,0.0,280847.039474,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",15,PV Modules,10379.713793,0.0,10379.713793,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",16,PV Modules,10346.848121,0.0,10346.848121,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",17,PV Modules,11799.631652,0.0,11799.631652,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",18,PV Modules,11765.587418,0.0,11765.587418,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",19,PV Modules,28715.824508,0.0,28715.824508,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",20,PV Modules,28639.730088,0.0,28639.730088,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",21,PV Modules,203916.128957,0.0,203916.128957,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",22,PV Modules,202143.004977,0.0,202143.004977,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",23,PV Modules,195006.424239,0.0,195006.424239,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",24,PV Modules,194562.133962,0.0,194562.133962,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",25,PV Modules,17951.539286,0.0,17951.539286,0.0
+PV Manufacturing Plant,"Chesterfield, Virginia",26,PV Modules,17913.319226,0.0,17913.319226,0.0

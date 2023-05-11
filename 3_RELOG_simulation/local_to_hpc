@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/zsh
 # scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_05 hwikoff@eagle.nrel.gov:/projects/rice
 # scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_1 hwikoff@eagle.nrel.gov:/projects/rice
 # scp -r /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_2 hwikoff@eagle.nrel.gov:/projects/rice

@@ -1,0 +1,1119 @@
+plant type,location name,year,emission type,emission amount (tonne)
+PV Recycling Plant,"Glen Lyn, Virginia",1,CO2,5.932539
+PV Recycling Plant,"Glen Lyn, Virginia",2,CO2,0.119
+PV Recycling Plant,"Glen Lyn, Virginia",3,CO2,0.204606
+PV Recycling Plant,"Glen Lyn, Virginia",4,CO2,0.33845
+PV Recycling Plant,"Glen Lyn, Virginia",5,CO2,0.541022
+PV Recycling Plant,"Glen Lyn, Virginia",6,CO2,0.838821
+PV Recycling Plant,"Glen Lyn, Virginia",7,CO2,1.265216
+PV Recycling Plant,"Glen Lyn, Virginia",8,CO2,1.861082
+PV Recycling Plant,"Glen Lyn, Virginia",9,CO2,2.67498
+PV Recycling Plant,"Glen Lyn, Virginia",10,CO2,3.76252
+PV Recycling Plant,"Glen Lyn, Virginia",11,CO2,5.184416
+PV Recycling Plant,"Glen Lyn, Virginia",12,CO2,7.002718
+PV Recycling Plant,"Glen Lyn, Virginia",13,CO2,46.784234
+PV Recycling Plant,"Glen Lyn, Virginia",14,CO2,9.226781
+PV Recycling Plant,"Glen Lyn, Virginia",15,CO2,12.017315
+PV Recycling Plant,"Glen Lyn, Virginia",16,CO2,49.629199
+PV Recycling Plant,"Glen Lyn, Virginia",17,CO2,15.150502
+PV Recycling Plant,"Glen Lyn, Virginia",18,CO2,19.230037
+PV Recycling Plant,"Glen Lyn, Virginia",19,CO2,3141.914159
+PV Recycling Plant,"Glen Lyn, Virginia",20,CO2,2819.373706
+PV Recycling Plant,"Glen Lyn, Virginia",21,CO2,3910.545515
+PV Recycling Plant,"Glen Lyn, Virginia",22,CO2,6257.290762
+PV Recycling Plant,"Glen Lyn, Virginia",23,CO2,1563.800268
+PV Recycling Plant,"Glen Lyn, Virginia",24,CO2,3910.545515
+PV Recycling Plant,"Glen Lyn, Virginia",25,CO2,3910.545515
+PV Recycling Plant,"Glen Lyn, Virginia",26,CO2,3910.545515
+PV Recycling Plant,"San Juan, New Mexico",1,CO2,0.0
+PV Recycling Plant,"San Juan, New Mexico",2,CO2,0.0
+PV Recycling Plant,"San Juan, New Mexico",3,CO2,0.0
+PV Recycling Plant,"San Juan, New Mexico",4,CO2,0.0
+PV Recycling Plant,"San Juan, New Mexico",5,CO2,0.0
+PV Recycling Plant,"San Juan, New Mexico",6,CO2,0.0
+PV Recycling Plant,"San Juan, New Mexico",7,CO2,0.0
+PV Recycling Plant,"San Juan, New Mexico",8,CO2,7198.139578
+PV Recycling Plant,"San Juan, New Mexico",9,CO2,622.951452
+PV Recycling Plant,"San Juan, New Mexico",10,CO2,4487.958033
+PV Recycling Plant,"San Juan, New Mexico",11,CO2,3333.132997
+PV Recycling Plant,"San Juan, New Mexico",12,CO2,3910.545515
+PV Recycling Plant,"San Juan, New Mexico",13,CO2,6029.465095
+PV Recycling Plant,"San Juan, New Mexico",14,CO2,3993.226842
+PV Recycling Plant,"San Juan, New Mexico",15,CO2,1708.944609
+PV Recycling Plant,"San Juan, New Mexico",16,CO2,11049.012699
+PV Recycling Plant,"San Juan, New Mexico",17,CO2,283.753791
+PV Recycling Plant,"San Juan, New Mexico",18,CO2,398.870056
+PV Recycling Plant,"San Juan, New Mexico",19,CO2,3910.545515
+PV Recycling Plant,"San Juan, New Mexico",20,CO2,6843.125629
+PV Recycling Plant,"San Juan, New Mexico",21,CO2,977.965401
+PV Recycling Plant,"San Juan, New Mexico",22,CO2,4478.805104
+PV Recycling Plant,"San Juan, New Mexico",23,CO2,3572.107437
+PV Recycling Plant,"San Juan, New Mexico",24,CO2,3680.724004
+PV Recycling Plant,"San Juan, New Mexico",25,CO2,3910.545515
+PV Recycling Plant,"San Juan, New Mexico",26,CO2,3910.545515
+PV Recycling Plant,"St Johns River Power Park, Florida",1,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",2,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",3,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",4,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",5,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",6,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",7,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",8,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",9,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",10,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",11,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",12,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",13,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",14,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",15,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",16,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",17,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",18,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",19,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",20,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",21,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",22,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",23,CO2,0.0
+PV Recycling Plant,"St Johns River Power Park, Florida",24,CO2,4375.538986
+PV Recycling Plant,"St Johns River Power Park, Florida",25,CO2,4777.619126
+PV Recycling Plant,"St Johns River Power Park, Florida",26,CO2,2578.478433
+PV Recycling Plant,"Lansing Smith, Florida",1,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",2,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",3,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",4,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",5,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",6,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",7,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",8,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",9,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",10,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",11,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",12,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",13,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",14,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",15,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",16,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",17,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",18,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",19,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",20,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",21,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",22,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",23,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",24,CO2,0.0
+PV Recycling Plant,"Lansing Smith, Florida",25,CO2,4385.977325
+PV Recycling Plant,"Lansing Smith, Florida",26,CO2,3435.113706
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",1,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",2,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",3,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",4,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",5,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",6,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",7,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",8,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",9,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",10,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",11,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",12,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",13,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",14,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",15,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",16,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",17,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",18,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",19,CO2,0.0
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",20,CO2,5354.739411
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",21,CO2,2121.134209
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",22,CO2,4837.044989
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",23,CO2,2931.755416
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",24,CO2,3714.68187
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",25,CO2,3910.545515
+PV Recycling Plant,"Indiantown Cogeneration LP, Florida",26,CO2,3910.545515
+PV Recycling Plant,"James River Genco LLC, Virginia",1,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",2,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",3,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",4,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",5,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",6,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",7,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",8,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",9,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",10,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",11,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",12,CO2,0.0
+PV Recycling Plant,"James River Genco LLC, Virginia",13,CO2,2401.413178
+PV Recycling Plant,"James River Genco LLC, Virginia",14,CO2,95.941641
+PV Recycling Plant,"James River Genco LLC, Virginia",15,CO2,624.130133
+PV Recycling Plant,"James River Genco LLC, Virginia",16,CO2,3286.415383
+PV Recycling Plant,"James River Genco LLC, Virginia",17,CO2,1023.273176
+PV Recycling Plant,"James River Genco LLC, Virginia",18,CO2,1884.432132
+PV Recycling Plant,"James River Genco LLC, Virginia",19,CO2,3910.545515
+PV Recycling Plant,"James River Genco LLC, Virginia",20,CO2,6462.613134
+PV Recycling Plant,"James River Genco LLC, Virginia",21,CO2,1358.477896
+PV Recycling Plant,"James River Genco LLC, Virginia",22,CO2,3910.545515
+PV Recycling Plant,"James River Genco LLC, Virginia",23,CO2,3910.545515
+PV Recycling Plant,"James River Genco LLC, Virginia",24,CO2,3910.545515
+PV Recycling Plant,"James River Genco LLC, Virginia",25,CO2,3910.545515
+PV Recycling Plant,"James River Genco LLC, Virginia",26,CO2,3910.545515
+PV Recycling Plant,"Paradise, Kentucky",1,CO2,0.047511
+PV Recycling Plant,"Paradise, Kentucky",2,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",3,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",4,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",5,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",6,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",7,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",8,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",9,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",10,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",11,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",12,CO2,0.0
+PV Recycling Plant,"Paradise, Kentucky",13,CO2,12.217216
+PV Recycling Plant,"Paradise, Kentucky",14,CO2,15.286777
+PV Recycling Plant,"Paradise, Kentucky",15,CO2,25.057574
+PV Recycling Plant,"Paradise, Kentucky",16,CO2,42.884021
+PV Recycling Plant,"Paradise, Kentucky",17,CO2,63.004535
+PV Recycling Plant,"Paradise, Kentucky",18,CO2,97.249863
+PV Recycling Plant,"Paradise, Kentucky",19,CO2,986.546076
+PV Recycling Plant,"Paradise, Kentucky",20,CO2,1199.4586
+PV Recycling Plant,"Paradise, Kentucky",21,CO2,1276.807796
+PV Recycling Plant,"Paradise, Kentucky",22,CO2,486.635525
+PV Recycling Plant,"Paradise, Kentucky",23,CO2,634.344661
+PV Recycling Plant,"Paradise, Kentucky",24,CO2,885.385216
+PV Recycling Plant,"Paradise, Kentucky",25,CO2,1197.577585
+PV Recycling Plant,"Paradise, Kentucky",26,CO2,1594.88893
+PV Recycling Plant,"Cholla, Arizona",1,CO2,499.095847
+PV Recycling Plant,"Cholla, Arizona",2,CO2,289.322561
+PV Recycling Plant,"Cholla, Arizona",3,CO2,426.899876
+PV Recycling Plant,"Cholla, Arizona",4,CO2,613.305424
+PV Recycling Plant,"Cholla, Arizona",5,CO2,859.324668
+PV Recycling Plant,"Cholla, Arizona",6,CO2,1175.47219
+PV Recycling Plant,"Cholla, Arizona",7,CO2,2611.150807
+PV Recycling Plant,"Cholla, Arizona",8,CO2,7821.09103
+PV Recycling Plant,"Cholla, Arizona",9,CO2,0.0
+PV Recycling Plant,"Cholla, Arizona",10,CO2,3910.545515
+PV Recycling Plant,"Cholla, Arizona",11,CO2,7524.849885
+PV Recycling Plant,"Cholla, Arizona",12,CO2,296.241146
+PV Recycling Plant,"Cholla, Arizona",13,CO2,3910.545515
+PV Recycling Plant,"Cholla, Arizona",14,CO2,3910.545515
+PV Recycling Plant,"Cholla, Arizona",15,CO2,3910.545515
+PV Recycling Plant,"Cholla, Arizona",16,CO2,5523.781627
+PV Recycling Plant,"Cholla, Arizona",17,CO2,2803.80854
+PV Recycling Plant,"Cholla, Arizona",18,CO2,3404.046379
+PV Recycling Plant,"Cholla, Arizona",19,CO2,7959.295648
+PV Recycling Plant,"Cholla, Arizona",20,CO2,7682.886413
+PV Recycling Plant,"Cholla, Arizona",21,CO2,0.0
+PV Recycling Plant,"Cholla, Arizona",22,CO2,0.0
+PV Recycling Plant,"Cholla, Arizona",23,CO2,3910.545515
+PV Recycling Plant,"Cholla, Arizona",24,CO2,3910.545515
+PV Recycling Plant,"Cholla, Arizona",25,CO2,3910.545515
+PV Recycling Plant,"Cholla, Arizona",26,CO2,3910.545515
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",1,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",2,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",3,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",4,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",5,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",6,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",7,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",8,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",9,CO2,0.0
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",10,CO2,3309.965591
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",11,CO2,3172.997691
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",12,CO2,647.482943
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",13,CO2,3140.64977
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",14,CO2,952.306041
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",15,CO2,1231.057187
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",16,CO2,4233.499491
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",17,CO2,1890.813312
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",18,CO2,2301.396706
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",19,CO2,3910.545515
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",20,CO2,4512.767516
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",21,CO2,3308.323515
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",22,CO2,6416.793867
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",23,CO2,1404.297164
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",24,CO2,3910.545515
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",25,CO2,3910.545515
+PV Recycling Plant,"Waynesboro Virginia Plant, Virginia",26,CO2,3910.545515
+PV Recycling Plant,"Oklaunion, Texas",1,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",2,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",3,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",4,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",5,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",6,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",7,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",8,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",9,CO2,0.0
+PV Recycling Plant,"Oklaunion, Texas",10,CO2,3918.021384
+PV Recycling Plant,"Oklaunion, Texas",11,CO2,2746.688028
+PV Recycling Plant,"Oklaunion, Texas",12,CO2,441.996505
+PV Recycling Plant,"Oklaunion, Texas",13,CO2,6573.704447
+PV Recycling Plant,"Oklaunion, Texas",14,CO2,2263.16808
+PV Recycling Plant,"Oklaunion, Texas",15,CO2,2894.764018
+PV Recycling Plant,"Oklaunion, Texas",16,CO2,5972.017931
+PV Recycling Plant,"Oklaunion, Texas",17,CO2,1849.073099
+PV Recycling Plant,"Oklaunion, Texas",18,CO2,3910.545515
+PV Recycling Plant,"Oklaunion, Texas",19,CO2,12086.480924
+PV Recycling Plant,"Oklaunion, Texas",20,CO2,923.140879
+PV Recycling Plant,"Oklaunion, Texas",21,CO2,1417.722348
+PV Recycling Plant,"Oklaunion, Texas",22,CO2,5351.432148
+PV Recycling Plant,"Oklaunion, Texas",23,CO2,1185.857569
+PV Recycling Plant,"Oklaunion, Texas",24,CO2,2498.639222
+PV Recycling Plant,"Oklaunion, Texas",25,CO2,4188.82416
+PV Recycling Plant,"Oklaunion, Texas",26,CO2,3632.26687
+PV Recycling Plant,"Yorktown, Virginia",1,CO2,0.0
+PV Recycling Plant,"Yorktown, Virginia",2,CO2,0.599595
+PV Recycling Plant,"Yorktown, Virginia",3,CO2,1.091157
+PV Recycling Plant,"Yorktown, Virginia",4,CO2,1.887106
+PV Recycling Plant,"Yorktown, Virginia",5,CO2,3.125194
+PV Recycling Plant,"Yorktown, Virginia",6,CO2,4.985199
+PV Recycling Plant,"Yorktown, Virginia",7,CO2,7.694884
+PV Recycling Plant,"Yorktown, Virginia",8,CO2,62.745367
+PV Recycling Plant,"Yorktown, Virginia",9,CO2,16.834052
+PV Recycling Plant,"Yorktown, Virginia",10,CO2,12331.26529
+PV Recycling Plant,"Yorktown, Virginia",11,CO2,5749.80267
+PV Recycling Plant,"Yorktown, Virginia",12,CO2,33.407799
+PV Recycling Plant,"Yorktown, Virginia",13,CO2,1283.81085
+PV Recycling Plant,"Yorktown, Virginia",14,CO2,3073.86375
+PV Recycling Plant,"Yorktown, Virginia",15,CO2,991.122732
+PV Recycling Plant,"Yorktown, Virginia",16,CO2,4179.837354
+PV Recycling Plant,"Yorktown, Virginia",17,CO2,3983.679869
+PV Recycling Plant,"Yorktown, Virginia",18,CO2,3568.119323
+PV Recycling Plant,"Yorktown, Virginia",19,CO2,5313.210605
+PV Recycling Plant,"Yorktown, Virginia",20,CO2,3087.466385
+PV Recycling Plant,"Yorktown, Virginia",21,CO2,3330.959556
+PV Recycling Plant,"Yorktown, Virginia",22,CO2,7774.230983
+PV Recycling Plant,"Yorktown, Virginia",23,CO2,1713.330575
+PV Recycling Plant,"Yorktown, Virginia",24,CO2,2244.074987
+PV Recycling Plant,"Yorktown, Virginia",25,CO2,5578.722676
+PV Recycling Plant,"Yorktown, Virginia",26,CO2,2242.368354
+PV Recycling Plant,"W N Clark, Colorado",1,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",2,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",3,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",4,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",5,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",6,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",7,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",8,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",9,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",10,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",11,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",12,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",13,CO2,4005.070513
+PV Recycling Plant,"W N Clark, Colorado",14,CO2,1232.051281
+PV Recycling Plant,"W N Clark, Colorado",15,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",16,CO2,7366.513407
+PV Recycling Plant,"W N Clark, Colorado",17,CO2,1998.071457
+PV Recycling Plant,"W N Clark, Colorado",18,CO2,2367.051681
+PV Recycling Plant,"W N Clark, Colorado",19,CO2,17192.377008
+PV Recycling Plant,"W N Clark, Colorado",20,CO2,9116.255187
+PV Recycling Plant,"W N Clark, Colorado",21,CO2,1159.945338
+PV Recycling Plant,"W N Clark, Colorado",22,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",23,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",24,CO2,0.0
+PV Recycling Plant,"W N Clark, Colorado",25,CO2,2249.67495
+PV Recycling Plant,"W N Clark, Colorado",26,CO2,1566.111638
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",1,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",2,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",3,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",4,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",5,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",6,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",7,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",8,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",9,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",10,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",11,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",12,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",13,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",14,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",15,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",16,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",17,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",18,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",19,CO2,0.0
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",20,CO2,160.440532
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",21,CO2,46.536049
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",22,CO2,148.117213
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",23,CO2,167.733945
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",24,CO2,1599.471295
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",25,CO2,1910.380888
+PV Recycling Plant,"HMP&L Station Two Henderson, Kentucky",26,CO2,3910.545515
+PV Recycling Plant,"Tyrone, Kentucky",1,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",2,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",3,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",4,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",5,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",6,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",7,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",8,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",9,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",10,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",11,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",12,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",13,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",14,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",15,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",16,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",17,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",18,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",19,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",20,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",21,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",22,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",23,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",24,CO2,0.0
+PV Recycling Plant,"Tyrone, Kentucky",25,CO2,2654.765984
+PV Recycling Plant,"Tyrone, Kentucky",26,CO2,3332.224903
+PV Recycling Plant,"R D Morrow, Mississippi",1,CO2,0.0
+PV Recycling Plant,"R D Morrow, Mississippi",2,CO2,128.698261
+PV Recycling Plant,"R D Morrow, Mississippi",3,CO2,203.074806
+PV Recycling Plant,"R D Morrow, Mississippi",4,CO2,313.617451
+PV Recycling Plant,"R D Morrow, Mississippi",5,CO2,474.43832
+PV Recycling Plant,"R D Morrow, Mississippi",6,CO2,703.610318
+PV Recycling Plant,"R D Morrow, Mississippi",7,CO2,1023.782073
+PV Recycling Plant,"R D Morrow, Mississippi",8,CO2,4228.831201
+PV Recycling Plant,"R D Morrow, Mississippi",9,CO2,2684.615916
+PV Recycling Plant,"R D Morrow, Mississippi",10,CO2,4088.22725
+PV Recycling Plant,"R D Morrow, Mississippi",11,CO2,4600.093729
+PV Recycling Plant,"R D Morrow, Mississippi",12,CO2,3043.315567
+PV Recycling Plant,"R D Morrow, Mississippi",13,CO2,4642.494957
+PV Recycling Plant,"R D Morrow, Mississippi",14,CO2,3178.596074
+PV Recycling Plant,"R D Morrow, Mississippi",15,CO2,3910.545515
+PV Recycling Plant,"R D Morrow, Mississippi",16,CO2,4434.541497
+PV Recycling Plant,"R D Morrow, Mississippi",17,CO2,3386.549533
+PV Recycling Plant,"R D Morrow, Mississippi",18,CO2,4218.758769
+PV Recycling Plant,"R D Morrow, Mississippi",19,CO2,3602.332262
+PV Recycling Plant,"R D Morrow, Mississippi",20,CO2,4031.031623
+PV Recycling Plant,"R D Morrow, Mississippi",21,CO2,3790.059408
+PV Recycling Plant,"R D Morrow, Mississippi",22,CO2,5397.903504
+PV Recycling Plant,"R D Morrow, Mississippi",23,CO2,3307.963132
+PV Recycling Plant,"R D Morrow, Mississippi",24,CO2,4267.405857
+PV Recycling Plant,"R D Morrow, Mississippi",25,CO2,2668.909567
+PV Recycling Plant,"R D Morrow, Mississippi",26,CO2,3910.545515
+PV Recycling Plant,"Escalante, New Mexico",1,CO2,0.0
+PV Recycling Plant,"Escalante, New Mexico",2,CO2,0.0
+PV Recycling Plant,"Escalante, New Mexico",3,CO2,0.0
+PV Recycling Plant,"Escalante, New Mexico",4,CO2,0.0
+PV Recycling Plant,"Escalante, New Mexico",5,CO2,0.0
+PV Recycling Plant,"Escalante, New Mexico",6,CO2,0.0
+PV Recycling Plant,"Escalante, New Mexico",7,CO2,0.0
+PV Recycling Plant,"Escalante, New Mexico",8,CO2,5905.016336
+PV Recycling Plant,"Escalante, New Mexico",9,CO2,1916.074695
+PV Recycling Plant,"Escalante, New Mexico",10,CO2,7847.36681
+PV Recycling Plant,"Escalante, New Mexico",11,CO2,3874.207299
+PV Recycling Plant,"Escalante, New Mexico",12,CO2,10.062437
+PV Recycling Plant,"Escalante, New Mexico",13,CO2,7811.952273
+PV Recycling Plant,"Escalante, New Mexico",14,CO2,9.138758
+PV Recycling Plant,"Escalante, New Mexico",15,CO2,3910.545515
+PV Recycling Plant,"Escalante, New Mexico",16,CO2,11718.713396
+PV Recycling Plant,"Escalante, New Mexico",17,CO2,5.897623
+PV Recycling Plant,"Escalante, New Mexico",18,CO2,7.025527
+PV Recycling Plant,"Escalante, New Mexico",19,CO2,3910.545515
+PV Recycling Plant,"Escalante, New Mexico",20,CO2,15438.308152
+PV Recycling Plant,"Escalante, New Mexico",21,CO2,5.180559
+PV Recycling Plant,"Escalante, New Mexico",22,CO2,4457.362268
+PV Recycling Plant,"Escalante, New Mexico",23,CO2,3.241341
+PV Recycling Plant,"Escalante, New Mexico",24,CO2,1061.038811
+PV Recycling Plant,"Escalante, New Mexico",25,CO2,3061.222821
+PV Recycling Plant,"Escalante, New Mexico",26,CO2,3347.464653
+PV Recycling Plant,"Northeastern, Oklahoma",1,CO2,66.534794
+PV Recycling Plant,"Northeastern, Oklahoma",2,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",3,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",4,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",5,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",6,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",7,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",8,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",9,CO2,0.0
+PV Recycling Plant,"Northeastern, Oklahoma",10,CO2,3910.545515
+PV Recycling Plant,"Northeastern, Oklahoma",11,CO2,5600.008971
+PV Recycling Plant,"Northeastern, Oklahoma",12,CO2,2221.082059
+PV Recycling Plant,"Northeastern, Oklahoma",13,CO2,8676.735939
+PV Recycling Plant,"Northeastern, Oklahoma",14,CO2,427.398133
+PV Recycling Plant,"Northeastern, Oklahoma",15,CO2,2627.502474
+PV Recycling Plant,"Northeastern, Oklahoma",16,CO2,7640.979966
+PV Recycling Plant,"Northeastern, Oklahoma",17,CO2,180.111064
+PV Recycling Plant,"Northeastern, Oklahoma",18,CO2,3910.545515
+PV Recycling Plant,"Northeastern, Oklahoma",19,CO2,14615.271355
+PV Recycling Plant,"Northeastern, Oklahoma",20,CO2,505.349452
+PV Recycling Plant,"Northeastern, Oklahoma",21,CO2,691.388107
+PV Recycling Plant,"Northeastern, Oklahoma",22,CO2,1239.68678
+PV Recycling Plant,"Northeastern, Oklahoma",23,CO2,4566.47598
+PV Recycling Plant,"Northeastern, Oklahoma",24,CO2,1845.101417
+PV Recycling Plant,"Northeastern, Oklahoma",25,CO2,3910.545515
+PV Recycling Plant,"Northeastern, Oklahoma",26,CO2,3910.545515
+PV Recycling Plant,"Harllee Branch, Georgia",1,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",2,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",3,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",4,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",5,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",6,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",7,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",8,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",9,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",10,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",11,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",12,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",13,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",14,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",15,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",16,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",17,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",18,CO2,0.0
+PV Recycling Plant,"Harllee Branch, Georgia",19,CO2,8281.513877
+PV Recycling Plant,"Harllee Branch, Georgia",20,CO2,7357.101789
+PV Recycling Plant,"Harllee Branch, Georgia",21,CO2,1281.466975
+PV Recycling Plant,"Harllee Branch, Georgia",22,CO2,1775.900227
+PV Recycling Plant,"Harllee Branch, Georgia",23,CO2,1676.737226
+PV Recycling Plant,"Harllee Branch, Georgia",24,CO2,1882.479909
+PV Recycling Plant,"Harllee Branch, Georgia",25,CO2,2200.245531
+PV Recycling Plant,"Harllee Branch, Georgia",26,CO2,3430.013207
+PV Recycling Plant,"Ben French, South Dakota",1,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",2,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",3,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",4,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",5,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",6,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",7,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",8,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",9,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",10,CO2,0.0
+PV Recycling Plant,"Ben French, South Dakota",11,CO2,156.947433
+PV Recycling Plant,"Ben French, South Dakota",12,CO2,80.91813
+PV Recycling Plant,"Ben French, South Dakota",13,CO2,896.330796
+PV Recycling Plant,"Ben French, South Dakota",14,CO2,578.059691
+PV Recycling Plant,"Ben French, South Dakota",15,CO2,755.589102
+PV Recycling Plant,"Ben French, South Dakota",16,CO2,3400.646466
+PV Recycling Plant,"Ben French, South Dakota",17,CO2,1331.584199
+PV Recycling Plant,"Ben French, South Dakota",18,CO2,1641.571699
+PV Recycling Plant,"Ben French, South Dakota",19,CO2,5929.991262
+PV Recycling Plant,"Ben French, South Dakota",20,CO2,3822.859257
+PV Recycling Plant,"Ben French, South Dakota",21,CO2,1978.786027
+PV Recycling Plant,"Ben French, South Dakota",22,CO2,7152.752454
+PV Recycling Plant,"Ben French, South Dakota",23,CO2,2072.501605
+PV Recycling Plant,"Ben French, South Dakota",24,CO2,2506.382487
+PV Recycling Plant,"Ben French, South Dakota",25,CO2,4699.777455
+PV Recycling Plant,"Ben French, South Dakota",26,CO2,3121.313575
+PV Recycling Plant,"Lawrence Energy Center, Kansas",1,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",2,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",3,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",4,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",5,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",6,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",7,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",8,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",9,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",10,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",11,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",12,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",13,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",14,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",15,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",16,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",17,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",18,CO2,0.0
+PV Recycling Plant,"Lawrence Energy Center, Kansas",19,CO2,5695.42432
+PV Recycling Plant,"Lawrence Energy Center, Kansas",20,CO2,2527.567005
+PV Recycling Plant,"Lawrence Energy Center, Kansas",21,CO2,3508.645221
+PV Recycling Plant,"Lawrence Energy Center, Kansas",22,CO2,6417.926621
+PV Recycling Plant,"Lawrence Energy Center, Kansas",23,CO2,1686.524371
+PV Recycling Plant,"Lawrence Energy Center, Kansas",24,CO2,3627.185554
+PV Recycling Plant,"Lawrence Energy Center, Kansas",25,CO2,3910.545515
+PV Recycling Plant,"Lawrence Energy Center, Kansas",26,CO2,3910.545515
+PV Recycling Plant,"Elmer Smith, Kentucky",1,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",2,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",3,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",4,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",5,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",6,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",7,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",8,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",9,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",10,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",11,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",12,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",13,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",14,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",15,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",16,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",17,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",18,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",19,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",20,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",21,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",22,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",23,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",24,CO2,0.0
+PV Recycling Plant,"Elmer Smith, Kentucky",25,CO2,3233.476089
+PV Recycling Plant,"Elmer Smith, Kentucky",26,CO2,3910.545515
+PV Recycling Plant,"Valmont, Colorado",1,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",2,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",3,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",4,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",5,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",6,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",7,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",8,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",9,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",10,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",11,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",12,CO2,0.0
+PV Recycling Plant,"Valmont, Colorado",13,CO2,10390.342105
+PV Recycling Plant,"Valmont, Colorado",14,CO2,539.611951
+PV Recycling Plant,"Valmont, Colorado",15,CO2,708.16741
+PV Recycling Plant,"Valmont, Colorado",16,CO2,6948.624843
+PV Recycling Plant,"Valmont, Colorado",17,CO2,872.466187
+PV Recycling Plant,"Valmont, Colorado",18,CO2,3910.545515
+PV Recycling Plant,"Valmont, Colorado",19,CO2,5457.006875
+PV Recycling Plant,"Valmont, Colorado",20,CO2,2364.084155
+PV Recycling Plant,"Valmont, Colorado",21,CO2,6944.377519
+PV Recycling Plant,"Valmont, Colorado",22,CO2,3296.229142
+PV Recycling Plant,"Valmont, Colorado",23,CO2,1491.029884
+PV Recycling Plant,"Valmont, Colorado",24,CO2,3910.545515
+PV Recycling Plant,"Valmont, Colorado",25,CO2,3910.545515
+PV Recycling Plant,"Valmont, Colorado",26,CO2,3910.545515
+PV Recycling Plant,"Monticello, Texas",1,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",2,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",3,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",4,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",5,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",6,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",7,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",8,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",9,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",10,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",11,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",12,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",13,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",14,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",15,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",16,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",17,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",18,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",19,CO2,0.0
+PV Recycling Plant,"Monticello, Texas",20,CO2,6451.420661
+PV Recycling Plant,"Monticello, Texas",21,CO2,1369.670369
+PV Recycling Plant,"Monticello, Texas",22,CO2,6028.275924
+PV Recycling Plant,"Monticello, Texas",23,CO2,3010.058097
+PV Recycling Plant,"Monticello, Texas",24,CO2,2693.302524
+PV Recycling Plant,"Monticello, Texas",25,CO2,3910.545515
+PV Recycling Plant,"Monticello, Texas",26,CO2,3910.545515
+PV Recycling Plant,"Raton, New Mexico",1,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",2,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",3,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",4,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",5,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",6,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",7,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",8,CO2,3910.545515
+PV Recycling Plant,"Raton, New Mexico",9,CO2,2051.731346
+PV Recycling Plant,"Raton, New Mexico",10,CO2,4463.864869
+PV Recycling Plant,"Raton, New Mexico",11,CO2,4188.793881
+PV Recycling Plant,"Raton, New Mexico",12,CO2,3078.977796
+PV Recycling Plant,"Raton, New Mexico",13,CO2,11731.636546
+PV Recycling Plant,"Raton, New Mexico",14,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",15,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",16,CO2,3910.545515
+PV Recycling Plant,"Raton, New Mexico",17,CO2,7821.09103
+PV Recycling Plant,"Raton, New Mexico",18,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",19,CO2,3910.545515
+PV Recycling Plant,"Raton, New Mexico",20,CO2,7821.09103
+PV Recycling Plant,"Raton, New Mexico",21,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",22,CO2,11731.636546
+PV Recycling Plant,"Raton, New Mexico",23,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",24,CO2,0.0
+PV Recycling Plant,"Raton, New Mexico",25,CO2,7452.417561
+PV Recycling Plant,"Raton, New Mexico",26,CO2,368.673469
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",1,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",2,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",3,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",4,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",5,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",6,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",7,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",8,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",9,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",10,CO2,0.0
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",11,CO2,4063.330317
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",12,CO2,1777.565428
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",13,CO2,9056.253406
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",14,CO2,364.531717
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",15,CO2,2310.851422
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",16,CO2,9622.549184
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",17,CO2,690.481636
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",18,CO2,1418.605726
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",19,CO2,3910.545515
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",20,CO2,5232.469836
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",21,CO2,2588.621195
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",22,CO2,5147.459636
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",23,CO2,3346.648884
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",24,CO2,3237.528026
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",25,CO2,5678.763478
+PV Recycling Plant,"Portsmouth Genco LLC, Virginia",26,CO2,2142.327553
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",1,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",2,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",3,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",4,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",5,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",6,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",7,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",8,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",9,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",10,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",11,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",12,CO2,0.0
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",13,CO2,1738.048372
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",14,CO2,931.528107
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",15,CO2,1220.011648
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",16,CO2,3685.595627
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",17,CO2,2570.889285
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",18,CO2,3206.141459
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",19,CO2,3910.545515
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",20,CO2,7200.173337
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",21,CO2,620.917694
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",22,CO2,5591.973954
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",23,CO2,3353.001191
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",24,CO2,2786.6614
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",25,CO2,3910.545515
+PV Recycling Plant,"Tecumseh Energy Center, Kansas",26,CO2,3910.545515
+PV Recycling Plant,"Covington Facility, Virginia",1,CO2,0.0
+PV Recycling Plant,"Covington Facility, Virginia",2,CO2,20.306359
+PV Recycling Plant,"Covington Facility, Virginia",3,CO2,29.740386
+PV Recycling Plant,"Covington Facility, Virginia",4,CO2,42.425775
+PV Recycling Plant,"Covington Facility, Virginia",5,CO2,59.04121
+PV Recycling Plant,"Covington Facility, Virginia",6,CO2,80.22752
+PV Recycling Plant,"Covington Facility, Virginia",7,CO2,106.487942
+PV Recycling Plant,"Covington Facility, Virginia",8,CO2,417.347022
+PV Recycling Plant,"Covington Facility, Virginia",9,CO2,215.44701
+PV Recycling Plant,"Covington Facility, Virginia",10,CO2,565.713106
+PV Recycling Plant,"Covington Facility, Virginia",11,CO2,548.012858
+PV Recycling Plant,"Covington Facility, Virginia",12,CO2,131.904075
+PV Recycling Plant,"Covington Facility, Virginia",13,CO2,702.441267
+PV Recycling Plant,"Covington Facility, Virginia",14,CO2,201.244892
+PV Recycling Plant,"Covington Facility, Virginia",15,CO2,270.603356
+PV Recycling Plant,"Covington Facility, Virginia",16,CO2,835.709559
+PV Recycling Plant,"Covington Facility, Virginia",17,CO2,408.884306
+PV Recycling Plant,"Covington Facility, Virginia",18,CO2,535.177892
+PV Recycling Plant,"Covington Facility, Virginia",19,CO2,3189.306751
+PV Recycling Plant,"Covington Facility, Virginia",20,CO2,2363.237122
+PV Recycling Plant,"Covington Facility, Virginia",21,CO2,3106.405827
+PV Recycling Plant,"Covington Facility, Virginia",22,CO2,4889.030402
+PV Recycling Plant,"Covington Facility, Virginia",23,CO2,3587.540069
+PV Recycling Plant,"Covington Facility, Virginia",24,CO2,3255.066075
+PV Recycling Plant,"Covington Facility, Virginia",25,CO2,4768.5245
+PV Recycling Plant,"Covington Facility, Virginia",26,CO2,3052.56653
+PV Recycling Plant,"Dan River Power Plant, Virginia",1,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",2,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",3,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",4,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",5,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",6,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",7,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",8,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",9,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",10,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",11,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",12,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",13,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",14,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",15,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",16,CO2,0.0
+PV Recycling Plant,"Dan River Power Plant, Virginia",17,CO2,3910.545515
+PV Recycling Plant,"Dan River Power Plant, Virginia",18,CO2,3910.545515
+PV Recycling Plant,"Dan River Power Plant, Virginia",19,CO2,10082.787151
+PV Recycling Plant,"Dan River Power Plant, Virginia",20,CO2,469.544113
+PV Recycling Plant,"Dan River Power Plant, Virginia",21,CO2,1179.305281
+PV Recycling Plant,"Dan River Power Plant, Virginia",22,CO2,4260.615136
+PV Recycling Plant,"Dan River Power Plant, Virginia",23,CO2,3560.475895
+PV Recycling Plant,"Dan River Power Plant, Virginia",24,CO2,3910.545515
+PV Recycling Plant,"Dan River Power Plant, Virginia",25,CO2,3910.545515
+PV Recycling Plant,"Dan River Power Plant, Virginia",26,CO2,3910.545515
+PV Recycling Plant,"Gibbons Creek, Texas",1,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",2,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",3,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",4,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",5,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",6,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",7,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",8,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",9,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",10,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",11,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",12,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",13,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",14,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",15,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",16,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",17,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",18,CO2,0.0
+PV Recycling Plant,"Gibbons Creek, Texas",19,CO2,3910.545515
+PV Recycling Plant,"Gibbons Creek, Texas",20,CO2,4425.523101
+PV Recycling Plant,"Gibbons Creek, Texas",21,CO2,3395.56793
+PV Recycling Plant,"Gibbons Creek, Texas",22,CO2,3910.545515
+PV Recycling Plant,"Gibbons Creek, Texas",23,CO2,4220.789159
+PV Recycling Plant,"Gibbons Creek, Texas",24,CO2,3600.301872
+PV Recycling Plant,"Gibbons Creek, Texas",25,CO2,4229.950156
+PV Recycling Plant,"Gibbons Creek, Texas",26,CO2,3591.140874
+PV Recycling Plant,"Sandow No 4, Texas",1,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",2,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",3,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",4,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",5,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",6,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",7,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",8,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",9,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",10,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",11,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",12,CO2,0.0
+PV Recycling Plant,"Sandow No 4, Texas",13,CO2,3728.390922
+PV Recycling Plant,"Sandow No 4, Texas",14,CO2,1520.800647
+PV Recycling Plant,"Sandow No 4, Texas",15,CO2,2320.813695
+PV Recycling Plant,"Sandow No 4, Texas",16,CO2,4262.322121
+PV Recycling Plant,"Sandow No 4, Texas",17,CO2,3558.768909
+PV Recycling Plant,"Sandow No 4, Texas",18,CO2,3910.545515
+PV Recycling Plant,"Sandow No 4, Texas",19,CO2,5569.664181
+PV Recycling Plant,"Sandow No 4, Texas",20,CO2,3139.661189
+PV Recycling Plant,"Sandow No 4, Texas",21,CO2,3022.311176
+PV Recycling Plant,"Sandow No 4, Texas",22,CO2,6009.449055
+PV Recycling Plant,"Sandow No 4, Texas",23,CO2,1811.641976
+PV Recycling Plant,"Sandow No 4, Texas",24,CO2,3910.545515
+PV Recycling Plant,"Sandow No 4, Texas",25,CO2,4941.76913
+PV Recycling Plant,"Sandow No 4, Texas",26,CO2,2879.3219
+PV Recycling Plant,"Cane Run, Kentucky",1,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",2,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",3,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",4,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",5,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",6,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",7,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",8,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",9,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",10,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",11,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",12,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",13,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",14,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",15,CO2,0.0
+PV Recycling Plant,"Cane Run, Kentucky",16,CO2,1094.886954
+PV Recycling Plant,"Cane Run, Kentucky",17,CO2,304.658738
+PV Recycling Plant,"Cane Run, Kentucky",18,CO2,415.65035
+PV Recycling Plant,"Cane Run, Kentucky",19,CO2,1225.255767
+PV Recycling Plant,"Cane Run, Kentucky",20,CO2,1331.621104
+PV Recycling Plant,"Cane Run, Kentucky",21,CO2,1049.896778
+PV Recycling Plant,"Cane Run, Kentucky",22,CO2,2079.457974
+PV Recycling Plant,"Cane Run, Kentucky",23,CO2,1849.85772
+PV Recycling Plant,"Cane Run, Kentucky",24,CO2,2435.540832
+PV Recycling Plant,"Cane Run, Kentucky",25,CO2,3910.545515
+PV Recycling Plant,"Cane Run, Kentucky",26,CO2,3910.545515
+PV Recycling Plant,"Crystal River, Florida",1,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",2,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",3,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",4,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",5,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",6,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",7,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",8,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",9,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",10,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",11,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",12,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",13,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",14,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",15,CO2,0.0
+PV Recycling Plant,"Crystal River, Florida",16,CO2,2561.188965
+PV Recycling Plant,"Crystal River, Florida",17,CO2,2846.12692
+PV Recycling Plant,"Crystal River, Florida",18,CO2,3617.592476
+PV Recycling Plant,"Crystal River, Florida",19,CO2,6383.441141
+PV Recycling Plant,"Crystal River, Florida",20,CO2,1592.274505
+PV Recycling Plant,"Crystal River, Florida",21,CO2,3755.9209
+PV Recycling Plant,"Crystal River, Florida",22,CO2,7360.488702
+PV Recycling Plant,"Crystal River, Florida",23,CO2,4111.333657
+PV Recycling Plant,"Crystal River, Florida",24,CO2,259.814187
+PV Recycling Plant,"Crystal River, Florida",25,CO2,3910.545515
+PV Recycling Plant,"Crystal River, Florida",26,CO2,3910.545515
+PV Recycling Plant,"Clinch River, Virginia",1,CO2,134.987034
+PV Recycling Plant,"Clinch River, Virginia",2,CO2,17.719919
+PV Recycling Plant,"Clinch River, Virginia",3,CO2,27.233759
+PV Recycling Plant,"Clinch River, Virginia",4,CO2,40.861754
+PV Recycling Plant,"Clinch River, Virginia",5,CO2,59.937968
+PV Recycling Plant,"Clinch River, Virginia",6,CO2,86.045317
+PV Recycling Plant,"Clinch River, Virginia",7,CO2,120.989723
+PV Recycling Plant,"Clinch River, Virginia",8,CO2,332.928905
+PV Recycling Plant,"Clinch River, Virginia",9,CO2,209.281041
+PV Recycling Plant,"Clinch River, Virginia",10,CO2,1060.550087
+PV Recycling Plant,"Clinch River, Virginia",11,CO2,1116.038672
+PV Recycling Plant,"Clinch River, Virginia",12,CO2,593.81957
+PV Recycling Plant,"Clinch River, Virginia",13,CO2,3484.534061
+PV Recycling Plant,"Clinch River, Virginia",14,CO2,1681.192896
+PV Recycling Plant,"Clinch River, Virginia",15,CO2,2270.1291
+PV Recycling Plant,"Clinch River, Virginia",16,CO2,4275.350233
+PV Recycling Plant,"Clinch River, Virginia",17,CO2,2097.59037
+PV Recycling Plant,"Clinch River, Virginia",18,CO2,2744.262148
+PV Recycling Plant,"Clinch River, Virginia",19,CO2,4111.289308
+PV Recycling Plant,"Clinch River, Virginia",20,CO2,5070.809876
+PV Recycling Plant,"Clinch River, Virginia",21,CO2,2549.537362
+PV Recycling Plant,"Clinch River, Virginia",22,CO2,3910.545515
+PV Recycling Plant,"Clinch River, Virginia",23,CO2,3910.545515
+PV Recycling Plant,"Clinch River, Virginia",24,CO2,3910.545515
+PV Recycling Plant,"Clinch River, Virginia",25,CO2,3910.545515
+PV Recycling Plant,"Clinch River, Virginia",26,CO2,3910.545515
+PV Recycling Plant,"Cameo, Colorado",1,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",2,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",3,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",4,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",5,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",6,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",7,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",8,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",9,CO2,0.0
+PV Recycling Plant,"Cameo, Colorado",10,CO2,3910.545515
+PV Recycling Plant,"Cameo, Colorado",11,CO2,7135.460725
+PV Recycling Plant,"Cameo, Colorado",12,CO2,685.630305
+PV Recycling Plant,"Cameo, Colorado",13,CO2,6847.355134
+PV Recycling Plant,"Cameo, Colorado",14,CO2,973.735897
+PV Recycling Plant,"Cameo, Colorado",15,CO2,3910.545515
+PV Recycling Plant,"Cameo, Colorado",16,CO2,3910.545515
+PV Recycling Plant,"Cameo, Colorado",17,CO2,5558.870126
+PV Recycling Plant,"Cameo, Colorado",18,CO2,2262.220904
+PV Recycling Plant,"Cameo, Colorado",19,CO2,8435.405714
+PV Recycling Plant,"Cameo, Colorado",20,CO2,7988.001418
+PV Recycling Plant,"Cameo, Colorado",21,CO2,764.702982
+PV Recycling Plant,"Cameo, Colorado",22,CO2,7720.205679
+PV Recycling Plant,"Cameo, Colorado",23,CO2,858.565047
+PV Recycling Plant,"Cameo, Colorado",24,CO2,940.089127
+PV Recycling Plant,"Cameo, Colorado",25,CO2,3650.156444
+PV Recycling Plant,"Cameo, Colorado",26,CO2,927.23771
+PV Recycling Plant,"Potomac River, Virginia",1,CO2,622.183885
+PV Recycling Plant,"Potomac River, Virginia",2,CO2,380.816719
+PV Recycling Plant,"Potomac River, Virginia",3,CO2,570.825121
+PV Recycling Plant,"Potomac River, Virginia",4,CO2,834.476536
+PV Recycling Plant,"Potomac River, Virginia",5,CO2,1191.852482
+PV Recycling Plant,"Potomac River, Virginia",6,CO2,1665.146082
+PV Recycling Plant,"Potomac River, Virginia",7,CO2,2277.373658
+PV Recycling Plant,"Potomac River, Virginia",8,CO2,3983.157179
+PV Recycling Plant,"Potomac River, Virginia",9,CO2,3837.933851
+PV Recycling Plant,"Potomac River, Virginia",10,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",11,CO2,5902.314414
+PV Recycling Plant,"Potomac River, Virginia",12,CO2,1918.776616
+PV Recycling Plant,"Potomac River, Virginia",13,CO2,5820.245593
+PV Recycling Plant,"Potomac River, Virginia",14,CO2,2000.845437
+PV Recycling Plant,"Potomac River, Virginia",15,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",16,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",17,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",18,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",19,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",20,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",21,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",22,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",23,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",24,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",25,CO2,3910.545515
+PV Recycling Plant,"Potomac River, Virginia",26,CO2,3910.545515
+PV Recycling Plant,"Chesapeake, Virginia",1,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",2,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",3,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",4,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",5,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",6,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",7,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",8,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",9,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",10,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",11,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",12,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",13,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",14,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",15,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",16,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",17,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",18,CO2,0.0
+PV Recycling Plant,"Chesapeake, Virginia",19,CO2,8099.656787
+PV Recycling Plant,"Chesapeake, Virginia",20,CO2,4283.081973
+PV Recycling Plant,"Chesapeake, Virginia",21,CO2,2390.219333
+PV Recycling Plant,"Chesapeake, Virginia",22,CO2,3687.706638
+PV Recycling Plant,"Chesapeake, Virginia",23,CO2,2660.332949
+PV Recycling Plant,"Chesapeake, Virginia",24,CO2,2342.275411
+PV Recycling Plant,"Chesapeake, Virginia",25,CO2,5587.417384
+PV Recycling Plant,"Chesapeake, Virginia",26,CO2,2233.673647
+PV Recycling Plant,"Navajo, Arizona",1,CO2,1360.56859
+PV Recycling Plant,"Navajo, Arizona",2,CO2,829.745838
+PV Recycling Plant,"Navajo, Arizona",3,CO2,1241.194277
+PV Recycling Plant,"Navajo, Arizona",4,CO2,1812.830927
+PV Recycling Plant,"Navajo, Arizona",5,CO2,2588.706225
+PV Recycling Plant,"Navajo, Arizona",6,CO2,3617.724441
+PV Recycling Plant,"Navajo, Arizona",7,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",8,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",9,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",10,CO2,5237.755499
+PV Recycling Plant,"Navajo, Arizona",11,CO2,3136.025061
+PV Recycling Plant,"Navajo, Arizona",12,CO2,3357.855985
+PV Recycling Plant,"Navajo, Arizona",13,CO2,11731.636546
+PV Recycling Plant,"Navajo, Arizona",14,CO2,0.0
+PV Recycling Plant,"Navajo, Arizona",15,CO2,0.0
+PV Recycling Plant,"Navajo, Arizona",16,CO2,7821.09103
+PV Recycling Plant,"Navajo, Arizona",17,CO2,0.0
+PV Recycling Plant,"Navajo, Arizona",18,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",19,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",20,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",21,CO2,7963.301619
+PV Recycling Plant,"Navajo, Arizona",22,CO2,3768.334926
+PV Recycling Plant,"Navajo, Arizona",23,CO2,0.0
+PV Recycling Plant,"Navajo, Arizona",24,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",25,CO2,3910.545515
+PV Recycling Plant,"Navajo, Arizona",26,CO2,3910.545515
+PV Recycling Plant,"Nucla, Colorado",1,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",2,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",3,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",4,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",5,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",6,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",7,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",8,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",9,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",10,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",11,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",12,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",13,CO2,5488.229964
+PV Recycling Plant,"Nucla, Colorado",14,CO2,3922.785112
+PV Recycling Plant,"Nucla, Colorado",15,CO2,2320.62147
+PV Recycling Plant,"Nucla, Colorado",16,CO2,5842.508869
+PV Recycling Plant,"Nucla, Colorado",17,CO2,1978.582161
+PV Recycling Plant,"Nucla, Colorado",18,CO2,3910.545515
+PV Recycling Plant,"Nucla, Colorado",19,CO2,3910.545515
+PV Recycling Plant,"Nucla, Colorado",20,CO2,7821.09103
+PV Recycling Plant,"Nucla, Colorado",21,CO2,0.0
+PV Recycling Plant,"Nucla, Colorado",22,CO2,4442.25782
+PV Recycling Plant,"Nucla, Colorado",23,CO2,4583.496066
+PV Recycling Plant,"Nucla, Colorado",24,CO2,2705.88266
+PV Recycling Plant,"Nucla, Colorado",25,CO2,6348.067368
+PV Recycling Plant,"Nucla, Colorado",26,CO2,1473.023663
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",1,CO2,0.0
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",2,CO2,0.0
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",3,CO2,0.0
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",4,CO2,114.601016
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",5,CO2,174.970608
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",6,CO2,260.658474
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",7,CO2,379.409605
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",8,CO2,585.206183
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",9,CO2,748.775645
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",10,CO2,2112.485242
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",11,CO2,2386.334324
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",12,CO2,1826.161153
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",13,CO2,7149.623024
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",14,CO2,2285.605856
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",15,CO2,2296.407666
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",16,CO2,8211.969137
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",17,CO2,1208.710652
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",18,CO2,2310.956757
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",19,CO2,3910.545515
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",20,CO2,12202.509063
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",21,CO2,0.0
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",22,CO2,7350.218513
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",23,CO2,0.0
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",24,CO2,0.0
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",25,CO2,5951.291564
+PV Recycling Plant,"Mecklenburg Power Station, Virginia",26,CO2,1869.799466
+PV Recycling Plant,"Big Brown, Texas",1,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",2,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",3,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",4,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",5,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",6,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",7,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",8,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",9,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",10,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",11,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",12,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",13,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",14,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",15,CO2,0.0
+PV Recycling Plant,"Big Brown, Texas",16,CO2,7193.264228
+PV Recycling Plant,"Big Brown, Texas",17,CO2,1782.528846
+PV Recycling Plant,"Big Brown, Texas",18,CO2,2755.843471
+PV Recycling Plant,"Big Brown, Texas",19,CO2,4667.767313
+PV Recycling Plant,"Big Brown, Texas",20,CO2,5699.492061
+PV Recycling Plant,"Big Brown, Texas",21,CO2,1364.377172
+PV Recycling Plant,"Big Brown, Texas",22,CO2,4106.445118
+PV Recycling Plant,"Big Brown, Texas",23,CO2,3714.645912
+PV Recycling Plant,"Big Brown, Texas",24,CO2,3910.545515
+PV Recycling Plant,"Big Brown, Texas",25,CO2,3910.545515
+PV Recycling Plant,"Big Brown, Texas",26,CO2,3910.545515
+PV Recycling Plant,"Chesterfield, Virginia",1,CO2,62.456504
+PV Recycling Plant,"Chesterfield, Virginia",2,CO2,46.48961
+PV Recycling Plant,"Chesterfield, Virginia",3,CO2,75.42817
+PV Recycling Plant,"Chesterfield, Virginia",4,CO2,4.448207
+PV Recycling Plant,"Chesterfield, Virginia",5,CO2,8.126742
+PV Recycling Plant,"Chesterfield, Virginia",6,CO2,14.16887
+PV Recycling Plant,"Chesterfield, Virginia",7,CO2,23.713793
+PV Recycling Plant,"Chesterfield, Virginia",8,CO2,39.272204
+PV Recycling Plant,"Chesterfield, Virginia",9,CO2,61.372362
+PV Recycling Plant,"Chesterfield, Virginia",10,CO2,91.009769
+PV Recycling Plant,"Chesterfield, Virginia",11,CO2,134.784687
+PV Recycling Plant,"Chesterfield, Virginia",12,CO2,194.902418
+PV Recycling Plant,"Chesterfield, Virginia",13,CO2,332.622047
+PV Recycling Plant,"Chesterfield, Virginia",14,CO2,377.160227
+PV Recycling Plant,"Chesterfield, Virginia",15,CO2,512.020772
+PV Recycling Plant,"Chesterfield, Virginia",16,CO2,798.838201
+PV Recycling Plant,"Chesterfield, Virginia",17,CO2,1005.82645
+PV Recycling Plant,"Chesterfield, Virginia",18,CO2,2350.759292
+PV Recycling Plant,"Chesterfield, Virginia",19,CO2,3910.545515
+PV Recycling Plant,"Chesterfield, Virginia",20,CO2,5879.705372
+PV Recycling Plant,"Chesterfield, Virginia",21,CO2,1941.385658
+PV Recycling Plant,"Chesterfield, Virginia",22,CO2,3910.545515
+PV Recycling Plant,"Chesterfield, Virginia",23,CO2,3910.545515
+PV Recycling Plant,"Chesterfield, Virginia",24,CO2,3910.545515
+PV Recycling Plant,"Chesterfield, Virginia",25,CO2,3910.545515
+PV Recycling Plant,"Chesterfield, Virginia",26,CO2,3910.545515
+PV Recycling Plant,"Henderson I, Kentucky",1,CO2,12.40198
+PV Recycling Plant,"Henderson I, Kentucky",2,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",3,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",4,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",5,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",6,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",7,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",8,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",9,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",10,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",11,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",12,CO2,0.0
+PV Recycling Plant,"Henderson I, Kentucky",13,CO2,610.664225
+PV Recycling Plant,"Henderson I, Kentucky",14,CO2,225.948819
+PV Recycling Plant,"Henderson I, Kentucky",15,CO2,335.067234
+PV Recycling Plant,"Henderson I, Kentucky",16,CO2,883.245598
+PV Recycling Plant,"Henderson I, Kentucky",17,CO2,627.450355
+PV Recycling Plant,"Henderson I, Kentucky",18,CO2,893.667025
+PV Recycling Plant,"Henderson I, Kentucky",19,CO2,1684.627658
+PV Recycling Plant,"Henderson I, Kentucky",20,CO2,4867.938354
+PV Recycling Plant,"Henderson I, Kentucky",21,CO2,2323.454387
+PV Recycling Plant,"Henderson I, Kentucky",22,CO2,3910.545515
+PV Recycling Plant,"Henderson I, Kentucky",23,CO2,3910.545515
+PV Recycling Plant,"Henderson I, Kentucky",24,CO2,3910.545515
+PV Recycling Plant,"Henderson I, Kentucky",25,CO2,5493.905407
+PV Recycling Plant,"Henderson I, Kentucky",26,CO2,2327.185623
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",1,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",2,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",3,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",4,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",5,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",6,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",7,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",8,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",9,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",10,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",11,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",12,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",13,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",14,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",15,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",16,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",17,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",18,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",19,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",20,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",21,CO2,0.0
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",22,CO2,2103.325587
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",23,CO2,1713.311485
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",24,CO2,2270.900105
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",25,CO2,3339.444287
+PV Recycling Plant,"Vanderbilt University Power Plant, Tennessee",26,CO2,3714.188891

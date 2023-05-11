@@ -1,4 +1,4 @@
-! /bin/bash
+#! /bin/zsh
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_05
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_1
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_2
@@ -7,6 +7,7 @@ scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_10/output /User
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_05
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_1
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_2
+scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_5
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_10
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_05
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_1
