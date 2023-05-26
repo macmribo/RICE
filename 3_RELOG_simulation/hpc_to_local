@@ -1,49 +1,49 @@
-#! /bin/zsh
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_10
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_10
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_10
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_10
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_10
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_10
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_10
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_05
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_2
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_5
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_10
+# #! /bin/zsh
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_NAICS_10
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_40209_10
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_NAICS_10
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_40209_10
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_NAICS_10
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_cap_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_cap_40209_10
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_NAICS_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_NAICS_10
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_05/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_05
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_2/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_2
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_5/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_5
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_cap_40209_10/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_cap_40209_10
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_BOTH_ND_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTH_ND_1
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_BOTH_D_30_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTH_D_30_1
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_BOTHS_ND_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTHS_ND_1
 scp -r hwikoff@eagle.nrel.gov:/projects/rice/Manufacturing_BOTHS_D_30_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Manufacturing_BOTHS_D_30_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTH_ND_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_ND_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTH_D_30_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_D_30_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTHS_ND_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_ND_1
-scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTHS_D_30_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_D_30_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTH_ND_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_ND_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTH_D_30_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTH_D_30_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTHS_ND_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_ND_1
+# scp -r hwikoff@eagle.nrel.gov:/projects/rice/Recycling_BOTHS_D_30_1/output /Users/hwikoff/Documents/RICE/3_RELOG_simulation/simulations/Recycling_BOTHS_D_30_1

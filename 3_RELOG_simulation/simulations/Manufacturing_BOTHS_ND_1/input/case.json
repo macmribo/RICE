@@ -4826,7 +4826,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Flex-Tec, Inc., GA": {
@@ -4982,7 +4982,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Kuykendall Cement Corp., AR": {
@@ -5138,7 +5138,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Baldor Electric Co., AR": {
@@ -5294,7 +5294,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Carolina Graphics, SC": {
@@ -5450,7 +5450,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "MicroLumen, Inc., FL": {
@@ -5606,7 +5606,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "TPC Group, Inc., TX": {
@@ -5762,7 +5762,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "AGC Automotive Americas, KY": {
@@ -5918,7 +5918,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Baker Hughes Oilfield Operations, LLC, LA": {
@@ -6074,7 +6074,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Consolidated Nuclear Security, TN": {
@@ -6230,7 +6230,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Lakeshore Signs, LA": {
@@ -6386,7 +6386,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Noahs Ark Repair Service, FL": {
@@ -6542,7 +6542,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Big Bend Rebar, Inc., FL": {
@@ -6698,7 +6698,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Columbia Block & Brick, MS": {
@@ -6854,7 +6854,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Koenig Brothers, Inc., TX": {
@@ -7010,7 +7010,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Newpark Drilling Fluids, LLC, LA": {
@@ -7166,7 +7166,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "BeccaLee Mfg., OK": {
@@ -7322,7 +7322,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Cooling Tower Supply, AZ": {
@@ -7478,7 +7478,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Gold Star Engraving & Awards, AZ": {
@@ -7634,7 +7634,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "CenturyLink, Inc., LA": {
@@ -7790,7 +7790,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Metalcraft Of Pensacola, Inc., FL": {
@@ -7946,7 +7946,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Arkansas Concrete, AR": {
@@ -8102,7 +8102,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Mitchell, Inc., Billy C., AL": {
@@ -8258,7 +8258,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Marlin Marble Co., FL": {
@@ -8414,7 +8414,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Standard Enterprises, Inc., VA": {
@@ -8570,7 +8570,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Descant Awning and Sign Co., LA": {
@@ -8726,7 +8726,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Himes Signs Corp., FL": {
@@ -8882,7 +8882,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Prospect Machine, Inc., AZ": {
@@ -9038,7 +9038,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Access Chemicals & Services, LLC, TX": {
@@ -9194,7 +9194,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Gate Precast Co., TN": {
@@ -9350,7 +9350,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Pegasus Steel, SC": {
@@ -9506,7 +9506,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Doral Steel Of Tennessee, Inc., TN": {
@@ -9662,7 +9662,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Martinrea Fabco, TN": {
@@ -9818,7 +9818,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Kencoil, Inc., LA": {
@@ -9974,7 +9974,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Unimin Corp., GA": {
@@ -10130,7 +10130,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Panasonic Energy Corp. Of America, GA": {
@@ -10286,7 +10286,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Winoa USA, Inc., VA": {
@@ -10442,7 +10442,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Hexion Inc., TX": {
@@ -10598,7 +10598,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "MMC Materials, Inc., MS": {
@@ -10754,7 +10754,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Michelin North America, Inc., SC": {
@@ -10910,7 +10910,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Elster AMCO Water, LLC, FL": {
@@ -11066,7 +11066,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Electro-Mechanical Corp., VA": {
@@ -11222,7 +11222,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Boye Knives, AZ": {
@@ -11378,7 +11378,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Screen Tight, SC": {
@@ -11534,7 +11534,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Atlantic Fabrication & Boiler, VA": {
@@ -11690,7 +11690,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "McAlester Army Ammunition Plant (MCAAP), OK": {
@@ -11846,7 +11846,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Zschimmer & Schwarz, Inc., GA": {
@@ -12002,7 +12002,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "AngioDynamics, Inc., GA": {
@@ -12158,7 +12158,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Bain Mfg. Co., Inc., MS": {
@@ -12314,7 +12314,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Agrium, Inc., AL": {
@@ -12470,7 +12470,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Midstream Energy Services, LLC, OK": {
@@ -12626,7 +12626,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Gamco, Div. of Bobrick, OK": {
@@ -12782,7 +12782,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Murco Wall Products, Inc., AZ": {
@@ -12938,7 +12938,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Graco Fertilizer Company, GA": {
@@ -13094,7 +13094,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Headrick Outdoor Media, Inc., MS": {
@@ -13250,7 +13250,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Felton Bros. Transit Mix, Inc., VA": {
@@ -13406,7 +13406,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Hantz & Son, LA": {
@@ -13562,7 +13562,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "SteelFab, Inc., SC": {
@@ -13718,7 +13718,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Thomas & Betts/Homac Products, FL": {
@@ -13874,7 +13874,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Scoggins Co., Inc., John, OK": {
@@ -14030,7 +14030,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Lhoist North America, AZ": {
@@ -14186,7 +14186,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Gray's Petrified Wood Co., Jim, AZ": {
@@ -14342,7 +14342,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Glen Lyn, Virginia": {
@@ -14498,7 +14498,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "H B Robinson, South Carolina": {
@@ -14654,7 +14654,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "St Johns River Power Park, Florida": {
@@ -14810,7 +14810,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Lansing Smith, Florida": {
@@ -14966,7 +14966,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Indiantown Cogeneration LP, Florida": {
@@ -15122,7 +15122,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Widows Creek, Alabama": {
@@ -15278,7 +15278,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "James River Genco LLC, Virginia": {
@@ -15434,7 +15434,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Norit Americas Marshall Plant, Texas": {
@@ -15590,7 +15590,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Paradise, Kentucky": {
@@ -15746,7 +15746,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Cholla, Arizona": {
@@ -15902,7 +15902,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Waynesboro Virginia Plant, Virginia": {
@@ -16058,7 +16058,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Oklaunion, Texas": {
@@ -16214,7 +16214,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Mitchell (GA), Georgia": {
@@ -16370,7 +16370,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Yorktown, Virginia": {
@@ -16526,7 +16526,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Yates, Georgia": {
@@ -16682,7 +16682,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Big Sandy, Kentucky": {
@@ -16838,7 +16838,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Allen, Tennessee": {
@@ -16994,7 +16994,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "HMP&L Station Two Henderson, Kentucky": {
@@ -17150,7 +17150,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "John Sevier, Tennessee": {
@@ -17306,7 +17306,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Tyrone, Kentucky": {
@@ -17462,7 +17462,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "R D Morrow, Mississippi": {
@@ -17618,7 +17618,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Johnsonville, Tennessee": {
@@ -17774,7 +17774,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Northeastern, Oklahoma": {
@@ -17930,7 +17930,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "W S Lee, South Carolina": {
@@ -18086,7 +18086,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Harllee Branch, Georgia": {
@@ -18242,7 +18242,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Elmer Smith, Kentucky": {
@@ -18398,7 +18398,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Kraft, Georgia": {
@@ -18554,7 +18554,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "McIntosh, Georgia": {
@@ -18710,7 +18710,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Scholz, Florida": {
@@ -18866,7 +18866,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Monticello, Texas": {
@@ -19022,7 +19022,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Hammond, Georgia": {
@@ -19178,7 +19178,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Portsmouth Genco LLC, Virginia": {
@@ -19334,7 +19334,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Dolphus M Grainger, South Carolina": {
@@ -19490,7 +19490,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "E W Brown, Kentucky": {
@@ -19646,7 +19646,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "US DOE Savannah River Site (D Area), South Carolina": {
@@ -19802,7 +19802,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Covington Facility, Virginia": {
@@ -19958,7 +19958,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Dan River Power Plant, Virginia": {
@@ -20114,7 +20114,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Gibbons Creek, Texas": {
@@ -20270,7 +20270,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Dale, Kentucky": {
@@ -20426,7 +20426,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Shawnee, Kentucky": {
@@ -20582,7 +20582,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Lowman Energy Center, Alabama": {
@@ -20738,7 +20738,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Sandow No 4, Texas": {
@@ -20894,7 +20894,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Gorgas, Alabama": {
@@ -21050,7 +21050,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Watts Bar Fossil, Tennessee": {
@@ -21206,7 +21206,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "U S Alliance Coosa Pines, Alabama": {
@@ -21362,7 +21362,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Cane Run, Kentucky": {
@@ -21518,7 +21518,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Durango Georgia Paper, Georgia": {
@@ -21674,7 +21674,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Crystal River, Florida": {
@@ -21830,7 +21830,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Colbert, Alabama": {
@@ -21986,7 +21986,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Barry, Alabama": {
@@ -22142,7 +22142,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Clinch River, Virginia": {
@@ -22298,7 +22298,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Lowland, Tennessee": {
@@ -22454,7 +22454,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Potomac River, Virginia": {
@@ -22610,7 +22610,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Jack McDonough, Georgia": {
@@ -22766,7 +22766,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Chesapeake, Virginia": {
@@ -22922,7 +22922,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Navajo, Arizona": {
@@ -23078,7 +23078,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Mecklenburg Power Station, Virginia": {
@@ -23234,7 +23234,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Big Brown, Texas": {
@@ -23390,7 +23390,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Chesterfield, Virginia": {
@@ -23546,7 +23546,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Jefferies, South Carolina": {
@@ -23702,7 +23702,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Henderson I, Kentucky": {
@@ -23858,7 +23858,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         },
         "Vanderbilt University Power Plant, Tennessee": {
@@ -24014,7 +24014,7 @@
               0,
               0
             ],
-            "limit (tonne)": 0
+            "limit (tonne)": 999999
           }
         }
       }
@@ -29107,7 +29107,7 @@
         "emissions (tonne/tonne)": {},
         "storage": {
           "cost ($/tonne)": "0",
-          "limit (tonne)": "0"
+          "limit (tonne)": "999999"
         },
         "maximum capacity (tonne)": "103954.8042",
         "minimum capacity (tonne)": "103954.8042",
